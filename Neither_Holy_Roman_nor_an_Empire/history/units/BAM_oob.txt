@@ -1,0 +1,35 @@
+army = {
+	name = "The Southern Army"
+	location = 211
+	regiment = {
+		name= "First Infantry Division"
+		type = infantry
+		home = 188
+	}
+
+	regiment = {
+		name= "Second Infantry Division"
+		type = infantry
+		home = 195
+	}
+	
+	
+	regiment = {
+		name= "Dragoon Division"
+		type = dragoon
+		home = 205
+	}
+	
+	regiment = {
+		name= "First Artillery Division"
+		type = artillery
+		home = 206
+	}
+
+	regiment = {
+		name= "Second Artillery Division"
+		type = artillery
+		home = 211
+	}
+	
+}

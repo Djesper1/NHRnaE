@@ -1,0 +1,64 @@
+leader = {
+	name = "mayanski maya"
+	date = 1801.1.1
+	type = land
+	personality = competent
+	background = powerful_friends
+	prestige = 0.4
+}
+leader = {
+	name = "mayanski maya II"
+	date = 1801.1.1
+	type = land
+	personality = competent
+	background = powerful_friends
+	prestige = 0.4
+}
+
+army = {
+name = "Holy Army of the Chan"
+location = 2186
+	regiment = {
+		name= "1st Mayan Spearmen"
+		type = irregular
+		home = 2183
+	}
+	regiment = {
+		name= "2nd Mayan Spearmen"
+		type = irregular
+		home = 2183
+	}
+	regiment = {
+		name= "3th Mayan Spearmen"
+		type = irregular
+		home = 2185
+	}
+	regiment = {
+		name= "4th Mayan Spearmen"
+		type = irregular
+		home = 2184
+	}
+	regiment = {
+		name= "5th Mayan Spearmen"
+		type = irregular
+		home = 2165
+	}regiment = {
+		name= "6th Mayan Spearmen"
+		type = irregular
+		home = 2187
+	}regiment = {
+		name= "7th Mayan Spearmen"
+		type = irregular
+		home = 2186
+	}
+	regiment = {
+		name= "Captured Cannons"
+		type = artillery
+		home = 2188
+	}
+	regiment = {
+		name= "1st Mayan Horse"
+		type = cavalry
+		home = 2181
+	}
+	}

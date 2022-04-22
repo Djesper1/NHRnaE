@@ -1,0 +1,544 @@
+country_event = {
+		id = 970200
+		title = "The Absolutism Debate"
+		desc = "EV_970200_DESC"
+		picture = ""
+		
+		major = yes
+		fire_only_once = yes
+		#is_triggered_only = yes
+		
+		trigger = {
+		tag = AUS
+		year = 1837
+		}
+		
+		mean_time_to_happen = {
+		months = 1
+		}
+		
+		option = {
+		name = "A Strange Time for our Empire"
+		any_country = {
+		limit = {
+		OR = {
+		has_country_modifier = lands_tax
+		tag = AUS }
+		}
+		add_country_modifier = {
+		name = the_absolutism_debate 
+		duration = 14600
+		}
+		set_country_flag = the_absolutism_debate
+		}
+		}
+		}
+		
+		country_event = {
+		id = 970201
+		title = "The Great Serf Revolt"
+		desc = "Serf Revolutions will become significantly more common"
+		picture = ""
+		
+		major = yes
+		fire_only_once = yes
+		#is_triggered_only = yes
+		
+		trigger = {
+		tag = AUS
+		year = 1847
+		}
+		
+		mean_time_to_happen = {
+		months = 24
+		}
+		
+		option = {
+		name = "Conserning"
+		any_country = {
+		limit = {
+		debt_law = serfdom
+		OR = {
+		has_country_modifier = lands_tax
+		tag = AUS }
+		}
+		add_country_modifier = {
+		name = the_great_serf_revolt 
+		duration = 3650
+		}
+		}
+		}
+		}
+		
+		country_event = {
+		id = 970202
+		title = "Ending the Serf Revolts"
+		desc = "The empire has been without direction for a considerable time. The peasants have been restless. It has become time the empire set a course."
+		picture = ""
+		
+		major = no
+		fire_only_once = yes
+		#is_triggered_only = yes
+		
+		trigger = {
+		tag = AUS
+		OR = {
+		year = 1861
+		AND = {
+		year = 1849
+		any_country = {
+		limit = {
+		OR = {
+		tag = AUS
+		has_country_modifier = lands_tax
+		}
+		}
+		has_country_modifier = fallen_to_serf_revolt
+		}
+		}
+		}
+		}
+		
+		mean_time_to_happen = {
+		months = 1
+		}
+		
+		option = {
+		name = "We shall host a Congress"
+		any_country = {
+		limit = {
+		OR = {
+		tag = AUS
+		has_country_modifier = lands_tax
+		}
+		NOT = { has_country_modifier = fallen_to_serf_revolt }
+		}
+		country_event = 970204
+		set_global_flag = serfdom_vote
+		}
+		}
+		
+		option = {
+		name = "But nothing is wrong?"
+		}
+		
+		option = {
+		name = "This is just evidence of the rotten structure of the empire, which must be ended TODAY. (YOU WILL DISSOLVE THE HRE)"
+		clr_country_flag = serfdom_not_abolished
+		any_country = {
+		OR = {
+		tag = AUS
+		has_country_modifier = lands_tax
+		}
+		remove_country_modifier = lands_tax
+		remove_country_modifier = landsvrede
+		remove_country_modifier = lands_tax_aus
+		remove_country_modifier = hre_industrie_bund
+		remove_country_modifier = the_absolutism_debate
+		remove_country_modifier = the_great_serf_revolt
+		country_event = 970203
+		}
+		}
+		}
+		
+		country_event = {
+		id = 970203
+		title = "The End of the Empire"
+		desc = "EVENTDESC_700203"
+		picture = ""
+		
+		major = yes
+		fire_only_once = yes
+		is_triggered_only = yes
+		
+		option = {
+		name = "The End of an Era."
+		set_global_flag = hre_dead
+		}
+		}
+		
+		country_event = {
+		id = 970204
+		title = "The Holy Roman Congress"
+		desc = "The Emperor request the monarchy's option on serfdom and serf revolts."
+		picture = ""
+		
+		major = no
+		fire_only_once = yes
+		is_triggered_only = yes
+		
+		option = {
+		name = "Serfdom is essential"
+		change_variable = {
+		which = serfdom_yes
+		value = 1
+		}
+		ai_chance = {
+		factor = 3 }
+		}
+		option = {
+		name = "Serfdom must be abolished, have you seen the revolts?"
+		change_variable = {
+		which = serfdom_no
+		value = 1
+		}
+		clr_country_flag = serfdom_not_abolished
+		}
+		}
+		
+		country_event = {
+		id = 970205
+		title = "The Vote's Result"
+		desc = "EVENTDESC_700205"
+		picture = ""
+		
+		major = no
+		#fire_only_once = yes
+		#is_triggered_only = yes
+		
+		trigger = {
+		NOT = { has_country_flag = vote_result_seen }
+		OR = {
+		has_country_modifier = lands_tax
+		tag =  AUS}
+		check_variable = {
+		which = serfdom_yes
+		value = 17
+		}
+		}
+		
+		mean_time_to_happen = {
+		months = 3
+		}
+		
+		option = {
+		name = "We shall respect the emperor's wishes. (Will be unable to abolish serfdom)"
+		political_reform = serfdom
+		set_country_flag = serfdom_not_abolished
+		set_country_flag = vote_result_seen
+		ai_chance = {
+		factor = 5 }
+		}
+		
+		option = {
+		name = "We will abolish it anyways!"
+		prestige = -10
+		political_reform = peonage
+		set_country_flag = vote_result_seen
+		clr_country_flag = serfdom_not_abolished
+		}
+		}
+		
+		country_event = {
+		id = 970206
+		title = "The Vote's Result"
+		desc = "EVENTDESC_700206"
+		picture = ""
+		
+		major = no
+		#fire_only_once = yes
+		#is_triggered_only = yes
+		
+		trigger = {
+		NOT = { has_country_flag = vote_result_seen }
+		OR = {
+		has_country_modifier = lands_tax
+		tag =  AUS}
+		check_variable = {
+		which = serfdom_no
+		value = 17
+		}
+		}
+		
+		mean_time_to_happen = {
+		months = 3
+		}
+		
+		option = {
+		name = "We shall not abolish serfdom. (Will be unable to abolish serfdom)"
+		political_reform = serfdom
+		set_country_flag = serfdom_not_abolished
+		set_country_flag = vote_result_seen
+		prestige = -10
+		}
+		
+		option = {
+		name = "We will abolish it anyways!"
+		political_reform = peonage
+		set_country_flag = vote_result_seen
+		clr_country_flag = serfdom_not_abolished
+		ai_chance = {
+		factor = 5 }
+		}
+		}
+		
+		country_event = {
+		id = 970207
+		title = "The Congress on Democracy"
+		desc = "EVENTDESC_700207"
+		picture = ""
+		
+		major = no
+		#fire_only_once = yes
+		is_triggered_only = yes
+		
+		trigger = {
+		NOT = { has_country_flag = congress_on_democracy }
+		OR = {
+		has_country_modifier = lands_tax
+		tag =  AUS}
+		check_variable = {
+		which = serfdom_no
+		value = 17
+		}
+		}
+		
+		mean_time_to_happen = {
+		months = 72
+		}
+		
+		option = {
+		name = "Rule of the people is essential, we shall vote for this."
+		prestige = -3
+		change_variable = {
+		which = democracy_yes
+		value = 1
+		}
+		ai_chance = {
+		factor = 1
+		modifier = {
+      NOT = { debt_law = serfdom }
+        factor = 7
+        }
+		}
+		}
+		
+		option = {
+		name = "The Serfs shall not rule!"
+		prestige = 3
+		change_variable = {
+		which = democracy_no
+		value = 1
+		}
+				ai_chance = {
+		factor = 1
+		modifier = {
+        debt_law = serfdom 
+        factor = 7
+        }
+		}
+		}
+		}
+		
+		country_event = {
+		id = 970208
+		title = "The Vote's Result"
+		desc = "There was no decisive result of the vote"
+		picture = ""
+		
+		major = no
+		#fire_only_once = yes
+		#is_triggered_only = yes
+		
+		trigger = {
+		has_global_flag = serfdom_vote
+		NOT = { has_country_flag = vote_result_seen }
+		OR = {
+		has_country_modifier = lands_tax
+		tag =  AUS}
+		NOT = {
+		check_variable = {
+		which = serfdom_no
+		value = 17
+		}
+		}
+		NOT = {
+		check_variable = {
+		which = serfdom_yes
+		value = 17
+		}
+		}
+		}
+		
+		mean_time_to_happen = {
+		months = 20
+		}
+		
+		option = {
+		name = "Strange"
+		set_country_flag = vote_result_seen
+		clr_country_flag = serfdom_not_abolished
+		}
+		}
+		
+		country_event = {
+		id = 970209
+		title = "The Congress on Democracy"
+		desc = "EVENTDESC_700207"
+		picture = ""
+		
+		major = no
+		fire_only_once = yes
+		is_triggered_only = yes
+		
+		trigger = {
+		NOT = { has_country_flag = congress_on_democracy }
+		tag =  AUS
+		check_variable = {
+		which = serfdom_no
+		value = 17
+		}
+		}
+		
+		mean_time_to_happen = {
+		months = 84
+		}
+		
+		option = {
+		name = "We shall summon the princes"
+		any_country = {
+		limit = {
+		OR = {
+		has_country_modifier = lands_tax
+		tag =  AUS}
+		}
+		country_event = 970207
+		}
+		}
+		}
+		
+		country_event = {
+		id = 970210
+		title = "The Congress' Result"
+		desc = "Democracy is victorious, long live the people!"
+		picture = ""
+		
+		major = no
+		#fire_only_once = yes
+		is_triggered_only = yes
+		
+		trigger = {
+		NOT = { has_country_flag = congress_on_democracy_result }
+		OR = {
+		has_country_modifier = lands_tax
+		tag =  AUS
+		}
+		check_variable = {
+		which = democracy_yes
+		value = 17
+		}
+		}
+		
+		mean_time_to_happen = {
+		months = 1
+		}
+		
+		option = {
+		name = "The people shall have their democracy"
+		clr_country_flag = the_absolutism_debate
+		prestige = 10
+		vote_franschise = universal_weighted_voting
+		set_country_flag = congress_on_democracy_result
+		ai_chance = {
+factor = 1
+modifier = {
+        NOT = { debt_law = serfdom }
+        factor = 7
+        }
+}
+		}
+		
+		option = {
+		name = "The Poor, having power? Preposterous. (You will never be able to allow voting)"
+		prestige = -10
+		clr_country_flag = the_absolutism_debate
+		vote_franschise = none_voting
+		set_country_flag = no_voting
+				ai_chance = {
+		factor = 1
+		modifier = {
+        debt_law = serfdom 
+        factor = 7
+        }
+		}
+		}
+		}
+		
+		country_event = {
+		id = 970211
+		title = "The Congress' Result"
+		desc = "The Congress has not voted in favour of Democracy."
+		picture = ""
+		
+		major = no
+		#fire_only_once = yes
+		is_triggered_only = yes
+		
+		trigger = {
+		NOT = { has_country_flag = congress_on_democracy_result }
+		OR = {
+		has_country_modifier = lands_tax
+		tag =  AUS
+		}
+		check_variable = {
+		which = democracy_no
+		value = 17
+		}
+		}
+		
+		mean_time_to_happen = {
+		months = 1
+		}
+		
+		option = {
+		name = "Never! Long live the People!"
+		prestige = -10
+		clr_country_flag = the_absolutism_debate
+		vote_franschise = universal_weighted_voting
+		set_country_flag = congress_on_democracy_result
+		ai_chance = {
+		factor = 1
+		modifier = {
+        NOT = { debt_law = serfdom }
+        factor = 7
+        }
+}
+		}
+		
+		option = {
+		name = "A great victory for the Empire! (You will never be able to allow voting)"
+		prestige = 10
+		clr_country_flag = the_absolutism_debate
+		vote_franschise = none_voting
+		set_country_flag = no_voting
+				ai_chance = {
+		factor = 1
+		modifier = {
+        debt_law = serfdom 
+        factor = 7
+        }
+		}
+		}
+		}
+		
+		country_event = {
+		id = 970214
+		title = "The End of the Absolutism Debate"
+		desc = "Finally, the debate of Absolutism has ended in our country"
+		picture = ""
+		
+		major = no
+		#fire_only_once = yes
+		#is_triggered_only = yes
+		
+		trigger = {
+		NOT = { has_country_modifier = the_absolutism_debate }
+		has_country_flag = the_absolutism_debate
+		}
+		
+		option = {
+		name = "Wonderful"
+		clr_country_flag = the_absolutism_debate
+		prestige = 3
+		}
+		}

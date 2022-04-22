@@ -1,0 +1,37 @@
+country_event = {
+		id = 970212
+		title = "Our loss in the War of the Old Empires"
+		desc = "We've lost the War of the Old Empires, and our Enemy has Enforced a peace on us."
+		picture = ""
+		
+		major = no
+		fire_only_once = yes
+		is_triggered_only = yes
+		
+		option = {
+		name = "We shall take our revenge!"
+		prestige = -15
+		}
+		}
+		
+country_event = {
+		id = 970213
+		title = "The Minorities"
+		desc = "It appears that the Balkans are full with Serbs, Croats, Bosnians and many more minorities, who all wish to kill you."
+		picture = ""
+		
+		major = no
+		fire_only_once = yes
+		is_triggered_only = yes
+		
+		option = {
+		name = "Who could have tought the Balkan is full of people who don't like Austrians?"
+		add_country_modifier = {
+		name = mad_balkans
+		days = 25000
+		}
+		}
+		}
+		
+		#country_event = {
+		#id = 970215

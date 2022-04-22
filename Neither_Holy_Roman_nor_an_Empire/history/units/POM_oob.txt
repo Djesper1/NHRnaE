@@ -1,0 +1,45 @@
+army = {
+	name = "Pommern Armee"
+	location = 544
+	regiment = {
+		name= "1.1. Infanteriedivision"
+		type = infantry
+		home = 544
+	}
+
+	regiment = {
+		name= "1.2. Infanteriedivision"
+		type = infantry
+		home = 692
+	}
+	
+	regiment = {
+		name= "1.3. Infanteriedivision"
+		type = infantry
+		home = 545
+	}
+	
+	regiment = {
+		name= "1.4. Infanteriedivision"
+		type = infantry
+		home = 547
+	}
+	
+	regiment = {
+		name= "1.1. Artilleriedivision"
+		type = artillery
+		home = 546
+	}
+	
+	regiment = {
+		name= "1.2. Artilleriedivision"
+		type = artillery
+		home = 679
+	}
+	
+	regiment = {
+		name= "1.1. Kavalleriedivision"
+		type = dragoon
+		home = 680
+	}
+}

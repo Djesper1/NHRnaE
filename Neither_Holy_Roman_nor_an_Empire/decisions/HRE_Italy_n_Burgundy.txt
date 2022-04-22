@@ -1,0 +1,569 @@
+# This is the shit for Italy's and Burgundy's position into the empire
+# Also the first bit I will make entirely in Notepad++ instead of CodeWriter
+# Bababoey
+
+political_decisions = {
+	burgundy_and_the_empire = {
+		potential = {
+			tag = AUS
+			NOT = { AUS = { has_country_flag = GP1 } }
+			NOT = { has_global_flag = burgundy_and_the_empire }
+			NOT = { has_global_flag = vive_le_roi }
+		}
+		allow = {
+			strategic_mobility = 1
+			private_bank_money_bill_printing = 1
+		}
+		effect = {
+		country_event = 90512
+		set_global_flag = burgundy_and_the_empire
+		}
+	}
+	
+	force_the_religion_on_the_burgundians = {
+		potential = {
+			tag = AUS
+			NOT = { has_global_flag = vive_le_roi }
+			NOT = { AUS = { has_country_flag = GP1 } }
+			has_global_flag = burgundian_intergration
+			NOT = {
+			has_global_flag = burgundian_religion_change
+			BRG = {
+			religion = united_christianity
+			}
+			}
+			}
+		allow = {
+			breech_loaded_rifles = 1
+			military_statistics = 1
+		}
+		effect = {
+			BRG = {
+			religion = united_christianity
+			any_owned = {
+			limit = {
+			has_pop_religion = catholic
+			}
+			militancy = 5
+			}
+			}
+		country_event = 90513
+		set_global_flag = burgundian_religion_change
+		}
+		}
+		
+	replace_the_burgundian_nobility = {
+	potential = {
+		tag = AUS
+		NOT = { has_global_flag = vive_le_roi }
+		NOT = { AUS = { has_country_flag = GP1 } }
+		has_global_flag = burgundian_intergration
+		has_global_flag = burgundian_religion_change
+		NOT = {
+		has_global_flag = brg_nob_replaced
+		}
+	}
+	allow = {
+			breech_loaded_rifles = 1
+			military_statistics = 1
+			army_decision_making = 1
+			phenomenalism = 1
+		}
+	effect = {
+	set_global_flag = brg_nob_replaced
+	BRG = { primary_culture = burgund }
+	country_event = 90514
+	}
+	}
+	
+revoke_burgundy_diet_vote = {
+	potential = {
+	has_global_flag = brg_nob_replaced
+	NOT = { has_global_flag = vive_le_roi }
+	NOT = { AUS = { has_country_flag = GP1 } }
+	has_global_flag = rev_brg_vote
+	tag = AUS
+	NOT = { has_global_flag = rev_brg_vote }
+	}
+	allow = {
+	experimental_psychology = 1
+	high_n_low_pressure_steam_engines = 1
+	business_banks = 1
+	empiricism = 1
+	}
+	effect = {
+	BRG = {
+	any_owned = {
+	limit = {
+	NOT = {
+	has_pop_culture = south_german
+	has_pop_culture = burgund
+	}
+	}
+	militancy = 5
+	}
+	relation = {
+	who = AUS
+	value = -400
+	}
+	}
+	set_global_flag = brg_is_almost_Deutsch
+	}
+	}
+	
+	the_italian_situation = {
+	potential = {
+	tag = AUS
+	NOT = { AUS = { has_country_flag = GP1 } }
+	NOT = {
+	has_global_flag = the_italian_situation
+	}
+	}
+	allow = {
+	military_plans = 1
+	idealism = 1
+	experimental_railroad = 1
+	}
+	effect = {
+	country_event = 90517
+	set_global_flag = the_italian_situation
+	}
+	}
+	
+	the_venice_wien_rr = {
+	potential = {
+	tag = AUS
+	NOT = { AUS = { has_country_flag = GP1 } }
+	OR = {
+	has_global_flag = yum_yum_venice
+	has_global_flag = italian_intergration
+	}
+	NOT = {
+	has_global_flag = 1_v_w_rr
+	}
+	}
+	allow = {
+	high_n_low_pressure_steam_engines = 1
+	early_railroad = 1
+	money = 40000
+	}
+	effect = {
+	money = -40000
+	619 = { infrastructure = 1 }
+	620 = { infrastructure = 1 }
+	616 = { infrastructure = 1 }
+	618 = { infrastructure = 1 }
+	733 = { infrastructure = 1 }
+	729 = { infrastructure = 1 }
+	731 = { infrastructure = 1 }
+	set_global_flag = 1_v_w_rr
+	}
+	}
+	
+	the_venice_wien_rr_2 = {
+	potential = {
+	tag = AUS
+	NOT = { AUS = { has_country_flag = GP1 } }
+	has_global_flag = 1_v_w_rr
+	NOT = {
+	has_global_flag = 2_v_w_rr
+	}
+	}
+	allow = {
+	steam_turbine = 1
+	iron_railroad = 1
+	military_plans = 1
+	money = 75000
+	}
+	effect = {
+	money = -75000
+	619 = { infrastructure = 1  fort = 1 }
+	620 = { infrastructure = 1  fort = 1 }
+	616 = { infrastructure = 1  fort = 1 }
+	618 = { infrastructure = 1  fort = 1 }
+	733 = { infrastructure = 1  fort = 1 }
+	729 = { infrastructure = 1  fort = 1 }
+	731 = { infrastructure = 1  fort = 1 }
+	set_global_flag = 2_v_w_rr
+	}
+	}
+	
+	the_venice_wien_rr_3 = {
+	potential = {
+	tag = AUS
+	NOT = { AUS = { has_country_flag = GP1 } }
+	has_global_flag = 2_v_w_rr
+	NOT = {
+	has_global_flag = 3_v_w_rr
+	}
+	}
+	allow = {
+	breech_loaded_rifles = 1
+	iron_breech_loaded_artillery = 1
+	military_statistics = 1
+	money = 50000
+	}
+	effect = {
+	money = -50000
+	inherit = VEN
+	any_owned = {
+	limit = {
+	OR = {
+	is_core = VEN
+	culture = north_italian
+	}
+	}
+	add_province_modifier = {
+	name = heavy_resistance
+	duration = 2737
+	}
+	}
+	set_global_flag = 3_v_w_rr
+	}
+	}
+	
+	hey_kids_do_you_like_unification = {
+	potential = {
+	tag = AUS
+	NOT = { AUS = { has_country_flag = GP1 } }
+	has_global_flag = the_italian_situation
+	has_global_flag = ita_auto_int
+	NOT = { 
+	has_global_flag = yum_yum_venice
+	has_global_flag = hey_kids_succes
+	has_global_flag = hey_kids_failed
+	}
+	}
+	allow = {
+	military_statistics = 1
+	central_bank_money_bill_printing = 1
+	nationalism_n_imperialism = 1
+	}
+	effect = {
+	country_event = 90521
+	LOM = {
+	country_event = 90521
+	}
+	VEN = {
+	country_event = 90521
+	}
+	SAR = {
+	country_event = 90521
+	}
+	GEN = {
+	country_event = 90521
+	}
+	}
+	}
+	hey_kids_do_you_like_unification_ven = {
+	potential = {
+	tag = AUS
+	NOT = { AUS = { has_country_flag = GP1 } }
+	has_global_flag = ita_auto_int
+	has_global_flag = the_italian_situation
+	has_global_flag = yum_yum_venice
+	NOT = { has_global_flag = hey_kids_succes }
+	NOT = { has_global_flag = hey_kids_failed
+	}
+	}
+	allow = {
+	military_statistics = 1
+	central_bank_money_bill_printing = 1
+	nationalism_n_imperialism = 1
+	}
+	effect = {
+	country_event = 90521
+	LOM = {
+	country_event = 90521
+	}
+	SAR = {
+	country_event = 90521
+	}
+	GEN = {
+	country_event = 90521
+	}
+	}
+	}
+	
+	veto_this_shiet = {
+	potential = {
+	has_country_flag = italian_congress
+	NOT = {
+	has_global_flag = unification_plans_veto
+	}
+	}
+	allow = {
+	}
+	effect = {
+	set_global_flag = unification_plans_veto
+	}
+	ai_will_do = {
+	factor = 0
+	}
+	}
+	
+	establish_austrian_italian_universities = {
+	potential = {
+	tag = AUS
+	NOT = { AUS = { has_country_flag = GP1 } }
+	has_global_flag = ita_auto_no_uni
+	NOT = { has_global_flag = unis_build }
+	}
+	allow = {
+	money = 150000
+	education_spending = 0.70
+	functionalism = 1
+	OR = {
+	tech_school = culture_tech_school
+	idealism = 1
+	}
+	}
+	effect = {
+	set_global_flag = unis_build
+	money = -150000
+	SAR = {
+	add_country_modifier = {
+	name = italian_unies
+	duration = 34675
+	}
+	}
+	GEN = {
+	add_country_modifier = {
+	name = italian_unies
+	duration = 34675
+	}
+	}
+	PAR = {
+	add_country_modifier = {
+	name = italian_unies
+	duration = 34675
+	}
+	}
+	LOM = {
+	add_country_modifier = {
+	name = italian_unies
+	duration = 34675
+	}
+	}
+	VEN = {
+	add_country_modifier = {
+	name = italian_unies
+	duration = 34675
+	}
+	}
+	}
+	}
+	
+	grant_industrial_funding_to_italia = {
+	potential = {
+	tag = AUS
+	NOT = { AUS = { has_country_flag = GP1 } }
+	has_global_flag = ita_auto_no_uni
+	NOT = { has_global_flag = funds_granted }
+	}
+	allow = {
+	money = 300000
+	semi_automatization = 1
+	market_regulations = 1
+	}
+	effect = {
+	set_global_flag = funds_granted
+	set_country_flag = ita_industry_money
+	SAR = {
+	add_country_modifier = {
+	name = industrial_investment
+	duration = 34675
+	}
+	}
+	GEN = {
+	add_country_modifier = {
+	name = industrial_investment
+	duration = 34675
+	}
+	}
+	PAR = {
+	add_country_modifier = {
+	name = industrial_investment
+	duration = 34675
+	}
+	}
+	LOM = {
+	add_country_modifier = {
+	name = industrial_investment
+	duration = 34675
+	}
+	}
+	VEN = {
+	add_country_modifier = {
+	name = industrial_investment
+	duration = 34675
+	}
+	}
+	}
+	}
+	
+	propose_closer_intergration = {
+	potential = {
+	NOT = { AUS = { has_country_flag = GP1 } }
+	has_global_flag = italian_unies
+	has_global_flag = funds_granted
+	NOT = { has_global_flag = yum_yum_venice }
+	OR = {
+	tag = AUS
+	tag = HRE
+	}
+	}
+	allow = {
+	relation = { who = SAR value = 150 }
+	relation = { who = GEN value = 150 }
+	relation = { who = PAR value = 150 }
+	relation = { who = LOM value = 150 }
+	relation = { who = VEN value = 150 }
+	SAR = { in_sphere = AUS }
+	GEN = { in_sphere = AUS }
+	PAR = { in_sphere = AUS }
+	VEN = { in_sphere = AUS }
+	LOM = { in_sphere = AUS }
+	}
+	effect = {
+	SAR = { country_event = 90538 }
+	GEN = { country_event = 90538 }
+	VEN = { country_event = 90538 }
+	PAR = { country_event = 90538 }
+	LOM = { country_event = 90538 }
+	}
+	}
+	
+	propose_closer_intergration_no_ven = {
+	potential = {
+	NOT = { AUS = { has_country_flag = GP1 } }
+	has_global_flag = italian_unies
+	has_global_flag = funds_granted
+	has_global_flag = yum_yum_venice
+	OR = {
+	tag = AUS
+	tag = HRE
+	}
+	}
+	allow = {
+	relation = { who = SAR value = 150 }
+	relation = { who = GEN value = 150 }
+	relation = { who = PAR value = 150 }
+	relation = { who = LOM value = 150 }
+	#relation = { who = VEN value = 150 }
+	SAR = { in_sphere = AUS }
+	GEN = { in_sphere = AUS }
+	PAR = { in_sphere = AUS }
+	#VEN = { in_sphere = AUS }
+	LOM = { in_sphere = AUS }
+	}
+	effect = {
+	SAR = { country_event = 90538 }
+	GEN = { country_event = 90538 }
+	#VEN = { country_event = 90538 }
+	PAR = { country_event = 90538 }
+	LOM = { country_event = 90538 }
+	}
+	}
+	
+	expand_the_wien_venice_rr_e = {
+	potential = {
+	NOT = { AUS = { has_country_flag = GP1 } }
+	tag = AUS
+	has_global_flag = italian_intergration
+	has_global_flag =  1_v_w_rr
+	NOT = {
+	has_global_flag = 1_v_w_rr_e
+	}
+	}
+	allow = {
+	high_n_low_pressure_steam_engines = 1
+	early_railroad = 1
+	private_bank_money_bill_printing = 1
+	money = 75000
+	}
+	effect = {
+	money = -75000
+	728 = { infrastructure = 1 }
+	726 = { infrastructure = 1 }
+	723 = { infrastructure = 1 }
+	720 = { infrastructure = 1 }
+	738 = { infrastructure = 1 }
+	724 = { infrastructure = 1 }
+	725 = { infrastructure = 1 }
+	740 = { infrastructure = 1 }
+	745 = { infrastructure = 1 }
+	set_global_flag = 1_v_w_rr_e
+	}
+	}
+	
+	the_venice_wien_rr_2_e = {
+	potential = {
+	NOT = { AUS = { has_country_flag = GP1 } }
+	tag = AUS
+	has_global_flag = 1_v_w_rr_e
+	has_global_flag = 2_v_w_rr
+	NOT = {
+	has_global_flag = 2_v_w_rr_e
+	}
+	}
+	allow = {
+	steam_turbine = 1
+	iron_railroad = 1
+	military_plans = 1
+	central_bank_money_bill_printing = 1
+	money = 150000
+	}
+	effect = {
+	money = -150000
+	728 = { infrastructure = 1 fort = 1 }
+	726 = { infrastructure = 1 fort = 1 }
+	723 = { infrastructure = 1 fort = 1 }
+	720 = { infrastructure = 1 fort = 1 }
+	738 = { infrastructure = 1 fort = 1 }
+	724 = { infrastructure = 1 fort = 1 }
+	725 = { infrastructure = 1 fort = 1 }
+	740 = { infrastructure = 1 fort = 1 }
+	745 = { infrastructure = 1 fort = 1 }
+	set_global_flag = 2_v_w_rr_e
+	}
+	}
+	
+	the_venice_wien_rr_3_e = {
+	potential = {
+	NOT = { AUS = { has_country_flag = GP1 } }
+	tag = AUS
+	has_global_flag = 2_v_w_rr_e
+	has_global_flag = 3_v_w_rr
+	NOT = {
+	has_global_flag = 3_v_w_rr_e
+	}
+	}
+	allow = {
+	breech_loaded_rifles = 1
+	iron_breech_loaded_artillery = 1
+	military_statistics = 1
+	money = 100000
+	}
+	effect = {
+	money = -100000
+	inherit = SAR
+	inherit = GEN
+	inherit = PAR
+	inherit = LOM
+	any_owned = {
+	limit = {
+	OR = {
+	is_core = NOC
+	culture = north_italian
+	}
+	}
+	add_province_modifier = {
+	name = heavy_resistance
+	duration = 7000
+	}
+	}
+	set_global_flag = 3_v_w_rr_e
+	}
+	}
+	}

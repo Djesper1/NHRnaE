@@ -1,0 +1,9 @@
+army = {
+name = "Le Premier Armee"
+location = 58
+regiment = {
+		name = "Nouveau Français Cavaliers"
+		type = dragoon
+		home = 46
+	}
+	}

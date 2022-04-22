@@ -1,0 +1,6 @@
+owner = WSC
+controller = WSC
+add_core = WSC
+add_core = IRE
+trade_goods = cattle
+life_rating = 35

@@ -1,0 +1,27 @@
+army = {
+	name = "Armee Bourguignonne"
+	location = 399
+	regiment = {
+		name= "1.1. Division d'infanterie"
+		type = infantry
+		home = 399
+	}
+
+	regiment = {
+		name= "1.2. Division d'infanterie"
+		type = infantry
+		home = 400
+	}
+	
+	regiment = {
+		name= "1.1. Division d'artillerie"
+		type = artillery
+		home = 428
+	}
+	
+	regiment = {
+		name= "1.1. Division de cavalerie"
+		type = dragoon
+		home = 408
+	}
+}

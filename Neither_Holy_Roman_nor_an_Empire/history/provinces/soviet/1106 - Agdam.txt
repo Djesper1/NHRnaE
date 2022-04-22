@@ -1,0 +1,7 @@
+owner = DAG
+controller = DAG
+add_core = DAG
+add_core = ARM
+add_core = AZB
+trade_goods = wool
+life_rating = 35

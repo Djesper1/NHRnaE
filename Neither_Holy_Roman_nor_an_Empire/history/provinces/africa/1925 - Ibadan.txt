@@ -1,0 +1,6 @@
+owner = ARO
+controller = ARO
+trade_goods = coffee
+life_rating = 15
+
+add_core = ARO

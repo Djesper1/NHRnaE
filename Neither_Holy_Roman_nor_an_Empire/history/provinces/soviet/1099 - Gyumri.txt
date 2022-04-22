@@ -1,0 +1,6 @@
+owner = ABK
+controller = ABK
+add_core = ABK
+add_core = ARM
+trade_goods = wool
+life_rating = 35

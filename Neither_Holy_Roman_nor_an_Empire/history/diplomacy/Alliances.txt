@@ -1,0 +1,220 @@
+alliance=
+	{
+		first="BOL"
+		second="PEU"
+		end_date="1936.1.1"
+		start_date="1836.1.1"
+	}
+	
+alliance=
+	{
+		first="CHI"
+		second="KOR"
+		end_date="1936.1.1"
+		start_date="1836.1.1"
+}
+alliance=
+	{
+		first="AUS"
+		second="SAX"
+		end_date="1936.1.1"
+		start_date="1836.1.1"
+	}
+alliance=
+	{
+		first="AUS"
+		second="LUX"
+		end_date="1936.1.1"
+		start_date="1836.1.1"
+	}
+alliance=
+	{
+		first="AUS"
+		second="HSS"
+		end_date="1936.1.1"
+		start_date="1836.1.1"
+	}
+alliance=
+	{
+		first="AUS"
+		second="HOL"
+		end_date="1936.1.1"
+		start_date="1836.1.1"
+	}
+alliance=
+	{
+		first="AUS"
+		second="HAN"
+		end_date="1936.1.1"
+		start_date="1836.1.1"
+	}
+alliance=
+	{
+		first="AUS"
+		second="BWU"
+		end_date="1936.1.1"
+		start_date="1836.1.1"
+	}
+alliance=
+	{
+		first="AUS"
+		second="FRI"
+		end_date="1936.1.1"
+		start_date="1836.1.1"
+	}
+alliance=
+	{
+		first="AUS"
+		second="HLL"
+		end_date="1936.1.1"
+		start_date="1836.1.1"
+	}
+alliance=
+	{
+		first="AUS"
+		second="BRB"
+		end_date="1936.1.1"
+		start_date="1836.1.1"
+	}
+alliance=
+	{
+		first="AUS"
+		second="FLA"
+		end_date="1936.1.1"
+		start_date="1836.1.1"
+	}
+alliance=
+	{
+		first="AUS"
+		second="PRU"
+		end_date="1936.1.1"
+		start_date="1836.1.1"
+	}
+alliance=
+	{
+		first="AUS"
+		second="BRN"
+		end_date="1936.1.1"
+		start_date="1836.1.1"
+	}
+alliance=
+	{
+		first="AUS"
+		second="BRG"
+		end_date="1936.1.1"
+		start_date="1836.1.1"
+	}
+alliance=
+	{
+		first="AUS"
+		second="SWI"
+		end_date="1936.1.1"
+		start_date="1836.1.1"
+	}
+alliance=
+	{
+		first="AUS"
+		second="PAR"
+		end_date="1936.1.1"
+		start_date="1836.1.1"
+	}
+alliance=
+	{
+		first="AUS"
+		second="LOM"
+		end_date="1936.1.1"
+		start_date="1836.1.1"
+	}
+alliance=
+	{
+		first="AUS"
+		second="SAR"
+		end_date="1936.1.1"
+		start_date="1836.1.1"
+	}
+alliance=
+	{
+		first="AUS"
+		second="GEN"
+		end_date="1936.1.1"
+		start_date="1836.1.1"
+	}
+alliance=
+	{
+		first="AUS"
+		second="VEN"
+		end_date="1936.1.1"
+		start_date="1836.1.1"
+	}
+alliance=
+	{
+		first="AUS"
+		second="POM"
+		end_date="1936.1.1"
+		start_date="1836.1.1"
+	}
+alliance=
+	{
+		first="AUS"
+		second="HSL"
+		end_date="1936.1.1"
+		start_date="1836.1.1"
+	}
+alliance=
+	{
+		first="AUS"
+		second="WST"
+		end_date="1936.1.1"
+		start_date="1836.1.1"
+	}
+alliance=
+	{
+		first="AUS"
+		second="THU"
+		end_date="1936.1.1"
+		start_date="1836.1.1"
+	}
+alliance=
+	{
+		first="AUS"
+		second="SIL"
+		end_date="1936.1.1"
+		start_date="1836.1.1"
+	}
+alliance=
+	{
+		first="AUS"
+		second="SGM"
+		end_date="1936.1.1"
+		start_date="1836.1.1"
+	}
+alliance=
+	{
+		first="AUS"
+		second="ANH"
+		end_date="1936.1.1"
+		start_date="1836.1.1"
+	}
+alliance=
+	{
+		first="AUS"
+		second="PAL"
+		end_date="1936.1.1"
+		start_date="1836.1.1"
+	}
+	
+	alliance=
+	{
+		first="ZAP"
+		second="CHA"
+		end_date="1936.1.1"
+		start_date="1836.1.1"
+	}
+	
+alliance=
+	{
+		first="ICA"
+		second="GUR"
+		end_date="1936.1.1"
+		start_date="1836.1.1"
+}

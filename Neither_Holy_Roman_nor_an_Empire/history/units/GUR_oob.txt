@@ -1,0 +1,51 @@
+leader = {
+	name = "average guarani man"
+	date = 1801.1.1
+	type = land
+	personality = master_of_warfare
+	background = powerful_friends
+	prestige = 0.4
+}
+
+army = {
+name = "United Army of the Guaranis"
+location = 2339
+	regiment = {
+		name= "1st Guarani Spearmen"
+		type = irregular
+		home = 2339
+	}
+	regiment = {
+		name= "2nd Guarani Spearmen"
+		type = irregular
+		home = 2340
+	}
+	regiment = {
+		name= "3th Guarani Spearmen"
+		type = irregular
+		home = 2341
+	}
+	regiment = {
+		name= "4th Guarani Spearmen"
+		type = irregular
+		home = 2341
+	}
+	regiment = {
+		name= "5th Guarani Spearmen"
+		type = irregular
+		home = 2341
+	}regiment = {
+		name= "6th Guarani Spearmen"
+		type = irregular
+		home = 2342
+	}
+	regiment = {
+		name= "1st Guarani Horse"
+		type = cavalry
+		home = 2342
+	}regiment = {
+		name= "2nd Guarani Horse"
+		type = cavalry
+		home = 2342
+	}
+	}

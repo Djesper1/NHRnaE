@@ -1,0 +1,11 @@
+owner = NEU
+controller = NEU
+
+add_core = GCO
+trade_goods = wool
+life_rating = 25
+
+
+add_core = NEU
+
+colonial = yes

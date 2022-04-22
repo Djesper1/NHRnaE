@@ -1,0 +1,11 @@
+owner = PYO
+controller = PYO
+
+trade_goods = fish
+life_rating = 15
+1861.1.1 = {
+	
+	
+	colonial = 2
+}
+add_core = PYO

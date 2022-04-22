@@ -1,0 +1,62 @@
+army = {
+	name = "Hanseatisch Armee"
+	location = 530
+	regiment = {
+		name= "1.1. Infanteriedivision"
+		type = infantry
+		home = 530
+	}
+
+	regiment = {
+		name= "1.2. Infanteriedivision"
+		type = infantry
+		home = 529
+	}
+	
+	regiment = {
+		name= "1.3. Infanteriedivision"
+		type = infantry
+		home = 528
+	}
+	
+	regiment = {
+		name= "1.1. Artilleriedivision"
+		type = artillery
+		home = 383
+	}
+	
+	regiment = {
+		name= "1.1. Kavalleriedivision"
+		type = dragoon
+		home = 383
+	}
+}
+
+navy = {
+	name = "Hanseatische Marine"
+	location = 530
+	ship = {
+		name= "1. Klipperflottille"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2. Klipperflottille"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3. Klipperflottille"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name= "4. Klipperflottille"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "5. Klipperflottille"
+		type = clipper_transport
+	}
+}

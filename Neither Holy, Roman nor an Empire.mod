@@ -1,0 +1,9 @@
+name = "Neither Holy, Roman nor an Empire? 0.12"
+path = "mod/Neither_Holy_Roman_nor_an_Empire"
+user_dir = NHRoaE
+replace_path = common
+replace_path = localisation
+replace_path = movies
+replace_path = interface
+replace_path = decisions
+replace_path = events

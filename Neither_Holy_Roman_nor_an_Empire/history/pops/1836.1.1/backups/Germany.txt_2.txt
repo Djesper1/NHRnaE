@@ -1,0 +1,7306 @@
+#Holstein Region (402000)
+#Under rule of Holstein 1836
+#Kiel (256000/64000 POPS)
+369 = {
+    aristocrats = {
+        culture = belter
+        religion = united_christianity
+        size = 600
+    }
+
+    bureaucrats = {
+        culture = belter
+        religion = united_christianity
+        size = 175
+    }
+
+    officers = {
+        culture = belter
+        religion = united_christianity
+        size = 100
+    }
+
+    clergymen = {
+        culture = belter
+        religion = united_christianity
+        size = 575
+    }
+
+    artisans = {
+        culture = belter
+        religion = united_christianity
+        size = 2400
+    }
+
+    soldiers = {
+        culture = belter
+        religion = united_christianity
+        size = 4000
+    }
+
+    farmers = {
+        culture = belter
+        religion = united_christianity
+        size = 48650
+    }
+
+    clergymen = {
+        culture = belter
+        religion = united_christianity
+        size = 50
+    }
+
+    artisans = {
+        culture = belter
+        religion = united_christianity
+        size = 100
+    }
+
+    soldiers = {
+        culture = belter
+        religion = united_christianity
+        size = 25
+    }
+
+    farmers = {
+        culture = belter
+        religion = united_christianity
+        size = 1825
+    }
+
+    clergymen = {
+        culture = belter
+        religion = united_christianity
+        size = 10
+    }
+
+    artisans = {
+        culture = belter
+        religion = united_christianity
+        size = 490
+    }
+
+    clergymen = {
+        culture = danish
+        religion = united_christianity
+        size = 50
+    }
+
+    artisans = {
+        culture = danish
+        religion = united_christianity
+        size = 200
+    }
+
+    soldiers = {
+        culture = danish
+        religion = united_christianity
+        size = 50
+    }
+
+    farmers = {
+        culture = danish
+        religion = united_christianity
+        size = 4700
+    }
+}
+#Lauenburg (148000/37000 POPS)
+529 = {
+    aristocrats = {
+        culture = belter
+        religion = united_christianity
+        size = 350
+    }
+
+    clergymen = {
+        culture = belter
+        religion = united_christianity
+        size = 375
+    }
+
+    artisans = {
+        culture = belter
+        religion = united_christianity
+        size = 1825
+    }
+
+    soldiers = {
+        culture = belter
+        religion = united_christianity
+        size = 1100
+    }
+
+    farmers = {
+        culture = belter
+        religion = united_christianity
+        size = 33500
+    }
+}
+#Lower Elbe Region (557600)
+#Under rule of Hamburg 1836
+#Hamburg (160000/40000 POPS)
+528 = {
+    aristocrats = {
+        culture = belter
+        religion = united_christianity
+        size = 300
+    }
+
+    bureaucrats = {
+        culture = belter
+        religion = united_christianity
+        size = 100
+    }
+
+    officers = {
+        culture = belter
+        religion = united_christianity
+        size = 25
+    }
+
+    clergymen = {
+        culture = belter
+        religion = united_christianity
+        size = 325
+    }
+
+    artisans = {
+        culture = belter
+        religion = united_christianity
+        size = 10000
+    }
+
+    artisans = {
+        culture = belter
+        religion = united_christianity
+        size = 10000
+    }
+
+    artisans = {
+        culture = belter
+        religion = united_christianity
+        size = 10000
+    }
+
+    soldiers = {
+        culture = belter
+        religion = united_christianity
+        size = 1100
+    }
+
+    farmers = {
+        culture = belter
+        religion = united_christianity
+        size = 6250
+    }
+
+    clergymen = {
+        culture = belter
+        religion = united_christianity
+        size = 50
+    }
+
+    artisans = {
+        culture = belter
+        religion = united_christianity
+        size = 1950
+    }
+}
+#Under rule of Hannover 1836 (396000)
+#Stade (216000/54000 POPS)
+531 = {
+    aristocrats = {
+        culture = belter
+        religion = united_christianity
+        size = 550
+    }
+
+    bureaucrats = {
+        culture = belter
+        religion = united_christianity
+        size = 50
+    }
+
+    officers = {
+        culture = belter
+        religion = united_christianity
+        size = 100
+    }
+
+    clergymen = {
+        culture = belter
+        religion = united_christianity
+        size = 500
+    }
+
+    artisans = {
+        culture = belter
+        religion = united_christianity
+        size = 2750
+    }
+
+    soldiers = {
+        culture = belter
+        religion = united_christianity
+        size = 2000
+    }
+
+    farmers = {
+        culture = belter
+        religion = united_christianity
+        size = 48050
+    }
+}
+#Lunenburg (180000/45000 POPS)
+532 = {
+    aristocrats = {
+        culture = belter
+        religion = united_christianity
+        size = 450
+    }
+
+    clergymen = {
+        culture = belter
+        religion = united_christianity
+        size = 4500
+    }
+
+    artisans = {
+        culture = belter
+        religion = united_christianity
+        size = 2250
+    }
+
+    soldiers = {
+        culture = belter
+        religion = united_christianity
+        size = 1100
+    }
+
+    farmers = {
+        culture = belter
+        religion = united_christianity
+        size = 45900
+    }
+}
+#Under rule of Britain 1836
+#Heligoland (1600/400 POPS)
+533 = {
+    farmers = {
+        culture = north_german
+        religion = protestant
+        size = 400
+    }
+}
+#Mecklenburg Region (614000)
+#under the Rule of Lubeck 1836
+#Lubeck (40000/10000 POPS)
+530 = {
+    aristocrats = {
+        culture = belter
+        religion = united_christianity
+        size = 50
+    }
+
+    bureaucrats = {
+        culture = belter
+        religion = united_christianity
+        size = 25
+    }
+
+    officers = {
+        culture = belter
+        religion = united_christianity
+        size = 5
+    }
+
+    clergymen = {
+        culture = belter
+        religion = united_christianity
+        size = 75
+    }
+
+    artisans = {
+        culture = belter
+        religion = united_christianity
+        size = 5950
+    }
+
+    soldiers = {
+        culture = belter
+        religion = united_christianity
+        size = 1100
+    }
+
+    farmers = {
+        culture = belter
+        religion = united_christianity
+        size = 2395
+    }
+
+    artisans = {
+        culture = belter
+        religion = united_christianity
+        size = 300
+    }
+
+    farmers = {
+        culture = belter
+        religion = united_christianity
+        size = 200
+    }
+}
+#under the Rule of Mecklenburg 1836
+#Schwerin (484000/121000 POPS)
+544 = {
+    aristocrats = {
+        culture = berliner
+        religion = united_christianity
+        size = 1225
+    }
+
+    bureaucrats = {
+        culture = berliner
+        religion = united_christianity
+        size = 275
+    }
+
+    officers = {
+        culture = berliner
+        religion = united_christianity
+        size = 150
+    }
+
+    clergymen = {
+        culture = berliner
+        religion = united_christianity
+        size = 1200
+    }
+
+    artisans = {
+        culture = berliner
+        religion = united_christianity
+        size = 6000
+    }
+
+    soldiers = {
+        culture = berliner
+        religion = united_christianity
+        size = 1250
+    }
+
+    farmers = {
+        culture = berliner
+        religion = united_christianity
+        size = 109800
+    }
+
+    clergymen = {
+        culture = berliner
+        religion = jewish
+        size = 25
+    }
+
+    artisans = {
+        culture = berliner
+        religion = jewish
+        size = 975
+    }
+}
+#Neustrelitz (90000/22500 POPS)
+545 = {
+    aristocrats = {
+        culture = berliner
+        religion = united_christianity
+        size = 200
+    }
+
+    clergymen = {
+        culture = berliner
+        religion = united_christianity
+        size = 225
+    }
+
+    artisans = {
+        culture = berliner
+        religion = united_christianity
+        size = 1125
+    }
+
+    soldiers = {
+        culture = berliner
+        religion = united_christianity
+        size = 1100
+    }
+
+    farmers = {
+        culture = berliner
+        religion = united_christianity
+        size = 19950
+    }
+}
+#Hannover Region (1288000)
+#under the rule of Hannover 1836
+#Hannover (420000/105000 POPS)
+534 = {
+    aristocrats = {
+        culture = belter
+        religion = united_christianity
+        size = 750
+    }
+
+    bureaucrats = {
+        culture = belter
+        religion = united_christianity
+        size = 500
+    }
+
+    officers = {
+        culture = belter
+        religion = united_christianity
+        size = 300
+    }
+
+    clergymen = {
+        culture = belter
+        religion = united_christianity
+        size = 875
+    }
+
+    artisans = {
+        culture = belter
+        religion = united_christianity
+        size = 5250
+    }
+
+    soldiers = {
+        culture = belter
+        religion = united_christianity
+        size = 3000
+    }
+
+    farmers = {
+        culture = belter
+        religion = united_christianity
+        size = 89325
+    }
+
+    clergymen = {
+        culture = belter
+        religion = united_christianity
+        size = 75
+    }
+
+    artisans = {
+        culture = belter
+        religion = united_christianity
+        size = 200
+    }
+
+    soldiers = {
+        culture = belter
+        religion = united_christianity
+        size = 50
+    }
+
+    farmers = {
+        culture = belter
+        religion = united_christianity
+        size = 3675
+    }
+
+    clergymen = {
+        culture = belter
+        religion = jewish
+        size = 25
+    }
+
+    artisans = {
+        culture = belter
+        religion = jewish
+        size = 975
+    }
+}
+#Nienburg (276000/64000 POPS)
+535 = {
+    aristocrats = {
+        culture = belter
+        religion = united_christianity
+        size = 550
+    }
+
+    clergymen = {
+        culture = belter
+        religion = united_christianity
+        size = 625
+    }
+
+    artisans = {
+        culture = belter
+        religion = united_christianity
+        size = 3250
+    }
+
+    soldiers = {
+        culture = belter
+        religion = united_christianity
+        size = 2000
+    }
+
+    farmers = {
+        culture = belter
+        religion = united_christianity
+        size = 57575
+    }
+
+    clergymen = {
+        culture = belter
+        religion = jewish
+        size = 25
+    }
+
+    artisans = {
+        culture = belter
+        religion = jewish
+        size = 975
+    }
+}
+#Gottingen (180000/45000 POPS)
+537 = {
+    aristocrats = {
+        culture = belter
+        religion = united_christianity
+        size = 400
+    }
+
+    clergymen = {
+        culture = belter
+        religion = united_christianity
+        size = 425
+    }
+
+    artisans = {
+        culture = belter
+        religion = united_christianity
+        size = 2250
+    }
+
+    soldiers = {
+        culture = belter
+        religion = united_christianity
+        size = 1100
+    }
+
+    farmers = {
+        culture = belter
+        religion = united_christianity
+        size = 40925
+    }
+}
+#Osnabruck (220000/55000 POPS)
+538 = {
+    aristocrats = {
+        culture = belter
+        religion = united_christianity
+        size = 250
+    }
+
+    clergymen = {
+        culture = belter
+        religion = united_christianity
+        size = 250
+    }
+
+    artisans = {
+        culture = belter
+        religion = united_christianity
+        size = 2250
+    }
+
+    soldiers = {
+        culture = belter
+        religion = united_christianity
+        size = 300
+    }
+
+    farmers = {
+        culture = belter
+        religion = united_christianity
+        size = 26950
+    }
+
+    aristocrats = {
+        culture = belter
+        religion = united_christianity
+        size = 200
+    }
+
+    clergymen = {
+        culture = belter
+        religion = united_christianity
+        size = 250
+    }
+
+    artisans = {
+        culture = belter
+        religion = united_christianity
+        size = 1750
+    }
+
+    soldiers = {
+        culture = belter
+        religion = united_christianity
+        size = 250
+    }
+
+    farmers = {
+        culture = belter
+        religion = united_christianity
+        size = 22550
+    }
+}
+#under the rule of Brunswick 1836
+#Brunswick (264000/66000 POPS)
+536 = {
+    aristocrats = {
+        culture = belter
+        religion = united_christianity
+        size = 500
+    }
+
+    bureaucrats = {
+        culture = belter
+        religion = united_christianity
+        size = 100
+    }
+
+    officers = {
+        culture = belter
+        religion = united_christianity
+        size = 75
+    }
+
+    clergymen = {
+        culture = belter
+        religion = united_christianity
+        size = 450
+    }
+
+    artisans = {
+        culture = belter
+        religion = united_christianity
+        size = 8500
+    }
+
+    soldiers = {
+        culture = belter
+        religion = united_christianity
+        size = 2000
+    }
+
+    farmers = {
+        culture = belter
+        religion = united_christianity
+        size = 53375
+    }
+
+    clergymen = {
+        culture = belter
+        religion = united_christianity
+        size = 25
+    }
+
+    soldiers = {
+        culture = belter
+        religion = united_christianity
+        size = 15
+    }
+
+    farmers = {
+        culture = belter
+        religion = united_christianity
+        size = 960
+    }
+}
+#East Frisia Region (496000)
+#under the rule of Bremen 1836
+#Bremen (64000/16000 POPS)
+539 = {
+    aristocrats = {
+        culture = belter
+        religion = united_christianity
+        size = 100
+    }
+
+    bureaucrats = {
+        culture = belter
+        religion = united_christianity
+        size = 35
+    }
+
+    officers = {
+        culture = belter
+        religion = united_christianity
+        size = 15
+    }
+
+    clergymen = {
+        culture = belter
+        religion = united_christianity
+        size = 125
+    }
+
+    artisans = {
+        culture = belter
+        religion = united_christianity
+        size = 8500
+    }
+
+    soldiers = {
+        culture = belter
+        religion = united_christianity
+        size = 1100
+    }
+
+    farmers = {
+        culture = belter
+        religion = united_christianity
+        size = 5225
+    }
+
+    clergymen = {
+        culture = belter
+        religion = united_christianity
+        size = 25
+    }
+
+    farmers = {
+        culture = belter
+        religion = united_christianity
+        size = 975
+    }
+}
+#under the rule of Oldenburg 1836
+#Oldenburg (184000/46000 POPS)
+540 = {
+    aristocrats = {
+        culture = belter
+        religion = united_christianity
+        size = 400
+    }
+
+    bureaucrats = {
+        culture = belter
+        religion = united_christianity
+        size = 125
+    }
+
+    officers = {
+        culture = belter
+        religion = united_christianity
+        size = 75
+    }
+
+    clergymen = {
+        culture = belter
+        religion = united_christianity
+        size = 425
+    }
+
+    artisans = {
+        culture = belter
+        religion = united_christianity
+        size = 2200
+    }
+
+    soldiers = {
+        culture = belter
+        religion = united_christianity
+        size = 2000
+    }
+
+    farmers = {
+        culture = belter
+        religion = united_christianity
+        size = 38800
+    }
+
+    clergymen = {
+        culture = belter
+        religion = united_christianity
+        size = 40
+    }
+
+    artisans = {
+        culture = belter
+        religion = united_christianity
+        size = 100
+    }
+
+    farmers = {
+        culture = belter
+        religion = united_christianity
+        size = 1860
+    }
+}
+#Cloppenburg (84000/21000 POPS)
+541 = {
+    aristocrats = {
+        culture = belter
+        religion = united_christianity
+        size = 125
+    }
+
+    clergymen = {
+        culture = belter
+        religion = united_christianity
+        size = 125
+    }
+
+    artisans = {
+        culture = belter
+        religion = united_christianity
+        size = 650
+    }
+
+    soldiers = {
+        culture = belter
+        religion = united_christianity
+        size = 125
+    }
+
+    farmers = {
+        culture = belter
+        religion = united_christianity
+        size = 11975
+    }
+
+    clergymen = {
+        culture = belter
+        religion = united_christianity
+        size = 75
+    }
+
+    artisans = {
+        culture = belter
+        religion = united_christianity
+        size = 400
+    }
+
+    soldiers = {
+        culture = belter
+        religion = united_christianity
+        size = 75
+    }
+
+    artisans = {
+        culture = belter
+        religion = united_christianity
+        size = 7450
+    }
+}
+#under the rule of Hannover 1836
+#Lingen (80000/20000 POPS)
+542 = {
+    aristocrats = {
+        culture = belter
+        religion = united_christianity
+        size = 150
+    }
+
+    bureaucrats = {
+        culture = belter
+        religion = united_christianity
+        size = 75
+    }
+
+    officers = {
+        culture = belter
+        religion = united_christianity
+        size = 50
+    }
+
+    clergymen = {
+        culture = belter
+        religion = united_christianity
+        size = 150
+    }
+
+    artisans = {
+        culture = belter
+        religion = united_christianity
+        size = 800
+    }
+
+    soldiers = {
+        culture = belter
+        religion = united_christianity
+        size = 175
+    }
+
+    farmers = {
+        culture = belter
+        religion = united_christianity
+        size = 16150
+    }
+
+    clergymen = {
+        culture = belter
+        religion = united_christianity
+        size = 65
+    }
+
+    artisans = {
+        culture = belter
+        religion = united_christianity
+        size = 150
+    }
+
+    soldiers = {
+        culture = belter
+        religion = united_christianity
+        size = 25
+    }
+
+    farmers = {
+        culture = belter
+        religion = united_christianity
+        size = 2760
+    }
+
+    clergymen = {
+        culture = dutch
+        religion = united_christianity
+        size = 15
+    }
+
+    farmers = {
+        culture = dutch
+        religion = united_christianity
+        size = 985
+    }
+}
+#Emden (84000/21000 POPS)
+543 = {
+    aristocrats = {
+        culture = belter
+        religion = united_christianity
+        size = 30
+    }
+
+    clergymen = {
+        culture = belter
+        religion = united_christianity
+        size = 70
+    }
+
+    artisans = {
+        culture = belter
+        religion = united_christianity
+        size = 400
+    }
+
+    soldiers = {
+        culture = belter
+        religion = united_christianity
+        size = 50
+    }
+
+    farmers = {
+        culture = belter
+        religion = united_christianity
+        size = 3450
+    }
+
+    aristocrats = {
+        culture = belter
+        religion = united_christianity
+        size = 150
+    }
+
+    clergymen = {
+        culture = belter
+        religion = united_christianity
+        size = 175
+    }
+
+    artisans = {
+        culture = belter
+        religion = united_christianity
+        size = 1600
+    }
+
+    soldiers = {
+        culture = belter
+        religion = united_christianity
+        size = 150
+    }
+
+    farmers = {
+        culture = belter
+        religion = united_christianity
+        size = 14925
+    }
+}
+#Pomerania Region (289000) #see Poland.txt for balance of region
+#under the rule of Prussia 1836
+#Swinemunde (132000/33000 POPS)
+547 = {
+    aristocrats = {
+        culture = berliner
+        religion = united_christianity
+        size = 300
+    }
+
+    clergymen = {
+        culture = berliner
+        religion = united_christianity
+        size = 325
+    }
+
+    artisans = {
+        culture = berliner
+        religion = united_christianity
+        size = 1650
+    }
+
+    soldiers = {
+        culture = berliner
+        religion = united_christianity
+        size = 1500
+    }
+
+    farmers = {
+        culture = berliner
+        religion = united_christianity
+        size = 29225
+    }
+}
+#Stralsund (157000/39250 POPS)
+548 = {
+    aristocrats = {
+        culture = belter
+        religion = united_christianity
+        size = 200
+    }
+
+    clergymen = {
+        culture = belter
+        religion = united_christianity
+        size = 200
+    }
+
+    artisans = {
+        culture = belter
+        religion = united_christianity
+        size = 2350
+    }
+
+    soldiers = {
+        culture = berliner
+        religion = united_christianity
+        size = 1200
+    }
+
+    farmers = {
+        culture = berliner
+        religion = united_christianity
+        size = 20050
+    }
+
+    clergymen = {
+        culture = belter
+        religion = united_christianity
+        size = 150
+    }
+
+    artisans = {
+        culture = belter
+        religion = united_christianity
+        size = 1400
+    }
+
+    soldiers = {
+        culture = berliner
+        religion = united_christianity
+        size = 1200
+    }
+
+    farmers = {
+        culture = berliner
+        religion = united_christianity
+        size = 12250
+    }
+
+    clergymen = {
+        culture = belter
+        religion = jewish
+        size = 5
+    }
+
+    artisans = {
+        culture = belter
+        religion = jewish
+        size = 245
+    }
+}
+#Brandenburg Region (1628000) #see Poland.txt for balance of region
+#under the rule of Prussia 1836
+#Berlin (772000/193000 POPS)
+549 = {
+    aristocrats = {
+        culture = berliner
+        religion = united_christianity
+        size = 1750
+    }
+
+    bureaucrats = {
+        culture = berliner
+        religion = united_christianity
+        size = 2700
+    }
+
+    officers = {
+        culture = berliner
+        religion = united_christianity
+        size = 600
+    }
+
+    capitalists = {
+        culture = berliner
+        religion = united_christianity
+        size = 75
+    }
+
+    clergymen = {
+        culture = berliner
+        religion = united_christianity
+        size = 1500
+    }
+
+    clerks = {
+        culture = berliner
+        religion = united_christianity
+        size = 600
+    }
+
+    craftsmen = {
+        culture = berliner
+        religion = united_christianity
+        size = 6525
+    }
+
+    artisans = {
+        culture = berliner
+        religion = united_christianity
+        size = 10000
+    }
+
+    artisans = {
+        culture = berliner
+        religion = united_christianity
+        size = 10000
+    }
+
+    artisans = {
+        culture = berliner
+        religion = united_christianity
+        size = 10000
+    }
+
+    artisans = {
+        culture = berliner
+        religion = united_christianity
+        size = 10000
+    }
+
+    artisans = {
+        culture = berliner
+        religion = united_christianity
+        size = 10000
+    }
+
+    artisans = {
+        culture = berliner
+        religion = united_christianity
+        size = 5400
+    }
+
+    soldiers = {
+        culture = berliner
+        religion = united_christianity
+        size = 5000
+    }
+
+    farmers = {
+        culture = berliner
+        religion = united_christianity
+        size = 106950
+    }
+
+    clergymen = {
+        culture = berliner
+        religion = united_christianity
+        size = 50
+    }
+
+    craftsmen = {
+        culture = berliner
+        religion = united_christianity
+        size = 150
+    }
+
+    artisans = {
+        culture = berliner
+        religion = united_christianity
+        size = 1350
+    }
+
+    soldiers = {
+        culture = berliner
+        religion = united_christianity
+        size = 50
+    }
+
+    farmers = {
+        culture = berliner
+        religion = united_christianity
+        size = 3400
+    }
+
+    clergymen = {
+        culture = berliner
+        religion = jewish
+        size = 30
+    }
+
+    clerks = {
+        culture = berliner
+        religion = jewish
+        size = 50
+    }
+
+    craftsmen = {
+        culture = berliner
+        religion = jewish
+        size = 500
+    }
+
+    artisans = {
+        culture = berliner
+        religion = jewish
+        size = 1420
+    }
+
+    clergymen = {
+        culture = polish
+        religion = catholic
+        size = 50
+    }
+
+    craftsmen = {
+        culture = polish
+        religion = catholic
+        size = 150
+    }
+
+    artisans = {
+        culture = polish
+        religion = catholic
+        size = 1850
+    }
+
+    soldiers = {
+        culture = polish
+        religion = catholic
+        size = 50
+    }
+
+    farmers = {
+        culture = polish
+        religion = catholic
+        size = 2900
+    }
+}
+#Prenzlau (280000/70000 POPS)
+550 = {
+    aristocrats = {
+        culture = berliner
+        religion = united_christianity
+        size = 700
+    }
+
+    clergymen = {
+        culture = berliner
+        religion = united_christianity
+        size = 675
+    }
+
+    artisans = {
+        culture = berliner
+        religion = united_christianity
+        size = 3500
+    }
+
+    soldiers = {
+        culture = berliner
+        religion = united_christianity
+        size = 2400
+    }
+
+    farmers = {
+        culture = berliner
+        religion = united_christianity
+        size = 62500
+    }
+}
+#Pritzwalk (232000/58000 POPS)
+551 = {
+    aristocrats = {
+        culture = berliner
+        religion = united_christianity
+        size = 550
+    }
+
+    clergymen = {
+        culture = berliner
+        religion = united_christianity
+        size = 575
+    }
+
+    artisans = {
+        culture = berliner
+        religion = united_christianity
+        size = 3000
+    }
+
+    soldiers = {
+        culture = berliner
+        religion = united_christianity
+        size = 2400
+    }
+
+    farmers = {
+        culture = berliner
+        religion = united_christianity
+        size = 51475
+    }
+}
+#Cottbus (344000/86000 POPS)
+552 = {
+    aristocrats = {
+        culture = berliner
+        religion = united_christianity
+        size = 750
+    }
+
+    clergymen = {
+        culture = berliner
+        religion = united_christianity
+        size = 750
+    }
+
+    artisans = {
+        culture = berliner
+        religion = united_christianity
+        size = 4000
+    }
+
+    soldiers = {
+        culture = berliner
+        religion = united_christianity
+        size = 2300
+    }
+
+    farmers = {
+        culture = berliner
+        religion = united_christianity
+        size = 71200
+    }
+
+    clergymen = {
+        culture = berliner
+        religion = united_christianity
+        size = 50
+    }
+
+    artisans = {
+        culture = berliner
+        religion = united_christianity
+        size = 300
+    }
+
+    soldiers = {
+        culture = berliner
+        religion = united_christianity
+        size = 50
+    }
+
+    farmers = {
+        culture = berliner
+        religion = united_christianity
+        size = 5600
+    }
+}
+#Anhalt Region (1527000)
+#under the rule of Prussia 1836
+#Magdeburg (577200/144300 POPS)
+553 = {
+    aristocrats = {
+        culture = berliner
+        religion = united_christianity
+        size = 1200
+    }
+
+    bureaucrats = {
+        culture = berliner
+        religion = united_christianity
+        size = 1400
+    }
+
+    officers = {
+        culture = berliner
+        religion = united_christianity
+        size = 350
+    }
+
+    clergymen = {
+        culture = berliner
+        religion = united_christianity
+        size = 1125
+    }
+
+    artisans = {
+        culture = berliner
+        religion = united_christianity
+        size = 10000
+    }
+
+    soldiers = {
+        culture = berliner
+        religion = united_christianity
+        size = 2300
+    }
+
+    farmers = {
+        culture = berliner
+        religion = united_christianity
+        size = 102725
+    }
+
+    clergymen = {
+        culture = berliner
+        religion = united_christianity
+        size = 250
+    }
+
+    artisans = {
+        culture = berliner
+        religion = united_christianity
+        size = 1750
+    }
+
+    soldiers = {
+        culture = berliner
+        religion = united_christianity
+        size = 250
+    }
+
+    farmers = {
+        culture = berliner
+        religion = united_christianity
+        size = 22750
+    }
+
+    clergymen = {
+        culture = berliner
+        religion = jewish
+        size = 5
+    }
+
+    artisans = {
+        culture = berliner
+        religion = jewish
+        size = 295
+    }
+}
+#Erfurt (220800/55200 POPS)
+554 = {
+    aristocrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 500
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 400
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 3350
+    }
+
+    soldiers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 1300
+    }
+
+    farmers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 39450
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 100
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 750
+    }
+
+    soldiers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 100
+    }
+
+    farmers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 9050
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = jewish
+        size = 5
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = jewish
+        size = 195
+    }
+}
+#Halle (445000/111250 POPS)
+556 = {
+    aristocrats = {
+        culture = berliner
+        religion = united_christianity
+        size = 1150
+    }
+
+    clergymen = {
+        culture = berliner
+        religion = united_christianity
+        size = 925
+    }
+
+    artisans = {
+        culture = berliner
+        religion = united_christianity
+        size = 5000
+    }
+
+    soldiers = {
+        culture = berliner
+        religion = united_christianity
+        size = 1400
+    }
+
+    farmers = {
+        culture = berliner
+        religion = united_christianity
+        size = 91525
+    }
+
+    clergymen = {
+        culture = berliner
+        religion = united_christianity
+        size = 100
+    }
+
+    artisans = {
+        culture = berliner
+        religion = united_christianity
+        size = 575
+    }
+
+    soldiers = {
+        culture = berliner
+        religion = united_christianity
+        size = 100
+    }
+
+    farmers = {
+        culture = berliner
+        religion = united_christianity
+        size = 10225
+    }
+
+    clergymen = {
+        culture = berliner
+        religion = jewish
+        size = 5
+    }
+
+    artisans = {
+        culture = berliner
+        religion = jewish
+        size = 245
+    }
+}
+#Stendal (140000/35000 POPS)
+557 = {
+    aristocrats = {
+        culture = berliner
+        religion = united_christianity
+        size = 350
+    }
+
+    clergymen = {
+        culture = berliner
+        religion = united_christianity
+        size = 325
+    }
+
+    artisans = {
+        culture = berliner
+        religion = united_christianity
+        size = 1750
+    }
+
+    soldiers = {
+        culture = berliner
+        religion = united_christianity
+        size = 1300
+    }
+
+    farmers = {
+        culture = berliner
+        religion = united_christianity
+        size = 31275
+    }
+}
+#under the rule of Anhalt 1836
+#Dessau (144000/36000 POPS)
+555 = {
+    aristocrats = {
+        culture = berliner
+        religion = united_christianity
+        size = 325
+    }
+
+    bureaucrats = {
+        culture = berliner
+        religion = united_christianity
+        size = 70
+    }
+
+    officers = {
+        culture = berliner
+        religion = united_christianity
+        size = 25
+    }
+
+    clergymen = {
+        culture = berliner
+        religion = united_christianity
+        size = 325
+    }
+
+    artisans = {
+        culture = berliner
+        religion = united_christianity
+        size = 1900
+    }
+
+    soldiers = {
+        culture = berliner
+        religion = united_christianity
+        size = 1300
+    }
+
+    farmers = {
+        culture = berliner
+        religion = united_christianity
+        size = 31055
+    }
+
+    clergymen = {
+        culture = berliner
+        religion = united_christianity
+        size = 20
+    }
+
+    artisans = {
+        culture = berliner
+        religion = united_christianity
+        size = 50
+    }
+
+    soldiers = {
+        culture = berliner
+        religion = united_christianity
+        size = 10
+    }
+
+    farmers = {
+        culture = berliner
+        religion = united_christianity
+        size = 920
+    }
+}
+#Saxony Region (1379000)
+#under the rule of Saxony 1836
+#Dresden (679000/169750 POPS)
+558 = {
+    aristocrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 1600
+    }
+
+    bureaucrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 700
+    }
+
+    officers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 45
+    }
+
+    capitalists = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 25
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 1625
+    }
+
+    clerks = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 75
+    }
+
+    craftsmen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 925
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 10000
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 250
+    }
+
+    soldiers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 1650
+    }
+
+    farmers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 147105
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 50
+    }
+
+    craftsmen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 75
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 925
+    }
+
+    soldiers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 50
+    }
+
+    farmers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 3900
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = jewish
+        size = 5
+    }
+
+    clerks = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 15
+    }
+
+    craftsmen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 150
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = jewish
+        size = 580
+    }
+}
+#Leipzig (420000/105000 POPS)
+559 = {
+    aristocrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 1100
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 1100
+    }
+
+    clerks = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 75
+    }
+
+    craftsmen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 875
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 9050
+    }
+
+    soldiers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 1100
+    }
+
+    farmers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 90800
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = jewish
+        size = 10
+    }
+
+    clerks = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 15
+    }
+
+    craftsmen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 75
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 900
+    }
+}
+#Chemnitz (280000/70000 POPS)
+560 = {
+    aristocrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 800
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 625
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 5000
+    }
+
+    soldiers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 1200
+    }
+
+    farmers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 62375
+    }
+}
+#Thuringia Region (865000)
+#under the rule of Saxe-Weimar 1836
+#Weimar (365000/91250 POPS)
+561 = {
+    aristocrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 1100
+    }
+
+    bureaucrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 150
+    }
+
+    officers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 100
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 875
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 4250
+    }
+
+    soldiers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 1200
+    }
+
+    farmers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 83425
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = jewish
+        size = 5
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = jewish
+        size = 245
+    }
+}
+#under the rule of Saxe-Coburg 1836
+#Gotha (292000/73000 POPS)
+562 = {
+    aristocrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 725
+    }
+
+    bureaucrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 125
+    }
+
+    officers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 75
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 675
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 3650
+    }
+
+    soldiers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 1300
+    }
+
+    farmers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 66450
+    }
+}
+#under the rule of Saxe-Meiningen 1836
+#Meiningen (208000/52000 POPS)
+563 = {
+    aristocrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 510
+    }
+
+    bureaucrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 90
+    }
+
+    officers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 50
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 500
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 2600
+    }
+
+    soldiers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 1300
+    }
+
+    farmers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 47050
+    }
+}
+#Hesse Region (1719600)
+#under the rule of Frankfurt 1836
+#Frankfurt-am-Main (64000/16000 POPS)
+564 = {
+    aristocrats = {
+        culture = north_german
+        religion = united_christianity
+        size = 2
+    }
+
+    bureaucrats = {
+        culture = north_german
+        religion = united_christianity
+        size = 8
+    }
+
+    officers = {
+        culture = north_german
+        religion = united_christianity
+        size = 2
+    }
+
+    clergymen = {
+        culture = north_german
+        religion = united_christianity
+        size = 12
+    }
+
+    artisans = {
+        culture = north_german
+        religion = united_christianity
+        size = 160
+    }
+
+    artisans = {
+        culture = north_german
+        religion = united_christianity
+        size = 200
+    }
+
+    soldiers = {
+        culture = north_german
+        religion = united_christianity
+        size = 192
+    }
+
+    farmers = {
+        culture = north_german
+        religion = united_christianity
+        size = 100
+    }
+
+    clergymen = {
+        culture = north_german
+        religion = united_christianity
+        size = 6
+    }
+
+    artisans = {
+        culture = north_german
+        religion = united_christianity
+        size = 288
+    }
+
+    soldiers = {
+        culture = north_german
+        religion = united_christianity
+        size = 3
+    }
+
+    farmers = {
+        culture = north_german
+        religion = united_christianity
+        size = 22
+    }
+
+    clergymen = {
+        culture = north_german
+        religion = jewish
+        size = 2
+    }
+
+    artisans = {
+        culture = north_german
+        religion = jewish
+        size = 158
+    }
+
+    artisans = {
+        culture = rhinish
+        religion = united_christianity
+        size = 5000
+    }
+
+    aristocrats = {
+        culture = rhinish
+        religion = united_christianity
+        size = 6
+    }
+
+    bureaucrats = {
+        culture = rhinish
+        religion = united_christianity
+        size = 30
+    }
+
+    officers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 6
+    }
+
+    clergymen = {
+        culture = rhinish
+        religion = united_christianity
+        size = 45
+    }
+
+    artisans = {
+        culture = rhinish
+        religion = united_christianity
+        size = 600
+    }
+
+    artisans = {
+        culture = rhinish
+        religion = united_christianity
+        size = 750
+    }
+
+    soldiers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 720
+    }
+
+    farmers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 375
+    }
+
+    clergymen = {
+        culture = rhinish
+        religion = united_christianity
+        size = 24
+    }
+
+    artisans = {
+        culture = rhinish
+        religion = united_christianity
+        size = 1080
+    }
+
+    soldiers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 12
+    }
+
+    farmers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 84
+    }
+
+    clergymen = {
+        culture = rhinish
+        religion = jewish
+        size = 6
+    }
+
+    artisans = {
+        culture = rhinish
+        religion = jewish
+        size = 594
+    }
+
+    aristocrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 2
+    }
+
+    bureaucrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 12
+    }
+
+    officers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 2
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 18
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 240
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 300
+    }
+
+    soldiers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 288
+    }
+
+    farmers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 150
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 10
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 432
+    }
+
+    soldiers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 5
+    }
+
+    farmers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 34
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = jewish
+        size = 2
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = jewish
+        size = 238
+    }
+}
+#under the rule of Nassau 1836
+#Wiesbaden (402400/100600 POPS)
+565 = {
+    aristocrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 76
+    }
+
+    bureaucrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 28
+    }
+
+    officers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 16
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 72
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 528
+    }
+
+    soldiers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 208
+    }
+
+    farmers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 3552
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 84
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 584
+    }
+
+    soldiers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 208
+    }
+
+    farmers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 7444
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = jewish
+        size = 2
+    }
+
+    farmers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 40000
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = jewish
+        size = 94
+    }
+
+    aristocrats = {
+        culture = rhinish
+        religion = united_christianity
+        size = 285
+    }
+
+    bureaucrats = {
+        culture = rhinish
+        religion = united_christianity
+        size = 105
+    }
+
+    officers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 60
+    }
+
+    clergymen = {
+        culture = rhinish
+        religion = united_christianity
+        size = 270
+    }
+
+    artisans = {
+        culture = rhinish
+        religion = united_christianity
+        size = 1980
+    }
+
+    soldiers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 780
+    }
+
+    farmers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 13320
+    }
+
+    clergymen = {
+        culture = rhinish
+        religion = united_christianity
+        size = 315
+    }
+
+    artisans = {
+        culture = rhinish
+        religion = united_christianity
+        size = 2190
+    }
+
+    soldiers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 780
+    }
+
+    farmers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 27915
+    }
+
+    clergymen = {
+        culture = rhinish
+        religion = jewish
+        size = 6
+    }
+
+    artisans = {
+        culture = rhinish
+        religion = jewish
+        size = 354
+    }
+
+    aristocrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 114
+    }
+
+    bureaucrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 42
+    }
+
+    officers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 24
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 108
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 792
+    }
+
+    soldiers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 312
+    }
+
+    farmers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 5328
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 126
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 876
+    }
+
+    soldiers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 312
+    }
+
+    farmers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 11166
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = jewish
+        size = 2
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = jewish
+        size = 142
+    }
+}
+#under the rule of Hesse-Kassel 1836
+#Kassel (445200/111300 POPS)
+566 = {
+    aristocrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 140
+    }
+
+    bureaucrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 52
+    }
+
+    officers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 32
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 140
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 720
+    }
+
+    soldiers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 672
+    }
+
+    farmers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 6084
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 36
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 176
+    }
+
+    soldiers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 32
+    }
+
+    farmers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 1676
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = jewish
+        size = 1
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = jewish
+        size = 47
+    }
+
+    farmers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 50000
+    }
+
+    aristocrats = {
+        culture = rhinish
+        religion = united_christianity
+        size = 525
+    }
+
+    bureaucrats = {
+        culture = rhinish
+        religion = united_christianity
+        size = 195
+    }
+
+    officers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 120
+    }
+
+    clergymen = {
+        culture = rhinish
+        religion = united_christianity
+        size = 525
+    }
+
+    artisans = {
+        culture = rhinish
+        religion = united_christianity
+        size = 2700
+    }
+
+    soldiers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 2520
+    }
+
+    farmers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 22815
+    }
+
+    clergymen = {
+        culture = rhinish
+        religion = united_christianity
+        size = 135
+    }
+
+    artisans = {
+        culture = rhinish
+        religion = united_christianity
+        size = 660
+    }
+
+    soldiers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 120
+    }
+
+    farmers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 6285
+    }
+
+    clergymen = {
+        culture = rhinish
+        religion = jewish
+        size = 3
+    }
+
+    artisans = {
+        culture = rhinish
+        religion = jewish
+        size = 177
+    }
+
+    aristocrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 210
+    }
+
+    bureaucrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 78
+    }
+
+    officers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 48
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 210
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 1080
+    }
+
+    soldiers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 1008
+    }
+
+    farmers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 9126
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 54
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 264
+    }
+
+    soldiers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 48
+    }
+
+    farmers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 2514
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = jewish
+        size = 1
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = jewish
+        size = 71
+    }
+}
+#Fulda (248000/62000 POPS)
+568 = {
+    aristocrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 80
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 80
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 416
+    }
+
+    soldiers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 248
+    }
+
+    farmers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 3336
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 16
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 80
+    }
+
+    soldiers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 16
+    }
+
+    farmers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 848
+    }
+
+    farmers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 25000
+    }
+
+    aristocrats = {
+        culture = rhinish
+        religion = united_christianity
+        size = 300
+    }
+
+    clergymen = {
+        culture = rhinish
+        religion = united_christianity
+        size = 300
+    }
+
+    artisans = {
+        culture = rhinish
+        religion = united_christianity
+        size = 1560
+    }
+
+    soldiers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 930
+    }
+
+    farmers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 12510
+    }
+
+    clergymen = {
+        culture = rhinish
+        religion = united_christianity
+        size = 60
+    }
+
+    artisans = {
+        culture = rhinish
+        religion = united_christianity
+        size = 300
+    }
+
+    soldiers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 60
+    }
+
+    farmers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 3180
+    }
+
+    aristocrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 120
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 120
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 624
+    }
+
+    soldiers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 372
+    }
+
+    farmers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 5004
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 24
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 120
+    }
+
+    soldiers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 24
+    }
+
+    farmers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 1272
+    }
+}
+#under the rule of Hesse-Darmstadt 1836
+#Giessen (200000/50000 POPS)
+567 = {
+    aristocrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 80
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 80
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 400
+    }
+
+    soldiers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 240
+    }
+
+    farmers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 3200
+    }
+
+    farmers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 25000
+    }
+
+    aristocrats = {
+        culture = rhinish
+        religion = united_christianity
+        size = 300
+    }
+
+    clergymen = {
+        culture = rhinish
+        religion = united_christianity
+        size = 300
+    }
+
+    artisans = {
+        culture = rhinish
+        religion = united_christianity
+        size = 1500
+    }
+
+    soldiers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 900
+    }
+
+    farmers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 12000
+    }
+
+    aristocrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 120
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 120
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 600
+    }
+
+    soldiers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 360
+    }
+
+    farmers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 4800
+    }
+}
+#Darmstadt (360000/90000 POPS)
+2560 = {
+    aristocrats = {
+        culture = north_german
+        religion = united_christianity
+        size = 80
+    }
+
+    bureaucrats = {
+        culture = north_german
+        religion = united_christianity
+        size = 64
+    }
+
+    officers = {
+        culture = north_german
+        religion = united_christianity
+        size = 32
+    }
+
+    clergymen = {
+        culture = north_german
+        religion = united_christianity
+        size = 80
+    }
+
+    artisans = {
+        culture = north_german
+        religion = united_christianity
+        size = 576
+    }
+
+    soldiers = {
+        culture = north_german
+        religion = united_christianity
+        size = 208
+    }
+
+    farmers = {
+        culture = north_german
+        religion = united_christianity
+        size = 3520
+    }
+
+    clergymen = {
+        culture = north_german
+        religion = united_christianity
+        size = 60
+    }
+
+    artisans = {
+        culture = north_german
+        religion = united_christianity
+        size = 384
+    }
+
+    soldiers = {
+        culture = north_german
+        religion = united_christianity
+        size = 56
+    }
+
+    farmers = {
+        culture = north_german
+        religion = united_christianity
+        size = 2220
+    }
+
+    farmers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 45000
+    }
+
+    aristocrats = {
+        culture = rhinish
+        religion = united_christianity
+        size = 300
+    }
+
+    bureaucrats = {
+        culture = rhinish
+        religion = united_christianity
+        size = 240
+    }
+
+    officers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 120
+    }
+
+    clergymen = {
+        culture = rhinish
+        religion = united_christianity
+        size = 300
+    }
+
+    artisans = {
+        culture = rhinish
+        religion = united_christianity
+        size = 2160
+    }
+
+    soldiers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 780
+    }
+
+    farmers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 13200
+    }
+
+    clergymen = {
+        culture = rhinish
+        religion = united_christianity
+        size = 225
+    }
+
+    artisans = {
+        culture = rhinish
+        religion = united_christianity
+        size = 1440
+    }
+
+    soldiers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 210
+    }
+
+    farmers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 8325
+    }
+
+    aristocrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 120
+    }
+
+    bureaucrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 96
+    }
+
+    officers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 48
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 120
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 864
+    }
+
+    soldiers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 312
+    }
+
+    farmers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 5280
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 90
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 576
+    }
+
+    soldiers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 84
+    }
+
+    farmers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 3330
+    }
+}
+#Palatinate-Moselle Region (1815200)
+#under the rule of Baden 1836
+#Mannheim (261000/65250 POPS)
+569 = {
+    aristocrats = {
+        culture = swabian
+        religion = united_christianity
+        size = 200
+    }
+
+    clergymen = {
+        culture = swabian
+        religion = united_christianity
+        size = 150
+    }
+
+    artisans = {
+        culture = swabian
+        religion = united_christianity
+        size = 750
+    }
+
+    soldiers = {
+        culture = swabian
+        religion = united_christianity
+        size = 150
+    }
+
+    farmers = {
+        culture = swabian
+        religion = united_christianity
+        size = 3750
+    }
+
+    clergymen = {
+        culture = swabian
+        religion = united_christianity
+        size = 400
+    }
+
+    artisans = {
+        culture = swabian
+        religion = united_christianity
+        size = 2500
+    }
+
+    soldiers = {
+        culture = swabian
+        religion = united_christianity
+        size = 500
+    }
+
+    farmers = {
+        culture = swabian
+        religion = united_christianity
+        size = 26600
+    }
+
+    clergymen = {
+        culture = swabian
+        religion = jewish
+        size = 5
+    }
+
+    artisans = {
+        culture = swabian
+        religion = jewish
+        size = 245
+    }
+
+    farmers = {
+        culture = swabian
+        religion = united_christianity
+        size = 30000
+    }
+}
+#under the rule of Hesse-Darmstadt 1836
+#Mainz (242200/60550 POPS)
+570 = {
+    aristocrats = {
+        culture = north_german
+        religion = united_christianity
+        size = 80
+    }
+
+    clergymen = {
+        culture = north_german
+        religion = united_christianity
+        size = 80
+    }
+
+    artisans = {
+        culture = north_german
+        religion = united_christianity
+        size = 944
+    }
+
+    soldiers = {
+        culture = north_german
+        religion = united_christianity
+        size = 240
+    }
+
+    farmers = {
+        culture = north_german
+        religion = united_christianity
+        size = 3456
+    }
+
+    clergymen = {
+        culture = north_german
+        religion = united_christianity
+        size = 16
+    }
+
+    artisans = {
+        culture = north_german
+        religion = united_christianity
+        size = 176
+    }
+
+    soldiers = {
+        culture = north_german
+        religion = united_christianity
+        size = 16
+    }
+
+    farmers = {
+        culture = north_german
+        religion = united_christianity
+        size = 752
+    }
+
+    clergymen = {
+        culture = north_german
+        religion = jewish
+        size = 1
+    }
+
+    artisans = {
+        culture = north_german
+        religion = jewish
+        size = 87
+    }
+
+    farmers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 24000
+    }
+
+    aristocrats = {
+        culture = rhinish
+        religion = united_christianity
+        size = 300
+    }
+
+    clergymen = {
+        culture = rhinish
+        religion = united_christianity
+        size = 300
+    }
+
+    artisans = {
+        culture = rhinish
+        religion = united_christianity
+        size = 3540
+    }
+
+    soldiers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 900
+    }
+
+    farmers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 12960
+    }
+
+    clergymen = {
+        culture = rhinish
+        religion = united_christianity
+        size = 60
+    }
+
+    artisans = {
+        culture = rhinish
+        religion = united_christianity
+        size = 660
+    }
+
+    soldiers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 60
+    }
+
+    farmers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 2820
+    }
+
+    clergymen = {
+        culture = rhinish
+        religion = jewish
+        size = 3
+    }
+
+    artisans = {
+        culture = rhinish
+        religion = jewish
+        size = 327
+    }
+
+    aristocrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 120
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 120
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 1416
+    }
+
+    soldiers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 360
+    }
+
+    farmers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 5184
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 24
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 264
+    }
+
+    soldiers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 24
+    }
+
+    farmers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 1128
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = jewish
+        size = 1
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = jewish
+        size = 131
+    }
+}
+#under the rule of Bavaria 1836
+#Kaiserslautern (556000/139000 POPS)
+571 = {
+    aristocrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 260
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 260
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 1240
+    }
+
+    soldiers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 440
+    }
+
+    farmers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 12160
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 280
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 1520
+    }
+
+    soldiers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 300
+    }
+
+    farmers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 14300
+    }
+
+    clergymen = {
+        culture = north_german
+        religion = jewish
+        size = 1
+    }
+
+    artisans = {
+        culture = north_german
+        religion = jewish
+        size = 79
+    }
+
+    farmers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 62000
+    }
+
+    clergymen = {
+        culture = rhinish
+        religion = jewish
+        size = 3
+    }
+
+    artisans = {
+        culture = rhinish
+        religion = jewish
+        size = 297
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = jewish
+        size = 1
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = jewish
+        size = 119
+    }
+
+    aristocrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 390
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 390
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 1860
+    }
+
+    soldiers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 660
+    }
+
+    farmers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 18240
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 420
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 2280
+    }
+
+    soldiers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 450
+    }
+
+    farmers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 21450
+    }
+}
+#under the rule of Prussia 1836
+#Trier (220000/55000 POPS)
+572 = {
+    aristocrats = {
+        culture = north_german
+        religion = united_christianity
+        size = 48
+    }
+
+    bureaucrats = {
+        culture = north_german
+        religion = united_christianity
+        size = 136
+    }
+
+    officers = {
+        culture = north_german
+        religion = united_christianity
+        size = 32
+    }
+
+    clergymen = {
+        culture = north_german
+        religion = united_christianity
+        size = 40
+    }
+
+    artisans = {
+        culture = north_german
+        religion = united_christianity
+        size = 216
+    }
+
+    soldiers = {
+        culture = north_german
+        religion = united_christianity
+        size = 44
+    }
+
+    farmers = {
+        culture = north_german
+        religion = united_christianity
+        size = 3804
+    }
+
+    aristocrats = {
+        culture = north_german
+        religion = united_christianity
+        size = 40
+    }
+
+    clergymen = {
+        culture = north_german
+        religion = united_christianity
+        size = 44
+    }
+
+    artisans = {
+        culture = north_german
+        religion = united_christianity
+        size = 224
+    }
+
+    soldiers = {
+        culture = north_german
+        religion = united_christianity
+        size = 44
+    }
+
+    farmers = {
+        culture = north_german
+        religion = united_christianity
+        size = 1728
+    }
+
+    farmers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 15000
+    }
+
+    aristocrats = {
+        culture = rhinish
+        religion = united_christianity
+        size = 180
+    }
+
+    bureaucrats = {
+        culture = rhinish
+        religion = united_christianity
+        size = 510
+    }
+
+    officers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 120
+    }
+
+    clergymen = {
+        culture = rhinish
+        religion = united_christianity
+        size = 150
+    }
+
+    artisans = {
+        culture = rhinish
+        religion = united_christianity
+        size = 810
+    }
+
+    soldiers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 165
+    }
+
+    farmers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 14265
+    }
+
+    aristocrats = {
+        culture = rhinish
+        religion = united_christianity
+        size = 150
+    }
+
+    clergymen = {
+        culture = rhinish
+        religion = united_christianity
+        size = 165
+    }
+
+    artisans = {
+        culture = rhinish
+        religion = united_christianity
+        size = 840
+    }
+
+    soldiers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 165
+    }
+
+    farmers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 6480
+    }
+
+    aristocrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 72
+    }
+
+    bureaucrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 204
+    }
+
+    officers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 48
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 60
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 324
+    }
+
+    soldiers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 66
+    }
+
+    farmers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 5706
+    }
+
+    aristocrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 60
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 66
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 336
+    }
+
+    soldiers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 66
+    }
+
+    farmers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 2592
+    }
+}
+#Saarbrucken (308000/77000 POPS)
+573 = {
+    aristocrats = {
+        culture = north_german
+        religion = united_christianity
+        size = 40
+    }
+
+    clergymen = {
+        culture = north_german
+        religion = united_christianity
+        size = 36
+    }
+
+    artisans = {
+        culture = north_german
+        religion = united_christianity
+        size = 200
+    }
+
+    soldiers = {
+        culture = north_german
+        religion = united_christianity
+        size = 40
+    }
+
+    farmers = {
+        culture = north_german
+        religion = united_christianity
+        size = 1604
+    }
+
+    aristocrats = {
+        culture = north_german
+        religion = united_christianity
+        size = 72
+    }
+
+    clergymen = {
+        culture = north_german
+        religion = united_christianity
+        size = 88
+    }
+
+    artisans = {
+        culture = north_german
+        religion = united_christianity
+        size = 416
+    }
+
+    soldiers = {
+        culture = north_german
+        religion = united_christianity
+        size = 240
+    }
+
+    farmers = {
+        culture = north_german
+        religion = united_christianity
+        size = 3344
+    }
+
+    clergymen = {
+        culture = french
+        religion = united_christianity
+        size = 125
+    }
+
+    artisans = {
+        culture = french
+        religion = united_christianity
+        size = 100
+    }
+
+    farmers = {
+        culture = french
+        religion = united_christianity
+        size = 1875
+    }
+
+    farmers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 37000
+    }
+
+    aristocrats = {
+        culture = rhinish
+        religion = united_christianity
+        size = 150
+    }
+
+    clergymen = {
+        culture = rhinish
+        religion = united_christianity
+        size = 135
+    }
+
+    artisans = {
+        culture = rhinish
+        religion = united_christianity
+        size = 750
+    }
+
+    soldiers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 150
+    }
+
+    farmers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 6015
+    }
+
+    aristocrats = {
+        culture = rhinish
+        religion = united_christianity
+        size = 270
+    }
+
+    clergymen = {
+        culture = rhinish
+        religion = united_christianity
+        size = 330
+    }
+
+    artisans = {
+        culture = rhinish
+        religion = united_christianity
+        size = 1560
+    }
+
+    soldiers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 900
+    }
+
+    farmers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 12540
+    }
+
+    aristocrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 60
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 54
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 300
+    }
+
+    soldiers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 60
+    }
+
+    farmers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 2406
+    }
+
+    aristocrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 108
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 132
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 624
+    }
+
+    soldiers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 360
+    }
+
+    farmers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 5016
+    }
+}
+#Kreuznach (228000/57000 POPS)
+574 = {
+    aristocrats = {
+        culture = north_german
+        religion = united_christianity
+        size = 48
+    }
+
+    clergymen = {
+        culture = north_german
+        religion = united_christianity
+        size = 44
+    }
+
+    artisans = {
+        culture = north_german
+        religion = united_christianity
+        size = 240
+    }
+
+    soldiers = {
+        culture = north_german
+        religion = united_christianity
+        size = 56
+    }
+
+    farmers = {
+        culture = north_german
+        religion = united_christianity
+        size = 2012
+    }
+
+    aristocrats = {
+        culture = north_german
+        religion = united_christianity
+        size = 40
+    }
+
+    clergymen = {
+        culture = north_german
+        religion = united_christianity
+        size = 44
+    }
+
+    artisans = {
+        culture = north_german
+        religion = united_christianity
+        size = 216
+    }
+
+    soldiers = {
+        culture = north_german
+        religion = united_christianity
+        size = 40
+    }
+
+    farmers = {
+        culture = north_german
+        religion = united_christianity
+        size = 1740
+    }
+
+    farmers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 29000
+    }
+
+    aristocrats = {
+        culture = rhinish
+        religion = united_christianity
+        size = 180
+    }
+
+    clergymen = {
+        culture = rhinish
+        religion = united_christianity
+        size = 165
+    }
+
+    artisans = {
+        culture = rhinish
+        religion = united_christianity
+        size = 900
+    }
+
+    soldiers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 210
+    }
+
+    farmers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 7545
+    }
+
+    aristocrats = {
+        culture = rhinish
+        religion = united_christianity
+        size = 150
+    }
+
+    clergymen = {
+        culture = rhinish
+        religion = united_christianity
+        size = 165
+    }
+
+    artisans = {
+        culture = rhinish
+        religion = united_christianity
+        size = 810
+    }
+
+    soldiers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 150
+    }
+
+    farmers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 6525
+    }
+
+    aristocrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 72
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 66
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 360
+    }
+
+    soldiers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 84
+    }
+
+    farmers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 3018
+    }
+
+    aristocrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 60
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 66
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 324
+    }
+
+    soldiers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 60
+    }
+
+    farmers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 2610
+    }
+}
+#Rhineland Region (1908000)
+#under the rule of Prussia in 1836
+#Cologne (484000/121000 POPS)
+575 = {
+    aristocrats = {
+        culture = north_german
+        religion = united_christianity
+        size = 192
+    }
+
+    bureaucrats = {
+        culture = north_german
+        religion = united_christianity
+        size = 336
+    }
+
+    capitalists = {
+        culture = north_german
+        religion = united_christianity
+        size = 2
+    }
+
+    officers = {
+        culture = north_german
+        religion = united_christianity
+        size = 80
+    }
+
+    clergymen = {
+        culture = north_german
+        religion = united_christianity
+        size = 196
+    }
+
+    clerks = {
+        culture = north_german
+        religion = united_christianity
+        size = 20
+    }
+
+    craftsmen = {
+        culture = north_german
+        religion = united_christianity
+        size = 200
+    }
+
+    artisans = {
+        culture = north_german
+        religion = united_christianity
+        size = 1600
+    }
+
+    artisans = {
+        culture = north_german
+        religion = united_christianity
+        size = 292
+    }
+
+    soldiers = {
+        culture = north_german
+        religion = united_christianity
+        size = 512
+    }
+
+    farmers = {
+        culture = north_german
+        religion = united_christianity
+        size = 7202
+    }
+
+    farmers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 52010
+    }
+
+    artisans = {
+        culture = rhinish
+        religion = united_christianity
+        size = 1800
+    }
+
+    clergymen = {
+        culture = north_german
+        religion = jewish
+        size = 2
+    }
+
+    clerks = {
+        culture = north_german
+        religion = jewish
+        size = 4
+    }
+
+    craftsmen = {
+        culture = north_german
+        religion = jewish
+        size = 24
+    }
+
+    artisans = {
+        culture = north_german
+        religion = jewish
+        size = 90
+    }
+
+    aristocrats = {
+        culture = rhinish
+        religion = united_christianity
+        size = 720
+    }
+
+    bureaucrats = {
+        culture = rhinish
+        religion = united_christianity
+        size = 1260
+    }
+
+    capitalists = {
+        culture = rhinish
+        religion = united_christianity
+        size = 9
+    }
+
+    officers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 300
+    }
+
+    clergymen = {
+        culture = rhinish
+        religion = united_christianity
+        size = 735
+    }
+
+    clerks = {
+        culture = rhinish
+        religion = united_christianity
+        size = 75
+    }
+
+    craftsmen = {
+        culture = rhinish
+        religion = united_christianity
+        size = 750
+    }
+
+    artisans = {
+        culture = rhinish
+        religion = united_christianity
+        size = 6000
+    }
+
+    artisans = {
+        culture = rhinish
+        religion = united_christianity
+        size = 1095
+    }
+
+    soldiers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 1920
+    }
+
+    farmers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 27006
+    }
+
+    clergymen = {
+        culture = rhinish
+        religion = jewish
+        size = 6
+    }
+
+    clerks = {
+        culture = rhinish
+        religion = jewish
+        size = 15
+    }
+
+    craftsmen = {
+        culture = rhinish
+        religion = jewish
+        size = 90
+    }
+
+    artisans = {
+        culture = rhinish
+        religion = jewish
+        size = 339
+    }
+
+    aristocrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 288
+    }
+
+    bureaucrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 504
+    }
+
+    capitalists = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 4
+    }
+
+    officers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 120
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 294
+    }
+
+    clerks = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 30
+    }
+
+    craftsmen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 300
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 2400
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 438
+    }
+
+    soldiers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 768
+    }
+
+    farmers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 10802
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = jewish
+        size = 2
+    }
+
+    clerks = {
+        culture = kaiser_deutsch
+        religion = jewish
+        size = 6
+    }
+
+    craftsmen = {
+        culture = kaiser_deutsch
+        religion = jewish
+        size = 36
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = jewish
+        size = 136
+    }
+}
+#Aachen (400000/100000 POPS)
+576 = {
+    aristocrats = {
+        culture = north_german
+        religion = united_christianity
+        size = 176
+    }
+
+    clergymen = {
+        culture = north_german
+        religion = united_christianity
+        size = 136
+    }
+
+    artisans = {
+        culture = north_german
+        religion = united_christianity
+        size = 720
+    }
+
+    soldiers = {
+        culture = north_german
+        religion = united_christianity
+        size = 368
+    }
+
+    farmers = {
+        culture = north_german
+        religion = united_christianity
+        size = 7224
+    }
+
+    clergymen = {
+        culture = wallonian
+        religion = catholic
+        size = 10
+    }
+
+    farmers = {
+        culture = wallonian
+        religion = catholic
+        size = 990
+    }
+
+    farmers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 45150
+    }
+
+    aristocrats = {
+        culture = rhinish
+        religion = united_christianity
+        size = 660
+    }
+
+    clergymen = {
+        culture = rhinish
+        religion = united_christianity
+        size = 510
+    }
+
+    artisans = {
+        culture = rhinish
+        religion = united_christianity
+        size = 2700
+    }
+
+    soldiers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 1380
+    }
+
+    farmers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 27090
+    }
+
+    aristocrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 264
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 204
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 1080
+    }
+
+    soldiers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 552
+    }
+
+    farmers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 10836
+    }
+}
+#Kleves (356000/89000 POPS)
+577 = {
+    aristocrats = {
+        culture = north_german
+        religion = united_christianity
+        size = 800
+    }
+
+    clergymen = {
+        culture = north_german
+        religion = united_christianity
+        size = 800
+    }
+
+    artisans = {
+        culture = north_german
+        religion = united_christianity
+        size = 4000
+    }
+
+    soldiers = {
+        culture = north_german
+        religion = united_christianity
+        size = 2300
+    }
+
+    farmers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 36000
+    }
+
+    farmers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 36100
+    }
+
+    aristocrats = {
+        culture = north_german
+        religion = united_christianity
+        size = 100
+    }
+
+    clergymen = {
+        culture = north_german
+        religion = united_christianity
+        size = 75
+    }
+
+    artisans = {
+        culture = north_german
+        religion = united_christianity
+        size = 450
+    }
+
+    soldiers = {
+        culture = north_german
+        religion = united_christianity
+        size = 100
+    }
+
+    farmers = {
+        culture = north_german
+        religion = united_christianity
+        size = 8275
+    }
+}
+#Dusseldorf (364000/91000 POPS)
+578 = {
+    aristocrats = {
+        culture = north_german
+        religion = united_christianity
+        size = 112
+    }
+
+    clergymen = {
+        culture = north_german
+        religion = united_christianity
+        size = 108
+    }
+
+    artisans = {
+        culture = north_german
+        religion = united_christianity
+        size = 672
+    }
+
+    soldiers = {
+        culture = north_german
+        religion = united_christianity
+        size = 368
+    }
+
+    farmers = {
+        culture = north_german
+        religion = united_christianity
+        size = 4820
+    }
+
+    aristocrats = {
+        culture = north_german
+        religion = united_christianity
+        size = 32
+    }
+
+    clergymen = {
+        culture = north_german
+        religion = united_christianity
+        size = 32
+    }
+
+    artisans = {
+        culture = north_german
+        religion = united_christianity
+        size = 176
+    }
+
+    soldiers = {
+        culture = north_german
+        religion = united_christianity
+        size = 208
+    }
+
+    farmers = {
+        culture = north_german
+        religion = united_christianity
+        size = 1472
+    }
+
+    farmers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 42000
+    }
+
+    aristocrats = {
+        culture = rhinish
+        religion = united_christianity
+        size = 420
+    }
+
+    clergymen = {
+        culture = rhinish
+        religion = united_christianity
+        size = 405
+    }
+
+    artisans = {
+        culture = rhinish
+        religion = united_christianity
+        size = 2520
+    }
+
+    soldiers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 1380
+    }
+
+    farmers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 18075
+    }
+
+    aristocrats = {
+        culture = rhinish
+        religion = united_christianity
+        size = 120
+    }
+
+    clergymen = {
+        culture = rhinish
+        religion = united_christianity
+        size = 120
+    }
+
+    artisans = {
+        culture = rhinish
+        religion = united_christianity
+        size = 660
+    }
+
+    soldiers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 780
+    }
+
+    farmers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 5520
+    }
+
+    aristocrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 168
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 162
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 1008
+    }
+
+    soldiers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 552
+    }
+
+    farmers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 7230
+    }
+
+    aristocrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 48
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 48
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 264
+    }
+
+    soldiers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 312
+    }
+
+    farmers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 2208
+    }
+}
+#Koblenz (200000/50000 POPS)
+579 = {
+    clergymen = {
+        culture = north_german
+        religion = united_christianity
+        size = 12
+    }
+
+    artisans = {
+        culture = north_german
+        religion = united_christianity
+        size = 32
+    }
+
+    soldiers = {
+        culture = north_german
+        religion = united_christianity
+        size = 4
+    }
+
+    farmers = {
+        culture = north_german
+        religion = united_christianity
+        size = 272
+    }
+
+    aristocrats = {
+        culture = north_german
+        religion = united_christianity
+        size = 72
+    }
+
+    clergymen = {
+        culture = north_german
+        religion = united_christianity
+        size = 72
+    }
+
+    artisans = {
+        culture = north_german
+        religion = united_christianity
+        size = 376
+    }
+
+    soldiers = {
+        culture = north_german
+        religion = united_christianity
+        size = 80
+    }
+
+    farmers = {
+        culture = north_german
+        religion = united_christianity
+        size = 3560
+    }
+
+    farmers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 22000
+    }
+
+    clergymen = {
+        culture = rhinish
+        religion = united_christianity
+        size = 45
+    }
+
+    artisans = {
+        culture = rhinish
+        religion = united_christianity
+        size = 120
+    }
+
+    soldiers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 15
+    }
+
+    farmers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 1020
+    }
+
+    aristocrats = {
+        culture = rhinish
+        religion = united_christianity
+        size = 270
+    }
+
+    clergymen = {
+        culture = rhinish
+        religion = united_christianity
+        size = 270
+    }
+
+    artisans = {
+        culture = rhinish
+        religion = united_christianity
+        size = 1410
+    }
+
+    soldiers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 300
+    }
+
+    farmers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 13350
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 18
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 48
+    }
+
+    soldiers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 6
+    }
+
+    farmers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 408
+    }
+
+    aristocrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 108
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 108
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 564
+    }
+
+    soldiers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 120
+    }
+
+    farmers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 5340
+    }
+}
+#Siegburg (104000/26000 POPS)
+2561 = {
+    aristocrats = {
+        culture = north_german
+        religion = united_christianity
+        size = 32
+    }
+
+    clergymen = {
+        culture = north_german
+        religion = united_christianity
+        size = 32
+    }
+
+    artisans = {
+        culture = north_german
+        religion = united_christianity
+        size = 176
+    }
+
+    soldiers = {
+        culture = north_german
+        religion = united_christianity
+        size = 208
+    }
+
+    farmers = {
+        culture = north_german
+        religion = united_christianity
+        size = 1168
+    }
+
+    aristocrats = {
+        culture = north_german
+        religion = united_christianity
+        size = 8
+    }
+
+    clergymen = {
+        culture = north_german
+        religion = united_christianity
+        size = 8
+    }
+
+    artisans = {
+        culture = north_german
+        religion = united_christianity
+        size = 52
+    }
+
+    soldiers = {
+        culture = north_german
+        religion = united_christianity
+        size = 12
+    }
+
+    farmers = {
+        culture = north_german
+        religion = united_christianity
+        size = 480
+    }
+
+    farmers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 12500
+    }
+
+    aristocrats = {
+        culture = rhinish
+        religion = united_christianity
+        size = 120
+    }
+
+    clergymen = {
+        culture = rhinish
+        religion = united_christianity
+        size = 120
+    }
+
+    artisans = {
+        culture = rhinish
+        religion = united_christianity
+        size = 660
+    }
+
+    soldiers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 780
+    }
+
+    farmers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 4380
+    }
+
+    aristocrats = {
+        culture = rhinish
+        religion = united_christianity
+        size = 30
+    }
+
+    clergymen = {
+        culture = rhinish
+        religion = united_christianity
+        size = 30
+    }
+
+    artisans = {
+        culture = rhinish
+        religion = united_christianity
+        size = 195
+    }
+
+    soldiers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 45
+    }
+
+    farmers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 1800
+    }
+
+    aristocrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 48
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 48
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 264
+    }
+
+    soldiers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 312
+    }
+
+    farmers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 1752
+    }
+
+    aristocrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 12
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 12
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 78
+    }
+
+    soldiers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 18
+    }
+
+    farmers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 720
+    }
+}
+#Westphalia Region (1390000)
+#under the rule of Prussia in 1836
+#Dortmund (380000/95000 POPS)
+580 = {
+    aristocrats = {
+        culture = belter
+        religion = united_christianity
+        size = 250
+    }
+
+    bureaucrats = {
+        culture = belter
+        religion = united_christianity
+        size = 700
+    }
+
+    officers = {
+        culture = belter
+        religion = united_christianity
+        size = 50
+    }
+
+    clergymen = {
+        culture = belter
+        religion = united_christianity
+        size = 275
+    }
+
+    artisans = {
+        culture = belter
+        religion = united_christianity
+        size = 1400
+    }
+
+    soldiers = {
+        culture = belter
+        religion = united_christianity
+        size = 1300
+    }
+
+    farmers = {
+        culture = belter
+        religion = united_christianity
+        size = 14425
+    }
+
+    aristocrats = {
+        culture = belter
+        religion = united_christianity
+        size = 625
+    }
+
+    bureaucrats = {
+        culture = belter
+        religion = united_christianity
+        size = 325
+    }
+
+    clergymen = {
+        culture = belter
+        religion = united_christianity
+        size = 675
+    }
+
+    artisans = {
+        culture = belter
+        religion = united_christianity
+        size = 3300
+    }
+
+    soldiers = {
+        culture = belter
+        religion = united_christianity
+        size = 2400
+    }
+
+    farmers = {
+        culture = belter
+        religion = united_christianity
+        size = 39075
+    }
+
+    clergymen = {
+        culture = belter
+        religion = jewish
+        size = 5
+    }
+
+    artisans = {
+        culture = belter
+        religion = jewish
+        size = 245
+    }
+
+    farmers = {
+        culture = belter
+        religion = united_christianity
+        size = 50000
+    }
+}
+#Munster (464000/116000 POPS)
+581 = {
+    aristocrats = {
+        culture = belter
+        religion = united_christianity
+        size = 200
+    }
+
+    clergymen = {
+        culture = belter
+        religion = united_christianity
+        size = 175
+    }
+
+    artisans = {
+        culture = belter
+        religion = united_christianity
+        size = 1100
+    }
+
+    soldiers = {
+        culture = belter
+        religion = united_christianity
+        size = 500
+    }
+
+    farmers = {
+        culture = belter
+        religion = united_christianity
+        size = 14625
+    }
+
+    aristocrats = {
+        culture = belter
+        religion = united_christianity
+        size = 900
+    }
+
+    clergymen = {
+        culture = belter
+        religion = united_christianity
+        size = 1100
+    }
+
+    artisans = {
+        culture = belter
+        religion = united_christianity
+        size = 4850
+    }
+
+    soldiers = {
+        culture = belter
+        religion = united_christianity
+        size = 3250
+    }
+
+    farmers = {
+        culture = belter
+        religion = united_christianity
+        size = 87000
+    }
+}
+#Minden (216000/54000 POPS)
+582 = {
+    aristocrats = {
+        culture = belter
+        religion = united_christianity
+        size = 300
+    }
+
+    clergymen = {
+        culture = belter
+        religion = united_christianity
+        size = 375
+    }
+
+    artisans = {
+        culture = belter
+        religion = united_christianity
+        size = 1700
+    }
+
+    soldiers = {
+        culture = belter
+        religion = united_christianity
+        size = 1300
+    }
+
+    farmers = {
+        culture = belter
+        religion = united_christianity
+        size = 30725
+    }
+
+    aristocrats = {
+        culture = belter
+        religion = united_christianity
+        size = 200
+    }
+
+    clergymen = {
+        culture = belter
+        religion = united_christianity
+        size = 200
+    }
+
+    artisans = {
+        culture = belter
+        religion = united_christianity
+        size = 1100
+    }
+
+    soldiers = {
+        culture = belter
+        religion = united_christianity
+        size = 1300
+    }
+
+    farmers = {
+        culture = belter
+        religion = united_christianity
+        size = 17300
+    }
+}
+#Siegen (104000/26000 POPS)
+583 = {
+    aristocrats = {
+        culture = north_german
+        religion = united_christianity
+        size = 24
+    }
+
+    clergymen = {
+        culture = north_german
+        religion = united_christianity
+        size = 20
+    }
+
+    artisans = {
+        culture = north_german
+        religion = united_christianity
+        size = 176
+    }
+
+    soldiers = {
+        culture = north_german
+        religion = united_christianity
+        size = 24
+    }
+
+    farmers = {
+        culture = north_german
+        religion = united_christianity
+        size = 1996
+    }
+
+    aristocrats = {
+        culture = north_german
+        religion = united_christianity
+        size = 16
+    }
+
+    clergymen = {
+        culture = north_german
+        religion = united_christianity
+        size = 20
+    }
+
+    artisans = {
+        culture = north_german
+        religion = united_christianity
+        size = 144
+    }
+
+    soldiers = {
+        culture = north_german
+        religion = united_christianity
+        size = 16
+    }
+
+    farmers = {
+        culture = north_german
+        religion = united_christianity
+        size = 924
+    }
+
+    farmers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 5000
+    }
+
+    aristocrats = {
+        culture = rhinish
+        religion = united_christianity
+        size = 90
+    }
+
+    clergymen = {
+        culture = rhinish
+        religion = united_christianity
+        size = 75
+    }
+
+    artisans = {
+        culture = rhinish
+        religion = united_christianity
+        size = 660
+    }
+
+    soldiers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 90
+    }
+
+    farmers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 7485
+    }
+
+    aristocrats = {
+        culture = rhinish
+        religion = united_christianity
+        size = 60
+    }
+
+    clergymen = {
+        culture = rhinish
+        religion = united_christianity
+        size = 75
+    }
+
+    artisans = {
+        culture = rhinish
+        religion = united_christianity
+        size = 540
+    }
+
+    soldiers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 60
+    }
+
+    farmers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 3465
+    }
+
+    aristocrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 36
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 30
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 264
+    }
+
+    soldiers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 36
+    }
+
+    farmers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 2994
+    }
+
+    aristocrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 24
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 30
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 216
+    }
+
+    soldiers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 24
+    }
+
+    farmers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 1386
+    }
+}
+#Korbach (128000/32000 POPS)
+584 = {
+    aristocrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 32
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 28
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 152
+    }
+
+    soldiers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 224
+    }
+
+    farmers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 1644
+    }
+
+    aristocrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 16
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 20
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 104
+    }
+
+    soldiers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 180
+    }
+
+    farmers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 800
+    }
+
+    farmers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 12000
+    }
+
+    aristocrats = {
+        culture = rhinish
+        religion = united_christianity
+        size = 120
+    }
+
+    clergymen = {
+        culture = rhinish
+        religion = united_christianity
+        size = 105
+    }
+
+    artisans = {
+        culture = rhinish
+        religion = united_christianity
+        size = 570
+    }
+
+    soldiers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 840
+    }
+
+    farmers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 6165
+    }
+
+    aristocrats = {
+        culture = rhinish
+        religion = united_christianity
+        size = 60
+    }
+
+    clergymen = {
+        culture = rhinish
+        religion = united_christianity
+        size = 75
+    }
+
+    artisans = {
+        culture = rhinish
+        religion = united_christianity
+        size = 390
+    }
+
+    soldiers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 675
+    }
+
+    farmers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 3000
+    }
+
+    aristocrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 48
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 42
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 228
+    }
+
+    soldiers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 336
+    }
+
+    farmers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 2466
+    }
+
+    aristocrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 24
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 30
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 156
+    }
+
+    soldiers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 270
+    }
+
+    farmers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 1200
+    }
+}
+#under the rule of Lippe in 1836
+#Detmold (98000/24500 POPS)
+585 = {
+    aristocrats = {
+        culture = belter
+        religion = united_christianity
+        size = 250
+    }
+
+    bureaucrats = {
+        culture = belter
+        religion = united_christianity
+        size = 40
+    }
+
+    officers = {
+        culture = belter
+        religion = united_christianity
+        size = 25
+    }
+
+    clergymen = {
+        culture = belter
+        religion = united_christianity
+        size = 225
+    }
+
+    artisans = {
+        culture = belter
+        religion = united_christianity
+        size = 1150
+    }
+
+    soldiers = {
+        culture = belter
+        religion = united_christianity
+        size = 1400
+    }
+
+    farmers = {
+        culture = belter
+        religion = united_christianity
+        size = 20410
+    }
+
+    clergymen = {
+        culture = belter
+        religion = united_christianity
+        size = 20
+    }
+
+    farmers = {
+        culture = belter
+        religion = united_christianity
+        size = 980
+    }
+}
+#Baden Region (1040000)
+#under the rule of Baden in 1836
+#Karlsruhe (632000/158000 POPS)
+586 = {
+    aristocrats = {
+        culture = swabian
+        religion = united_christianity
+        size = 1600
+    }
+
+    bureaucrats = {
+        culture = swabian
+        religion = united_christianity
+        size = 700
+    }
+
+    officers = {
+        culture = swabian
+        religion = united_christianity
+        size = 350
+    }
+
+    clergymen = {
+        culture = swabian
+        religion = united_christianity
+        size = 1500
+    }
+
+    artisans = {
+        culture = swabian
+        religion = united_christianity
+        size = 7650
+    }
+
+    soldiers = {
+        culture = swabian
+        religion = united_christianity
+        size = 1550
+    }
+
+    farmers = {
+        culture = swabian
+        religion = united_christianity
+        size = 139650
+    }
+
+    clergymen = {
+        culture = swabian
+        religion = jewish
+        size = 5
+    }
+
+    artisans = {
+        culture = swabian
+        religion = jewish
+        size = 245
+    }
+
+    clergymen = {
+        culture = swabian
+        religion = united_christianity
+        size = 75
+    }
+
+    artisans = {
+        culture = swabian
+        religion = united_christianity
+        size = 250
+    }
+
+    soldiers = {
+        culture = swabian
+        religion = united_christianity
+        size = 25
+    }
+
+    farmers = {
+        culture = swabian
+        religion = united_christianity
+        size = 4400
+    }
+}
+#Freiburg (244000/61000 POPS)
+587 = {
+    aristocrats = {
+        culture = swabian
+        religion = united_christianity
+        size = 600
+    }
+
+    clergymen = {
+        culture = swabian
+        religion = united_christianity
+        size = 575
+    }
+
+    artisans = {
+        culture = swabian
+        religion = united_christianity
+        size = 2850
+    }
+
+    soldiers = {
+        culture = swabian
+        religion = united_christianity
+        size = 1100
+    }
+
+    farmers = {
+        culture = swabian
+        religion = united_christianity
+        size = 51975
+    }
+
+    clergymen = {
+        culture = swabian
+        religion = united_christianity
+        size = 75
+    }
+
+    artisans = {
+        culture = swabian
+        religion = united_christianity
+        size = 200
+    }
+
+    soldiers = {
+        culture = swabian
+        religion = united_christianity
+        size = 25
+    }
+
+    farmers = {
+        culture = swabian
+        religion = united_christianity
+        size = 3700
+    }
+}
+#Konstanz (164000/41000 POPS)
+588 = {
+    aristocrats = {
+        culture = swabian
+        religion = united_christianity
+        size = 350
+    }
+
+    clergymen = {
+        culture = swabian
+        religion = united_christianity
+        size = 375
+    }
+
+    artisans = {
+        culture = swabian
+        religion = united_christianity
+        size = 1850
+    }
+
+    soldiers = {
+        culture = swabian
+        religion = united_christianity
+        size = 400
+    }
+
+    farmers = {
+        culture = swabian
+        religion = united_christianity
+        size = 34025
+    }
+
+    clergymen = {
+        culture = swabian
+        religion = united_christianity
+        size = 75
+    }
+
+    artisans = {
+        culture = swabian
+        religion = united_christianity
+        size = 200
+    }
+
+    soldiers = {
+        culture = swabian
+        religion = united_christianity
+        size = 25
+    }
+
+    farmers = {
+        culture = swabian
+        religion = united_christianity
+        size = 3700
+    }
+}
+#Wurttemburg Region (1308000)
+#under the rule of Wurttemburg in 1836
+#Stuttgart (676000/169000 POPS)
+589 = {
+    aristocrats = {
+        culture = swabian
+        religion = united_christianity
+        size = 1500
+    }
+
+    bureaucrats = {
+        culture = swabian
+        religion = united_christianity
+        size = 850
+    }
+
+    officers = {
+        culture = swabian
+        religion = united_christianity
+        size = 450
+    }
+
+    clergymen = {
+        culture = swabian
+        religion = united_christianity
+        size = 1500
+    }
+
+    artisans = {
+        culture = swabian
+        religion = united_christianity
+        size = 9500
+    }
+
+    soldiers = {
+        culture = swabian
+        religion = united_christianity
+        size = 7000
+    }
+
+    farmers = {
+        culture = swabian
+        religion = united_christianity
+        size = 131200
+    }
+
+    clergymen = {
+        culture = swabian
+        religion = united_christianity
+        size = 175
+    }
+
+    artisans = {
+        culture = swabian
+        religion = united_christianity
+        size = 1500
+    }
+
+    soldiers = {
+        culture = swabian
+        religion = united_christianity
+        size = 150
+    }
+
+    farmers = {
+        culture = swabian
+        religion = united_christianity
+        size = 15175
+    }
+}
+#Heilbronn (340000/85000 POPS)
+590 = {
+    aristocrats = {
+        culture = swabian
+        religion = united_christianity
+        size = 850
+    }
+
+    clergymen = {
+        culture = swabian
+        religion = united_christianity
+        size = 825
+    }
+
+    artisans = {
+        culture = swabian
+        religion = united_christianity
+        size = 4250
+    }
+
+    soldiers = {
+        culture = swabian
+        religion = united_christianity
+        size = 850
+    }
+
+    farmers = {
+        culture = swabian
+        religion = united_christianity
+        size = 79225
+    }
+}
+#Tubingen (292000/73000 POPS)
+591 = {
+    aristocrats = {
+        culture = swabian
+        religion = united_christianity
+        size = 400
+    }
+
+    clergymen = {
+        culture = swabian
+        religion = united_christianity
+        size = 375
+    }
+
+    artisans = {
+        culture = swabian
+        religion = united_christianity
+        size = 1900
+    }
+
+    soldiers = {
+        culture = swabian
+        religion = united_christianity
+        size = 400
+    }
+
+    farmers = {
+        culture = swabian
+        religion = united_christianity
+        size = 36925
+    }
+
+    clergymen = {
+        culture = swabian
+        religion = united_christianity
+        size = 325
+    }
+
+    artisans = {
+        culture = swabian
+        religion = united_christianity
+        size = 1750
+    }
+
+    soldiers = {
+        culture = swabian
+        religion = united_christianity
+        size = 300
+    }
+
+    farmers = {
+        culture = swabian
+        religion = united_christianity
+        size = 30625
+    }
+}
+#Swabia Region (833000)
+#under the rule of Bavaria in 1836
+#Augsburg (364000/91000 POPS)
+592 = {
+    aristocrats = {
+        culture = bavarian
+        religion = united_christianity
+        size = 1100
+    }
+
+    clergymen = {
+        culture = bavarian
+        religion = united_christianity
+        size = 1050
+    }
+
+    artisans = {
+        culture = bavarian
+        religion = united_christianity
+        size = 10000
+    }
+
+    soldiers = {
+        culture = bavarian
+        religion = united_christianity
+        size = 1100
+    }
+
+    farmers = {
+        culture = bavarian
+        religion = united_christianity
+        size = 77950
+    }
+}
+#under the rule of Wurttemburg in 1836
+#Ulm (408000/102000 POPS)
+593 = {
+    clergymen = {
+        culture = swabian
+        religion = united_christianity
+        size = 100
+    }
+
+    artisans = {
+        culture = swabian
+        religion = united_christianity
+        size = 550
+    }
+
+    soldiers = {
+        culture = swabian
+        religion = united_christianity
+        size = 4000
+    }
+
+    farmers = {
+        culture = swabian
+        religion = united_christianity
+        size = 6350
+    }
+
+    aristocrats = {
+        culture = swabian
+        religion = united_christianity
+        size = 900
+    }
+
+    clergymen = {
+        culture = swabian
+        religion = united_christianity
+        size = 925
+    }
+
+    artisans = {
+        culture = swabian
+        religion = united_christianity
+        size = 4550
+    }
+
+    soldiers = {
+        culture = swabian
+        religion = united_christianity
+        size = 900
+    }
+
+    farmers = {
+        culture = swabian
+        religion = united_christianity
+        size = 83750
+    }
+}
+#under the rule of Prussia in 1836
+#Sigmaringen (61000/15250 POPS)
+594 = {
+    aristocrats = {
+        culture = swabian
+        religion = united_christianity
+        size = 150
+    }
+
+    bureaucrats = {
+        culture = swabian
+        religion = united_christianity
+        size = 20
+    }
+
+    officers = {
+        culture = swabian
+        religion = united_christianity
+        size = 15
+    }
+
+    clergymen = {
+        culture = swabian
+        religion = united_christianity
+        size = 150
+    }
+
+    artisans = {
+        culture = swabian
+        religion = united_christianity
+        size = 775
+    }
+
+    soldiers = {
+        culture = swabian
+        religion = united_christianity
+        size = 1300
+    }
+
+    farmers = {
+        culture = swabian
+        religion = united_christianity
+        size = 12840
+    }
+}
+#Franconia Region (1876000)
+#under the rule of Bavaria in 1836
+#Nuremburg (904000/226000 POPS)
+595 = {
+    aristocrats = {
+        culture = bavarian
+        religion = united_christianity
+        size = 1350
+    }
+
+    bureaucrats = {
+        culture = bavarian
+        religion = united_christianity
+        size = 1050
+    }
+
+    officers = {
+        culture = bavarian
+        religion = united_christianity
+        size = 450
+    }
+
+    clergymen = {
+        culture = bavarian
+        religion = united_christianity
+        size = 1125
+    }
+
+    artisans = {
+        culture = bavarian
+        religion = united_christianity
+        size = 4500
+    }
+
+    soldiers = {
+        culture = bavarian
+        religion = united_christianity
+        size = 2000
+    }
+
+    farmers = {
+        culture = bavarian
+        religion = united_christianity
+        size = 93375
+    }
+
+    aristocrats = {
+        culture = bavarian
+        religion = united_christianity
+        size = 1450
+    }
+
+    clergymen = {
+        culture = bavarian
+        religion = united_christianity
+        size = 1375
+    }
+
+    artisans = {
+        culture = bavarian
+        religion = united_christianity
+        size = 5500
+    }
+
+    soldiers = {
+        culture = bavarian
+        religion = united_christianity
+        size = 1500
+    }
+
+    farmers = {
+        culture = bavarian
+        religion = united_christianity
+        size = 111275
+    }
+
+    clergymen = {
+        culture = bavarian
+        religion = jewish
+        size = 20
+    }
+
+    artisans = {
+        culture = bavarian
+        religion = jewish
+        size = 980
+    }
+}
+#Aschaffenburg (136000/34000 POPS)
+596 = {
+    aristocrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 140
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 140
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 700
+    }
+
+    soldiers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 140
+    }
+
+    farmers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 6480
+    }
+
+    farmers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 15000
+    }
+
+    aristocrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 210
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 210
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 1050
+    }
+
+    soldiers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 210
+    }
+
+    farmers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 9720
+    }
+}
+#Wurzburg (300000/75000 POPS)
+597 = {
+    aristocrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 300
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 300
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 2800
+    }
+
+    soldiers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 440
+    }
+
+    farmers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 26200
+    }
+
+    aristocrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 450
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 450
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 4200
+    }
+
+    soldiers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 660
+    }
+
+    farmers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 39300
+    }
+}
+#Bayreuth (536000/134000 POPS)
+598 = {
+    aristocrats = {
+        culture = bavarian
+        religion = united_christianity
+        size = 550
+    }
+
+    clergymen = {
+        culture = bavarian
+        religion = united_christianity
+        size = 550
+    }
+
+    artisans = {
+        culture = bavarian
+        religion = united_christianity
+        size = 2500
+    }
+
+    soldiers = {
+        culture = bavarian
+        religion = united_christianity
+        size = 600
+    }
+
+    farmers = {
+        culture = bavarian
+        religion = united_christianity
+        size = 45800
+    }
+
+    clergymen = {
+        culture = bavarian
+        religion = united_christianity
+        size = 900
+    }
+
+    artisans = {
+        culture = bavarian
+        religion = united_christianity
+        size = 4900
+    }
+
+    soldiers = {
+        culture = bavarian
+        religion = united_christianity
+        size = 900
+    }
+
+    farmers = {
+        culture = bavarian
+        religion = united_christianity
+        size = 77300
+    }
+}
+#Bavaria Region (1536000)
+#under the rule of Bavaria in 1836
+#Munich (960000/220000 POPS)
+599 = {
+    aristocrats = {
+        culture = bavarian
+        religion = united_christianity
+        size = 2100
+    }
+
+    bureaucrats = {
+        culture = bavarian
+        religion = united_christianity
+        size = 800
+    }
+
+    officers = {
+        culture = bavarian
+        religion = united_christianity
+        size = 400
+    }
+
+    clergymen = {
+        culture = bavarian
+        religion = united_christianity
+        size = 2050
+    }
+
+    artisans = {
+        culture = bavarian
+        religion = united_christianity
+        size = 10000
+    }
+
+    artisans = {
+        culture = bavarian
+        religion = united_christianity
+        size = 10000
+    }
+
+    artisans = {
+        culture = bavarian
+        religion = united_christianity
+        size = 1100
+    }
+
+    soldiers = {
+        culture = bavarian
+        religion = united_christianity
+        size = 3000
+    }
+
+    farmers = {
+        culture = bavarian
+        religion = united_christianity
+        size = 175650
+    }
+
+    clergymen = {
+        culture = bavarian
+        religion = united_christianity
+        size = 125
+    }
+
+    artisans = {
+        culture = bavarian
+        religion = united_christianity
+        size = 2000
+    }
+
+    soldiers = {
+        culture = bavarian
+        religion = united_christianity
+        size = 150
+    }
+
+    farmers = {
+        culture = bavarian
+        religion = united_christianity
+        size = 11475
+    }
+
+    clergymen = {
+        culture = bavarian
+        religion = jewish
+        size = 25
+    }
+
+    artisans = {
+        culture = bavarian
+        religion = jewish
+        size = 1225
+    }
+}
+#Landshut (164000/41000 POPS)
+600 = {
+    aristocrats = {
+        culture = bavarian
+        religion = united_christianity
+        size = 400
+    }
+
+    clergymen = {
+        culture = bavarian
+        religion = united_christianity
+        size = 425
+    }
+
+    artisans = {
+        culture = bavarian
+        religion = united_christianity
+        size = 2000
+    }
+
+    soldiers = {
+        culture = bavarian
+        religion = united_christianity
+        size = 450
+    }
+
+    farmers = {
+        culture = bavarian
+        religion = united_christianity
+        size = 37725
+    }
+}
+#Ingolstadt (164000/41000 POPS)
+601 = {
+    aristocrats = {
+        culture = bavarian
+        religion = united_christianity
+        size = 400
+    }
+
+    clergymen = {
+        culture = bavarian
+        religion = united_christianity
+        size = 425
+    }
+
+    artisans = {
+        culture = bavarian
+        religion = united_christianity
+        size = 2000
+    }
+
+    soldiers = {
+        culture = bavarian
+        religion = united_christianity
+        size = 1100
+    }
+
+    farmers = {
+        culture = bavarian
+        religion = united_christianity
+        size = 37175
+    }
+}
+#Regensburg (248000/62000 POPS)
+602 = {
+    aristocrats = {
+        culture = bavarian
+        religion = united_christianity
+        size = 650
+    }
+
+    clergymen = {
+        culture = bavarian
+        religion = united_christianity
+        size = 625
+    }
+
+    artisans = {
+        culture = bavarian
+        religion = united_christianity
+        size = 5000
+    }
+
+    soldiers = {
+        culture = bavarian
+        religion = united_christianity
+        size = 1100
+    }
+
+    farmers = {
+        culture = bavarian
+        religion = united_christianity
+        size = 54725
+    }
+}
+#Silesia Region (200000) #see Czechia.txt and Poland.txt for balance of region
+#under the rule of Prussia in 1836
+#Gorlitz (200000/50000 POPS)
+687 = {
+    aristocrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 850
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 400
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 2300
+    }
+
+    soldiers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 1400
+    }
+
+    farmers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 51050
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 70
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 200
+    }
+
+    soldiers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 50
+    }
+
+    farmers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 3680
+    }
+}
+#East Prussia Region (712000) #see Poland.txt and Lithuania.txt for balance of region
+#under the rule of Prussia in 1836
+#Konigsberg (484000/121000 POPS)
+695 = {
+    aristocrats = {
+        culture = prussian
+        religion = united_christianity
+        size = 2250
+    }
+
+    bureaucrats = {
+        culture = prussian
+        religion = united_christianity
+        size = 1300
+    }
+
+    officers = {
+        culture = prussian
+        religion = united_christianity
+        size = 250
+    }
+
+    clergymen = {
+        culture = prussian
+        religion = united_christianity
+        size = 825
+    }
+
+    artisans = {
+        culture = prussian
+        religion = united_christianity
+        size = 10000
+    }
+
+    artisans = {
+        culture = prussian
+        religion = united_christianity
+        size = 5000
+    }
+
+    soldiers = {
+        culture = prussian
+        religion = united_christianity
+        size = 3300
+    }
+
+    farmers = {
+        culture = prussian
+        religion = united_christianity
+        size = 68575
+    }
+
+    clergymen = {
+        culture = prussian
+        religion = united_christianity
+        size = 175
+    }
+
+    artisans = {
+        culture = prussian
+        religion = united_christianity
+        size = 1100
+    }
+
+    soldiers = {
+        culture = prussian
+        religion = united_christianity
+        size = 1300
+    }
+
+    farmers = {
+        culture = prussian
+        religion = united_christianity
+        size = 17725
+    }
+
+    clergymen = {
+        culture = prussian
+        religion = jewish
+        size = 5
+    }
+
+    artisans = {
+        culture = prussian
+        religion = jewish
+        size = 495
+    }
+
+    clergymen = {
+        culture = polish
+        religion = catholic
+        size = 75
+    }
+
+    artisans = {
+        culture = polish
+        religion = catholic
+        size = 250
+    }
+
+    soldiers = {
+        culture = polish
+        religion = catholic
+        size = 50
+    }
+
+    farmers = {
+        culture = polish
+        religion = catholic
+        size = 4625
+    }
+
+    clergymen = {
+        culture = lithuanian
+        religion = united_christianity
+        size = 50
+    }
+
+    artisans = {
+        culture = lithuanian
+        religion = united_christianity
+        size = 250
+    }
+
+    soldiers = {
+        culture = lithuanian
+        religion = united_christianity
+        size = 50
+    }
+
+    farmers = {
+        culture = lithuanian
+        religion = united_christianity
+        size = 5650
+    }
+}
+#Gumbinnen (228000/57000 POPS) #now part of Russia
+697 = {
+    aristocrats = {
+        culture = prussian
+        religion = united_christianity
+        size = 1100
+    }
+
+    clergymen = {
+        culture = prussian
+        religion = united_christianity
+        size = 475
+    }
+
+    artisans = {
+        culture = prussian
+        religion = united_christianity
+        size = 2600
+    }
+
+    soldiers = {
+        culture = prussian
+        religion = united_christianity
+        size = 550
+    }
+
+    farmers = {
+        culture = prussian
+        religion = united_christianity
+        size = 47275
+    }
+
+    clergymen = {
+        culture = polish
+        religion = catholic
+        size = 25
+    }
+
+    artisans = {
+        culture = polish
+        religion = catholic
+        size = 100
+    }
+
+    soldiers = {
+        culture = polish
+        religion = catholic
+        size = 25
+    }
+
+    farmers = {
+        culture = polish
+        religion = catholic
+        size = 1850
+    }
+
+    clergymen = {
+        culture = lithuanian
+        religion = united_christianity
+        size = 25
+    }
+
+    artisans = {
+        culture = lithuanian
+        religion = united_christianity
+        size = 150
+    }
+
+    soldiers = {
+        culture = lithuanian
+        religion = united_christianity
+        size = 25
+    }
+
+    farmers = {
+        culture = lithuanian
+        religion = united_christianity
+        size = 3800
+    }
+}

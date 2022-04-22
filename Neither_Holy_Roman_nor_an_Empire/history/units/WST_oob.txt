@@ -1,0 +1,33 @@
+army = {
+	name = "I Armee"
+	location = 575
+	regiment = {
+		name= "1.1. Infanteriedivision"
+		type = infantry
+		home = 575
+	}
+
+	regiment = {
+		name= "1.2. Infanteriedivision"
+		type = infantry
+		home = 575
+	}
+	
+	regiment = {
+		name= "1.3. Infanteriedivision"
+		type = infantry
+		home = 578
+	}
+	
+	regiment = {
+		name= "1.1. Artilleriedivision"
+		type = artillery
+		home = 578
+	}
+	
+	regiment = {
+		name= "1.1. Kavalleriedivision"
+		type = dragoon
+		home = 576
+	}
+}

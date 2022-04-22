@@ -1,0 +1,442 @@
+	country_event = {
+	id = 90527
+	title = "What duke to choose?"
+	desc = "We must now choose where this Italian state will be the leader of this North Italian State."
+	picture = "Administration"
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+	name =  "The Duke of Sardinia-Piedemont is quite competent."
+	set_global_flag = sar_is_cool
+	}
+	option = {
+	name = "The Doge of Genoa shall lead."
+	set_global_flag = gen_is_cool
+	}
+	option = {
+	name = "The Duke of Lombardia is the man for the job."
+	set_global_flag = lom_is_cool
+	}
+	option = {
+	name = "The Doge of Venice shall be chosen."
+	set_global_flag = ven_is_cool
+	}
+	option = {
+	name = "The Duke of Parma is a good statesman"
+	set_global_flag = par_is_cool
+	prestige = -1
+	}
+	}
+	
+	country_event = {
+	id = 90528
+	title = "Viva Italia!"
+	desc = "Viva Italia, may the state live long!"
+	picture = "Administration"
+	fire_only_once = yes
+	
+	trigger = {
+	exists = HRE
+	TAG = SAR
+	has_global_flag = sar_is_cool
+	#has_global_flag = yum_yum_venice
+	NOT = { has_global_flag = yum_yum_venice }
+	}
+	mean_time_to_happen = {
+	months = 1
+	}
+	option = {
+	name = "Viva Italia, Fellow Countrymen!"
+	change_tag = HRI
+	#inherit = SAR
+	inherit = LOM
+	inherit = GEN
+	inherit = VEN
+	AUS = { create_vassal = HRI }
+	}
+	}	
+	
+	country_event = {
+	id = 90529
+	title = "Viva Italia!"
+	desc = "Viva Italia, may the state live long!"
+	picture = "Administration"
+	fire_only_once = yes
+	
+	trigger = {
+	exists = HRE
+	TAG = SAR
+	has_global_flag = sar_is_cool
+	has_global_flag = yum_yum_venice
+	}
+	mean_time_to_happen = {
+	months = 1
+	}
+	option = {
+	name = "Viva Italia, Fellow Countrymen!"
+	change_tag = HRI
+	#inherit = SAR
+	inherit = LOM
+	inherit = PAR
+	inherit = GEN
+	#inherit = VEN
+	AUS = { create_vassal = HRI }
+	}
+	}	
+	
+	country_event = {
+	id = 90530
+	title = "Viva Italia!"
+	desc = "Viva Italia, may the state live long!"
+	picture = "Administration"
+	fire_only_once = yes
+	
+	trigger = {
+	exists = HRE
+	TAG = LOM
+	has_global_flag = lom_is_cool
+	has_global_flag = yum_yum_venice
+	#NOT = { has_global_flag = yum_yum_venice }
+	}
+	mean_time_to_happen = {
+	months = 1
+	}
+	option = {
+	name = "Viva Italia, Fellow Countrymen!"
+	change_tag = HRI
+	inherit = SAR
+	#inherit = LOM
+	inherit = GEN
+	inherit = PAR
+	#inherit = VEN
+	AUS = { create_vassal = HRI }
+	}
+	}
+	
+	country_event = {
+	id = 90531
+	title = "Viva Italia!"
+	desc = "Viva Italia, may the state live long!"
+	picture = "Administration"
+	fire_only_once = yes
+	
+	trigger = {
+	exists = HRE
+	TAG = LOM
+	has_global_flag = lom_is_cool
+	#has_global_flag = yum_yum_venice
+	NOT = { has_global_flag = yum_yum_venice }
+	}
+	mean_time_to_happen = {
+	months = 1
+	}
+	option = {
+	name = "Viva Italia, Fellow Countrymen!"
+	change_tag = HRI
+	inherit = SAR
+	#inherit = LOM
+	inherit = GEN
+	inherit = PAR
+	inherit = VEN
+	AUS = { create_vassal = HRI }
+	}
+	}
+	
+	country_event = {
+	id = 90532
+	title = "Viva Italia!"
+	desc = "Viva Italia, may the state live long!"
+	picture = "Administration"
+	fire_only_once = yes
+	
+	trigger = {
+	exists = HRE
+	TAG = GEN
+	has_global_flag = gen_is_cool
+	#has_global_flag = yum_yum_venice
+	NOT = { has_global_flag = yum_yum_venice }
+	}
+	mean_time_to_happen = {
+	months = 1
+	}
+	option = {
+	name = "Viva Italia, Fellow Countrymen!"
+	change_tag = HRI
+	inherit = SAR
+	inherit = LOM
+	inherit = PAR
+	#inherit = GEN
+	inherit = VEN
+	AUS = { create_vassal = HRI }
+	}
+	}
+	
+	country_event = {
+	id = 90533
+	title = "Viva Italia!"
+	desc = "Viva Italia, may the state live long!"
+	picture = "Administration"
+	fire_only_once = yes
+	
+	trigger = {
+	exists = HRE
+	TAG = GEN
+	has_global_flag = gen_is_cool
+	has_global_flag = yum_yum_venice
+	#NOT = { has_global_flag = yum_yum_venice }
+	}
+	mean_time_to_happen = {
+	months = 1
+	}
+	option = {
+	name = "Viva Italia, Fellow Countrymen!"
+	change_tag = HRI
+	inherit = SAR
+	inherit = LOM
+	inherit = PAR
+	#inherit = GEN
+	#inherit = VEN
+	AUS = { create_vassal = HRI }
+	}
+	}
+	
+	country_event = {
+	id = 90534
+	title = "Viva Italia!"
+	desc = "Viva Italia, may the state live long!"
+	picture = "Administration"
+	fire_only_once = yes
+	
+	trigger = {
+	exists = HRE
+	TAG = VEN
+	has_global_flag = ven_is_cool
+	NOT = { has_global_flag = yum_yum_venice }
+	}
+	mean_time_to_happen = {
+	months = 1
+	}
+	option = {
+	name = "Viva Italia, Fellow Countrymen!"
+	change_tag = HRI
+	inherit = SAR
+	inherit = LOM
+	inherit = PAR
+	inherit = GEN
+	#inherit = VEN
+	AUS = { create_vassal = HRI }
+	}
+	}
+	
+	country_event = {
+	id = 90535
+	title = "Viva Italia!"
+	desc = "Viva Italia, may the state live long!"
+	picture = "Administration"
+	fire_only_once = yes
+	
+	trigger = {
+	exists = HRE
+	TAG = GEN
+	has_global_flag = par_is_cool
+	#has_global_flag = yum_yum_venice
+	NOT = { has_global_flag = yum_yum_venice }
+	}
+	mean_time_to_happen = {
+	months = 1
+	}
+	option = {
+	name = "Viva Italia, Fellow Countrymen!"
+	change_tag = HRI
+	inherit = SAR
+	inherit = LOM
+	#inherit = PAR
+	inherit = GEN
+	inherit = VEN
+	AUS = { create_vassal = HRI }
+	}
+	}
+	
+	country_event = {
+	id = 90536
+	title = "Viva Italia!"
+	desc = "Viva Italia, may the state live long!"
+	picture = "Administration"
+	fire_only_once = yes
+	
+	trigger = {
+	exists = HRE
+	TAG = PAR
+	has_global_flag = par_is_cool
+	has_global_flag = yum_yum_venice
+	#NOT = { has_global_flag = yum_yum_venice }
+	}
+	mean_time_to_happen = {
+	months = 1
+	}
+	option = {
+	name = "Viva Italia, Fellow Countrymen!"
+	change_tag = HRI
+	inherit = SAR
+	inherit = LOM
+	#inherit = PAR
+	inherit = GEN
+	#inherit = VEN
+	AUS = { create_vassal = HRI }
+	}
+	}
+
+	country_event = {
+	id = 90537
+	title = "Lazy Modder Event NO.1"
+	desc = "sorry for annoying you with this event but i'm too lazy to put extra cores in"
+	picture = "Administration"
+	fire_only_once = yes
+	
+	trigger = {
+	tag = HRI
+	NOT = { HRI = { is_core = 722 } } 
+	}
+	mean_time_to_happen = {
+	months = 1
+	
+	modifier = {
+			factor = 0.01
+			tag = HRI
+}	
+	}
+	option = {
+	name = "smh just put it in dude not that hard"
+	any_owned = {
+	limit = {
+	is_core = NOC
+	}
+	add_core = HRI
+	}
+	}
+	}
+	
+	country_event = {
+	id = 90538
+	title = "Closer Intergration with the Empire?"
+	desc = "Shall we become a vassal to the Holy Roman Emperor?"
+	picture = "Administration"
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+	name = "Yes, we should. It is in our own best Interests."
+	AUS = { create_vassal = THIS }
+	any_owned = {
+	limit = {
+	is_core = THIS
+	}
+	add_province_modifier = {
+	name = light_resistance
+	duration = 2500
+	}
+	}
+	}
+	option = {
+	name = "No, Ofcourse not."
+	AUS = {
+	casus_belli = {
+	target = THIS
+	type = make_puppet
+	months = 10
+	}
+	}
+	}
+	}
+	
+	country_event = {
+	id = 90539
+	title = "Industrial Payment"
+	desc = "It is time for us to pay the Industrial funding to the Italians"
+	picture = "Administration"
+	
+	trigger = {
+	has_country_flag = ita_industry_money
+	has_global_flag = yum_yum_venice
+	NOT = { has_country_modifier = industry_money_paid }
+	NOT = { has_country_modifier = industry_money_not_paid }
+	}
+	
+	option = {
+	name = "We shall pay."
+	money = -100000
+	SAR = { country_event = 90540 }
+	GEN = { country_event = 90541 }
+	LOM = { country_event = 90541 }
+	PAR = { country_event = 90541 }
+	#VEN = { country_event = 90541 }
+	}
+	}
+	
+	country_event = {
+	id = 90542
+	title = "Industrial Payment"
+	desc = "It is time for us to pay the Industrial funding to the Italians"
+	picture = "Administration"
+	
+	trigger = {
+	has_country_flag = ita_industry_money
+	NOT = { has_global_flag = yum_yum_venice }
+	NOT = { has_country_modifier = industry_money_paid }
+	NOT = { has_country_modifier = industry_money_not_paid }
+	}
+	
+	option = {
+	name = "We shall pay."
+	money = -120000
+	SAR = { country_event = 90540 }
+	GEN = { country_event = 90541 }
+	LOM = { country_event = 90541 }
+	PAR = { country_event = 90541 }
+	VEN = { country_event = 90541 }
+	}
+	}
+	
+	
+	country_event = {
+	id = 90540
+	title = "Industrial Payment"
+	desc = "Austrian payment has come in, this is to fund our Industry."
+	picture = "Administration"
+	is_triggered_only = yes
+	option = {
+	name = "That's quite nice of the Austrians."
+	money = 40000
+	AUS =  {
+	relation = {
+	who = SAR
+	value = 10
+	}
+	}
+	relation = {
+	who = AUS
+	value = 10
+	}
+	}
+	}
+	
+	country_event = {
+	id = 90541
+	title = "Industrial Payment"
+	desc = "Austrian payment has come in, this is to fund our Industry."
+	picture = "Administration"
+	is_triggered_only = yes
+	option = {
+	name = "That's quite nice of the Austrians."
+	money = 20000
+	AUS =  {
+	relation = {
+	who = THIS
+	value = 10
+	}
+	}
+	relation = {
+	who = AUS
+	value = 10
+	}
+	}
+	}

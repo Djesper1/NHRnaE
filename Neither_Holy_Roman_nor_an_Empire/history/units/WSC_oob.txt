@@ -1,0 +1,39 @@
+army = {
+	name = "The Irish Monarchist Army"
+	location = 260
+	regiment = {
+		name= "1.1 Dragoons"
+		type = dragoon
+		home = 264
+	}
+
+	regiment = {
+		name= "1.1 Artillery"
+		type = artillery
+		home = 259
+	}
+
+	regiment = {
+		name= "1.2 Artillery"
+		type = artillery
+		home = 258
+	}
+
+	regiment = {
+		name= "1.1 Infantry"
+		type = infantry
+		home = 260
+	}
+
+	regiment = {
+		name= "1.2 Infantry"
+		type = infantry
+		home = 261
+	}
+	
+	regiment = {
+		name= "1.3 Infantry"
+		type = infantry
+		home = 262
+	}
+}

@@ -1,0 +1,21 @@
+army = {
+	name = "Vlaamse Leger"
+	location = 388
+	regiment = {
+		name= "1.1. Infanterie divisie"
+		type = infantry
+		home = 388
+	}
+
+	regiment = {
+		name= "1.2. Infanterie divisie"
+		type = infantry
+		home = 389
+	}
+	
+	regiment = {
+		name= "1.1. Kalverie divisie"
+		type = dragoon
+		home = 393
+	}
+}

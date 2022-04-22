@@ -1,0 +1,9 @@
+owner = NEU
+controller = NEU
+trade_goods = grain
+life_rating = 30
+colonial = 2
+
+add_core = NEU
+
+colonial = yes

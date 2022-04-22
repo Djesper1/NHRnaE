@@ -1,0 +1,6 @@
+trade_goods = fish
+life_rating = 15
+
+	owner = PYO
+	controller = PYO
+add_core = PYO

@@ -1,0 +1,350 @@
+			# An Age of Liberalism France
+country_event = {
+	id = 10001
+	title = "An Age of Liberalism"
+	desc = "EVTDESC10001_FRA"
+		picture = "Administration"
+
+	trigger = {
+		civilized = yes
+		NOT = {
+			OR = {
+				has_country_flag = liberal_revolution_in_progress
+				has_country_flag = liberal_revolution_fired
+				has_country_flag = had_liberal_revolution
+			}
+			is_ideology_enabled = socialist
+			vote_franschise = universal_weighted_voting
+			vote_franschise = universal_voting
+		}
+		NOT = {
+			has_global_flag = liberal_revolutions_should_now_fire
+		}
+		OR = {
+		tag = FRA
+		tag = BRG
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 48
+		modifier = {
+			factor = 0.1
+			has_global_flag = liberal_revolution_somewhere
+		}
+	}
+
+	option = {
+		name = "EV_10001_A"
+		ai_chance = {
+		factor = 7 }
+		add_country_modifier = {
+			name = global_liberal_agitation
+			duration = -1
+		}
+		any_pop = {
+			limit = {
+				location = {
+					is_colonial = no
+				}
+			}
+			ideology = {
+				value = liberal
+				factor = 0.15
+			}
+			consciousness = 3
+		}
+		set_global_flag = liberal_revolution_somewhere
+		set_country_flag = liberal_revolution_in_progress
+		set_country_flag = death_liberals_fra
+	}
+	
+	option = {
+		name = "EV_10001_B"
+		add_country_modifier = {
+			name = global_liberal_agitation
+			duration = -1
+		}
+		any_pop = {
+			limit = {
+				location = {
+					is_colonial = no
+				}
+			}
+			ideology = {
+				value = liberal
+				factor = 0.15
+			}
+			consciousness = 3
+		}
+		set_global_flag = liberal_revolution_somewhere
+		set_country_flag = liberal_revolution_in_progress
+		set_country_flag = support_liberals_fra
+	}
+}
+
+	country_event = {
+	id = 970300
+	title = "The Election of 1837"
+	desc = "The Election of 1837 will be a decisive election in France and it will determine the future of the country. Which side shall we support?"
+	picture = ""
+	fire_only_once = yes
+	trigger = {
+	tag =  FRA
+	year = 1837
+	election = no
+	}
+	option = {
+	name = "EVD970300A"
+	election = yes
+	set_country_flag = death_liberals_fra
+	set_country_flag = election_of_1837
+	any_pop = {
+	ideology = {
+	factor = 0.51
+	value = reactionary
+	}
+	}
+	}
+	option = {
+	name = "EVD970300B"
+	election = yes
+	set_country_flag = support_liberals_fra
+	set_country_flag = election_of_1837
+	any_pop = {
+	ideology = {
+	factor = 0.51
+	value = liberal
+	}
+	}
+	}
+	}
+	
+	country_event = {
+	id = 970301
+	title = "Liberal Victory!"
+	desc = "The Election has resulted in a Liberal victory"
+	picture = ""
+	
+	fire_only_once = yes
+	
+	trigger = {
+	ruling_party_ideology = liberal
+	has_country_flag = election_of_1837
+	election = no
+	}
+	
+	option = {
+	name = "EVO970301"
+	set_country_flag = liberal_1837_victory
+	prestige = 5
+	}
+	}
+	
+	country_event = {
+	id = 970302
+	title = "Reactionary Victory!"
+	desc = "The Election has resulted in a Reactionary victory"
+	picture = ""
+	
+	fire_only_once = yes
+	
+	trigger = {
+	ruling_party_ideology = reactionary
+	has_country_flag = election_of_1837
+	election = no
+	}
+	
+	option = {
+	name = "EVO970302"
+	set_country_flag = reactionary_1837_victory
+	prestige = 5
+	}
+	}
+	
+	country_event = {
+	id = 970303
+	title = "Spanish Capitulation"
+	desc = "Spain's Homeland has fallen and their army is in disarray."
+	picture = ""
+	
+	trigger = {
+	tag = FRA
+	has_country_flag = WAROFBOURBON
+	NOT = { has_country_flag = SPA_PUPPETED }
+	SPA = { 
+	is_ai = yes 
+	all_core = {
+	controlled_by = FRA
+	is_overseas = no
+	}
+	}
+	FRA = {
+	war_with = SPA
+	}
+	}
+	
+	mean_time_to_happen = {
+	months = 6
+	}
+	option = {
+	name = "Very Good"
+	set_country_flag = SPA_PUPPETED
+	end_war = SPA
+	SPA = { end_war = FRA }
+	FRA = { create_vassal = SPA }
+	}
+	}
+	
+	country_event = {
+	id = 970304
+	title = "Liberating our Bretheren"
+	desc = "We must choose if we are going to liberate our liberal Bretheren in the Rhinish German lands or in the Northern Italian lands, both controlled by the Holy Roman Empire."
+	
+	fire_only_once = yes
+	
+	trigger = {
+	tag = FRA
+	has_country_flag = algeria_invaded
+	has_country_flag = burgundy_liberated
+	year = 1844
+	ALG = { exists = no }
+	BRG = { exists = no }
+	}
+	
+	mean_time_to_happen = {
+	months = 6
+	}
+	
+	option = {
+	name = "970304_A" #German Path
+	set_country_flag = french_focus_for_germany 
+	}
+	
+	option = {
+	name = "970304_B" #Italian path
+	set_country_flag = french_focus_for_italy
+	}
+	}
+	
+	country_event = {
+	id = 970305
+	title = "Enlighting the World"
+	desc = "We must choose what region of the world we are going to colonise. Well, liberate and enlighten with the ideas of the French Revolution."
+	
+	fire_only_once = yes
+	
+	trigger = {
+	tag = FRA
+	has_country_flag = algeria_invaded
+	has_country_flag = burgundy_liberated
+	year = 1844
+	ALG = { exists = no }
+	BRG = { exists = no }
+	}
+	
+	mean_time_to_happen = {
+	months = 24
+	}
+	
+	option = {
+		name = "970305_A" #African path
+		set_country_flag = french_focus_for_africa
+	}
+	option = {
+		name = "970305_B" #Asian path
+		set_country_flag = french_focus_for_asia
+	}
+	}
+	
+	country_event = {
+	id = 970306
+	title = "La Sarre requests intergration"
+	desc = "La Sarre has requested that we intergrate them into the French Republic"
+	
+	fire_only_once = yes
+	
+	trigger = {
+	tag = FRA
+	exists = LAS
+	LAS = { is_independant = no }
+	}
+	
+	mean_time_to_happen = {
+	months = 180
+	}
+	
+	option = {
+	name = "We accept them into our republic"
+	inherit = LAS
+	any_province = {
+	limit = {
+	is_core = LAS
+	NOT = { is_core = FRA }}
+	add_core = FRA
+	}
+	}
+	option = {
+	name = "We shall not accept them into our republic"
+	}
+	}
+	
+	country_event = {
+	id = 970307
+	title = "The Po Federation request intergration"
+	desc = "The Po Federation has requested that we intergrate them into the French Republic"
+	
+	fire_only_once = yes
+	
+	trigger = {
+	tag = FRA
+	exists = PRC
+	PRC = { is_independant = no }
+	}
+	
+	mean_time_to_happen = {
+	months = 180
+	}
+	
+	option = {
+	name = "We accept them into our republic"
+	inherit = PRC
+	any_province = {
+	limit = {
+	is_core = PRC
+	NOT = { is_core = FRA }}
+	add_core = FRA
+	}
+	}
+	option = {
+	name = "We shall not accept them into our republic"
+	}
+	}
+	
+	country_event = {
+	id = 970308
+	title = "The Moroccan Monarch dies childless"
+	desc = "The Monarch of Morocco has died in a horrible accident and is without an heir. This is the perfect opportunity to annex them."
+	
+	fire_only_once = yes
+	
+	trigger = {
+	tag = FRA
+	exists = MOR
+	MOR = { is_independant = no }
+	}
+	
+	mean_time_to_happen = {
+	months = 60
+	}
+	
+	option = {
+	name = "We will intergrate them"
+	inherit = MOR
+	}
+	option = {
+	name = "We will find an heir."
+	prestige = -5
+	MOR = { prestige = 5 }
+	}
+	}

@@ -1,0 +1,183 @@
+	political_decisions = {
+		ferment_local_revolution = { #to break free from the turks
+			potential = {
+				OR = { 
+					tag = HUN
+					tag = MOL
+				}
+				NOT = { has_country_flag = local_revolution }
+				is_vassal = yes
+			}
+			allow = {
+			state_n_government = 1
+				OR = {
+					average_militancy = 2
+					average_consciousness = 5
+					liberal = 0.35
+					reactionary = 0.25
+				}
+			}
+			effect = {
+			set_country_flag = local_revolution
+				any_owned = {
+					add_province_modifier = {
+					name = light_resistance
+					duration = 3650
+				}
+			}
+				any_pop = {
+					limit = {
+						OR = {
+							ideology = liberal
+							ideology = reactionary
+						}
+					}
+					militancy = 8
+				}
+				any_pop = {
+					limit = {
+							ideology = conservative
+					}
+					militancy = 3
+				}
+			}
+		}
+		
+		ferment_ottoman_revolution = { #to fuck up the turks
+			potential = {
+				OR = { 
+					tag = HUN
+					tag = MOL
+				}
+				has_country_flag = local_revolution
+				NOT = { has_country_flag = turk_revolution }
+				is_vassal = yes
+			}
+			allow = {
+			NOT = { is_vassal = yes }
+			TUR = {	
+				OR = {
+					average_militancy = 2
+					average_consciousness = 5
+					liberal = 0.35
+				}
+			}
+			military_statistics = 1
+			nationalism_n_imperialism = 1
+			}
+			effect = {
+			set_country_flag = turk_revolution
+			TUR = {
+				any_owned = {
+				limit = {
+					NOT = { culture = turkish
+					}
+					add_province_modifier = {
+					name = light_resistance
+					duration = 3650
+				}
+				}
+			}
+				any_pop = {
+					limit = {
+					NOT = {
+						culture = turkish }
+						OR = {
+							ideology = liberal
+							ideology = reactionary
+						}
+					}
+					militancy = 8
+				}
+				any_pop = {
+					limit = {
+					NOT = { culture = turkish }
+							ideology = conservative
+					}
+					militancy = 3
+				}
+			}
+		}
+		}
+		
+		protector_of_the_eastern_balkans = {
+			potential = {
+			OR = {
+				tag = MOL
+				tag = ROM
+				NOT = { has_country_flag = proteastbalk }
+				has_country_flag = local_revolution
+			}
+			}
+			allow = {
+				revolution_n_counterrevolution = 1
+				military_logistics = 1
+				NOT = { 664 = { owned_by = TUR } } 
+				NOT = { 674 = { owned_by = TUR } } 
+				NOT = { 657 = { owned_by = TUR } } 
+				NOT = { 654 = { owned_by = TUR } } 
+				NOT = { 652 = { owned_by = TUR } } 
+				NOT = { 814 = { owned_by = TUR } } 
+				NOT = { 809 = { owned_by = TUR } } 
+				664 = { OR = { owned_by = THIS owner = { OR = { vassal_of = THIS in_sphere = THIS } } } }
+				674 = { OR = { owned_by = THIS owner = { OR = { vassal_of = THIS in_sphere = THIS } } } }
+				657 = { OR = { owned_by = THIS owner = { OR = { vassal_of = THIS in_sphere = THIS } } } }
+				654 = { OR = { owned_by = THIS owner = { OR = { vassal_of = THIS in_sphere = THIS } } } }
+				652 = { OR = { owned_by = THIS owner = { OR = { vassal_of = THIS in_sphere = THIS } } } }
+				814 = { OR = { owned_by = THIS owner = { OR = { vassal_of = THIS in_sphere = THIS } } } }
+				809 = { OR = { owned_by = THIS owner = { OR = { vassal_of = THIS in_sphere = THIS } } } }
+			}
+			effect = {
+			set_country_flag = proteastbalk
+			add_accepted_culture = bulgarian
+			664 = { owner = { country_event = { id=11101 days=0 } } }
+			674 = { owner = { country_event = { id=11101 days=0 } } }
+			657 = { owner = { country_event = { id=11101 days=0 } } }
+			654 = { owner = { country_event = { id=11101 days=0 } } }
+			652 = { owner = { country_event = { id=11101 days=0 } } }
+			814 = { owner = { country_event = { id=11101 days=0 } } }
+			809 = { owner = { country_event = { id=11101 days=0 } } }
+			}
+			}
+			
+			protector_of_the_western_balkans = {
+			potential = {
+			OR = {
+				tag = HUN
+				tag = ROM
+				NOT = { has_country_flag = protwestbalk }
+				has_country_flag = local_revolution
+			}
+			}
+			allow = {
+				revolution_n_counterrevolution = 1
+				military_logistics = 1
+				NOT = { 2538 = { owned_by = TUR } } 
+				NOT = { 771 = { owned_by = TUR } } 
+				NOT = { 780 = { owned_by = TUR } } 
+				NOT = { 783 = { owned_by = TUR } } 
+				NOT = { 794 = { owned_by = TUR } } 
+				NOT = { 802 = { owned_by = TUR } } 
+				2538 = { OR = { owned_by = THIS owner = { OR = { vassal_of = THIS in_sphere = THIS } } } }
+				771 = { OR = { owned_by = THIS owner = { OR = { vassal_of = THIS in_sphere = THIS } } } }
+				780 = { OR = { owned_by = THIS owner = { OR = { vassal_of = THIS in_sphere = THIS } } } }
+				783 = { OR = { owned_by = THIS owner = { OR = { vassal_of = THIS in_sphere = THIS } } } }
+				794 = { OR = { owned_by = THIS owner = { OR = { vassal_of = THIS in_sphere = THIS } } } }
+				802 = { OR = { owned_by = THIS owner = { OR = { vassal_of = THIS in_sphere = THIS } } } }
+			}
+			effect = {
+			add_accepted_culture = bosniak
+			add_accepted_culture = serbian
+			add_accepted_culture = croatian
+			2538 = { owner = { country_event = { id=11101 days=0 } } }
+			771 = { owner = { country_event = { id=11101 days=0 } } }
+			657 = { owner = { country_event = { id=11101 days=0 } } }
+			780 = { owner = { country_event = { id=11101 days=0 } } }
+			783 = { owner = { country_event = { id=11101 days=0 } } }
+			794 = { owner = { country_event = { id=11101 days=0 } } }
+			802 = { owner = { country_event = { id=11101 days=0 } } }
+			}
+			}
+			
+			
+			}

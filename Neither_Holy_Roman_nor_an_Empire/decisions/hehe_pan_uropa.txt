@@ -1,0 +1,623 @@
+political_decisions = {
+		unite_the_empire_nap = {
+	potential = {
+	tag = AUS
+	NOT = { exists = HRE }
+	has_country_flag = GP1
+	}
+	allow = {
+	war = no
+	HRE = {
+	all_core = {
+	owned_by = THIS
+	}
+	}
+	effect = {
+	change_tag = HRE
+	add_accepted_culture = kaiser_deutsch
+	add_accepted_culture = belter
+	add_accepted_culture = berliner
+	add_accepted_culture = prussian
+	add_accepted_culture = rhinish
+	add_accepted_culture = burgund
+	add_accepted_culture = swiss
+	add_accepted_culture = swabian
+	}
+	}
+	}
+	
+	acivate_plan_3 = {
+		potential = {
+			has_country_flag = GP2
+			war = no
+			tag = HRE
+			NOT = { has_country_flag = GP3 }
+			PAP = { exists = yes }
+			}
+			allow = {
+			war = no
+			}
+			effect = {
+			badboy = 7
+			set_country_flag = GP3
+			SAR = { country_event = 970007 }
+	GEN = { country_event = 970007 }
+	PAR = { country_event = 970007 }
+	VEN = { country_event = 970007 }
+	LOM = { country_event = 970007 }
+	PAP = { country_event = 970007 }
+	SIC = { country_event = 970007 }
+	}
+	}
+	
+	spread_the_revolution = {
+		potential = {
+			tag = RMI
+			has_global_flag = rev_win_mit
+			HRE = { exists = no }
+			NOT = { has_country_flag = spread_the_revolution }
+			}
+			allow = {
+			revolution_n_counterrevolution = 1
+			}
+			effect = {
+			badboy = 1
+			prestige = 10
+			set_country_flag = spread_the_revolution
+			}
+			}
+			
+		spread_the_revolution_to_the_west = {
+			potential = {
+			tag = RMI
+			has_country_flag = spread_the_revolution
+			NOT = { has_country_flag = western_spread }
+			}
+			allow = {
+			war = no
+			}
+			effect = {
+			badboy = 6
+			set_country_flag = western_spread
+			add_casus_belli = {
+			target = FRA
+			type = annexation
+			months = 4
+			}
+			add_casus_belli = {
+			target = UPB
+			type = annexation
+			months = 4
+			}
+			add_casus_belli = {
+			target = SPA
+			type = annexation
+			months = 4
+			}
+			add_casus_belli = {
+			target = POR
+			type = annexation
+			months = 4
+			}
+			FRA = { set_country_flag = exile? }
+			SPA = { set_country_flag = exile? }
+			POR = { set_country_flag = exile? }
+			UPB = { set_country_flag = exile? }
+			}
+			}
+			
+			exile?_fra = {
+			potential = {
+			tag = FRA
+			has_country_flag = exile?
+			}
+			allow = {
+			any_owned = {
+			limit = {
+			is_overseas = no
+			}
+			controlled_by = RMI
+			}
+			}
+			effect = {
+			any_owned = {
+			limit = {
+			is_overseas = yes
+			controlled_by = FRA
+			}
+			add_core = FGE
+			}
+			release = FGE
+			change_tag_no_core_switch = FGE
+			FGE = {country_event = {
+			id = 970082
+			days = 3
+			}
+			}}
+			}
+			
+			exile?_spa = {
+			potential = {
+			tag = SPA
+			has_country_flag = exile?
+			}
+			allow = {
+			any_owned = {
+			limit = {
+			is_overseas = no
+			}
+			controlled_by = RMI
+			}
+			}
+			effect = {
+			any_owned = {
+			limit = {
+			is_overseas = yes
+			controlled_by = SPA
+			}
+			add_core = SGE
+			}
+			release = SGE
+			change_tag_no_core_switch = SGE
+			SGE = {country_event = {
+			id = 970082
+			days = 3
+			}
+			}}
+			}
+			
+			exile?_por = {
+			potential = {
+			OR = {
+			tag = POR
+			tag = UPB
+			}
+			has_country_flag = exile?
+			}
+			allow = {
+			any_owned = {
+			limit = {
+			is_overseas = no
+			}
+			controlled_by = RMI
+			}
+			}
+			effect = {
+			any_owned = {
+			limit = {
+			is_overseas = yes
+			controlled_by = POR
+			}
+			add_core = PGE
+			}
+			release = PGE
+			change_tag_no_core_switch = PGE
+			PGE = {country_event = {
+			id = 970082
+			days = 3
+			}
+			}}
+			}
+			
+			establish_sister_republics_west = {
+				potential = {
+					war = no
+					tag = RMI
+					has_country_flag = western_spread
+					FRA = { exists = no }
+					POR = { exists = no }
+					SPA = { exists = no }
+					NOT = { has_country_flag = sis_rep_west }
+					}
+					allow = { war = no }
+					effect = {
+					badboy = -2
+					set_country_flag = sis_rep_west
+					country_event = 970016
+					country_event = 970020
+					country_event = 970021
+					country_event = 970022
+					country_event = 970023
+					country_event = 970024
+					country_event = 970025
+					}
+					}
+					
+			exile?_ENG = {
+			potential = {
+			tag = ENG
+			has_country_flag = exile?
+			}
+			allow = {
+			any_owned = {
+			limit = {
+			is_core = ENG
+			is_colonial = no
+			}
+			controlled_by = RMI
+			}
+			}
+			effect = {
+			any_owned = {
+			limit = {
+			is_overseas = yes
+			controlled_by = ENG
+			}
+			add_core = BGE
+			}
+			release = BGE
+			change_tag_no_core_switch = BGE
+			BGE = {country_event = {
+			id = 970082
+			days = 3
+			}
+			}}
+			}
+			
+			spread_the_revolution_to_britain = {
+			potential = {
+			tag = RMI
+			has_country_flag = spread_the_revolution
+			has_country_flag = western_spread
+			NOT = { has_country_flag = britsh_spread }
+			}
+			allow = {
+			war = no
+			}
+			effect = {
+			badboy = 5
+			set_country_flag = britsh_spread
+			add_casus_belli = {
+			target = ENG
+			type = annexation
+			months = 4
+			}
+			ENG = { set_country_flag = exile? }
+			}
+			}
+			
+			establish_sister_republics_britain = {
+				potential = {
+					war = no
+					tag = RMI
+					has_country_flag = britsh_spread
+					ENG = { exists = no }
+					NOT = { has_country_flag = sis_rep_brit }
+					}
+					allow = { war = no }
+					effect = {
+					badboy = -3
+					set_country_flag = sis_rep_brit
+					country_event = 970026
+					country_event = 970027
+					country_event = 970028
+					country_event = 970029
+					country_event = 970030
+					}
+					}
+					
+			invade_the_ottomans = {
+			potential = {
+			tag = RMI
+			has_country_flag = spread_the_revolution
+			has_country_flag = western_spread
+			has_country_flag = britsh_spread
+			NOT = { has_country_flag = otto_spread }
+			}
+			allow = {
+			war = no
+			}
+			effect = {
+			set_country_flag = otto_spread
+			add_casus_belli = {
+			target = TUR
+			type = annexation
+			months = 4
+			}
+			TUR = { set_country_flag = exile? }
+			}
+			}
+			
+			vassalise_ottoman_vassals = {
+			potential = {
+			tag = RMI
+			has_country_flag = spread_the_revolution
+			has_country_flag = western_spread
+			has_country_flag = britsh_spread
+			has_country_flag = otto_spread 
+			NOT = { has_country_flag = vassalised_otto_vassals }
+			NOT = { has_country_flag = conquered_otto_vassals }
+		HUN = {	vassal_of = TUR }
+		GRE = {	vassal_of = TUR }
+		MOL = {	vassal_of = TUR }
+		ION = {	vassal_of = TUR }
+			}
+			allow = { }
+			effect = {
+			country_event = 970050
+			}
+			}
+			
+			exile?_TUR = {
+			potential = {
+			tag = TUR
+			has_country_flag = exile?
+			}
+			allow = {
+			}
+			effect = {
+			any_owned = {
+			limit = {
+			is_overseas = yes
+			controlled_by = TUR
+			}
+			add_core = ANA
+			}
+			release = ANA
+			change_tag_no_core_switch = ANA
+			RMI = { country_event = 970051 }
+			ANA = {country_event = {
+			id = 970082
+			days = 3
+			}
+			}}
+			}
+			
+			carve_up_the_balkans = {
+			potential = {
+			tag = RMI
+			has_country_flag = vassalised_otto_vassals
+			has_country_flag = otto_spread
+			NOT = { has_country_flag = carved_up_balkans }
+			}
+			allow = { war = no }
+			effect = { 
+			badboy = -1
+			country_event = 970035
+			country_event = 970036
+			country_event = 970037
+			country_event = 970038
+			country_event = 970039
+			}}
+			
+			establish_sister_republics_italy = {
+				potential = {
+					war = no
+					tag = RMI
+					NOT = { exists = HRE }
+					NOT = { has_country_flag = sis_rep_ita }
+					}
+					allow = { war = no }
+					effect = {
+					set_country_flag = sis_rep_ita
+					country_event = 970031
+					country_event = 970032
+					country_event = 970033
+					country_event = 970034
+					}
+					}
+					
+			establish_sister_republics_balkan = {
+			potential = {
+			tag = RMI
+			has_country_flag = conquered_otto_vassals
+			has_country_flag = otto_spread
+			NOT = { has_country_flag = vassalised_otto_vassals }
+			}
+			allow = { war = no }
+			effect = { 
+			set_country_flag = vassalised_otto_vassals
+			badboy = -1
+			country_event = 970043
+			country_event = 970042
+			country_event = 970041
+			country_event = 970040
+			}}
+			
+			establish_sister_republics_asian_n_african_otto = {
+			potential = {
+			tag = RMI
+			has_country_flag = anatolia_oof
+			has_country_flag = otto_spread
+			NOT = { has_country_flag = ana_sis }
+			}
+			allow = { war = no }
+			effect = { 
+			set_country_flag = ana_sis
+			badboy = -1
+			country_event = 970044
+			country_event = 970045
+			country_event = 970046
+			country_event = 970047
+			country_event = 970048
+			}}
+			
+			the_eastern_situation = {
+			potential = {
+			tag = RMI
+			has_country_flag = spread_the_revolution
+			has_country_flag = western_spread
+			has_country_flag = otto_spread
+			NOT = { has_country_flag = eastern_spread }
+			}
+			allow = {
+			war = no
+			}
+			effect = {
+			badboy = 8
+			set_country_flag = eastern_spread
+			add_casus_belli = {
+			target = RUS
+			type = annexation
+			months = 4
+			}
+			add_casus_belli = {
+			target = PLC
+			type = annexation
+			months = 4
+			}
+			add_casus_belli = {
+			target = RUT
+			type = annexation
+			months = 100
+			}
+			RUS = { set_country_flag = exile? }
+			}
+			}
+			
+			exile?_RUS = {
+			potential = {
+			tag = RUS
+			has_country_flag = exile?
+			}
+			allow = {
+			1026 = { NOT = { controller = RUS } } 
+			}
+			effect = {
+			any_owned = {
+			limit = {
+			controlled_by = RUS
+			}
+			add_core = SIB
+			}
+			release = SIB
+			change_tag_no_core_switch = SIB
+			SIB = {country_event = {
+			id = 970082
+			days = 3
+			}
+			}}
+			}
+			
+			the_final_fronteer = {
+			potential = {
+			tag = RMI
+			has_country_flag = spread_the_revolution
+			has_country_flag = eastern_spread
+			NOT = { has_country_flag = norse_spread }
+			}
+			allow = {}
+			effect = {
+			badboy = 8
+			set_country_flag = norse_spread
+			add_casus_belli = {
+			target = DEN
+			type = annexation
+			months = 4
+			}
+			add_casus_belli = {
+			target = SWE
+			type = annexation
+			months = 4
+			}
+			add_casus_belli = {
+			target = NOR
+			type = annexation
+			months = 100
+			}
+			add_casus_belli = {
+			target = FIN
+			type = annexation
+			months = 100
+			}
+			DEN = { set_country_flag = exile? }
+			SWE = { set_country_flag = exile? }
+			}
+			}
+			
+			exile?_SWE = {
+			potential = {
+			tag = SWE
+			has_country_flag = exile?
+			}
+			allow = {
+			any_owned = {
+			limit = {
+			is_core = SWE
+			is_colonial = no
+			}
+			controlled_by = RMI
+			}
+			}
+			effect = {
+			any_owned = {
+			limit = {
+			controlled_by = SWE
+			}
+			add_core = WGE
+			}
+			release = WGE
+			change_tag_no_core_switch = WGE
+			WGE = {country_event = {
+			id = 970082
+			days = 3
+			}
+			}}
+			
+			}
+			
+			exile?_DEN = {
+			potential = {
+			tag = DEN
+			has_country_flag = exile?
+			}
+			allow = {
+			any_owned = {
+			limit = {
+			is_core = DEN
+			is_colonial = no
+			}
+			controlled_by = RMI
+			}
+			}
+			effect = {
+			any_owned = {
+			limit = {
+			controlled_by = DEN
+			}
+			add_core = DGE
+			}
+			release = DGE
+			change_tag_no_core_switch = DGE
+			DGE = {country_event = {
+			id = 970082
+			days = 3
+			}
+			}
+			}
+			}
+			
+			estab_east_rep = {
+			potential = {
+			tag = RMI
+			has_country_flag = eastern_spread
+			NOT = { has_country_flag = east_rep }
+			}
+			allow = { war = no }
+			effect = { 
+			set_country_flag = east_rep
+			badboy = -1
+			country_event = 970052
+			country_event = 970049
+			country_event = 970057
+			country_event = 970055
+			country_event = 970056
+			country_event = 970053
+			country_event = 970054
+			}}
+			
+			estab_norse_rep = {
+			potential = {
+			tag = RMI
+			has_country_flag = norse_spread
+			NOT = { has_country_flag = norse_reps }
+			}
+			allow = { war = no }
+			effect = { 
+			set_country_flag = norse_reps
+			badboy = -1
+			country_event = 970061
+			country_event = 970058
+			country_event = 970060
+			country_event = 970059
+			}}}

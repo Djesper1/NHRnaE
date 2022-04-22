@@ -1,0 +1,41 @@
+navy = {
+	name = "Koninklijke Marine"
+	location = 385 #Amsterdam
+	ship = {
+		name= "Doggersbank"
+		type = manowar
+	}
+
+	ship = {
+		name= "Amsterdam"
+		type = manowar
+	}
+}
+
+army = {
+	name = "Frieslands Leger"
+	location = 385
+	regiment = {
+		name= "1.1. Infanterie divisie"
+		type = infantry
+		home = 385
+	}
+
+	regiment = {
+		name= "1.2. Infanterie divisie"
+		type = infantry
+		home = 386
+	}
+	
+	regiment = {
+		name= "1.1. Artillerie divisie"
+		type = artillery
+		home = 384
+	}
+	
+	regiment = {
+		name= "1.1. Kalverie divisie"
+		type = dragoon
+		home = 382
+	}
+}

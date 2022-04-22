@@ -1,0 +1,95 @@
+country_event = {
+	id = 50000
+	title = "The Burgundian Demand"
+	desc = "The Burgundians have send us a demand, My Emperor. They demand the German regions of their former Empire. We can decide on the issue"
+	picture = "crisis"
+	 
+	is_triggered_only = yes
+	major = no
+	fire_only_once = yes
+	allow_multiple_instances = no
+
+	trigger = { 
+	}
+	
+	mean_time_to_happen = {
+		months = 0
+	}
+	
+	option = {
+		name = "They can have it, it is their rightful land."
+		409 = {
+		secede_province = BRG
+		add_core = BRG
+		remove_core = BWU
+		}
+		410 = {
+		secede_province = BRG
+		add_core = BRG
+		remove_core = BWU
+		}
+		412 = {
+		secede_province = BRG
+		add_core = BRG
+		remove_core = BWU
+		}
+	}
+	
+	option = {
+		name = "They can have it, but they must agree with further integration of the Holy Roman Empire"
+		BRG = {
+		country_event = {
+		id = 50001
+		days = 1
+		}
+		}
+	}
+	
+	option = {
+		name = "They cannot have it. Those are German lands!"
+		BRG = { prestige = -10 }
+	}
+}
+
+country_event = {
+	id = 50001
+	title = "The Emperor's anwser"
+	desc = "The Emperor has send his anwser. We can have it but, we must agree with further intergration of the Holy Roman Empire."
+	picture = "crisis"
+	 
+	is_triggered_only = yes
+	major = no
+	fire_only_once = yes
+	allow_multiple_instances = no
+
+	trigger = { 
+	}
+	
+	mean_time_to_happen = {
+		months = 0
+	}
+	
+	option = {
+		name = "We Accept"
+		409 = {
+		secede_province = BRG
+		add_core = BRG
+		remove_core = BWU
+		}
+		410 = {
+		secede_province = BRG
+		add_core = BRG
+		remove_core = BWU
+		}
+		412 = {
+		secede_province = BRG
+		add_core = BRG
+		remove_core = BWU
+		}
+	}
+	
+	option = {
+		name = "We Refuse!"
+		prestige = -10
+	}
+}

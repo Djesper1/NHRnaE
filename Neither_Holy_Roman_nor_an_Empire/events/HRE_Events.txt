@@ -1,0 +1,257 @@
+country_event = {
+id = 90500
+title = "The Bavarian Revolt"
+desc = "After years of mistreatment, discrimination and opression, the Bavarian people are done with Austrian rule. The question is, are we done with them?"
+picture = bayern
+fire_only_once = yes
+trigger = {
+tag = AUS
+NOT = {
+exists = BAV
+}
+	OR = {
+		599 = { 
+		average_militancy = 6
+		}
+		600 = { 
+		average_militancy = 6
+		}
+		601 = { 
+		average_militancy = 6
+		}
+		602 = { 
+		average_militancy = 6
+		}
+		592 = { 
+		average_militancy = 6
+		}
+		595 = { 
+		average_militancy = 6
+		}
+	}
+}
+mean_time_to_happen = {
+months = 48
+}
+
+option = {
+name = "Then leave, Bavarian scum."
+				599 = { 
+					secede_province = BAV
+					remove_core = AUS
+				}
+				600 = { 
+					secede_province = BAV
+					remove_core = AUS
+				}
+				601 = { 
+					secede_province = BAV
+					remove_core = AUS
+				}
+				602 = { 
+					secede_province = BAV
+					remove_core = AUS
+				}
+				592 = { 
+					secede_province = BAV
+					remove_core = AUS
+				}
+				595 = { 
+					secede_province = BAV
+					remove_core = AUS
+				}
+}
+option = {
+name = "Then we will fight!"
+				599 = { 
+					secede_province = BAV
+				}
+				600 = { 
+					secede_province = BAV
+				}
+				601 = { 
+					secede_province = BAV
+				}
+				602 = { 
+					secede_province = BAV
+				}
+				592 = { 
+					secede_province = BAV
+				}
+				595 = { 
+					secede_province = BAV
+				}
+war = {
+	target = BAV
+	attacker_goal = { casus_belli = conquest }
+	defender_goal = { casus_belli = status_quo }
+	call_ally = no
+}
+badboy = -22
+}
+option = {
+name = "They have a point, I will join them."
+				599 = { 
+					secede_province = BAV
+					remove_core = AUS
+				}
+				600 = { 
+					secede_province = BAV
+					remove_core = AUS
+				}
+				601 = { 
+					secede_province = BAV
+					remove_core = AUS
+				}
+				602 = { 
+					secede_province = BAV
+					remove_core = AUS
+				}
+				592 = { 
+					secede_province = BAV
+					remove_core = AUS
+				}
+				595 = { 
+					secede_province = BAV
+					remove_core = AUS
+				}
+				change_tag_no_core_switch = BAV
+}
+}
+
+country_event = {
+	id = 99900
+	title = "The Danzig Offer"
+	desc = "The Emperor offers us Danzig in return for our support on the subject of Unification of the Holy Roman Empire, do we accept?"
+	picture = "bayern"
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+	name = "We accept this proposition"
+		690 = { secede_province = PRU }
+		PRU = { 
+	add_country_modifier = {
+	name = supporter_of_unification_of_the_hre
+	duration = 36500
+}
+}
+}
+	option = {
+	name = "This dishounerable offer is as worthless as an artillery peice without powder"
+	}
+}
+
+country_event = {
+	id = 99901
+	title = "The Anhalt Offer"
+	desc = "The Emperor offers us Anhalt in return for our support on the subject of Unification of the Holy Roman Empire, do we accept?"
+	picture = "bayern"
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+	name = "We accept this proposition"
+		555 = { secede_province = BRN }
+		BRN = { 
+	add_country_modifier = {
+	name = supporter_of_unification_of_the_hre
+	duration = 36500
+}
+}
+}
+	option = {
+	name = "This dishounerable offer is as worthless as an artillery peice without powder"
+	}
+}
+
+country_event = {
+	id = 99902
+	title = "The Great Consession"
+	desc = "The Emperor offers us Danzig and Anhalt in return for our support on the subject of Unification of the Holy Roman Empire, do we accept?"
+	picture = "bayern"
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+	name = "We accept this proposition"
+		690 = { secede_province = BRP }
+		555 = { secede_province = BRP }
+		BRP = { 
+	add_country_modifier = {
+	name = supporter_of_unification_of_the_hre
+	duration = 36500
+}
+}
+}
+	option = {
+	name = "This dishounerable offer is as worthless as an artillery peice without powder"
+	}
+}
+
+country_event = {
+	id = 99903
+	title = "The Groningen Offer"
+	desc = "The Emperor offers us Groningen in return for our support on the subject of Unification of the Holy Roman Empire, do we accept?"
+	picture = "bayern"
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+	name = "We accept this proposition"
+		383 = { secede_province = FRI }
+		FRI = { 
+	add_country_modifier = {
+	name = supporter_of_unification_of_the_hre
+	duration = 36500
+}
+}
+}
+	option = {
+	name = "This dishounerable offer is as worthless as an artillery peice without powder"
+	}
+}
+
+country_event = {
+	id = 99904
+	title = "The Hamburg Offer"
+	desc = "The Emperor offers us the Hamburg area in return for our support on the subject of Unification of the Holy Roman Empire, do we accept?"
+	picture = "bayern"
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+	name = "We accept this proposition"
+		531 = { secede_province = HAN }
+		528 = { secede_province = HAN }
+		HAN = { 
+	add_country_modifier = {
+	name = supporter_of_unification_of_the_hre
+	duration = 36500
+}
+}
+}
+	option = {
+	name = "This dishounerable offer is as worthless as an artillery peice without powder"
+	}
+}
+
+country_event = {
+	id = 99905
+	title = "The Pomeranian Hansa"
+	desc = "The Emperor offers us the Pomeranian Hansa in return for our support on the subject of Unification of the Holy Roman Empire, do we accept?"
+	picture = "bayern"
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+	name = "We accept this proposition"
+		530 = { secede_province = POM }
+		529 = { secede_province = POM }
+		548 = { secede_province = POM }
+		POM = { 
+	add_country_modifier = {
+	name = supporter_of_unification_of_the_hre
+	duration = 36500
+}
+}
+}
+	option = {
+	name = "This dishounerable offer is as worthless as an artillery peice without powder"
+	}
+}
+

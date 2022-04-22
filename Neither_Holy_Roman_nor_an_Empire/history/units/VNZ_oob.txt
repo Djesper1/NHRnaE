@@ -1,0 +1,41 @@
+army = {
+	name = "Esercito von Neu Vendig"
+	location = 2264
+	regiment = {
+		name= "1. Fanteria-Abteilung"
+		type = infantry
+		home = 2264
+	}
+
+	regiment = {
+		name= "2. Fanteria-Abteilung"
+		type = infantry
+		home = 2264
+	}
+
+	regiment = {
+		name= "3. Fanteria-Abteilung"
+		type = infantry
+		home = 2267
+	}
+
+	regiment = {
+		name= "1. Drago-Abteilung"
+		type = dragoon
+		home = 2268
+	}
+
+	regiment = {
+		name= "1. Artiglieria-Abteilung"
+		type = artillery
+		home = 2269
+	}
+
+	regiment = {
+		name= "2. Artiglieria-Abteilung"
+		type = artillery
+		home = 2271
+	}
+
+}
+

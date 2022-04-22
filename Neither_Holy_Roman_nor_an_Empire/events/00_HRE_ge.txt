@@ -1,0 +1,62 @@
+province_event = {
+		id = 900609
+		title = "Away with the Emperor!"
+		desc = "Since our lack of Imperial Autority, our people have been angry. This anger has boiled over in $PROVINCENAME$. The People are calling for your removal."
+		
+		trigger = {
+			has_country_modifier = lack_of_imperial_autority
+			OR = {
+			average_consciousness = 7
+			average_militancy = 3.5
+			}
+			NOT = { has_province_modifier = away_with_the_emperor }
+		}
+		
+		mean_time_to_happen = {
+		months = 60
+		
+		modifier = {
+			factor = 0.9
+			OR = {
+			average_consciousness = 8
+			average_militancy = 4
+			}
+		}
+		
+		modifier = {
+			factor = 0.7
+			OR = {
+			average_consciousness = 9
+			average_militancy = 4.5
+			}
+		}
+		
+		modifier = {
+			factor = 0.5
+			OR = {
+			average_consciousness = 10
+			average_militancy = 5
+			}
+		}
+	}
+	
+	option = {
+	name = "What does $PROVINCENAME$ know?"
+	add_province_modifier = {
+	name = away_with_the_emperor
+	duration = 1825
+	militancy = 1
+	consciousness = 1
+	}
+	}
+	
+	option = {
+	name = "The People of $PROVINCENAME$ have a point."
+	THIS = {
+	prestige = -5
+	badboy = 0.2
+	}
+	militancy = -1
+	consciousness = -1
+	}
+}

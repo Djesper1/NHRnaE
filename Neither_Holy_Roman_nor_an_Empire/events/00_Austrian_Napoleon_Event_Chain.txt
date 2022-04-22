@@ -1,0 +1,335 @@
+country_event = {
+	id = 970001
+	title = "Strange Man at the Court"
+	desc = "EVENTDESC_970001"
+	picture = "austrian_court"
+	
+	fire_only_once = yes
+
+	trigger = { 
+		tag = AUS
+		NOT = { has_country_flag = improved_court_standards }
+		year = 1844
+	}
+	
+	mean_time_to_happen = {
+		days =  3
+	}
+	
+	option = {
+		name = "Get this dreg out of my Castle"
+		prestige = 1
+		any_pop = {
+			limit = {
+				type = officer
+				culture = czech
+			}
+			militancy = 0.1
+		}
+	}
+	option = {
+		name = "He may be Bohemian and smelly but, he has a point."
+		set_global_flag = bohemian_napoleon
+		prestige = -3
+			define_general = {
+				name = "Maxmilián Korvak"
+				personality = master_of_warfare
+				background = bohemian_artilleryman
+					id=99999
+					type=37
+				}
+			any_pop = {
+			limit = {
+				type = officer
+				culture = czech
+			}
+			militancy = -5
+		}
+}
+}
+
+country_event = {
+	id = 970002
+	title = "Generalplan.Eins"
+	desc = "EVENTDESC_970002"
+	picture = "austrian_court"
+	
+	fire_only_once = yes
+
+	trigger = { 
+		tag = AUS
+		has_global_flag = bohemian_napoleon
+		year = 1850
+		has_leader = "Maxmilián Korvak"
+	}
+	
+	mean_time_to_happen = {
+		months = 3
+	}
+	
+	option = {
+	name = "Send the Ultimatums"
+	set_country_flag = GP1
+	any_country = {
+		limit = {
+		OR = {
+			is_culture_group = germanic
+			primary_culture = swiss
+		}
+			exists = yes
+			NOT = { tag = AUS }
+			}
+			country_event = 970004
+		}
+		AUS = { remove_country_modifier = lands_tax_aus remove_country_modifier = landsvrede remove_country_modifier = hre_industrie_bund }
+	BRG = { remove_country_modifier = lands_tax remove_country_modifier = landsvrede remove_country_modifier = hre_industrie_bund }
+	HLL = { remove_country_modifier = lands_tax remove_country_modifier = landsvrede remove_country_modifier = hre_industrie_bund }
+	FRI = { remove_country_modifier = lands_tax remove_country_modifier = landsvrede remove_country_modifier = hre_industrie_bund }
+	BRB = { remove_country_modifier = lands_tax remove_country_modifier = landsvrede remove_country_modifier = hre_industrie_bund }
+	FLA = { remove_country_modifier = lands_tax remove_country_modifier = landsvrede remove_country_modifier = hre_industrie_bund }
+	SAR = { remove_country_modifier = lands_tax remove_country_modifier = landsvrede remove_country_modifier = hre_industrie_bund }
+	GEN = { remove_country_modifier = lands_tax remove_country_modifier = landsvrede remove_country_modifier = hre_industrie_bund }
+	PAR = { remove_country_modifier = lands_tax remove_country_modifier = landsvrede remove_country_modifier = hre_industrie_bund }
+	VEN = { remove_country_modifier = lands_tax remove_country_modifier = landsvrede remove_country_modifier = hre_industrie_bund }
+	LOM = { remove_country_modifier = lands_tax remove_country_modifier = landsvrede remove_country_modifier = hre_industrie_bund }
+		}
+	
+	option = {
+	name = "It is too risky (Korvak will resign)"
+	kill_leader = 163
+	}
+	}
+	
+	country_event = {
+	id = 970003
+	title = "Generalplan Eins"
+	desc = "EVENTDESC_970003"
+	picture = "austrian_court"
+	
+	fire_only_once = yes
+
+	trigger = { 
+		tag = AUS
+		has_global_flag = bohemian_napoleon
+		year = 1850
+		NOT = { has_leader = "Maxmilián Korvak" }
+	}
+	
+	mean_time_to_happen = {
+		months = 3
+	}
+	
+	option = {
+	name = "Send the Ultimatums"	
+	any_country = {
+		limit = {
+			exists = yes
+			OR = {
+			primary_culture = swiss
+			is_culture_group = germanic
+			}
+			NOT = { tag = AUS }
+			}
+			country_event = 970004
+		}
+	AUS = { remove_country_modifier = lands_tax_aus remove_country_modifier = landsvrede remove_country_modifier = hre_industrie_bund }
+	BRG = { remove_country_modifier = lands_tax remove_country_modifier = landsvrede remove_country_modifier = hre_industrie_bund }
+	HLL = { remove_country_modifier = lands_tax remove_country_modifier = landsvrede remove_country_modifier = hre_industrie_bund }
+	FRI = { remove_country_modifier = lands_tax remove_country_modifier = landsvrede remove_country_modifier = hre_industrie_bund }
+	BRB = { remove_country_modifier = lands_tax remove_country_modifier = landsvrede remove_country_modifier = hre_industrie_bund }
+	FLA = { remove_country_modifier = lands_tax remove_country_modifier = landsvrede remove_country_modifier = hre_industrie_bund }
+	SWI = { remove_country_modifier = lands_tax remove_country_modifier = landsvrede remove_country_modifier = hre_industrie_bund }
+	SAR = { remove_country_modifier = lands_tax remove_country_modifier = landsvrede remove_country_modifier = hre_industrie_bund }
+	GEN = { remove_country_modifier = lands_tax remove_country_modifier = landsvrede remove_country_modifier = hre_industrie_bund }
+	PAR = { remove_country_modifier = lands_tax remove_country_modifier = landsvrede remove_country_modifier = hre_industrie_bund }
+	VEN = { remove_country_modifier = lands_tax remove_country_modifier = landsvrede remove_country_modifier = hre_industrie_bund }
+	LOM = { remove_country_modifier = lands_tax remove_country_modifier = landsvrede remove_country_modifier = hre_industrie_bund }
+	}
+	
+	option = {
+	name = "It is too risky"
+	prstige = -1
+	}
+	}
+	
+	country_event = {
+	id = 970004
+	title = "The Austrian Ultimatum"
+	desc = "Austria has demanded our annexation, if we refuse, it will be war."
+	picture = "geronimo"
+	is_triggered_only = yes
+	
+	option = {
+	name = "We must surrender to their demand"
+	remove_country_modifier = lands_tax
+	remove_country_modifier = landsvrede
+	remove_country_modifier = hre_industrie_bund
+	THIS = { annex_to = AUS }
+	ai_chance = {
+			factor = 1
+		}
+	}
+	
+	option = {
+	name = "We shall never surrender!"
+	remove_country_modifier = lands_tax
+	remove_country_modifier = landsvrede
+	remove_country_modifier = hre_industrie_bund
+	AUS = {
+	war = {
+	target = THIS
+	attacker_goal = { casus_belli = german_conquest }
+	defender_goal = { casus_belli = status_quo }
+	call_ally = no
+	}
+	}
+	}
+	ai_chance = {
+			factor = 18
+		}
+	}
+	
+	country_event = {
+	id = 970005
+	title = "Generalplan 2"
+	desc = "Now that we have conquered all of Holy Roman Germany, we must expand futher, to Burgundy and the Rhineland."
+	picture = "austrian_court"
+	
+	fire_only_once = yes
+	
+	trigger = { 
+		tag = HRE
+		has_global_flag = bohemian_napoleon
+		year = 1853
+		war = no
+		NOT = { has_country_flag =  GP2 }
+		has_country_flag = GP1
+	}
+	
+	mean_time_to_happen = {
+		months = 3
+	}
+	
+	option = {
+	name = "Send more ultimatums"
+	BRG = { country_event = 970007 }
+	FRI = { country_event = 970007 }
+	BRB = { country_event = 970007 }
+	FLA = { country_event = 970007 }
+	HLL = {country_event = 970007 }
+		set_country_flag = GP2
+		}
+		
+	option = {
+	name = "We have conquered enough"
+	}
+	}
+	
+	country_event = {
+	id = 970006
+	title = "Napoleon II"
+	desc = "EVENTDESC_970006"
+	picture = "austrian_court"
+	
+	fire_only_once = yes
+	
+	trigger = { 
+		tag = AUS
+		has_global_flag = bohemian_napoleon
+		year = 1850
+		war = yes
+	}
+	
+	mean_time_to_happen = {
+		months = 3
+	}
+	
+	option = {
+	name = "We decline his services"
+	}
+	option = {
+	name = "Let us hope he does better than his father"
+	define_general = {
+				name = "Napoleon Bonaparte II"
+				personality = master_of_warfare
+				background = rising_star
+				}
+				set_global_flag = napoleon_ii
+				}
+				}
+				
+				country_event = {
+	id = 970007
+	title = "The Holy Roman Ultimatum"
+	desc = "The Holy Roman Empire has demanded our annexation, if we refuse, it will be war."
+	picture = "geronimo"
+	is_triggered_only = yes
+	
+	option = {
+	name = "We must surrender to their demand"
+	THIS = { annex_to = FROM }
+	ai_chance = {
+			factor = 1
+		}
+	}
+	option = {
+	name = "We shall never surrender!"
+	FROM = {
+	war = {
+	target = THIS
+	attacker_goal = { casus_belli = annexation }
+	defender_goal = { casus_belli = status_quo }
+	call_ally = no
+	}
+	}
+	ai_chance = {
+			factor = 21
+		}
+	}
+	}
+	
+	country_event = {
+	id = 970008
+		title = "The Demand of the Bohemian"
+		desc = "EVENTDESC_970008"
+		picture = "austrian_court"
+		
+		major = yes
+		fire_only_once = yes
+		
+		trigger = { 
+		tag = HRE
+		has_global_flag = bohemian_napoleon
+		year = 1860
+		war = no
+		has_country_flag = GP1
+		has_country_flag = GP2
+		has_country_flag = GP3
+		has_leader = "Maxmilián Korvak"
+	}
+	
+	mean_time_to_happen = {
+		months = 5
+	}
+	
+	option = {
+	name = "He shall have his state. (Bohemia may be reintergrated after 1900)"	
+	#any_owned = {
+	#limit = {
+	#is_core = BOH }
+	#secede_province = BOH
+	#}
+	#create_vassal = BOH
+	release_vassal = BOH
+	}
+	
+	option = {
+	name = "He shall recieve nothing (Will cause Civil War)"
+	kill_leader = 1436
+	add_country_modifier = {
+	name = on_the_road_to_civil_war
+	duration = 7000
+	}
+	}
+	}
+	

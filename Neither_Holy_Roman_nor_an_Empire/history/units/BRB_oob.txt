@@ -1,0 +1,63 @@
+army = {
+	name = "Brabants Leger"
+	location = 380
+	regiment = {
+		name= "1.1. Infanterie divisie"
+		type = infantry
+		home = 380
+	}
+
+	regiment = {
+		name= "1.2. Infanterie divisie"
+		type = infantry
+		home = 381
+	}
+	
+	regiment = {
+		name= "1.3. Infanterie divisie"
+		type = infantry
+		home = 379
+	}
+	
+	regiment = {
+		name= "1.4. Infanterie divisie"
+		type = infantry
+		home = 390
+	}
+	
+	regiment = {
+		name= "1.5. Infanterie divisie"
+		type = infantry
+		home = 391
+	}
+	
+	regiment = {
+		name= "1.1. Artillerie divisie"
+		type = artillery
+		home = 387
+	}
+	
+	regiment = {
+		name= "1.2. Artillerie divisie"
+		type = artillery
+		home = 387
+	}
+	
+	regiment = {
+		name= "1.3. Artillerie divisie"
+		type = artillery
+		home = 387
+	}
+
+	regiment = {
+		name= "1.4. Artillerie divisie"
+		type = artillery
+		home = 392
+	}
+	
+	regiment = {
+		name= "1.1. Kalverie divisie"
+		type = dragoon
+		home = 395
+	}
+}

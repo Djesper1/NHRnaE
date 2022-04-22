@@ -1,0 +1,249 @@
+political_decisions = {
+guarantee_the_small_states = {
+potential = {
+tag = AUS
+NOT = { AUS = { has_country_flag = GP1 } }
+NOT = {
+ANH = { has_country_modifier = guaranteed_independace }
+SGM = { has_country_modifier = guaranteed_independace }
+HSL = { has_country_modifier = guaranteed_independace }
+}
+exists = ANH
+exists = SGM
+HSL = {
+exists = yes
+owns = 383
+owns = 529
+owns = 530
+owns = 690
+}
+}
+allow = {
+state_n_government = 1
+muzzle_loaded_rifles = 1
+army_professionalism = 1
+}
+effect = {
+
+HSL = {
+add_country_modifier = {
+	name = guaranteed_independace
+	duration = 23360
+}
+add_country_modifier = {
+	name = supporter_of_unification_of_the_hre
+	duration = 23360
+}
+}
+
+SGM = {
+add_country_modifier = {
+	name = guaranteed_independace
+	duration = 23360
+}
+add_country_modifier = {
+	name = supporter_of_unification_of_the_hre
+	duration = 23360
+}
+}
+
+ANH = {
+add_country_modifier = {
+	name = guaranteed_independace
+	duration = 23360
+}
+add_country_modifier = {
+	name = supporter_of_unification_of_the_hre
+	duration = 23360
+}
+}
+}
+}
+
+annex_danzig = {
+potential = {
+OR = {
+tag = PRU
+tag = BRP
+}
+NOT = {
+HSL = { has_country_modifier = guaranteed_independace }
+}
+NOT = {
+690 = { owned_by = PRU }
+}
+NOT = {
+690 = { owned_by = BRP }
+}
+}
+allow = {
+state_n_government = 1
+muzzle_loaded_rifles = 1
+army_professionalism = 1
+}
+effect = {
+690 = {
+secede_province = THIS
+remove_core = HSL
+add_core = PRU
+add_core = BRP
+}
+}
+}
+
+annex_the_pomeranian_hansa = {
+potential = {
+544 = { owned_by = THIS }
+530 = {
+NOT = { owned_by = THIS }
+}
+}
+allow = {
+state_n_government = 1
+muzzle_loaded_rifles = 1
+army_professionalism = 1
+}
+effect = {
+530 = {
+secede_province = THIS
+remove_core = HSL
+add_core = THIS
+}
+548 = {
+secede_province = THIS
+remove_core = HSL
+add_core = THIS
+}
+}
+}
+
+annex_the_hanoverian_hansa = {
+potential = {
+tag = HAN
+NOT = {
+HSL = { has_country_modifier = guaranteed_independace }
+}
+NOT = {
+529 = { owned_by = HAN }
+}
+}
+allow = {
+state_n_government = 1
+muzzle_loaded_rifles = 1
+army_professionalism = 1
+}
+effect = {
+529 = {
+secede_province = HAN
+remove_core = HSL
+add_core = HAN
+}
+528 = {
+secede_province = HAN
+remove_core = HSL
+add_core = HAN
+}
+}
+}
+
+annex_the_frisian_hansa = {
+potential = {
+385 = {
+owned_by = THIS
+}
+NOT = {
+HSL = { has_country_modifier = guaranteed_independace }
+}
+NOT = {
+383 = { owned_by = THIS }
+}
+}
+allow = {
+state_n_government = 1
+muzzle_loaded_rifles = 1
+army_professionalism = 1
+}
+effect = {
+383 = {
+secede_province = THIS
+remove_core = HSL
+add_core = FRI
+add_core = NET
+}
+}
+}
+
+carve_up_the_small_states = {
+potential = {
+NOT = { AUS = { has_country_flag = GP1 } }
+tag = AUS
+HSL = {
+exists = yes
+owns = 383
+owns = 529
+owns = 530
+owns = 690
+has_country_modifier = guaranteed_independace
+}
+ANH = {
+exists = yes
+has_country_modifier = guaranteed_independace
+}
+SGM = {
+exists = yes
+has_country_modifier = guaranteed_independace
+}
+}
+allow = {
+breech_loaded_rifles = 1
+realism = 1
+stock_exchange = 1
+}
+effect = {
+BRN = { country_event = 99901 }
+PRU = { country_event = 99900 }
+BRP = { country_event = 99902 }
+FRI = { country_event = 99903 }
+POM = { country_event = 99905 }
+HAN = { country_event = 99904 }
+}
+}
+
+promise_unification_to_the_dutch = {
+potential = {
+tag = AUS
+NOT = { AUS = { has_country_flag = GP1 } }
+NOT = { has_global_flag = promised_dutch_unification }
+}
+allow = {
+nationalism_n_imperialism = 1
+relation = { who = HLL value = 150 }
+relation = { who = BRB value = 150 }
+relation = { who = FLA value = 150 }
+}
+effect = {
+country_event = 90901
+set_global_flag = promised_dutch_unification
+}
+}
+
+finalise_dutch_unification = {
+potential = {
+tag = AUS
+NOT = { AUS = { has_country_flag = GP1 } }
+has_global_flag = hll_accept
+has_global_flag = fla_accept
+has_global_flag = brb_accept
+NOT = { 
+has_global_flag = hll_leader
+has_global_flag = fla_leader
+has_global_flag = brb_leader
+has_global_flag = annex_the_netherlands
+}
+}
+allow = { }
+effect = {
+AUS = { country_event = 90507 }
+}
+}
+}

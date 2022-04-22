@@ -1,0 +1,9 @@
+owner = ICA
+controller = ICA
+add_core = BOL
+trade_goods = tropical_wood
+life_rating = 30
+
+
+add_core = ICA
+colonial = yes

@@ -1,0 +1,9 @@
+owner = CUM
+controller = CUM
+
+
+
+trade_goods = coal
+life_rating = 35
+
+add_core = CUM

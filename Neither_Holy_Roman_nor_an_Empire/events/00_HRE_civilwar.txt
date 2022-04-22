@@ -1,0 +1,306 @@
+country_event = {
+	id = 970010
+		title = "Neither Holy, Roman nor an Empire at last."
+		desc = "EVENTDESC_970010"
+		picture = "austrian_court"
+		
+		fire_only_once = yes
+		major = yes
+		
+		trigger = { 
+		tag = HRE
+		OR = {
+		has_leader = "Maxmilián Korvak"
+		has_leader = "Napoleon Bonaparte II"
+		}
+		has_country_modifier = on_the_road_to_civil_war
+	}
+	
+	mean_time_to_happen = {
+		months = 72
+	}
+	
+	option = {
+	name = "We have faced bigger problems, he shall be put down quickly."
+	any_owned = {
+	limit = {
+	OR = {
+	AND = { NOT = { is_core = HRE } OR = { militancy = 3.6 pop_majority_ideology = liberal } }
+	AND = { is_core = HRE OR = { militancy = 5 pop_majority_ideology = liberal } }
+	is_core = BOH
+	}
+	NOT = { province_id = 619 }
+	is_overseas = no
+	}
+	add_core = RMI
+	remove_core = HRE
+	}
+	release = RMI
+	set_global_flag = hre_civ_war
+	war = {
+	target = HRE
+	attacker_goal = { casus_belli = annexation }
+	defender_goal = { casus_belli = annexation }
+	call_ally = no
+	}
+	country_event = {
+	id = 970018
+	days = 2
+	}
+	RMI = {
+	government = revolutionary_republic
+	political_reform = party_appointed
+	political_reform = universal_voting
+	political_reform = yes_meeting
+	political_reform = censored_press
+	political_reform = state_controlled
+	political_reform = proportional_representation
+	political_reform = secret_ballots
+	}
+	}
+	
+	option = {
+	name = "We shall join the Revolution!"
+	any_owned = {
+	limit = {
+	OR = {
+	AND = { NOT = { is_core = HRE } OR = { militancy = 3.6 pop_majority_ideology = liberal } }
+	AND = { is_core = HRE OR = { militancy = 5 pop_majority_ideology = liberal } }
+	is_core = BOH
+	}
+	is_overseas = no
+	NOT = { province_id = 619 }
+	}
+	add_core = RMI
+	remove_core = HRE
+	}
+	release = RMI
+	change_tag_no_core_switch = RMI
+	set_global_flag = hre_civ_war
+	war = {
+	target = HRE
+	attacker_goal = { casus_belli = annexation }
+	defender_goal = { casus_belli = annexation }
+	call_ally = no
+	}
+	country_event = {
+	id = 970018
+	days = 2
+	}
+	RMI = {
+	government = revolutionary_republic
+	political_reform = party_appointed
+	political_reform = universal_voting
+	political_reform = yes_meeting
+	political_reform = censored_press
+	political_reform = state_controlled
+	political_reform = proportional_representation
+	political_reform = secret_ballots
+	}
+	}
+	}
+	
+	country_event = {
+	id = 970009
+		title = "Napoleon II defects"
+		desc = "Napoleon II has defected to the Korvak's cause."
+		picture = "austrian_court"
+		
+		fire_only_once = yes
+		
+		trigger = { 
+		tag = HRE
+		has_global_flag = bohemian_napoleon
+		year = 1861
+		war = no
+		has_country_flag = GP1
+		has_country_flag = GP2
+		has_country_flag = GP3
+		has_leader = "Napoleon Bonaparte II"
+		has_country_modifier = on_the_road_to_civil_war
+	}
+	
+	mean_time_to_happen = {
+		months = 3
+	}
+	
+	option = {
+	name = "The Apple does not fall far from the Tree"
+	kill_leader = 2614
+	set_global_flag = nap_ii_def
+	}
+	}
+	
+	country_event = {
+		id = 970011
+		title = "Napoleon II"
+		desc = "Napoleon II has joined our Army"
+		picture = "austrian_court"
+		
+		fire_only_once = yes
+		
+		trigger = { 
+		tag = RMI
+		has_global_flag = nap_ii_def
+		}
+		
+		mean_time_to_happen = {
+		days = 1
+		modifier = { factor = 0.00001 }
+		}
+		
+		option = {
+		name = "Very well."
+		define_general = {
+				name = "Napoleon Bonaparte II"
+				personality = master_of_warfare
+				background = rising_star
+				}
+			}
+			}
+			
+			country_event = {
+		id = 970012
+		title = "Maxmilián Korvak"
+		desc = "Korvak has joined the Mittel European Army"
+		picture = "austrian_court"
+		
+		fire_only_once = yes
+		
+		trigger = { 
+		tag = RMI
+		NOT = { has_global_flag = kor_dead }
+		}
+		
+		mean_time_to_happen = {
+		days = 1
+		modifier = { factor = 0.00001 }
+		}
+		
+		option = {
+		name = "Very well."
+define_general = {
+				name = "Maxmilián Korvak"
+				personality = master_of_warfare
+				background = bohemian_artilleryman
+				}			}
+			}
+			
+			country_event = {
+		id = 970019
+		title = "Maxmilián Korvak"
+		desc = "Korvak has been found dead"
+		picture = "austrian_court"
+		
+		fire_only_once = yes
+		
+		trigger = { 
+		has_global_flag = bohemian_napoleon
+		OR = {
+		tag = AUS
+		tag = HRE }
+		NOT = { has_leader = "Maxmilián Korvak" }
+		NOT = { has_global_flag = kor_dead }
+		}
+		
+		option = {
+		name = "We mourn his loss"
+		set_global_flag = kor_dead
+			}
+			}
+	
+	country_event = {
+		id = 970013
+		title = "The Civil War Starts"
+		desc = "God save the Holy Roman Empire, for no one else can."
+		picture = "austrian_court"
+		
+		fire_only_once = yes
+		major = yes
+		
+		trigger = { 
+		tag = RMI
+		HRE = { exists = yes }
+		war = no
+		}
+		
+		mean_time_to_happen = {
+		months = 3
+		}
+		
+		option = {
+		name = "Mein GÃ¶tt."
+		war = {
+	target = HRE
+	attacker_goal = { casus_belli = annexation }
+	defender_goal = { casus_belli = annexation }
+	call_ally = no
+	}
+	}
+	}
+	
+	country_event = {
+		id = 970014
+		title = "The Civil War Ends"
+		desc = "EVENTDESC_970014"
+		picture = "austrian_court"
+		
+		fire_only_once = yes
+		major = yes
+		
+		trigger = { 
+		tag = RMI
+		HRE = { exists = no }
+		war = no
+		}
+		
+		option = {
+		name = "We are victorious!"
+		set_global_flag = rev_win_mit
+		}
+		}
+		
+		country_event = {
+		id = 970015
+		title = "The Civil War Ends"
+		desc = "EVENTDESC_970015"
+		picture = "austrian_court"
+		
+		fire_only_once = yes
+		major = yes
+		
+		trigger = { 
+		tag = HRE
+		RMI = { exists = no }
+		war = no
+		has_global_flag = hre_civ_war
+		}
+		
+		option = {
+		name = "We are victorious!"
+		set_global_flag = rev_win_hre
+		}
+		}
+		
+		country_event = {
+		id = 970018
+		title = "I'm very sorry friend"
+		desc = "The innitial skirmishes just last few days"
+		picture = "austrian_court"
+		
+		fire_only_once = yes
+		triggered_only = yes
+		
+		trigger = { 
+		tag = HRE
+		RMI = { exists = yes }
+		war = yes
+		has_global_flag = hre_civ_war
+		}
+		
+		option = {
+		name = "Shame"
+		RMI = { end_war = HRE }
+		}
+		}
+		

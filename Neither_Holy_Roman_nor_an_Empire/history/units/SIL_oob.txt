@@ -1,0 +1,15 @@
+army = {
+	name = "Schlesisch Armee"
+	location = 684
+	regiment = {
+		name= "Infanteriedivision"
+		type = infantry
+		home = 682
+	}
+	
+	regiment = {
+		name= "Kavalleriedivision"
+		type = dragoon
+		home = 683
+	}
+}

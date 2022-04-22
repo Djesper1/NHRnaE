@@ -1,0 +1,489 @@
+# This is the shit for Italy's and Burgundy's position into the empire
+# Also the first bit I will make entirely in Notepad++ instead of CodeWriter
+# Bababoey
+
+#(country/province)_event = {
+#	id = (event id)
+#	title = "(event title)"
+#	desc = "(event text)"
+#	picture = "(picture name)"
+# 
+#	is_triggered_only = (yes/no)
+#	major = (yes/no)
+#	fire_only_once = (yes/no)
+#	allow_multiple_instances = (yes/no)
+
+country_event = {
+	id = 90512
+	title = "Burgundy and the Empire"
+	desc = "EVENTDESCBatE"
+	picture = "Administration"
+
+	is_triggered_only = yes
+	major = yes
+	fire_only_once = yes
+	
+	option = {
+	name = "Keep the Status Quo, any changes will just bring pain."
+	set_global_flag = burgundian_status_quo
+	}
+	option = {
+	name = "Autonomy within our empire is best."
+	set_global_flag = burgundian_autonomy
+	}
+	option = {
+	name = "Intergration, How painful it can be, is best"
+	set_global_flag = burgundian_intergration
+	}
+}
+	
+country_event = {
+	id = 90513
+	title = "Burgundy Protests in the Imperial Diet"
+	desc = "With our current measure, Burgundy has called a session of the Imperial Diet in protest. We can repeal the act but, this makes us look weak."
+	picture = "Administration"
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+	name = "Nothing will be repealed."
+	relation = {
+	who = BRG
+	value = -50
+	}
+	set_global_flag = angry_burgundians
+	}
+	
+	option = {
+	name = "Repeal the act"
+	BRG = {
+			religion = catholic
+			any_owned = {
+			limit = {
+			has_pop_religion = catholic
+			}
+			militancy = -4
+			}
+		}
+	relation = {
+	who = BRG
+	value = -20
+	}
+	set_global_flag = austria_repeals_the_act
+	remove_global_flag = burgundian_religion_change
+	}
+	}
+	
+	country_event = {
+	id = 90514
+	title = "Replace the Burgundian Upper Class"
+	desc = "A loyal Burgundy requires a German Upper Class"
+	picture = "Administration"
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+	name = "Commence the Plan."
+	BRG = {
+	add_accepted_culture = burgundian
+	add_accepted_culture = south_german
+	any_owned = {
+	limit = {
+	NOT = {
+	has_pop_culture = south_german
+	has_pop_culture = burgund
+	}
+	}
+	militancy = 4
+	}
+	any_owned = {
+	limit = {
+	OR = {
+	has_pop_culture = south_german
+	strata = rich
+	}
+	}
+	assimilate = yes
+	}
+	relation = {
+	who = AUS
+	value = -100
+	}
+	}
+	}
+}
+
+	country_event = {
+	id = 90515
+	title = "Burgundy and the Empire, once more."
+	desc = "Because of our efforts, Burgundy is now ready for Intergration with the Empire. Gott erhalte!"
+	picture = "Administration"
+
+	major = yes
+	fire_only_once = yes
+	
+	trigger = {
+				tag = HRE
+				has_global_flag = brg_is_almost_Deutsch
+			}
+		
+			mean_time_to_happen = {
+			months = 1
+		
+			modifier = {
+				factor = 0.2
+				tag = HRE
+				has_global_flag = brg_is_almost_Deutsch
+			}
+		}
+	
+	option = {
+	name = "Gott erhalte unser Keizer!"
+	inherit = BRG
+	any_owned = {
+	limit = {
+	is_core = BRG
+	NOT = {
+	OR = {
+	is_core = HRE
+	is_core = AUS
+	}
+	}
+	}
+	add_province_modifier = {
+	name = heavy_resistance
+	duration = 18250
+}
+	}
+}
+}
+	country_event = {
+	id = 90516
+	title = "Burgundy and the Empire, once more."
+	desc = "Burgundy is ready for it's position within the Empire."
+	picture = "Administration"
+	major = yes
+	fire_only_once = yes
+	
+	trigger = {
+				tag = HRE
+				has_global_flag = burgundian_autonomy
+				BRG = { has_country_modifier = supporter_of_unification_of_the_hre }
+			}
+		
+			mean_time_to_happen = {
+			months = 1
+		
+			modifier = {
+				factor = 0.5
+				tag = HRE
+				has_global_flag = burgundian_autonomy
+			}
+		}
+	option = {
+	name = "Gott erhalte unser Keizer!"
+	AUS = { 	
+create_vassal = BRG
+}
+	BRG = {
+	any_owned = {
+	limit = {
+	is_core = BRG
+	}
+	add_province_modifier = {
+	name = light_resistance
+	duration = 3650
+}
+	}
+	}
+}
+}
+
+country_event = {
+	id = 90517
+	title = "Italy and the Empire"
+	desc = "EVENTDESCuh_oh"
+	picture = "Administration"
+
+	is_triggered_only = yes
+	major = yes
+	fire_only_once = yes
+	
+	option = {
+	name = "Keep the Status Quo, any changes will just bring pain."
+	set_global_flag = ita_status_quo
+	}
+	option = {
+	name = "Autonomy within our empire is best."
+	country_event = 90518
+	}
+	option = {
+	name = "Intergration, How painful it can be, is best"
+	set_global_flag = italian_intergration
+	}
+}
+
+country_event = {
+	id = 90518
+	title = "What kind of Autonomy?"
+	desc = "EVENTDESCuh_oh_oh"
+	picture = "Administration"
+
+	is_triggered_only = yes
+	major = yes
+	fire_only_once = yes
+	
+	option = {
+	name = "Disunited Autonomy"
+	set_global_flag = ita_auto_no_uni
+	}
+	option = {
+	name = "United Autonomy"
+	set_global_flag = ita_auto_int
+	}
+	option = {
+	name = "United Autonomy but, Venice is not Italian, yes?"
+	set_global_flag = ita_auto_int
+	set_global_flag = yum_yum_venice
+	}
+	option = {
+	name = "Divided Autonomy, Disunited they won't care about Venice."
+	set_global_flag = ita_auto_no_uni
+	set_global_flag = yum_yum_venice
+}
+}
+
+	country_event = {
+	id = 90519
+	title = "All quiet in Lille"
+	desc = "While the HRE is unified, Burgundy remains in the Status Quo."
+	picture = "Administration"
+	fire_only_once = yes
+	trigger = {
+				tag = HRE
+				has_global_flag = burgundian_status_quo
+			}
+		
+			mean_time_to_happen = {
+			months = 1
+		
+			modifier = {
+				factor = 0.02
+				tag = HRE
+				has_global_flag = burgundian_status_quo
+			}
+		}
+	option = {
+	name = "I should have taken a more interesting route."
+	money = -1
+	}
+	option = {
+	name = "Shut up game, I knew best, I am smart, I chose right."
+	money = 1
+	}
+	}
+	
+	country_event = {
+	id = 90520
+	title = "All quiet in Italy"
+	desc = "While the HRE is unified, Italy remains in the Status Quo."
+	picture = "Administration"
+	fire_only_once = yes
+	trigger = {
+				tag = HRE
+				has_global_flag = ita_status_quo
+			}
+		
+			mean_time_to_happen = {
+			months = 1
+		
+			modifier = {
+				factor = 0.5
+				tag = HRE
+				has_global_flag = ita_status_quo
+			}
+		}
+	option = {
+	name = "I should have taken a more interesting route."
+	money = -1
+	}
+	option = {
+	name = "Shut up game, I knew best, I am smart, I chose right."
+	money = 1
+	}
+	}
+	
+	country_event = {
+	id = 90521
+	title = "The 6th Imperial Italian Congress"
+	desc = "EVENTDESCitalia_congresa_no_problema_de_alfa_romeo_no_problemo_de_aqua_no_problemo_de_olio"
+	picture = "Administration"
+
+	is_triggered_only = yes
+	major = yes
+	fire_only_once = yes
+	option = {
+	name = "Such an interesting time we live in, the unification of Italy may be a fact soon."
+	set_country_flag = italian_congress
+	}
+	}
+	
+	country_event = {
+	id = 90522
+	title = "Veto!"
+	desc = "EVENTDESC_rlly_nibba"
+	picture = "Administration"
+	fire_only_once = yes
+	
+	trigger = {
+				has_global_flag = unification_plans_veto
+				NOT = { tag = AUS }
+			}
+		
+			mean_time_to_happen = {
+			months = 1
+		
+			modifier = {
+				factor = 0.01
+				has_global_flag = unification_plans_veto
+			}
+		}
+	
+	option = {
+	name = "It was doomed to fail anyways."
+	clr_country_flag = italian_congress
+	set_global_flag = hey_kids_failed
+	}
+	}
+	
+	
+	country_event = {
+	id = 90901
+	title = "Veto!"
+	desc = "EVENTDESC_rlly_nibba_aus"
+	picture = "Administration"
+	fire_only_once = yes
+	
+	trigger = {
+				has_global_flag = unification_plans_veto
+				tag = AUS
+			}
+		
+			mean_time_to_happen = {
+			months = 1
+		
+			modifier = {
+				factor = 0.01
+				has_global_flag = unification_plans_veto
+			}
+		}
+	
+	option = {
+	name = "It was doomed to fail anyways. A return to the status quo is best."
+	clr_country_flag = italian_congress
+	set_global_flag = hey_kids_failed
+	set_global_flag = ita_status_quo
+	remove_global_flag = ita_auto_int
+	}
+	option = {
+	name = "Well, we asked nicely, now we will keep them disunified and autonomous."
+	clr_country_flag = italian_congress
+	set_global_flag = hey_kids_failed
+	set_global_flag = ita_auto_no_uni
+	remove_global_flag = ita_auto_int
+	}
+	option = {
+	name = "Those Dogs! We will annex them! Sooner rather then later!"
+	clr_country_flag = italian_congress
+	set_global_flag = hey_kids_failed
+	set_global_flag = italian_intergration
+	clr_global_flag = ita_auto_int
+	}
+	}
+	
+	country_event = {
+	id = 90523
+	title = "Succes!"
+	desc = "Those Italians have not stopped our plans! Gott Erhalte!"
+	picture = "Administration"
+	fire_only_once = yes
+	
+	trigger = {
+				has_global_flag = yum_yum_venice
+				has_country_flag = italian_congress
+				tag = AUS
+			}
+		
+			mean_time_to_happen = {
+			months = 3
+		
+			modifier = {
+				factor = 1
+				has_country_flag = italian_congress
+			}
+		}
+	
+	option = {
+	name = "Zher Güd!"
+	clr_country_flag = italian_congress
+	set_global_flag = hey_kids_succes
+	country_event = 90525
+	}
+	}
+	
+	country_event = {
+	id = 90524
+	title = "Succes!"
+	desc = "The Austrian plan has not been stopped."
+	picture = "Administration"
+	fire_only_once = yes
+	
+	trigger = {
+				has_country_flag = italian_congress
+				not = { tag = AUS }
+			}
+		
+			mean_time_to_happen = {
+			months = 2
+		
+			modifier = {
+				factor = 1
+				has_country_flag = italian_congress
+			}
+		}
+	
+	option = {
+	name = "What will this mean for Italy?"
+	clr_country_flag = italian_congress
+	set_global_flag = hey_kids_succes
+	}
+	}
+	
+	country_event = {
+	id = 90525
+	title = "What duke to choose?"
+	desc = "We must now choose where this Italian state will be the leader of this North Italian State."
+	picture = "Administration"
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+	name = "The Duke of Sardinia-Piedemont is quite competent."
+	set_global_flag = sar_is_cool
+	}
+	option = {
+	name = "The Doge of Genoa shall lead."
+	set_global_flag = gen_is_cool
+	}
+	option = {
+	name = "The Duke of Lombardia is the man for the job."
+	set_global_flag = lom_is_cool
+	}
+	option = {
+	name = "The Duke of Parma is a good statesman"
+	set_global_flag = par_is_cool
+	prestige = -1
+	}
+	}
+	

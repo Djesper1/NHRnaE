@@ -1,0 +1,8 @@
+owner = CHA
+controller = CHA
+
+trade_goods = timber
+life_rating = 30
+
+add_core = CHA
+colonial = yes

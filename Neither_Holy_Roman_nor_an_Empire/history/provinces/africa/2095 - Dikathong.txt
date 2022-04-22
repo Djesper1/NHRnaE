@@ -1,0 +1,8 @@
+owner = KAA
+controller = KAA
+trade_goods = grain
+life_rating = 15
+
+
+add_core = KAA
+colonial = yes

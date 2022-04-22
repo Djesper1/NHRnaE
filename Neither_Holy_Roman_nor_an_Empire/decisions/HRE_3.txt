@@ -1,0 +1,101 @@
+	political_decisions = {
+	#gimme_your_prestige = {
+	#potential = {
+	#tag = AUS
+	#NOT = { has_country_modifier = recently_declared_war_on_landsvrede_gp }
+	#}
+	#allow = {
+    #any_country = {
+    #limit = {
+    #NOT = { tag = AUS }
+    #has_country_modifier = landsvrede
+    #}
+    #is_greater_power = yes
+    #}
+    #}
+	#effect = {
+	#any_country = {
+	#limit = {
+	#NOT = { tag = AUS }
+	#has_country_modifier = landsvrede
+	#is_greater_power = yes
+	#}
+	#add_casus_belli = {
+	#target = AUS
+	#type = humiliate
+	#months = 6
+	#}
+	#}
+	#}
+	#}
+	
+	found_the_vienna_achedamy = {
+	potential = {
+	tag = AUS
+	NOT = { has_global_flag = veinach }
+	}
+	allow = {
+	empiricism = 1
+	money = 100000
+	}
+	effect = {
+	set_global_flag = veinach
+	money = -100000
+	add_country_modifier = {
+	name = vienna_achedamy
+	duration = 7300
+	}
+	}
+	}
+	
+	gimme_your_prestige = {
+    potential = {
+        tag = AUS
+		NOT = { AUS = { has_country_flag = GP1 } }
+    }
+    allow = {
+		NOT = { has_country_modifier = recently_declared_war_on_landsvrede_gp }
+	    any_greater_power = {
+        has_country_modifier = landsvrede
+        NOT = { tag = AUS }
+    }
+    }
+    effect = {
+    any_greater_power = {
+        limit = {
+            has_country_modifier = landsvrede
+            NOT = { tag = AUS }
+        }
+        add_casus_belli = {
+            target = AUS
+            type = humiliate
+            months = 6
+        }
+    }
+	add_country_modifier = {
+	name = recently_declared_war_on_landsvrede_gp
+	duration = 1460
+	}
+}
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	}

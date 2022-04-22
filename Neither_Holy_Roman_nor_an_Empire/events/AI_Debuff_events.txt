@@ -1,0 +1,39 @@
+country_event = {
+	id = 90604
+	title = "AI Influence Debuff"
+	desc = "If you can see this it is bad"
+	picture = "Administration"
+	
+	trigger = {
+	ai = yes
+	NOT = { ai = no }
+	NOT = { tag = AUS }
+	NOT = { has_country_modifier = ai_influence_debuff }
+	}
+	
+	option = {
+	name = "Bleep Bloop"
+		add_country_modifier = {
+		name = ai_influence_debuff
+		duration = 36500
+		}
+	}
+}
+
+country_event = {
+	id = 90605
+	title = "Not an AI anymore"
+	desc = "if your not an AI best to remove the AI debuff, innit?"
+	picture = "Administration"
+	
+	trigger = {
+	NOT = { ai = yes }	
+	ai = no 
+	has_country_modifier = ai_influence_debuff
+	}
+	
+	option = {
+	name = "Bleep Bloop"
+		remove_country_modifier = ai_influence_debuff
+	}
+}

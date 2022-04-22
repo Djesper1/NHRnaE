@@ -1,0 +1,197 @@
+political_decisions = {
+claim_our_dutch_land = {
+potential = {
+tag = BRG
+NOT = {
+exists = NET
+}
+}
+allow = {
+	prestige = 30
+	breech_loaded_rifles = 1
+	nationalism_n_imperialism = 1
+	NOT = {
+		OR = {
+		NOT = {
+		exists = NET
+					}
+			375 = {
+			owner = {
+				OR = {
+					tag = NNL
+					tag = NHO
+					}
+				}
+			}
+		}
+	}
+}
+effect = {
+prestige = 20
+add_accepted_culture = dutch
+375 = { add_core = BRG }
+376 = { add_core = BRG }
+377 = { add_core = BRG }
+378 = { add_core = BRG }
+379 = { add_core = BRG }
+380 = { add_core = BRG }
+381 = { add_core = BRG }
+382 = { add_core = BRG }
+383 = { add_core = BRG }
+384 = { add_core = BRG }
+385 = { add_core = BRG }
+386 = { add_core = BRG }
+387 = { add_core = BRG }
+388 = { add_core = BRG }
+389 = { add_core = BRG }
+390 = { add_core = BRG }
+391 = { add_core = BRG }
+392 = { add_core = BRG }
+393 = { add_core = BRG }
+394 = { add_core = BRG }
+395 = { add_core = BRG }
+}
+ai_will_do = {
+factor = 1
+}
+}
+
+the_alsace_situation = {
+potential = {
+tag = BRG
+has_global_flag = burgundian_autonomy
+NOT = { AUS = { has_country_flag = GP1 } }
+NOT = {
+410 = { is_core = BRG }
+}
+}
+allow = {
+	nationalism_n_imperialism = 1
+	prestige = 30
+	OR = {
+	has_country_modifier = supporter_of_unification_of_the_hre
+	machine_guns = 1
+	}
+}
+effect = {
+AUS = { country_event = 50000 }
+409 = { add_core = BRG }
+410 = { add_core = BRG }
+412 = { add_core = BRG }
+add_accepted_culture = south_german
+}
+ai_will_do = {
+factor = 1
+}
+}
+
+annex_ruthenia = {
+potential = {
+tag = PLC
+exists = RUT
+}
+allow = {
+is_greater_power = yes
+nationalism_n_imperialism = 1
+	OR = {
+		RUT = { in_sphere = PLC }
+		958 = { controlled_by = PLC }
+	}
+}
+effect = {
+PLC = {
+inherit = RUT
+}
+351 = { add_core = PLC }
+352 = { add_core = PLC }
+702 = { add_core = PLC }
+951 = { add_core = PLC }
+952 = { add_core = PLC }
+953 = { add_core = PLC }
+968 = { add_core = PLC }
+969 = { add_core = PLC }
+970 = { add_core = PLC }
+971 = { add_core = PLC }
+972 = { add_core = PLC }
+965 = { add_core = PLC }
+}
+ai_will_do = {
+factor = 1
+}
+}
+
+the_intergration_of_ruthenia = {
+potential = {
+tag = RUS
+exists = RUT
+}
+allow = {
+revolution_n_counterrevolution = 1
+machine_guns = 1
+army_risk_management = 1
+RUT = { 
+is_our_vassal = RUS
+in_sphere = RUS
+}
+NOT = {
+PLC = {
+is_greater_power = yes
+}
+RUT = {
+is_greater_power = yes
+}
+}
+}
+effect = {
+inherit = RUT
+PLC = {
+add_casus_belli = {
+	target = RUS
+	type = conquest
+	months = 12
+}
+any_pop = {
+dominant_issue = {
+	value = jingoism
+	factor = 0.50
+}
+}
+}
+}
+ai_will_do = {
+factor = 1
+}
+}
+
+support_rebellion_in_ruthenia = {
+potential = {
+tag = PLC
+RUS =  { is_our_vassal = RUT }
+}
+allow = {
+money = 150000
+state_n_government = 1
+}
+effect = {
+RUT = {
+any_pop = {
+limit = {
+NOT = {
+type = soldiers
+}
+} 
+militancy = 5
+consciousness = 5
+}
+any_pop = {
+limit = {
+type = soldiers
+}
+money = 1
+militancy = 7
+consciousness = 7
+}
+}
+}
+}
+}

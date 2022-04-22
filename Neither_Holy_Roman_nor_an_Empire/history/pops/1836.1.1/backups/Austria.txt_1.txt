@@ -1,0 +1,1082 @@
+#Tirol Region (556000) #see Italy.txt for balance of Region
+#under the rule of Austria in 1836
+#Innsbruck (236000/59000 POPS)
+612 = {
+    aristocrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 242
+    }
+
+    bureaucrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 121
+    }
+
+    officers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 24
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 193
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 966
+    }
+
+    soldiers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 628
+    }
+
+    farmers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 21993
+    }
+
+    aristocrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 362
+    }
+
+    bureaucrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 181
+    }
+
+    officers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 36
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 290
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 1450
+    }
+
+    soldiers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 942
+    }
+
+    farmers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 32989
+    }
+}
+613 = {
+    aristocrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 136
+    }
+
+    bureaucrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 68
+    }
+
+    officers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 13
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 108
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 543
+    }
+
+    soldiers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 353
+    }
+
+    farmers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 12365
+    }
+
+    aristocrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 203
+    }
+
+    bureaucrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 101
+    }
+
+    officers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 20
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 163
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 815
+    }
+
+    soldiers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 530
+    }
+
+    farmers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 18547
+    }
+}
+614 = {
+    aristocrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 130
+    }
+
+    bureaucrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 65
+    }
+
+    officers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 13
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 104
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 522
+    }
+
+    soldiers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 339
+    }
+
+    farmers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 11866
+    }
+
+    aristocrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 196
+    }
+
+    bureaucrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 98
+    }
+
+    officers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 19
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 156
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 782
+    }
+
+    soldiers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 508
+    }
+
+    farmers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 17800
+    }
+}
+615 = {
+    aristocrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 102
+    }
+
+    bureaucrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 51
+    }
+
+    officers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 10
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 61
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 769
+    }
+
+    soldiers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 154
+    }
+
+    farmers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 3979
+    }
+
+    aristocrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 154
+    }
+
+    bureaucrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 77
+    }
+
+    officers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 15
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 92
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 1154
+    }
+
+    soldiers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 230
+    }
+
+    farmers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 5969
+    }
+}
+#Carinthia-Styria Region (736000) #see Slovenia.txt for balance of Region
+#under the rule of Austria in 1836
+#Graz (380000/95000 POPS)
+616 = {
+    aristocrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 760
+    }
+
+    bureaucrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 380
+    }
+
+    officers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 76
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 456
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 5700
+    }
+
+    soldiers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 1140
+    }
+
+    farmers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 29488
+    }
+
+    aristocrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 1140
+    }
+
+    bureaucrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 570
+    }
+
+    officers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 114
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 683
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 8550
+    }
+
+    soldiers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 1710
+    }
+
+    farmers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 44231
+    }
+}
+617 = {
+    aristocrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 168
+    }
+
+    bureaucrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 84
+    }
+
+    officers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 17
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 134
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 672
+    }
+
+    soldiers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 437
+    }
+
+    farmers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 15288
+    }
+
+    aristocrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 252
+    }
+
+    bureaucrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 126
+    }
+
+    officers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 25
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 202
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 1008
+    }
+
+    soldiers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 655
+    }
+
+    farmers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 22932
+    }
+}
+618 = {
+    aristocrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 188
+    }
+
+    bureaucrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 94
+    }
+
+    officers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 19
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 150
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 752
+    }
+
+    soldiers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 489
+    }
+
+    farmers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 17108
+    }
+
+    aristocrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 282
+    }
+
+    bureaucrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 141
+    }
+
+    officers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 28
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 226
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 1128
+    }
+
+    soldiers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 733
+    }
+
+    farmers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 25662
+    }
+}
+#Austria Region (2000000)
+#under the rule of Austria in 1836
+622 = {
+    aristocrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 1170
+    }
+
+    bureaucrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 585
+    }
+
+    officers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 117
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 702
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 8777
+    }
+
+    soldiers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 1755
+    }
+
+    farmers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 45405
+    }
+
+    aristocrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 1755
+    }
+
+    bureaucrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 877
+    }
+
+    officers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 175
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 1053
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 13165
+    }
+
+    soldiers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 2633
+    }
+
+    farmers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 68108
+    }
+}
+621 = {
+    aristocrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 237
+    }
+
+    bureaucrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 118
+    }
+
+    officers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 24
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 189
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 948
+    }
+
+    soldiers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 616
+    }
+
+    farmers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 21560
+    }
+
+    aristocrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 355
+    }
+
+    bureaucrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 178
+    }
+
+    officers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 35
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 284
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 1421
+    }
+
+    soldiers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 923
+    }
+
+    farmers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 32339
+    }
+}
+620 = {
+    aristocrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 86
+    }
+
+    bureaucrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 43
+    }
+
+    officers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 8
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 69
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 346
+    }
+
+    soldiers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 224
+    }
+
+    farmers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 7862
+    }
+
+    aristocrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 130
+    }
+
+    bureaucrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 65
+    }
+
+    officers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 13
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 103
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 518
+    }
+
+    soldiers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 337
+    }
+
+    farmers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 11794
+    }
+}
+624 = {
+    aristocrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 280
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 190
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 980
+    }
+
+    soldiers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 440
+    }
+
+    farmers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 16550
+    }
+
+    clergymen = {
+        culture = hungarian
+        religion = catholic
+        size = 60
+    }
+
+    artisans = {
+        culture = hungarian
+        religion = catholic
+        size = 150
+    }
+
+    soldiers = {
+        culture = hungarian
+        religion = catholic
+        size = 25
+    }
+
+    farmers = {
+        culture = hungarian
+        religion = catholic
+        size = 2765
+    }
+
+    clergymen = {
+        culture = hungarian
+        religion = protestant
+        size = 35
+    }
+
+    artisans = {
+        culture = hungarian
+        religion = protestant
+        size = 150
+    }
+
+    soldiers = {
+        culture = hungarian
+        religion = protestant
+        size = 25
+    }
+
+    farmers = {
+        culture = hungarian
+        religion = protestant
+        size = 1790
+    }
+
+    aristocrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 420
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 285
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 1470
+    }
+
+    soldiers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 660
+    }
+
+    farmers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 24825
+    }
+}
+619 = {
+    aristocrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 2055
+    }
+
+    bureaucrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 1105
+    }
+
+    officers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 221
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 1233
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 15412
+    }
+
+    soldiers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 3082
+    }
+
+    farmers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 79731
+    }
+
+    aristocrats = {
+        culture = hungarian
+        religion = catholic
+        size = 386
+    }
+
+    clergymen = {
+        culture = hungarian
+        religion = catholic
+        size = 197
+    }
+
+    artisans = {
+        culture = hungarian
+        religion = catholic
+        size = 2610
+    }
+
+    soldiers = {
+        culture = hungarian
+        religion = catholic
+        size = 522
+    }
+
+    farmers = {
+        culture = hungarian
+        religion = catholic
+        size = 15003
+    }
+
+    aristocrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 3082
+    }
+
+    bureaucrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 1657
+    }
+
+    officers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 331
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 1849
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 23117
+    }
+
+    soldiers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 4623
+    }
+
+    farmers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 119597
+    }
+}

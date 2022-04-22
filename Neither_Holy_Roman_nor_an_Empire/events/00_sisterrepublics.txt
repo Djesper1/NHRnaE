@@ -1,0 +1,1911 @@
+country_event = {
+		id = 970016
+		title = "Paresian Sister Republic?"
+		desc = "Shall we establish a Sisterrepublic in the north of France?"
+		picture = ""
+		
+		fire_only_once = yes
+		is_triggered_only = yes
+		
+		option = {
+		name = "Yes"
+		420 = {add_core = ROP }
+		421 = {add_core = ROP }
+		422 = {add_core = ROP }
+		423 = {add_core = ROP }
+		424 = {add_core = ROP }
+		415 = {add_core = ROP }
+		416 = {add_core = ROP }
+		417 = {add_core = ROP }
+		418 = {add_core = ROP }
+		425 = {add_core = ROP }
+		426 = { add_core = ROP }
+		427 = {add_core = ROP }
+		434 = {add_core = ROP }
+		435 = {add_core = ROP }
+		436 = {add_core = ROP }
+		437 = {add_core = ROP }
+		438 = {add_core = ROP }
+		439 = {add_core = ROP }
+		440 = {add_core = ROP }
+		441 = {add_core = ROP }
+		release_vassal = ROP
+		ROP = {
+		add_country_modifier = {
+		name = sister_republic
+		duration = 36500
+		}
+		}
+		}
+		option = {
+		name = "No"
+		}
+		}
+		country_event = {
+		id = 970020
+		title = "Bordeauxian Sister Republic?"
+		desc = "Shall we establish a Sisterrepublic in the south-west of France?"
+		picture = ""
+		
+		fire_only_once = yes
+		is_triggered_only = yes
+		
+		option = {
+		name = "Yes"
+		442 = {add_core = BOR }
+		443 = {add_core = BOR }
+		443 = {add_core = BOR }
+		444 = {add_core = BOR }
+		445 = {add_core = BOR }
+		446 = {add_core = BOR }
+		447 = {add_core = BOR }
+		455 = {add_core = BOR }
+		456 = {add_core = BOR }
+		443 = {add_core = BOR }
+		457 = {add_core = BOR }
+		458 = {add_core = BOR }
+		459 = {add_core = BOR }
+		460 = {add_core = BOR }
+		release_vassal = BOR
+		BOR = {
+		add_country_modifier = {
+		name = sister_republic
+		duration = 36500
+		}
+		}
+		}
+		option = {
+		name = "No"
+		}
+		}
+		
+		country_event = {
+		id = 970021
+		title = "Occitanian Sister Republic?"
+		desc = "Shall we establish a Sisterrepublic in the south-east of France?"
+		picture = ""
+		
+		fire_only_once = yes
+		is_triggered_only = yes
+		
+		option = {
+		name = "Yes"
+		448 = {add_core = OCC }
+		449 = {add_core = OCC }
+		450 = {add_core = OCC }
+		451 = {add_core = OCC }
+		452 = {add_core = OCC }
+		453 = {add_core = OCC }
+		467 = {add_core = OCC }
+		468 = {add_core = OCC }
+		469 = {add_core = OCC }
+		470 = {add_core = OCC }
+		461 = {add_core = OCC }
+		462 = {add_core = OCC }
+		463 = {add_core = OCC }
+		468 = {add_core = OCC }
+		release_vassal = OCC
+		OCC = {
+		add_country_modifier = {
+		name = sister_republic
+		duration = 36500
+		}
+		}
+		}
+		option = {
+		name = "No"
+		}
+		}
+		
+		country_event = {
+		id = 970022
+		title = "Aragonese Sister Republic?"
+		desc = "Shall we establish a Sisterrepublic in the east of Spain?"
+		picture = ""
+		
+		fire_only_once = yes
+		is_triggered_only = yes
+		
+		option = {
+		name = "Yes"
+		464 = {add_core = AGO }
+		498 = {add_core = AGO }
+		499 = {add_core = AGO }
+		500 = {add_core = AGO }
+		501 = {add_core = AGO }
+		503 = {add_core = AGO }
+		504 = {add_core = AGO }
+		505 = {add_core = AGO }
+		507 = {add_core = AGO }
+		506 = {add_core = AGO }
+		508 = {add_core = AGO }
+		490 = {add_core = AGO }
+		496 = {add_core = AGO }
+		495 = {add_core = AGO }
+		497 = {add_core = AGO }
+		release_vassal = AGO
+		AGO = {
+		add_country_modifier = {
+		name = sister_republic
+		duration = 36500
+		}
+		}
+		}
+		option = {
+		name = "No"
+		}
+		}
+		
+		country_event = {
+		id = 970023
+		title = "Gallician Sister Republic?"
+		desc = "Shall we establish a Sisterrepublic in the west of Iberia?"
+		picture = ""
+		
+		fire_only_once = yes
+		is_triggered_only = yes
+		
+		option = {
+		name = "Yes"
+		474 = {add_core = GGR }
+		476 = {add_core = GGR }
+		
+		518 = {add_core = GGR }
+		519 = {add_core = GGR }
+		
+		520 = {add_core = GGR }
+		521 = {add_core = GGR }
+		522 = {add_core = GGR }
+		523 = {add_core = GGR }
+		524 = {add_core = GGR }
+		525 = {add_core = GGR }
+		526 = {add_core = GGR }
+		527 = {add_core = GGR }
+		
+		release_vassal = GGR
+		GGR = {
+		add_country_modifier = {
+		name = sister_republic
+		duration = 36500
+		}
+		}
+		}
+		option = {
+		name = "No"
+		}
+		}
+		
+		country_event = {
+		id = 970024
+		title = "Granadan Sister Republic?"
+		desc = "Shall we establish a Sisterrepublic in the south of Spain?"
+		picture = ""
+		
+		fire_only_once = yes
+		is_triggered_only = yes
+		
+		option = {
+		name = "Yes"
+		509 = {add_core = GRA }
+		510 = {add_core = GRA }
+		511 = {add_core = GRA }
+		512 = {add_core = GRA }
+		513 = {add_core = GRA }
+		514 = {add_core = GRA }
+		515 = {add_core = GRA }
+		516 = {add_core = GRA }
+		release_vassal = GRA
+		GRA = {
+		add_country_modifier = {
+		name = sister_republic
+		duration = 36500
+		}
+		}
+		}
+		option = {
+		name = "No"
+		}
+		}
+		
+		country_event = {
+		id = 970025
+		title = "Castillian Sister Republic?"
+		desc = "Shall we establish a Sisterrepublic in the north and center of Spain?"
+		picture = ""
+		
+		fire_only_once = yes
+		is_triggered_only = yes
+		
+		option = {
+		name = "Yes"
+		475 = {add_core = CAS }
+		476 = {add_core = CAS }
+		477 = {add_core = CAS }
+		478 = {add_core = CAS }
+		480 = {add_core = CAS }
+		479 = {add_core = CAS }
+		481 = {add_core = CAS }
+		482 = {add_core = CAS }
+		484 = {add_core = CAS }
+		483 = {add_core = CAS }
+		485 = {add_core = CAS }
+		486 = {add_core = CAS }
+		487 = {add_core = CAS }
+		488 = {add_core = CAS }
+		489 = {add_core = CAS }
+		491 = {add_core = CAS }
+		492 = {add_core = CAS }
+		493 = {add_core = CAS }
+		494 = {add_core = CAS }
+		
+		release_vassal = CAS
+		CAS = {
+		add_country_modifier = {
+		name = sister_republic
+		duration = 36500
+		}
+		}
+		}
+		option = {
+		name = "No"
+		}
+		}
+		
+		country_event = {
+		id = 970026
+		title = "Anglian Sister Republic?"
+		desc = "Shall we establish a Sisterrepublic in the south of England?"
+		picture = ""
+		
+		fire_only_once = yes
+		is_triggered_only = yes
+		
+		option = {
+		name = "Yes"
+		
+		291 = { add_core = ENL }
+		292 = { add_core = ENL }
+		293 = { add_core = ENL }
+		294 = { add_core = ENL }
+		295 = { add_core = ENL }
+		296 = { add_core = ENL }
+		297 = { add_core = ENL }
+		298 = { add_core = ENL }
+		299 = { add_core = ENL }
+		300 = {add_core = ENL }
+		301 = {add_core = ENL }
+		302 = {add_core = ENL }
+		303 = {add_core = ENL }
+		
+		release_vassal = ENL
+		ENL = {
+		add_country_modifier = {
+		name = sister_republic
+		duration = 36500
+		}
+		}
+		}
+		option = {
+		name = "No"
+		}
+		}
+		
+		country_event = {
+		id = 970027
+		title = "Welsh Sister Republic?"
+		desc = "Shall we establish a Sisterrepublic in Wales?"
+		picture = ""
+		
+		fire_only_once = yes
+		is_triggered_only = yes
+		
+		option = {
+		name = "Yes"
+		
+		273 = { add_core = WLS }
+		274 = { add_core = WLS }
+		275 = { add_core = WLS }
+		276 = { add_core = WLS }
+		
+		release_vassal = WLS
+		WLS = {
+		add_country_modifier = {
+		name = sister_republic
+		duration = 36500
+		}
+		}
+		}
+		option = {
+		name = "No"
+		}
+		}
+		
+		country_event = {
+		id = 970028
+		title = "Northumbrian Sister Republic?"
+		desc = "Shall we establish a Sisterrepublic in Northern England?"
+		picture = ""
+		
+		fire_only_once = yes
+		is_triggered_only = yes
+		
+		option = {
+		name = "Yes"
+		
+		304 = { add_core = NRT }
+		277 = { add_core = NRT }
+		278 = { add_core = NRT }
+		280 = { add_core = NRT }
+		281 = { add_core = NRT }
+		282 = { add_core = NRT }
+		279 = { add_core = NRT }
+		283 = { add_core = NRT }
+		284 = { add_core = NRT }
+		285 = { add_core = NRT }
+		286 = { add_core = NRT }
+		287 = { add_core = NRT }
+		288 = { add_core = NRT }
+		289 = { add_core = NRT }
+		290 = { add_core = NRT }
+		
+		release_vassal = NRT
+		NRT  = {
+		add_country_modifier = {
+		name = sister_republic
+		duration = 36500
+		}
+		}
+		}
+		option = {
+		name = "No"
+		}
+		}
+		
+		country_event = {
+		id = 970029
+		title = "Scottish Sister Republic?"
+		desc = "Shall we establish a Sisterrepublic in Scotland?"
+		picture = ""
+		
+		fire_only_once = yes
+		is_triggered_only = yes
+		
+		option = {
+		name = "Yes"
+		266 = { add_core = ABA }
+		267 = { add_core = ABA }
+		268 = { add_core = ABA }
+		269 = { add_core = ABA }
+		270 = { add_core = ABA }
+		271 = { add_core = ABA }
+		
+		272 = { add_core = ABA }
+		
+		release_vassal = ABA
+		ABA  = {
+		add_country_modifier = {
+		name = sister_republic
+		duration = 36500
+		}
+		}
+		}
+		option = {
+		name = "No"
+		}
+		}
+		
+		country_event = {
+		id = 970030
+		title = "Irish Sister Republic?"
+		desc = "Shall we establish a Sisterrepublic in Ireland?"
+		picture = ""
+		
+		fire_only_once = yes
+		is_triggered_only = yes
+		
+		option = {
+		name = "Yes"
+		254 = { add_core = EIR }
+		255 = { add_core = EIR }
+		256 = { add_core = EIR }
+		257 = { add_core = EIR }
+		258 = { add_core = EIR }
+		259 = { add_core = EIR }
+		
+		260 = { add_core = EIR }
+		261 = { add_core = EIR }
+		262 = { add_core = EIR }
+		263 = { add_core = EIR }
+		264 = { add_core = EIR }
+		265 = { add_core = EIR }
+		release_vassal = EIR
+		EIR  = {
+		add_country_modifier = {
+		name = sister_republic
+		duration = 36500
+		}
+		}
+		}
+		option = {
+		name = "No"
+		}
+		}
+		
+		country_event = {
+		id = 970031
+		title = "Isle Sister Republic"
+		desc = "Shall we establish a sister republic in the Italian Islands? (Corsica, Sardinia and Sicily)"
+		picture = ""
+		
+		fire_only_once = yes
+		is_triggered_only = yes
+		
+		option = {
+		name = "Yes"
+		765 = { add_core = SYC }
+		766 = { add_core = SYC }
+		473 = { add_core = SYC }
+		762 = { add_core = SYC }
+		763 = { add_core = SYC }
+		764 = { add_core = SYC }
+		release_vassal = SYC
+		SYC  = {
+		add_country_modifier = {
+		name = sister_republic
+		duration = 36500
+		}
+		}
+		}
+		option = {
+		name = "Those Isles are best administered by us."
+		}
+		}
+		
+		country_event = {
+		id = 970032
+		title = "Lingurian Sister Republic"
+		desc = "Shall we establish a sister republic in the Former Republic of Genoa?"
+		picture = ""
+		
+		fire_only_once = yes
+		is_triggered_only = yes
+		
+		option = {
+		name = "Yes"
+		724 = { add_core = LIN }
+		725 = { add_core = LIN }
+		release_vassal = LIN
+		LIN  = {
+		add_country_modifier = {
+		name = sister_republic
+		duration = 36500
+		}
+		}
+		}
+		option = {
+		name = "Genoa is best administered by us."
+		}
+		}
+		
+		country_event = {
+		id = 970033
+		title = "Roman Sister Republic"
+		desc = "Shall we establish a sister republic in the Former Papal States?"
+		picture = ""
+		
+		fire_only_once = yes
+		is_triggered_only = yes
+		
+		option = {
+		name = "Yes"
+		744 = { add_core = RAM }
+		745 = { add_core = RAM }
+		747 = { add_core = RAM }
+		748 = { add_core = RAM }
+		750 = { add_core = RAM }
+		749 = { add_core = RAM }
+		751 = { add_core = RAM }
+		752 = { add_core = RAM }
+		release_vassal = RAM
+		RAM  = {
+		add_country_modifier = {
+		name = sister_republic
+		duration = 36500
+		}
+		}
+		}
+		option = {
+		name = "Rome is best administered by us."
+		}
+		}
+		
+		country_event = {
+		id = 970034
+		title = "Neapolitan Sister Republic"
+		desc = "Shall we establish a sister republic in Southern Italy?"
+		picture = ""
+		
+		fire_only_once = yes
+		is_triggered_only = yes
+		
+		option = {
+		name = "Yes"
+		753 = { add_core = NEA }
+		754 = { add_core = NEA }
+		755 = { add_core = NEA }
+		760 = { add_core = NEA }
+		759 = { add_core = NEA }
+		758 = { add_core = NEA }
+		756 = { add_core = NEA }
+		757 = { add_core = NEA }
+		761 = { add_core = NEA }
+		2567 = { add_core = NEA }
+		release_vassal = NEA
+		NEA  = {
+		add_country_modifier = {
+		name = sister_republic
+		duration = 36500
+		}
+		}
+		}
+		option = {
+		name = "Southern Italy is best administered by us."
+		}
+		}
+		
+		country_event = {
+		id = 970035
+		title = "Carving up the Ottomans"
+		desc = "Shall we establish a Sister republic in the Yugoslav Lands?"
+		picture = ""
+		
+		fire_only_once = yes
+		is_triggered_only = yes
+		
+		option = {
+		name = "Yes"
+		783 = { add_core = DON }
+		784 = { add_core = DON }
+		785 = { add_core = DON }
+		786 = { add_core = DON }
+		787 = { add_core = DON }
+		788 = { add_core = DON }
+		789 = { add_core = DON }
+		794 = { add_core = DON }
+		804	= { add_core = DON }
+		800	= { add_core = DON }
+		802	= { add_core = DON }
+		803	= { add_core = DON }
+		795 = { add_core = DON }
+		796 = { add_core = DON }
+		797 = { add_core = DON }
+		798 = { add_core = DON }
+		799 = { add_core = DON }
+		850 = { add_core = DON }
+		851 = { add_core = DON }
+		849 = { add_core = DON }
+		852 = { add_core = DON }
+		853 = { add_core = DON }
+		2583 = { add_core = DON }
+		2577 = { add_core = DON }
+		2569 = { add_core = DON }
+		#CROATIA
+		773 = { add_core = DON }
+		774 = { add_core = DON }
+		775 = { add_core = DON }
+		776 = { add_core = DON }
+		777 = { add_core = DON }
+		778 = { add_core = DON }
+		779 = { add_core = DON }
+		771 = { add_core = DON }
+		772	= { add_core = DON }
+		770	= { add_core = DON }
+		780	= { add_core = DON }
+		781	= { add_core = DON }
+		782 = { add_core = DON }
+		793 = { add_core = DON }
+		2582 = { add_core = DON }
+		806 = { add_core = DON }
+		807 = { add_core = DON }
+		release_vassal = DON
+		DON  = {
+		add_country_modifier = {
+		name = sister_republic
+		duration = 36500
+		}
+		}
+		}
+		
+		option = {
+		name = "Yes, but we shall keep Croatia"
+		783 = { add_core = DON }
+		784 = { add_core = DON }
+		785 = { add_core = DON }
+		786 = { add_core = DON }
+		787 = { add_core = DON }
+		788 = { add_core = DON }
+		789 = { add_core = DON }
+		794 = { add_core = DON }
+		804	= { add_core = DON }
+		800	= { add_core = DON }
+		802	= { add_core = DON }
+		803	= { add_core = DON }
+		795 = { add_core = DON }
+		796 = { add_core = DON }
+		797 = { add_core = DON }
+		798 = { add_core = DON }
+		799 = { add_core = DON }
+		806 = { add_core = DON }
+		807 = { add_core = DON }
+		850 = { add_core = DON }
+		851 = { add_core = DON }
+		849 = { add_core = DON }
+		852 = { add_core = DON }
+		853 = { add_core = DON }
+		2583 = { add_core = DON }
+		2577 = { add_core = DON }
+		2569 = { add_core = DON }
+		release_vassal = DON
+		DON  = {
+		add_country_modifier = {
+		name = sister_republic
+		duration = 36500
+		}
+		}
+		}
+		
+		option = {
+		name = "The Yugoslav Lands are best administered by us."
+		}
+		}
+		
+		country_event = {
+		id = 970036
+		title = "The Question of Banat"
+		desc = "What nation shall we grant Banat to?"
+		picture = ""
+		
+		fire_only_once = yes
+		is_triggered_only = yes
+		
+		option = {
+		name = "Scede it to Donjoslavija (can only do this if you've also released it)"
+		2538 = { add_core = DON }
+		791 = { add_core = DON }
+		792 = { add_core = DON }
+		2538 = { secede_province = DON }
+		791 = { secede_province = DON }
+		792 = { secede_province = DON }
+		}
+		
+		option = {
+		name = "Grant it to Hungary"
+		2538 = { add_core = HUN }
+		791 = { add_core = HUN }
+		792 = { add_core = HUN }
+		2538 = { secede_province = HUN }
+		791 = { secede_province = HUN }
+		792 = { secede_province = HUN }
+		}
+		option = {
+		name = "Banat is best administered by us."
+		}
+		}
+		
+		country_event = {
+		id = 970037
+		title = "Carving up the Ottoman Empire"
+		desc = "Shall we grant Hellenic Lands to the Greeks?"
+		picture = ""
+		
+		fire_only_once = yes
+		is_triggered_only = yes
+		
+		option = {
+		name = "Greece shall have it"
+		822 = { secede_province = GRE }
+		823 = { secede_province = GRE }
+		829 = { secede_province = GRE }
+		805 = { secede_province = GRE }
+		821 = { secede_province = GRE }
+		830 = { secede_province = GRE }
+		820 = { secede_province = GRE }
+		819 = { secede_province = GRE }
+		843 = { secede_province = GRE }
+		844 = { secede_province = GRE }
+		845 = { secede_province = GRE }
+		846 = { secede_province = GRE }
+		847 = { secede_province = GRE }
+		848 = { secede_province = GRE }
+		831 = { secede_province = GRE }
+		832 = { secede_province = GRE }
+		833 = { secede_province = GRE }
+		824 = { secede_province = GRE }
+		825 = { secede_province = GRE }
+		}
+		option = {
+		name = "Greece is best administered by us."
+		}
+		}
+		
+		country_event = {
+		id = 970038
+		title = "Carving up the Ottoman Empire"
+		desc = "Shall we grant Constantinople to the Greeks?"
+		picture = ""
+		
+		fire_only_once = yes
+		is_triggered_only = yes
+		
+		option = {
+		name = "Greece shall have it"
+		828 = { secede_province = GRE }
+		858 = { secede_province = GRE }
+		859 = { secede_province = GRE }
+		860 = { secede_province = GRE }
+		}
+		option = {
+		name = "Constantinople is best administered by us."
+		}
+		}
+		
+		country_event = {
+		id = 970040
+		title = "Carving up the Ottoman Empire"
+		desc = "Who shall we grant transilvania to?"
+		picture = ""
+		
+		fire_only_once = yes
+		is_triggered_only = yes
+		
+		option = {
+		name = "Hungary shall have it"
+		647 = { secede_province = HUN }
+		651 = { secede_province = HUN }
+		652 = { secede_province = HUN }
+		653 = { secede_province = HUN }
+		
+		661 = { secede_province = HUN }
+		654 = { secede_province = HUN }
+		655 = { secede_province = HUN }
+		656 = { secede_province = HUN }
+		
+		660 = { secede_province = HUN }
+		657 = { secede_province = HUN }
+		659 = { secede_province = HUN }
+		2533 = { secede_province = HUN }
+		}
+		
+		option = {
+		name = "Moldavia shall have it"
+		647 = { secede_province = MOL }
+		651 = { secede_province = MOL }
+		652 = { secede_province = MOL }
+		653 = { secede_province = MOL }
+		
+		661 = { secede_province = MOL }
+		654 = { secede_province = MOL }
+		655 = { secede_province = MOL }
+		656 = { secede_province = MOL }
+		
+		660 = { secede_province = MOL }
+		657 = { secede_province = MOL }
+		659 = { secede_province = MOL }
+		2533 = { secede_province = MOL }
+		}
+		
+		option = {
+		name = "Grant it to Bulgaria-Wallacia (You have had to release Bulgaria-Wallacia)"
+		647 = { secede_province = BUW }
+		651 = { secede_province = BUW }
+		652 = { secede_province = BUW }
+		653 = { secede_province = BUW }
+		
+		661 = { secede_province = BUW }
+		654 = { secede_province = BUW }
+		655 = { secede_province = BUW }
+		656 = { secede_province = BUW }
+		
+		660 = { secede_province = BUW }
+		657 = { secede_province = BUW }
+		659 = { secede_province = BUW }
+		2533 = { secede_province = BUW }
+		}
+		
+		option = {
+		name = "Transilvania is best administered by us."
+		}
+		}
+		
+		country_event = {
+		id = 970039
+		title = "Bulgaria-Wallacia"
+		desc = "Who shall we grant Bulgaria and Wallacia?"
+		picture = ""
+		
+		fire_only_once = yes
+		is_triggered_only = yes
+		
+		option = {
+		name = "Moldavia shall have it"
+		664 = { secede_province = MOL }
+		665 = { secede_province = MOL }
+		666 = { secede_province = MOL }
+		667 = { secede_province = MOL }
+		668 = { secede_province = MOL }
+		669 = { secede_province = MOL }
+		675 = { secede_province = MOL }
+		674 = { secede_province = MOL }
+		818 = { secede_province = MOL }
+		810 = { secede_province = MOL }
+		811 = { secede_province = MOL }
+		812 = { secede_province = MOL }
+		813 = { secede_province = MOL }
+		814 = { secede_province = MOL }
+		809 = { secede_province = MOL }
+		808 = { secede_province = MOL }
+		815 = { secede_province = MOL }
+		816 = { secede_province = MOL }
+		817 = { secede_province = MOL }
+		}
+		
+		option = {
+		name = "We shall establish the Bulgarian-Wallacian Sister Republic"
+		664 = { add_core = BUW }
+		665 = { add_core = BUW }
+		666 = { add_core = BUW }
+		667 = { add_core = BUW }
+		668 = { add_core = BUW }
+		669 = {add_core = BUW}
+		675 = {add_core = BUW}
+		674 = {add_core = BUW}
+		818 = {add_core = BUW}
+		810 = {add_core = BUW}
+		811 = {add_core = BUW}
+		812 = {add_core = BUW}
+		813 = {add_core = BUW}
+		814 = {add_core = BUW}
+		809 = {add_core = BUW}
+		808 = {add_core = BUW}
+		815 = {add_core = BUW}
+		816 = {add_core = BUW}
+		817 = {add_core = BUW}
+		release_vassal = BUW
+		BUW  = {
+		add_country_modifier = {
+		name = sister_republic
+		duration = 36500
+		}
+		}
+		
+		option = {
+		name = "Bulgaria and Wallacia are best administered by us."
+		}
+		}
+		}
+		
+		country_event = {
+		id = 970041
+		title = "Bulgaria-Wallacia"
+		desc = "Shall we establish the Bulgarian-Wallacian Sister republic?"
+		picture = ""
+		
+		fire_only_once = yes
+		is_triggered_only = yes
+		
+		option = {
+		name = "Yes"
+		664 = { add_core = BUW }
+		665 = { add_core = BUW }
+		666 = { add_core = BUW }
+		667 = { add_core = BUW }
+		668 = { add_core = BUW }
+		669 = {add_core = BUW}
+		675 = {add_core = BUW}
+		674 = {add_core = BUW}
+		818 = {add_core = BUW}
+		810 = {add_core = BUW}
+		811 = {add_core = BUW}
+		812 = {add_core = BUW}
+		813 = {add_core = BUW}
+		814 = {add_core = BUW}
+		809 = {add_core = BUW}
+		808 = {add_core = BUW}
+		815 = {add_core = BUW}
+		816 = {add_core = BUW}
+		817 = {add_core = BUW}
+		662 = { add_core = BUW }
+		663 = { add_core = BUW }
+		670 = { add_core = BUW }
+		671 = { add_core = BUW }
+		676 = { add_core = BUW }
+		677 = {add_core = BUW}
+		672 = {add_core = BUW}
+		673 = {add_core = BUW}
+		878 = {add_core = BUW}
+		release_vassal = BUW
+		BUW  = {
+		add_country_modifier = {
+		name = sister_republic
+		duration = 36500
+		}
+		}
+		}
+		
+		option = {
+		name = "That land is best governed by us"
+		}
+		}
+		
+		country_event = {
+		id = 970042
+		title = "The Magyar Republic"
+		desc = "Shall we establish the Magyar Sister republic?"
+		picture = ""
+		
+		fire_only_once = yes
+		is_triggered_only = yes
+		
+		option = {
+		name = "Yes"
+		647 = {add_core = MAG}
+		651 = {add_core = MAG}
+		652 = {add_core = MAG}
+		653 = {add_core = MAG}
+		661 = {add_core = MAG}
+		654 = {add_core = MAG}
+		655 = {add_core = MAG}
+		656 = {add_core = MAG}
+		660 = {add_core = MAG}
+		657 = {add_core = MAG}
+		659 = {add_core = MAG}
+		2533 = {add_core = MAG}
+		
+		636 = {add_core = MAG}
+		637 = {add_core = MAG}
+		638 = {add_core = MAG}
+		950 = {add_core = MAG}
+		661 = {add_core = MAG}
+		641 = {add_core = MAG}
+		645 = {add_core = MAG}
+		648 = {add_core = MAG}
+		646 = {add_core = MAG}
+		649 = {add_core = MAG}
+		650 = {add_core = MAG}
+		release_vassal = MAG
+		MAG  = {
+		add_country_modifier = {
+		name = sister_republic
+		duration = 36500
+		}
+		}
+		}
+		
+		option = {
+		name = "Yes, But grant them all of Transdanubia aswell"
+		647 = {add_core = MAG}
+		651 = {add_core = MAG}
+		652 = {add_core = MAG}
+		653 = {add_core = MAG}
+		661 = {add_core = MAG}
+		654 = {add_core = MAG}
+		655 = {add_core = MAG}
+		656 = {add_core = MAG}
+		660 = {add_core = MAG}
+		657 = {add_core = MAG}
+		659 = {add_core = MAG}
+		2533 = {add_core = MAG}
+		636 = {add_core = MAG}
+		637 = {add_core = MAG}
+		638 = {add_core = MAG}
+		950 = {add_core = MAG}
+		661 = {add_core = MAG}
+		641 = {add_core = MAG}
+		645 = {add_core = MAG}
+		648 = {add_core = MAG}
+		646 = {add_core = MAG}
+		649 = {add_core = MAG}
+		650 = {add_core = MAG}
+		
+		623 = {add_core = MAG}
+		639 = {add_core = MAG}
+		640 = {add_core = MAG}
+		642 = {add_core = MAG}
+		643 = {add_core = MAG}
+		644 = {add_core = MAG}
+		release_vassal = MAG
+		MAG  = {
+		add_country_modifier = {
+		name = sister_republic
+		duration = 36500
+		}
+		}
+		}
+		
+		option = {
+		name = "Magyar land is best governed by us"
+		}
+		}
+		
+		country_event = {
+		id = 970043
+		title = "Donjoslavija"
+		desc = "Shall we establish a Sister republic in the Donjoslavian lands?"
+		picture = ""
+		
+		fire_only_once = yes
+		is_triggered_only = yes
+		
+		option = {
+		name = "Yes"
+		783 = { add_core = DON }
+		784 = { add_core = DON }
+		785 = { add_core = DON }
+		786 = { add_core = DON }
+		787 = { add_core = DON }
+		788 = { add_core = DON }
+		789 = { add_core = DON }
+		794 = { add_core = DON }
+		804	= { add_core = DON }
+		800	= { add_core = DON }
+		802	= { add_core = DON }
+		803	= { add_core = DON }
+		795 = { add_core = DON }
+		796 = { add_core = DON }
+		797 = { add_core = DON }
+		798 = { add_core = DON }
+		799 = { add_core = DON }
+		850 = { add_core = DON }
+		851 = { add_core = DON }
+		849 = { add_core = DON }
+		852 = { add_core = DON }
+		853 = { add_core = DON }
+		2583 = { add_core = DON }
+		2577 = { add_core = DON }
+		2569 = { add_core = DON }
+		#CROATIA
+		773 = { add_core = DON }
+		774 = { add_core = DON }
+		775 = { add_core = DON }
+		776 = { add_core = DON }
+		777 = { add_core = DON }
+		778 = { add_core = DON }
+		779 = { add_core = DON }
+		771 = { add_core = DON }
+		772	= { add_core = DON }
+		770	= { add_core = DON }
+		780	= { add_core = DON }
+		2538 = { add_core = DON }
+		791 = { add_core = DON }
+		792 = { add_core = DON }
+		781	= { add_core = DON }
+		782 = { add_core = DON }
+		793 = { add_core = DON }
+		2582 = { add_core = DON }
+		806 = { add_core = DON }
+		807 = { add_core = DON }
+		release_vassal = DON
+		DON  = {
+		add_country_modifier = {
+		name = sister_republic
+		duration = 36500
+		}
+		}
+		}
+		
+		option = {
+		name = "Yes, but we shall keep Croatia"
+		783 = { add_core = DON }
+		784 = { add_core = DON }
+		785 = { add_core = DON }
+		786 = { add_core = DON }
+		787 = { add_core = DON }
+		788 = { add_core = DON }
+		789 = { add_core = DON }
+		794 = { add_core = DON }
+		804	= { add_core = DON }
+		800	= { add_core = DON }
+		802	= { add_core = DON }
+		803	= { add_core = DON }
+		795 = { add_core = DON }
+		796 = { add_core = DON }
+		797 = { add_core = DON }
+		798 = { add_core = DON }
+		799 = { add_core = DON }
+		806 = { add_core = DON }
+		807 = { add_core = DON }
+		850 = { add_core = DON }
+		851 = { add_core = DON }
+		849 = { add_core = DON }
+		852 = { add_core = DON }
+		853 = { add_core = DON }
+		2583 = { add_core = DON }
+		2577 = { add_core = DON }
+		2569 = { add_core = DON }
+		2538 = { add_core = DON }
+		791 = { add_core = DON }
+		792 = { add_core = DON }
+		release_vassal = DON
+		DON  = {
+		add_country_modifier = {
+		name = sister_republic
+		duration = 36500
+		}
+		}
+		}
+		
+		option = {
+		name = "The Donjoslavian Lands are best administered by us."
+		}
+		}
+		
+		country_event = {
+		id = 970044
+		title = "The Hellenic Republic"
+		desc = "Shall we establish a Hellenic Republic?"
+		picture = ""
+		
+		fire_only_once = yes
+		is_triggered_only = yes
+		
+		option = {
+		name = "Yes"
+		822 = {add_core=HEL}
+		823 = {add_core=HEL}
+		829 = {add_core=HEL}
+		805 = {add_core=HEL}
+		821 = {add_core=HEL}
+		830 = {add_core=HEL}
+		820 = {add_core=HEL}
+		819 = {add_core=HEL}
+		843 = {add_core=HEL}
+		844 = {add_core=HEL}
+		845 = {add_core=HEL}
+		846 = {add_core=HEL}
+		847 = {add_core=HEL}
+		848 = {add_core=HEL}
+		831 = {add_core=HEL}
+		832 = {add_core=HEL}
+		833 = {add_core=HEL}
+		824 = {add_core=HEL}
+		825 = {add_core=HEL}
+		
+		834 = {add_core=HEL}
+		835 = {add_core=HEL}
+		836 = {add_core=HEL}
+		837 = {add_core=HEL}
+		838 = {add_core=HEL}
+		839 = {add_core=HEL}
+		826 = {add_core=HEL}
+		827 = {add_core=HEL}
+		840 = {add_core=HEL}
+		841 = {add_core=HEL}
+		842 = {add_core=HEL}
+		#constantinople
+		828 = {add_core=HEL}
+		858 = {add_core=HEL}
+		859 = {add_core=HEL}
+		860 = {add_core=HEL}
+		release_vassal = HEL
+		HEL  = {
+		add_country_modifier = {
+		name = sister_republic
+		duration = 36500
+		}
+		}
+		}
+		
+		option = {
+		name = "Yes, but constantinople is ours."
+		822 = {add_core=HEL}
+		823 = {add_core=HEL}
+		829 = {add_core=HEL}
+		805 = {add_core=HEL}
+		821 = {add_core=HEL}
+		830 = {add_core=HEL}
+		820 = {add_core=HEL}
+		819 = {add_core=HEL}
+		843 = {add_core=HEL}
+		844 = {add_core=HEL}
+		845 = {add_core=HEL}
+		846 = {add_core=HEL}
+		847 = {add_core=HEL}
+		848 = {add_core=HEL}
+		831 = {add_core=HEL}
+		832 = {add_core=HEL}
+		833 = {add_core=HEL}
+		824 = {add_core=HEL}
+		825 = {add_core=HEL}
+		834 = {add_core=HEL}
+		835 = {add_core=HEL}
+		836 = {add_core=HEL}
+		837 = {add_core=HEL}
+		838 = {add_core=HEL}
+		839 = {add_core=HEL}
+		826 = {add_core=HEL}
+		827 = {add_core=HEL}
+		840 = {add_core=HEL}
+		841 = {add_core=HEL}
+		842 = {add_core=HEL}
+		release_vassal = HEL
+		HEL  = {
+		add_country_modifier = {
+		name = sister_republic
+		duration = 36500
+		}
+		}
+		}
+		option = {
+		name = "Greece is best administered by us."
+		}
+		}
+		
+		country_event = {
+		id = 970044
+		title = "The Pontic Republic"
+		desc = "Shall we establish a Pontic Republic?"
+		picture = ""
+		
+		fire_only_once = yes
+		is_triggered_only = yes
+		
+		option = {
+		name = "Yes"
+		880 = { add_core=PON}
+		881 = { add_core=PON}
+		882 = { add_core=PON}
+		883 = { add_core=PON}
+		884 = { add_core=PON}
+		886 = { add_core=PON}
+		1096 = { add_core=PON}
+		release_vassal = PON
+		PON  = {
+		add_country_modifier = {
+		name = sister_republic
+		duration = 36500
+		}
+		}
+		}
+		
+		option = {
+		name = "The Pontus is best administrated by us"
+		}
+		}
+		
+		country_event = {
+		id = 970045
+		title = "The Mesopotamian Republic"
+		desc = "Shall we establish a Mesopotamian Republic?"
+		picture = ""
+		
+		fire_only_once = yes
+		is_triggered_only = yes
+		
+		option = {
+		name = "Yes"
+		930 = {add_core=MES}
+		931 = {add_core=MES}
+		932 = {add_core=MES}
+		933 = {add_core=MES}
+		934 = {add_core=MES}
+		935 = {add_core=MES}
+		923 = {add_core=MES}
+		924 = {add_core=MES}
+		925 = {add_core=MES}
+		926 = {add_core=MES}
+		927 = {add_core=MES}
+		928 = {add_core=MES}
+		929 = {add_core=MES}
+		release_vassal = MES
+		MES  = {
+		add_country_modifier = {
+		name = sister_republic
+		duration = 36500
+		}
+		}
+		}
+		
+		option = {
+		name = "Mesopotamia is best administrated by us"
+		}
+		}
+		
+		country_event = {
+		id = 970046
+		title = "The Levantine Republic"
+		desc = "Shall we establish a Levantine Republic?"
+		picture = ""
+		
+		fire_only_once = yes
+		is_triggered_only = yes
+		
+		option = {
+		name = "Yes"
+		897 = {add_core=LEV}
+		900 = {add_core=LEV}
+		901 = {add_core=LEV}
+		902 = {add_core=LEV}
+		903 = {add_core=LEV}
+		904 = {add_core=LEV}
+		905 = {add_core=LEV}
+		906 = {add_core=LEV}
+		907 = {add_core=LEV}
+		908 = {add_core=LEV}
+		909 = {add_core=LEV}
+		910 = {add_core=LEV}
+		911 = {add_core=LEV}
+		921 = {add_core=LEV}
+		922 = {add_core=LEV}
+		920 = {add_core=LEV}
+		919 = {add_core=LEV}
+		918 = {add_core=LEV}
+		917 = {add_core=LEV}
+		916 = {add_core=LEV}
+		915 = {add_core=LEV}
+		914 = {add_core=LEV}
+		913 = {add_core=LEV}
+		912 = {add_core=LEV}
+		1756 = {add_core=LEV}
+		1757 = {add_core=LEV}
+		release_vassal = LEV
+		LEV  = {
+		add_country_modifier = {
+		name = sister_republic
+		duration = 36500
+		}
+		}
+		}
+		
+		option = {
+		name = "The Levant is best administrated by us "
+		897 = {add_core=LEV}
+		900 = {add_core=LEV}
+		901 = {add_core=LEV}
+		902 = {add_core=LEV}
+		903 = {add_core=LEV}
+		904 = {add_core=LEV}
+		905 = {add_core=LEV}
+		906 = {add_core=LEV}
+		907 = {add_core=LEV}
+		908 = {add_core=LEV}
+		909 = {add_core=LEV}
+		910 = {add_core=LEV}
+		911 = {add_core=LEV}
+		921 = {add_core=LEV}
+		922 = {add_core=LEV}
+		920 = {add_core=LEV}
+		919 = {add_core=LEV}
+		918 = {add_core=LEV}
+		917 = {add_core=LEV}
+		916 = {add_core=LEV}
+		915 = {add_core=LEV}
+		914 = {add_core=LEV}
+		913 = {add_core=LEV}
+		912 = {add_core=LEV}
+		1756 = {add_core=LEV}
+		1757 = {add_core=LEV}
+		}
+		}
+		
+		country_event = {
+		id = 970047
+		title = "Anatolian Republic"
+		desc = "Shall we establish a Anatolian Republic?"
+		picture = ""
+		
+		fire_only_once = yes
+		is_triggered_only = yes
+		
+		option = {
+		name = "Yes"
+		861 = {add_core=ASM}
+		862 = {add_core=ASM}
+		863 = {add_core=ASM}
+		864 = {add_core=ASM}
+		865 = {add_core=ASM}
+		866 = {add_core=ASM}
+		867 = {add_core=ASM}
+		868 = {add_core=ASM}
+		869 = {add_core=ASM}
+		870 = {add_core=ASM}
+		871 = {add_core=ASM}
+		872 = {add_core=ASM}
+		873 = {add_core=ASM}
+		874 = {add_core=ASM}
+		875 = {add_core=ASM}
+		876 = {add_core=ASM}
+		877= {add_core=ASM}
+		878 = {add_core=ASM}
+		879 = {add_core=ASM}
+		885 = {add_core=ASM}
+		887 = {add_core=ASM}
+		888 = {add_core=ASM}
+		889 = {add_core=ASM}
+		890 = {add_core=ASM}
+		891 = {add_core=ASM}
+		892 = {add_core=ASM}
+		893 = {add_core=ASM}
+		894 = {add_core=ASM}
+		895 = {add_core=ASM}
+		896 = {add_core=ASM}
+		898 = {add_core=ASM}
+		899 = {add_core=ASM}
+		release_vassal = ASM
+		ASM  = {
+		add_country_modifier = {
+		name = sister_republic
+		duration = 36500
+		}
+		}
+		}
+		
+		option = {
+		name = "Anatolia is best administrated by us"
+		894 = {add_core=ASM}
+		896 = {add_core=ASM}
+		898 = {add_core=ASM}
+		}
+		}
+		
+		country_event = {
+		id = 970048
+		title = "North African Republic"
+		desc = "Shall we establish a North African Republic?"
+		picture = ""
+		
+		fire_only_once = yes
+		is_triggered_only = yes
+		
+		option = {
+		name = "Yes"
+		any_owned = {
+		limit = {
+		OR = {
+		is_core = TRI
+		is_core = EGY
+		}
+		NOT = { is_core = LEV }
+		NOT = { is_core = ASM }
+		}
+		add_core = CYR }
+		release_vassal = CYR
+		CYR  = {
+		add_country_modifier = {
+		name = sister_republic
+		duration = 36500
+		}
+		}
+		}
+		
+		option = {
+		name = "Anatolia is best administrated by us"
+		}
+		}
+		
+		country_event = {
+		id = 970049
+		title = "Polish-Ruthenian Republic"
+		desc = "Shall we establish a Polish-Ruthenian Republic?"
+		picture = ""
+		
+		fire_only_once = yes
+		is_triggered_only = yes
+		
+		option = {
+		name = "Yes"
+		any_owned = {
+		limit = {
+		OR = {
+		culture = polish
+		culture = byelorussian
+		is_core = RUT
+		province_id = 947
+		province_id = 938
+		}
+		NOT = { is_core = HRE }
+		}
+		add_core = PRA }
+		release_vassal = PRA
+		PRA  = {
+		add_country_modifier = {
+		name = sister_republic
+		duration = 36500
+		}
+		}
+		}
+		
+		option = {
+		name = "Both Poland and Ruthenia are best administrated by us"
+		}
+		}
+		
+		country_event = {
+		id = 970052
+		title = "United Baltic Republic"
+		desc = "Shall we establish a Baltic Republic?"
+		picture = ""
+		
+		fire_only_once = yes
+		is_triggered_only = yes
+		
+		option = {
+		name = "Yes"
+		any_owned = {
+		limit = {
+		OR = {
+		culture = estonian
+		culture = latvian
+		culture = lithuanian
+		}
+		NOT = { province_id = 947}
+		NOT = { province_id = 938}
+		}
+		add_core = UBR }
+		release_vassal = UBR
+		UBR  = {
+		add_country_modifier = {
+		name = sister_republic
+		duration = 36500
+		}
+		}
+		}
+		
+		option = {
+		name = "The Baltics are best administrated by us"
+		}
+		}
+		
+		country_event = {
+		id = 970053
+		title = "The Muscovite Excecutive"
+		desc = "Shall we establish a Muscovite Republic?"
+		picture = ""
+		
+		fire_only_once = yes
+		is_triggered_only = yes
+		
+		option = {
+		name = "Yes"
+		any_owned = {
+		limit = {
+		OR = {
+		region = RUS_1020
+		region = RUS_1008
+		region = RUS_1009
+		}
+		}
+		add_core = MUS }
+		release_vassal = MUS
+		MUS  = {
+		add_country_modifier = {
+		name = sister_republic
+		duration = 36500
+		}
+		}
+		}
+		
+		option = {
+		name = "Moscow, the home of the Tsar, shall be kept by us but they can get the rest."
+		any_owned = {
+		limit = {
+		OR = {
+		region = RUS_1020
+		region = RUS_1009
+		province_id = 1011
+		province_id = 1012
+		province_id = 1013
+		province_id = 1023
+		}
+		}
+		add_core = MUS }
+		release_vassal = MUS
+		MUS  = {
+		add_country_modifier = {
+		name = sister_republic
+		duration = 36500
+		}
+		}
+		1008 = { add_core = RMI }
+		}
+		
+		option = {
+		name = "It is best governed by us."
+		}
+		}
+		
+				country_event = {
+		id = 970054
+		title = "The Novgorod Republic"
+		desc = "Shall we establish a Novgorodian Republic?"
+		picture = ""
+		
+		fire_only_once = yes
+		is_triggered_only = yes
+		
+		option = {
+		name = "Yes"
+		any_owned = {
+		limit = {
+		OR = {
+		region = RUS_981 
+		region = RUS_2589  
+		region = RUS_990  
+		region = RUS_998  
+		region = RUS_943  
+		region = RUS_1003  
+		region = RUS_994     
+		}
+		}
+		add_core = NOV }
+		release_vassal = NOV
+		NOV  = {
+		add_country_modifier = {
+		name = sister_republic
+		duration = 36500
+		}
+		}
+		}
+		
+		option = {
+		name = "It is best governed by us."
+		}
+		}
+
+		country_event = {
+		id = 970055
+		title = "The Caucasian Republic"
+		desc = "Shall we establish a Caucasian Republic?"
+		picture = ""
+		
+		fire_only_once = yes
+		is_triggered_only = yes
+		
+		option = {
+		name = "Yes"
+		any_owned = {
+		limit = {
+		OR = {
+		region = RUS_1102
+		region = RUS_1090  
+		region = RUS_1098
+		region = RUS_1052
+		region = RUS_1048 
+		}
+		}
+		add_core = TCA }
+		release_vassal = TCA
+		TCA  = {
+		add_country_modifier = {
+		name = sister_republic
+		duration = 36500
+		}
+		}
+		}
+		
+		option = {
+		name = "It is best governed by us."
+		}
+		}
+		
+		country_event = {
+		id = 970056
+		title = "The Ural Commision"
+		desc = "Shall we establish a Ural Republic?"
+		picture = ""
+		
+		fire_only_once = yes
+		is_triggered_only = yes
+		
+		option = {
+		name = "Yes"
+		any_owned = {
+		limit = {
+		OR = {
+		region = RUS_1026
+		region = RUS_1060
+		}
+		}
+		add_core = URA }
+		release_vassal = URA
+		URA  = {
+		add_country_modifier = {
+		name = sister_republic
+		duration = 36500
+		}
+		}
+		}
+		
+		option = {
+		name = "It is best governed by us."
+		}
+		}
+		
+		country_event = {
+		id = 970057
+		title = "The Steppe Republic"
+		desc = "Shall we establish a Steppe Republic?"
+		picture = ""
+		
+		fire_only_once = yes
+		is_triggered_only = yes
+		
+		option = {
+		name = "Yes"
+		any_owned = {
+		limit = {
+		OR = {
+		region = RUS_977
+		region = RUS_980
+		region = RUS_1041
+		region = RUS_1037
+		region = RUS_979 
+		province_id = 962
+		province_id = 963
+		province_id = 965
+		}
+		NOT = { province_id = 972 }
+		}
+		add_core = STE }
+		release_vassal = STE
+		STE  = {
+		add_country_modifier = {
+		name = sister_republic
+		duration = 36500
+		}
+		}
+		}
+		
+		option = {
+		name = "It is best governed by us."
+		}
+		}
+		
+		country_event = {
+		id = 970058
+		title = "The Danish Directory"
+		desc = "Shall we establish a Danish Republic?"
+		picture = ""
+		
+		fire_only_once = yes
+		is_triggered_only = yes
+		
+		option = {
+		name = "Yes"
+		any_owned = {
+		limit = {
+		culture = danish
+		NOT = { is_core = HRE }
+		}
+		add_core = DAD }
+		release_vassal = DAD
+		DAD  = {
+		add_country_modifier = {
+		name = sister_republic
+		duration = 36500
+		}
+		}
+		}
+		
+		option = {
+		name = "It is best governed by us."
+		}
+		}
+		
+		country_event = {
+		id = 970059
+		title = "The Norwegian Consulate"
+		desc = "Shall we establish a Norwegian Republic?"
+		picture = ""
+		
+		fire_only_once = yes
+		is_triggered_only = yes
+		
+		option = {
+		name = "Yes"
+		any_owned = {
+		limit = {
+		culture = norwegian
+		NOT = { is_core = SAM }
+		}
+		add_core = NRC }
+		release_vassal = NRC
+		NRC  = {
+		add_country_modifier = {
+		name = sister_republic
+		duration = 36500
+		}
+		}
+		}
+		
+		option = {
+		name = "It is best governed by us."
+		}
+		}
+		
+		country_event = {
+		id = 970060
+		title = "The Swedish Republic"
+		desc = "Shall we establish a Swedish Republic?"
+		picture = ""
+		
+		fire_only_once = yes
+		is_triggered_only = yes
+		
+		option = {
+		name = "Yes"
+		any_owned = {
+		limit = {
+		culture = swedish
+		NOT = { is_core = SAM }
+		}
+		add_core = ROS }
+		release_vassal = ROS
+		ROS  = {
+		add_country_modifier = {
+		name = sister_republic
+		duration = 36500
+		}
+		}
+		}
+		
+		option = {
+		name = "It is best governed by us."
+		}
+		}
+		
+		country_event = {
+		id = 970061
+		title = "The Finno-Sami Republic"
+		desc = "Shall we establish a Sami Republic?"
+		picture = ""
+		
+		fire_only_once = yes
+		is_triggered_only = yes
+		
+		option = {
+		name = "Yes"
+		any_owned = {
+		limit = {
+		OR = {
+		region = RUS_339
+		region = RUS_336
+		region = RUS_340
+		region = SWE_308
+		region = SWE_318
+		}
+		}
+		add_core = SAM }
+		release_vassal = SAM
+		SAM  = {
+		add_country_modifier = {
+		name = sister_republic
+		duration = 36500
+		}
+		}
+		}
+		
+		option = {
+		name = "It is best governed by us."
+		}
+		}
+		 

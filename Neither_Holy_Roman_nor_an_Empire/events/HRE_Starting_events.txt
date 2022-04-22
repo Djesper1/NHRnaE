@@ -1,0 +1,123 @@
+country_event = {
+	id = 905092
+	title = "Neither Holy, Roman nor an Empire."
+	desc = "history_event_desc"
+	picture = "Administration"
+
+	trigger = {
+	OR = {
+	tag = PRU
+	tag = BRN
+	tag = BRB
+	tag = FLA
+	tag = HLL
+	tag = FRI
+	tag = ANH
+	tag = PAL
+	tag = BRG
+	tag = BWU
+	tag = HAN
+	tag = HOL
+	tag = HSS
+	tag = LUX
+	tag = SAX
+	tag = SGF
+	tag = SGM
+	tag = SIL
+	tag = THU
+	tag = URH
+	tag = WST
+	tag = HSL
+	tag = POM
+	tag = VEN
+	tag = GEN
+	tag = SAR
+	tag = LOM
+	tag = PAR
+	tag = SWI
+	}
+	NOT = { has_country_flag = dont_repeat_ya_fuck }
+	}
+	
+	option = {
+	name = "Let the Victoria 2 Commence!"
+	set_country_flag = serfdom_not_abolished
+	set_country_flag = dont_repeat_ya_fuck
+add_country_modifier = {
+	name = lands_tax
+	duration = 36500
+}
+add_country_modifier = {
+	name = landsvrede
+	duration = 36500
+}
+add_country_modifier = {
+	name = hre_industrie_bund
+	duration = 36500
+}
+}
+}
+
+country_event = {
+	id = 905093
+	title = "Neither Holy, Roman nor an Empire."
+	desc = "history_event_desc"
+	picture = "Administration"
+	fire_only_once = yes
+	major = yes
+	trigger = {
+	tag = AUS
+	}
+	
+	option = {
+	name = "Let the Victoria 2 Commence!"
+	set_country_flag = serfdom_not_abolished
+	add_country_modifier = {
+	name = lands_tax_aus
+	duration = 36500
+	}
+	add_country_modifier = {
+	name = landsvrede
+	duration = 36500
+	}
+	add_country_modifier = {
+	name = hre_industrie_bund
+	duration = 36500
+	}
+	600 = {
+	add_province_modifier = {
+	name = bavarian_anger
+	duration = 7200
+	}
+	}
+	601 = {
+	add_province_modifier = {
+	name = bavarian_anger
+	duration = 7200
+	}
+	}
+	602 = {
+	add_province_modifier = {
+	name = bavarian_anger
+	duration = 7200
+	}
+	595 = {
+	add_province_modifier = {
+	name = bavarian_anger
+	duration = 7200
+	}
+	}
+	592 = {
+	add_province_modifier = {
+	name = bavarian_anger
+	duration = 7200
+	}
+	}
+	599 = {
+	add_province_modifier = {
+	name = bavarian_anger
+	duration = 7200
+	}
+	}
+	}
+	}

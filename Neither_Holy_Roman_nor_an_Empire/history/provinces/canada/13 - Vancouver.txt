@@ -1,0 +1,10 @@
+owner = PYO
+controller = PYO
+
+
+
+add_core = COL
+trade_goods = fish
+life_rating = 35
+
+add_core = PYO

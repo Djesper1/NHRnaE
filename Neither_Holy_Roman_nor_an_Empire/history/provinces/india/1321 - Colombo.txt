@@ -1,0 +1,9 @@
+owner = NNL
+controller = NNL
+add_core = HND
+trade_goods = fruit
+life_rating = 32
+colonial = 2
+
+add_core = NNL
+colonial = yes

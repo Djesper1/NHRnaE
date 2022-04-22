@@ -1,0 +1,8 @@
+owner = WST
+controller = WST
+add_core = WST
+add_core = URH
+add_core = HRE
+add_core = GER
+trade_goods = cattle
+life_rating = 40

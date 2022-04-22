@@ -1,0 +1,8 @@
+owner = BWU
+controller = BWU
+add_core = BWU
+add_core = HRE
+add_core = GER
+trade_goods = fruit
+life_rating = 40
+1861.1.1 = { railroad = 3 }

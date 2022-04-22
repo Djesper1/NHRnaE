@@ -1,0 +1,29 @@
+	country_event = {
+	id = 90526
+	title = "fuk_title_90526"
+	desc = "fuk_desc_90526"
+	picture = "Administration"
+	fire_only_once = yes
+	
+	trigger = {
+				NOT = { has_global_flag = yum_yum_venice }
+				has_country_flag = italian_congress
+				tag = AUS
+			}
+		
+			mean_time_to_happen = {
+			months = 3
+		
+			modifier = {
+				factor = 1
+				has_country_flag = italian_congress
+			}
+		}
+	
+	option = {
+	name = "Zher Gud!"
+	clr_country_flag = italian_congress
+	set_global_flag = hey_kids_succes
+	country_event = 90527
+	}
+	}

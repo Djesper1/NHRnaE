@@ -1,0 +1,160 @@
+#Luxembourg (172000)
+#In personal union with Netherlands in 1836
+#Luxembourg (172000/43000 POPS)
+397 = {
+    aristocrats = {
+        culture = kaiser_german
+        religion = united_christianity
+        size = 28
+    }
+
+    bureaucrats = {
+        culture = kaiser_german
+        religion = united_christianity
+        size = 4
+    }
+
+    clergymen = {
+        culture = kaiser_german
+        religion = united_christianity
+        size = 24
+    }
+
+    artisans = {
+        culture = kaiser_german
+        religion = united_christianity
+        size = 120
+    }
+
+    soldiers = {
+        culture = kaiser_german
+        religion = united_christianity
+        size = 320
+    }
+
+    farmers = {
+        culture = kaiser_german
+        religion = united_christianity
+        size = 1184
+    }
+
+    aristocrats = {
+        culture = french
+        religion = united_christianity
+        size = 250
+    }
+
+    officers = {
+        culture = french
+        religion = united_christianity
+        size = 50
+    }
+
+    bureaucrats = {
+        culture = french
+        religion = united_christianity
+        size = 50
+    }
+
+    clergymen = {
+        culture = french
+        religion = united_christianity
+        size = 275
+    }
+
+    artisans = {
+        culture = french
+        religion = united_christianity
+        size = 1750
+    }
+
+    soldiers = {
+        culture = french
+        religion = united_christianity
+        size = 250
+    }
+
+    farmers = {
+        culture = french
+        religion = united_christianity
+        size = 10375
+    }
+
+    farmers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 20500
+    }
+
+    aristocrats = {
+        culture = rhinish
+        religion = united_christianity
+        size = 105
+    }
+
+    bureaucrats = {
+        culture = rhinish
+        religion = united_christianity
+        size = 15
+    }
+
+    clergymen = {
+        culture = rhinish
+        religion = united_christianity
+        size = 90
+    }
+
+    artisans = {
+        culture = rhinish
+        religion = united_christianity
+        size = 450
+    }
+
+    soldiers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 1200
+    }
+
+    farmers = {
+        culture = rhinish
+        religion = united_christianity
+        size = 4440
+    }
+
+    aristocrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 42
+    }
+
+    bureaucrats = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 6
+    }
+
+    clergymen = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 36
+    }
+
+    artisans = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 180
+    }
+
+    soldiers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 480
+    }
+
+    farmers = {
+        culture = kaiser_deutsch
+        religion = united_christianity
+        size = 1776
+    }
+}

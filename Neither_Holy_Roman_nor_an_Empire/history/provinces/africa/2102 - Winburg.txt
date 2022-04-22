@@ -1,0 +1,9 @@
+owner = KAA
+controller = KAA
+add_core = ORA
+
+trade_goods = coal
+life_rating = 35
+
+add_core = KAA
+colonial = yes

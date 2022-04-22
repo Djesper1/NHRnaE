@@ -1,0 +1,5 @@
+owner = SUL
+controler = SUL
+add_core = SUL
+trade_goods = sulphur
+life_rating = 15

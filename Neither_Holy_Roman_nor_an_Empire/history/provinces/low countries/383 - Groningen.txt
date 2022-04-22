@@ -1,0 +1,9 @@
+owner = HSL
+controller = HSL
+add_core = HSL
+add_core = NET
+trade_goods = grain
+life_rating = 35
+1861.1.1 = {
+	naval_base = 2
+}

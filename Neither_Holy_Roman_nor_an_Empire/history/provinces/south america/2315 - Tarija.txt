@@ -1,0 +1,11 @@
+owner = GUR
+controller = GUR
+add_core = BOL
+add_core = ARG
+trade_goods = wool
+life_rating = 30
+
+
+
+add_core = GUR
+colonial = yes

@@ -1,0 +1,115 @@
+country_event = {
+	id = 970050
+	title = "The Ottoman Vassals"
+	desc = "Must we vassalise or annex the Ottoman Vassals?"
+	picture = ""
+	is_triggered_only = yes
+	
+	option = {
+	name = "We must annex them"
+	set_country_flag = conquered_otto_vassals
+				TUR = { 		
+release_vassal = HUN
+release_vassal = GRE
+release_vassal = ION
+release_vassal = MOL
+			}
+			add_casus_belli = {
+			target = HUN
+			type = annexation
+			months = 4
+			}
+			add_casus_belli = {
+			target = GRE
+			type = annexation
+			months = 4
+			}
+			add_casus_belli = {
+			target = ION
+			type = annexation
+			months = 4
+			}
+			add_casus_belli = {
+			target = MOL
+			type = annexation
+			months = 4
+			}
+	}
+	option = {
+	name = "We shall vassalise them"
+	set_country_flag = vassalised_otto_vassals
+	create_vassal = HUN
+	create_vassal = GRE
+	create_vassal = ION
+	create_vassal = MOL
+	}
+	}
+	
+	country_event = {
+	id = 970051
+	title = "The Question of Anatolia"
+	desc = "With the Ottoman exile to Anatolia, what should we do?"
+	picture = ""
+	is_triggered_only = yes
+	
+	option = {
+	name = "We shall halt at the Bhosperous Straits"
+	}
+	option = {
+	name = "Onwards! We shall conquer Anatolia, North Africa and the Lenvant!"
+	set_country_flag = anatolia_oof
+	war = {
+	target = ANA
+	attacker_goal = { casus_belli = annexation }
+	defender_goal = { casus_belli = status_quo }
+	call_ally = yes
+	}
+	}
+	}
+	
+	country_event = {
+	id = 970073
+	title = "Pan-Europeanism"
+	desc = "Long Live Europe!"
+	picture = ""
+	fire_only_once = yes
+	
+	trigger = {
+	has_country_flag = norse_spread
+	war = no
+	}
+	
+	mean_time_to_happen = {
+	months = 12
+	}
+	
+	option = {
+	name = "Long Live Europe, I guess."
+	set_country_flag = europa
+	any_country = {
+	limit = {
+	OR = {
+	tag = RMI
+	vassal_of = RMI
+	}
+	}
+	any_owned = {
+	limit = { continent = europe }
+	add_core = EUR }
+	}
+	}
+	}
+	
+	country_event = {
+	id = 970082
+	title = "Exiled Monarchy"
+	desc = "We have been exiled from our nation. You have also gotten the Exiled Monarchy CB"
+	picture = ""
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+	name = "We will return"
+	government = monarchy_in_exile
+	}
+	}

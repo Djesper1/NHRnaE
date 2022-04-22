@@ -1,0 +1,9 @@
+owner = NEU
+controller = NEU
+add_core = NEU
+trade_goods = tropical_wood
+life_rating = 35
+
+
+
+colonial = yes

@@ -1,0 +1,5 @@
+owner = PYO
+	controller = PYO
+	add_core = PYO
+trade_goods = timber
+life_rating = 30

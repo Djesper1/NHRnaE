@@ -1,0 +1,64 @@
+leader = {
+	name = "Mr. Zapotec"
+	date = 1801.1.1
+	type = land
+	personality = competent
+	background = powerful_friends
+	prestige = 0.4
+}
+leader = {
+	name = "Mr. Zapotec II"
+	date = 1801.1.1
+	type = land
+	personality = competent
+	background = powerful_friends
+	prestige = 0.4
+}
+army = {
+	name = "Zapotec Army"
+	location = 2159
+	regiment = {
+		name= "1. Zapotec"
+		type = infantry
+		home = 2177
+	}
+	regiment = {
+		name= "2. Zapotec"
+		type = infantry
+		home = 2177
+	}
+	regiment = {
+		name= "3. Zapotec"
+		type = infantry
+		home = 2177
+	}
+	regiment = {
+		name= "3. Zapotec"
+		type = irregular
+		home = 2176
+	}
+	regiment = {
+		name= "4. Zapotec"
+		type = irregular
+		home = 2176
+	}
+	regiment = {
+		name= "6. Zapotec"
+		type = irregular
+		home = 2176	}
+	regiment = {
+		name= "5. Zapotec"
+		type = irregular
+		home = 2174
+	}
+	regiment = {
+		name= "6. Zapotec"
+		type = dragoon
+		home = 2174
+	}
+	regiment = {
+		name= "10. Zapotec"
+		type = cavalry
+		home = 2167
+	}
+}

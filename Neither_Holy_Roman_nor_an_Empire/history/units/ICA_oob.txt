@@ -1,0 +1,55 @@
+leader = {
+	name = "Incan Mummy"
+	date = 1801.1.1
+	type = land
+	personality = relentless
+	background = powerful_friends
+	prestige = 0.4
+}
+
+army = {
+name = "Incan Army"
+location = 2297
+	regiment = {
+		name= "1st Incan Spearmen"
+		type = irregular
+		home = 2290
+	}
+	regiment = {
+		name= "2nd Incan Spearmen"
+		type = irregular
+		home = 2302
+	}
+	regiment = {
+		name= "3th Incan Spearmen"
+		type = irregular
+		home = 2302
+	}
+	regiment = {
+		name= "4th Incan Spearmen"
+		type = irregular
+		home = 2303
+	}
+	regiment = {
+		name= "5th Incan Spearmen"
+		type = irregular
+		home = 2310
+	}regiment = {
+		name= "6th Incan Spearmen"
+		type = irregular
+		home = 2310
+	}
+	regiment = {
+		name= "1st Incan Horse"
+		type = cavalry
+		home = 2311
+	}regiment = {
+		name= "2nd Incan Horse"
+		type = cavalry
+		home = 2311
+	}regiment = {
+		name= "Captured Cannons"
+		type = artillery
+		home = 2311
+	}
+	}

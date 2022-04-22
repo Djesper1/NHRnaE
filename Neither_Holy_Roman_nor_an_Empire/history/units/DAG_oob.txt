@@ -1,0 +1,50 @@
+leader = {
+	name = "Imam Ghazi Mullah"
+	date = 1801.1.1
+	type = land
+	personality = priest
+	background = powerful_friends
+	prestige = 0.4
+}
+
+army = {
+	name = "Army of the Imam"
+	location = 1052
+	regiment = {
+		name= "1st Royal Guard"
+		type = guard
+		home = 1052
+	}
+	regiment = {
+		name= "2nd Royal Guard"
+		type = dragoon
+		home = 1052
+	}
+	regiment = {
+		name= "1st Brigade"
+		type = irregular
+		home = 1053
+	}
+
+	regiment = {
+		name= "2nd Brigade"
+		type = irregular
+		home = 1053
+	}
+	regiment = {
+		name= "3th Brigade"
+		type = irregular
+		home = 1102
+	}
+	regiment = {
+		name= "4th Brigade"
+		type = irregular
+		home = 1103
+	}
+
+	regiment = {
+		name= "5th Brigade"
+		type = irregular
+		home = 1104
+	}
+}

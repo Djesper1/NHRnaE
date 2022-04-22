@@ -1,0 +1,117 @@
+	country_event = {
+		id = 90501
+		title = "Autonomous Unification?"
+		desc = "EVENTDESC_AUS_OFFER"
+		picture = "Administration"
+		is_triggered_only = yes
+		fire_only_once = yes
+		option = {
+		name = "We Accept, Lang Leven Nederland!"
+	HLL = { 
+	add_country_modifier = {
+	name = supporter_of_unification_of_the_hre
+	duration = 36500
+	}
+	FLA = { country_event = 90503 }
+	}
+	AUS = {
+	country_event = {
+	id = 90502
+	days = 3
+	}
+}
+}
+	option = {
+	name = "Never, you Austrian Bastard"
+	}
+	}
+	
+		country_event = {
+		id = 90502
+		title = "Holland accepts"
+		desc = "The Duke of Holland has accepted our offer."
+		picture = "Administration"
+		is_triggered_only = yes
+		fire_only_once = yes
+		option = {
+		name = "This is Good"
+		set_global_flag = hll_accept
+	}
+	}
+	
+		country_event = {
+		id = 90503
+		title = "Autonomous Unification?"
+		desc = "EVENTDESC_AUS_OFFER"
+		picture = "Administration"
+		is_triggered_only = yes
+		fire_only_once = yes
+		option = {
+		name = "We Accept, Lang Leven Nederland!"
+		AUS = {
+	country_event = {
+	id = 90504
+	days = 3
+	}
+	}
+	BRB = { country_event = 90505 }
+	add_country_modifier = {
+	name = supporter_of_unification_of_the_hre
+	duration = 36500
+	}
+}
+	option = {
+	name = "Never, you Austrian Bastard"
+	}
+	}
+	
+		country_event = {
+		id = 90504
+		title = "Flanders accepts"
+		desc = "The Duke of Flanders has accepted our offer."
+		picture = "Administration"
+		is_triggered_only = yes
+		fire_only_once = yes
+		option = {
+		name = "This is Good"
+		set_global_flag = fla_accept
+	}
+	}
+	
+		country_event = {
+		id = 90505
+		title = "Autonomous Unification?"
+		desc = "EVENTDESC_AUS_OFFER"
+		picture = "Administration"
+		is_triggered_only = yes
+		fire_only_once = yes
+		option = {
+		name = "We Accept, Lang Leven Nederland!"
+	AUS = {
+	country_event = {
+	id = 90506
+	days = 3
+	}
+	}
+	add_country_modifier = {
+	name = supporter_of_unification_of_the_hre
+	duration = 36500
+	}
+}
+	option = {
+	name = "Never, you Austrian Bastard"
+	}
+	}
+	
+		country_event = {
+		id = 90506
+		title = "Brabant accepts"
+		desc = "The Duke of Brabant has accepted our offer."
+		picture = "Administration"
+		is_triggered_only = yes
+		fire_only_once = yes
+		option = {
+		name = "This is Good"
+		set_global_flag = brb_accept
+	}
+	}

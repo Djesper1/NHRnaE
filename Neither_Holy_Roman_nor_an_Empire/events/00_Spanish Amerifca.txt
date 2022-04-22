@@ -1,0 +1,1030 @@
+country_event = {
+	id = 970400
+	title = "Small scale riots pop up in Spanish America"
+	desc = "Because of our inability to put down the native revolt, small scale roits have popped up in Spanish America. The Spanish Americans are starting to question of they should rely on the Spanish monarchy for protection."
+	picture = "Strike"
+	
+	fire_only_once = yes
+
+	trigger = { 
+		tag = SPA
+		NOT = { has_global_flag = small_scale_revolts_spa }
+		year = 1839
+		OR = { 
+		exists = ZAP
+		exists = CHA
+		exists = ICA
+		exists = GUR
+		}
+	}
+	
+	mean_time_to_happen = {
+		months =  12
+	}
+	
+	option = {
+		name = "We got to get this war over quickly."
+		set_global_flag = small_scale_revolts
+		any_pop = {
+			limit = {
+				culture = spanish_american
+			}
+			militancy = 2
+			consciousness = 5
+		}
+	}
+}
+
+country_event = {
+	id = 970401
+	title = "Large scale riots pop up in Spanish America"
+	desc = "Because of our inability to put down the native revolt, large scale roits have popped up in Spanish America. The Spanish Americans are questioning the legitimacy of Spain in America."
+	picture = "Harassment"
+	
+	fire_only_once = yes
+
+	trigger = { 
+		tag = SPA
+		NOT = { has_global_flag = large_scale_revolts }
+		year = 1841
+		OR = { 
+		exists = ZAP
+		exists = CHA
+		exists = ICA
+		exists = GUR
+		}
+	}
+	
+	mean_time_to_happen = {
+		months =  1
+	}
+	
+	option = {
+		name = "We got to get this war over and quickly."
+		set_global_flag = large_scale_revolts
+		any_pop = {
+			limit = {
+				culture = spanish_american
+			}
+			militancy = 5
+			consciousness = 5
+		}
+	}
+}
+
+country_event = {
+	id = 970402
+	title = "New legitimacy!"
+	desc = "Because of our speed in putting down the revolt, we have gained great legitmacy"
+	picture = "greatpowers"
+	
+	fire_only_once = yes
+
+	trigger = { 
+		tag = SPA
+		NOT = { has_global_flag = new_legititmacy_spa }
+		NOT = { year = 1839 }
+		NOT = {
+		exists = ZAP
+		exists = CHA
+		exists = ICA
+		exists = GUR
+		}
+	}
+	
+	mean_time_to_happen = {
+		months =  0
+	}
+	
+	option = {
+		name = "Very Well!"
+		set_global_flag = new_legititmacy_spa
+		any_pop = {
+			limit = {
+				culture = spanish_american
+			}
+			militancy = -2
+			consciousness = -5
+		}
+	}
+}
+
+country_event = {
+	id = 970403
+	title = "The native question"
+	desc = "The natives of the Americas have not long ago been defeated by us. We must now solve the 'problem'."
+	picture = "greatpowers"
+	
+	fire_only_once = yes
+
+	trigger = { 
+		tag = SPA
+		NOT = {
+		exists = ZAP
+		exists = CHA
+		exists = ICA
+		exists = GUR
+		}
+	}
+	
+	mean_time_to_happen = {
+		months =  5
+	}
+	
+	option = {
+		name = "Put them to the sword."
+		set_country_flag = native_problem_solved
+		any_pop = {
+			limit = {
+			OR = {
+				culture = guarani
+				culture = aimara
+				culture = quechua
+				culture = amazonian
+				culture = native_american_minor
+				culture = mayan
+				culture = zapotec
+			}
+		}
+		reduce_pop = 0.03 }
+			any_owned = {
+			limit = {
+			OR = { 
+			is_core = ZAP
+			is_core = CHA
+			is_core = ICA
+			is_core = GUR
+	}
+}
+add_province_modifier = {
+name = virgin_lands
+duration = 3650
+}
+remove_core = ZAP
+remove_core = CHA
+remove_core = ICA
+remove_core = GUR
+}
+}
+
+	option = {
+		name = "EV403OPTB"
+		set_country_flag = native_problem_remains
+		any_pop = {
+			limit = {
+			OR = {
+				culture = guarani
+				culture = aimara
+				culture = quechua
+				culture = amazonian
+				culture = native_american_minor
+				culture = mayan
+				culture = zapotec
+			}
+		}
+		militancy = 10
+		consciousness = 10
+	}
+}
+}
+
+country_event = {
+	id = 970404
+	title = "The lease of Uruguay"
+	desc = "At the start of the Spanish Native revolt in 1835, we leased Uruguay for 25 years for 250.000 pounds. Now, we must return Uruguay to the Spanish."
+	picture = "uruguay"
+	
+	fire_only_once = yes
+
+	trigger = { 
+		tag = POR
+		owns = 2347
+		owns = 2344
+		owns = 2345
+		year = 1860
+		}
+	
+	mean_time_to_happen = {
+		months =  2
+	}
+	
+	option = {
+	name = "We are keeping Uruguay!"
+	badboy = 1
+	prestige = -1
+	SPA = { country_event = 970405 set_country_flag = urucores }
+	2347 = { add_core = SPA }
+	2346 = { add_core = SPA }
+	2345 = { add_core = SPA }
+	2344 = { add_core = SPA }
+	}
+	option = {
+	name = "We must not antagonise the Spanish!"
+	badboy = -2
+	2347 = { secede_province = SPA }
+	2344 = { secede_province = SPA }
+	2345 = { secede_province = SPA }
+	2346 = { secede_province = SPA } 
+	}
+	}
+	
+	country_event = {
+	id = 970405
+	title = "The lease of Uruguay"
+	desc = "At the start of the Spanish Native revolt in 1835, the Portugese leased Uruguay for 25 years for 250.000 pounds. Now, they are refusing to return Uruguay to us!."
+	picture = "uruguay"
+	
+	fire_only_once = yes
+
+	trigger = { 
+		tag = POR
+		owns = 2347
+		owns = 2344
+		owns = 2345
+		owns = 2346
+		year = 1860
+		}
+	
+	mean_time_to_happen = {
+		months =  2
+	}
+	
+	option = {
+	name = "EV405OPTB"
+	}
+	}
+	
+	country_event = {
+	id = 970406
+	title = "The lease of Uruguay"
+	desc = "We have regained Uruguay"
+	picture = "uruguay"
+	
+	fire_only_once = yes
+
+	trigger = { 
+		tag = SPA
+		owns = 2347
+		owns = 2344
+		owns = 2345
+		owns = 2346
+		has_country_flag = urucores
+		}
+	
+	mean_time_to_happen = {
+		months =  2
+	}
+	
+	option = {
+	name = "We have shown the Portugese who is boss."
+	clr_country_flag = urucores
+	prestige = 10
+	2347 = { remove_core = SPA }
+	2346 = { remove_core = SPA }
+	2345 = { remove_core = SPA }
+	2344 = { remove_core = SPA }
+	}
+	}
+	
+	country_event = {
+	id = 970407
+	title = "When the dust has setteld..."
+	desc = "970407DESC"
+	picture = "greatpowers"
+	major = yes
+	fire_only_once = yes
+
+	trigger = { 
+		tag = SPA
+		NOT = {
+		exists = ZAP
+		exists = CHA
+		exists = ICA
+		exists = GUR
+		}
+	}
+	
+	mean_time_to_happen = {
+		months =  5
+	}
+	
+	option = {
+	name = "Order"
+	set_country_flag = order
+	any_pop = {
+	limit = {
+	culture = spanish_american }
+	reduce_pop = 0.9999
+	}
+	set_variable = {
+	which = revolt_spa
+	value = 20
+	}
+	}
+	
+	option = {
+	name = "Loyality"
+	set_country_flag = loyality
+	any_owned = {
+	limit = {
+	OR = {
+	is_core = MEX
+	is_core = UCA
+	region = MEX_2183
+	region = MEX_2162
+	province_id = 2163
+	region = MEX_2173
+	region = MEX_2170
+	}
+	}
+	add_core = VNS
+	}
+	any_owned = {
+	limit = {
+	OR = {
+	is_core = CLM
+	is_core = ECU
+	}
+	}
+	add_core = VNG
+	}
+	any_owned = {
+	limit = {
+	OR = {
+	is_core = PEU
+	AND = { is_core = BOL NOT = { province_id = 2375 } }
+	is_core = PRG
+	province_id = 2369
+	province_id = 2371
+	province_id = 2372
+	}
+	}
+	add_core = VOP
+	}
+	any_owned = {
+	limit = {
+	OR = {
+	province_id = 2375
+	AND = {
+	is_core = ARG
+	NOT = { is_core = BOL }
+	NOT = { province_id = 2369 }
+	NOT = { province_id = 2371 }
+	NOT = { province_id = 2372 }
+	}
+	AND = {
+	is_core = CHL
+	NOT = { is_core = BOL }
+	}
+	}
+	}
+	add_core = VLP
+	}
+	release_vassal = VNG
+	release_vassal = VOP
+	release_vassal = VLP
+	release_vassal = VNS
+	diplomatic_influence = {
+	who = VNS
+	value = 500
+	}
+	diplomatic_influence = {
+	who = VNG
+	value = 500
+	}
+	diplomatic_influence = {
+	who = VOP
+	value = 500
+	}
+	diplomatic_influence = {
+	who = VLP
+	value = 500
+	}
+	}
+	
+	option = {
+	name = "Unity"
+	set_country_flag = unity
+	}
+	}
+	
+	country_event = {
+	id = 970408
+	title = "The Disloyal Aristocrats"
+	desc = "It appears that the aristocrats, the landowners in our American Colonies, are disloyal."
+	picture = "crisis"
+	fire_only_once = yes
+
+	trigger = { 
+		tag = SPA
+		has_country_flag = order
+	}
+	
+	mean_time_to_happen = {
+		months =  24
+	}
+	
+	option = {
+	name = "HMMA408"
+	set_country_flag = oof_aristo
+	any_pop = {
+	limit = {
+	culture = spanish_american
+	type = aristocrats
+	}
+	reduce_pop = 0.75
+	}
+	prestige = 2
+	set_variable = {
+	which = revolt_spa
+	value = -2
+	}
+	}
+	
+	option = {
+	name = "DNKA408"
+	set_country_flag = oof_aristo_jk
+	any_pop = {
+	limit = {
+	culture = spanish_american
+	type = aristocrats
+	}
+	militancy = 1
+	consciousness = 4
+	}
+	prestige = -2
+	set_variable = {
+	which = revolt_spa
+	value = 3
+	}
+	}
+	}
+	
+		country_event = {
+	id = 970409
+	title = "The Disloyal Clergy"
+	desc = "These men of God, as it appears, are not just preaching the Bible in our fair American Colonies. They are also fermenting revolution!"
+	picture = "crisis"
+	fire_only_once = yes
+
+	trigger = { 
+		tag = SPA
+		has_country_flag = order
+		OR = {
+		has_country_flag = oof_aristo
+		has_country_flag = oof_aristo_jk
+		}
+	}
+	
+	mean_time_to_happen = {
+		months =  24
+	}
+	
+	option = {
+	name = "HMMA409"
+	set_country_flag = oof_clergy
+	any_pop = {
+	limit = {
+	culture = spanish_american
+	type = clergymen
+	}
+	reduce_pop = 0.50
+	}
+	prestige = -2
+	set_variable = {
+	which = revolt_spa
+	value = -2
+	}
+	}
+	
+	option = {
+	name = "DNKA409"
+	set_country_flag = oof_clergy_jk
+	any_pop = {
+	limit = {
+	culture = spanish_american
+	}
+	militancy = 2.5
+	consciousness = 7
+	}
+	prestige = -4
+	set_variable = {
+	which = revolt_spa
+	value = 4
+	}
+	}
+	}
+	
+	country_event = {
+	id = 970410
+	title = "The Miner's Strike!"
+	desc = "After their preachers got excecuted by the Spanish Government, Spanish American Miners are now starting to strike."
+	picture = "crisis"
+	fire_only_once = yes
+
+	trigger = { 
+		tag = SPA
+		has_country_flag = order
+		has_country_flag = oof_clergy
+	}
+	
+	mean_time_to_happen = {
+		months =  24
+	}
+	
+	option = {
+	name = "HMMA410"
+	set_country_flag = oof_miners
+	any_pop = {
+	limit = {
+	culture = spanish_american
+	type = labourers
+	}
+	reduce_pop = 0.50
+	}
+	prestige = -2
+	set_variable = {
+	which = revolt_spa
+	value = -2
+	}
+	}
+	
+	option = {
+	name = "DNKA410"
+	set_country_flag = oof_miners_jk
+	prestige = -4
+	set_variable = {
+	which = revolt_spa
+	value = 1
+	}
+	any_owned = {
+	limit = {
+	culture = spanish_american
+	OR = {
+	produces = coal
+	produces = iron
+	produces = sulfhur
+	produces = precious_metal
+	produces = oil
+	}
+	}
+	add_province_modifier = {
+	name = strikes
+	duration = 365
+	}
+	}
+	}
+	}
+	
+	country_event = {
+	id = 970411
+	title = "The Plotting Administators"
+	desc = "Spanish American Administrators are plotting against the monarchy!"
+	picture = "crisis"
+	fire_only_once = yes
+
+	trigger = { 
+		tag = SPA
+		has_country_flag = order
+		OR = {
+		has_country_flag = oof_clergy
+		has_country_flag = oof_clergy_jk
+		}
+	}
+	
+	mean_time_to_happen = {
+		months =  24
+	}
+	
+	option = {
+		name = "HMMA411"
+		set_country_flag = oof_beauro
+		any_pop = {
+		limit = {
+		type = bureaucrats
+		culture = spanish_american
+		}
+		pop_type = farmers
+		}
+		set_variable = {
+	which = revolt_spa
+	value = -6
+	}
+	}
+	option = {
+		name = "DNKA411"
+		set_country_flag = oof_beauro_jk
+		any_pop = {
+		limit = {
+		type = bureaucrats
+		culture = spanish_american
+		}
+		consciousness = 3
+		}
+		set_variable = {
+	which = revolt_spa
+	value = 3
+	}
+	}
+	}
+	
+	province_event = {
+	id = 970412
+	title = "Riots against Spain"
+	desc = "Unhappy with the Spanish Government, Spanish Americans have riotted"
+	trigger = { 
+		tag = SPA
+		has_country_flag = order
+		any_owned_province = {
+		OR = {
+			militancy = 4
+			consciousness = 7
+		}
+		culture = spanish_american
+		
+	}
+	}
+	
+	mean_time_to_happen = {
+	months = 12
+	modifier = {
+	factor = 2
+	has_global_flag = new_legititmacy_spa
+	}
+	modifier = {
+	factor = 0.5
+	has_global_flag = large_scale_revolts
+	}
+	}
+	
+	option = {
+	name = "HMMA412"
+	any_pop = {
+	limit = {
+	culture = spanish_american
+	}
+	reduce_pop = 0.80
+	}
+	set_variable = {
+	which = revolt_spa
+	value = -0.5
+	}
+	}
+	
+	option = {
+	name = "DNKA412"
+	any_pop = {
+	limit = {
+	culture = spanish_american
+	}
+	militancy = 3
+	}
+	set_variable = {
+	which = revolt_spa
+	value = 0.5
+	}
+	}
+	}
+	
+	country_event = {
+	id = 970413
+	title = "The General Purge"
+	desc = "Time has come to cleans the Spanish Americas of Traitors!"
+	picture = "crisis"
+	fire_only_once = yes
+
+	trigger = { 
+		tag = SPA
+		has_country_flag = order
+		OR = {
+		has_country_flag = oof_beauro
+		has_country_flag = oof_beauro_jk
+		}
+	}
+	
+	mean_time_to_happen = {
+		months =  24
+	}
+	
+	option = {
+	name = "HMMA413"
+	any_pop = {
+	limit = {
+	culture = spanish_american
+	}
+	reduce_pop = 0.60
+	}
+	set_variable = {
+	which = revolt_spa
+	value = -10
+	}
+	}
+	
+	option = {
+	name = "DNKA413"
+	any_pop = {
+	limit = {
+	culture = spanish_american
+	}
+	consciousness = 10
+	}
+	set_variable = {
+	which = revolt_spa
+	value = 5
+	}
+	}
+	}
+	
+	country_event = {
+	id = 970414
+	title = "Order."
+	desc = "The Spanish Americas have been pacified."
+	picture = "crisis"
+	fire_only_once = yes
+	
+	trigger = {
+	has_global_flag = order
+	check_variable = {
+	which = revolt_spa
+	value = 0
+	}
+	NOT = {
+	check_variable = {
+	which = revolt_spa
+	value = 1
+	}
+	}
+	tag = SPA
+	}
+	
+	mean_time_to_happen = {
+	months = 1
+	}
+	
+	option = {
+	name = "Glory."
+	any_owned = {
+	limit = {
+	OR = {
+	continent = north_america
+	continent = south_america
+	}
+	}
+	add_province_modifier = {
+	name = order
+	duration = 36500
+	}
+	}
+	}
+	}
+	
+	country_event = {
+	id = 970415
+	title = "New Legitimacy!"
+	desc = "We have gained legitimacy from our succes in the Native Revolt (-10 points towards revolt)"
+	picture = "greatpowers"
+	fire_only_once = yes
+
+	trigger = { 
+		tag = SPA
+		has_country_flag = new_legititmacy_spa
+	}
+	
+	mean_time_to_happen = {
+		months = 6
+	}
+	
+	option = {
+	name = "Amazing!"
+	prestige = 5
+	set_variable = {
+	which = revolt_spa
+	value = -10
+	}
+	}
+	}
+	
+	country_event = {
+	id = 970416
+	title = "Loss of Legitimacy!"
+	desc = "We have lost legitimacy from our slow dealings in the native revolt.(10 points towards revolt)"
+	picture = "crisis"
+	fire_only_once = yes
+
+	trigger = { 
+		tag = SPA
+		has_country_flag = large_scale_revolts
+	}
+	
+	mean_time_to_happen = {
+		months = 6
+	}
+	
+	option = {
+	name = "Horrible!"
+	prestige = -5
+	set_variable = {
+	which = revolt_spa
+	value = 10
+	}
+	}
+	}
+	
+	country_event = {
+	id = 970417
+	title = "AI taxes"
+	desc = "The Viceroyalities need to have high income!"
+	picture = "crisis"
+
+	trigger = { 
+		is_ai = yes
+		OR = {
+		tag = VNS
+		tag = VNG
+		tag = VOP
+		tag = VLP
+		}
+		NOT = { has_country_modifier = viceroyal_taxes }
+	}
+	
+	mean_time_to_happen = {
+		months = 6
+	}
+	
+	option = {
+	name = "Bleep Bloop!"
+	add_country_modifier = {
+	name = viceroyal_taxes
+	duration = 36500
+	}
+	}
+	}
+	
+	country_event = {
+		id = 970418
+		title = "Small Treasure fleet"
+		desc = "The Spanish have send a small fleet to collect our treasure"
+		picture = "colonial_factory"
+		
+		trigger = { 
+			is_ai = yes
+			money = 10000
+			NOT = { money = 50000 }
+			OR = {
+				tag = VNS
+				tag = VNG
+				tag = VOP
+				tag = VLP
+			}
+			NOT = { has_country_modifier = treasurefleet_shipped }
+		}
+		
+		mean_time_to_happen = {
+		days = 1
+		}
+		
+		option = {
+			name = "Just a few boats?"
+			money = -10000
+			SPA = { money = 10000 }
+			add_country_modifier = {
+				name = treasurefleet_shipped
+				duration = 365
+			}
+		}
+	}
+	
+	country_event = {
+		id = 970419
+		title = "Medium sized Treasure fleet"
+		desc = "The Spanish have send a medium sized fleet to collect our treasure"
+		picture = "colonial_factory"
+		
+		trigger = { 
+			is_ai = yes
+			money = 50000
+			NOT = { money = 100000 }
+			OR = {
+				tag = VNS
+				tag = VNG
+				tag = VOP
+				tag = VLP
+			}
+			NOT = { has_country_modifier = treasurefleet_shipped }
+		}
+		
+		mean_time_to_happen = {
+		days = 1
+		}
+		
+		option = {
+			name = "This might take some of our capital"
+			money = -30000
+			SPA = { money = 30000 }
+			add_country_modifier = {
+				name = treasurefleet_shipped
+				duration = 365
+			}
+		}
+	}
+	
+	country_event = {
+		id = 970420
+		title = "Large Treasure fleet"
+		desc = "The Spanish have send a large fleet to collect our treasure"
+		picture = "colonial_factory"
+		
+		trigger = { 
+			is_ai = yes
+			money = 100000
+			NOT = { money = 250000 }
+			OR = {
+				tag = VNS
+				tag = VNG
+				tag = VOP
+				tag = VLP
+			}
+			NOT = { has_country_modifier = treasurefleet_shipped }
+		}
+		
+		mean_time_to_happen = {
+		days = 1
+		}
+		
+		option = {
+			name = "We must comply"
+			money = -80000
+			SPA = { money = 80000 }
+			add_country_modifier = {
+				name = treasurefleet_shipped
+				duration = 365
+			}
+		}
+	}
+	
+	country_event = {
+		id = 970421
+		title = "Huge Treasure fleet"
+		desc = "The Spanish have send a huge fleet to collect our treasure"
+		picture = "colonial_factory"
+		
+		trigger = { 
+			is_ai = yes
+			money = 250000
+			OR = {
+				tag = VNS
+				tag = VNG
+				tag = VOP
+				tag = VLP
+			}
+			NOT = { has_country_modifier = treasurefleet_shipped }
+		}
+		
+		mean_time_to_happen = {
+		days = 1
+		}
+		
+		option = {
+			name = "Check every Spanish American's Wallet, those ships need to be filled."
+			money = -200000
+			SPA = { money = 200000 }
+			add_country_modifier = {
+				name = treasurefleet_shipped
+				duration = 365
+			}
+		}
+	}
+	
+	country_event = {
+		id = 970422
+		title = "Demands from the Colonies."
+		desc = "My King, We, as Governors of your colonies, hearby request 200000 pounds. "
+		picture = "colonial_factory"
+		
+		trigger = { 
+			tag = SPA
+			has_country_flag = loyality
+			NOT = { has_country_modifier = loyal_governors }
+		}
+		
+		mean_time_to_happen = {
+		months = 24
+		}
+		
+		option = {
+		name = "Very Well, pay them off!"
+		money = -200000
+		VNS = { money = 50000 }
+		VNG = { money = 50000 }
+		VOP = { money = 50000 }
+		VLP = { money = 50000 }
+		}
+		
+		option = {
+		name = "How about no?"
+		VNS = { any_pop = { militancy = 7 } }
+		VNG = { any_pop = { militancy = 7 } }
+		VOP = { any_pop = { militancy = 7 } }
+		VLP = { any_pop = { militancy = 7 } }
+		}
+		}

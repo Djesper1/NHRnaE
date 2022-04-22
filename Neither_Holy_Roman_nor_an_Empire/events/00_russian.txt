@@ -1,0 +1,229 @@
+country_event = {
+		id = 970070
+		title = "The Caucasian Solution"
+		desc = "We must find a way to 'deal' with the Caucasians"
+		picture = "Parade"
+		
+		fire_only_once = yes
+		is_triggered_only = yes
+		
+		option = {
+		name = "The Bullet is what they shall get"
+		set_country_flag = killed_the_caucasus
+		any_owned = {
+		limit = {
+		OR = {
+		is_core = ABK
+		is_core = DAG
+		is_core = CIR
+		}
+		}
+		any_pop = {
+		limit = {
+		OR = { 
+		has_pop_culture = georgian
+		has_pop_culture = armenian
+		has_pop_culture = azerbaijani
+		has_pop_culture = north_caucasian
+		}
+		}
+		reduce_pop = 0.15
+		}
+		remove_core = CIR
+		remove_core = DAG
+		remove_core = ABK
+		}
+		}
+		option = {
+		name = "Exile in the Ottoman Empire is what they shall get."
+		TUR = { country_event = 970071 }
+		set_country_flag = exiled_the_caucasus
+		}
+		option = {
+		name = "A peaceful solution is preferable. (Will make you unable to kill them)"
+		set_country_flag = no_murder
+		}
+		}
+		
+		country_event = {
+		id = 970071
+		title = "Caucasian Exiles"
+		desc = "Russia has exiled Caucasians, shall we let them in?"
+		picture = "Parade"
+		
+		fire_only_once = yes
+		is_triggered_only = yes
+		
+		option = {
+		name = "We shall accept all of them"
+		RUS = {
+		any_owned = {
+		limit = {
+		OR = {
+		is_core = ABK
+		is_core = DAG
+		is_core = CIR
+		}
+		}
+		any_pop = {
+		limit = {
+		OR = { 
+		has_pop_culture = georgian
+		has_pop_culture = armenian
+		has_pop_culture = azerbaijani
+		has_pop_culture = north_caucasian
+		}
+		}
+		move_pop = 860
+		}
+		}
+		any_owned = {
+		limit = {
+		OR = {
+		is_core = ABK
+		is_core = DAG
+		is_core = CIR
+		}
+		}
+		remove_core = CIR
+		remove_core = DAG
+		remove_core = ABK
+		}
+		}
+		}
+		
+		option = {
+		name = "We shall accept only those who follow Islam"
+		RUS = {
+		any_owned = {
+		limit = {
+		OR = {
+		is_core = ABK
+		is_core = DAG
+		is_core = CIR
+		}
+		}
+		any_pop = {
+		limit = {
+		OR = {
+		has_pop_religion = sunni
+		has_pop_religion = shiite
+		}
+		OR = { 
+		has_pop_culture = georgian
+		has_pop_culture = armenian
+		has_pop_culture = azerbaijani
+		has_pop_culture = north_caucasian
+		}
+		}
+		move_pop = 860
+		}
+		}
+		}
+		RUS = {
+		any_owned = {
+		limit = {
+		OR = {
+		is_core = ABK
+		is_core = DAG
+		is_core = CIR
+		}
+		}
+		any_pop = {
+		limit = {
+		NOT = { has_pop_religion = sunni }
+		NOT = { has_pop_religion = shiite }
+		OR = { 
+		has_pop_culture = georgian
+		has_pop_culture = armenian
+		has_pop_culture = azerbaijani
+		has_pop_culture = north_caucasian
+		}
+		}
+		reduce_pop = 0.05
+		}
+		remove_core = CIR
+		remove_core = DAG
+		remove_core = ABK
+		}
+		}
+		}
+		
+		option = {
+		name = "We shall not accept any of them."
+		RUS = {
+		any_owned = {
+		limit = {
+		OR = {
+		is_core =  ABK
+		is_core =  DAG
+		is_core =  CIR
+		}
+		}
+		any_pop = {
+		limit = {
+		OR = { 
+		has_pop_culture = georgian
+		has_pop_culture = armenian
+		has_pop_culture = azerbaijani
+		has_pop_culture = north_caucasian
+		}
+		}
+		reduce_pop = 0.05
+		}
+		remove_core = CIR
+		remove_core = DAG
+		remove_core = ABK
+		}
+		}
+		}
+		}
+		
+		country_event = {
+		id = 970072
+		title = "Open Revolt in the Caucasus"
+		desc = "It appears the Caucasians are pretty angry"
+		picture = "Factoryattack"
+		
+		fire_only_once = yes
+		
+		
+		trigger = {
+		NOT  = { has_country_flag = exiled_the_caucasus }
+		NOT  = { has_country_flag = killed_the_caucasus }
+		NOT = { has_country_flag = released_TCB }
+		year = 1856
+		}
+		
+		mean_time_to_happen = {
+		months = 3
+		}
+		
+		option = {
+		name = "Fuc-"
+		any_owned = {
+		limit = {
+		OR = {
+		is_core = DAG 
+		is_core = ABK 
+		is_core = CIR 
+		}
+		}
+		any_pop = {
+		limit = {
+		OR = {
+		has_pop_culture = georgian
+		has_pop_culture = armenian
+		has_pop_culture = azerbaijani
+		has_pop_culture = north_caucasian
+		}
+		}
+		militancy = 10
+		}
+		add_province_modifier = {
+		name = open_revolt
+		duration = 3650
+		}
+		}
+		}
+		}

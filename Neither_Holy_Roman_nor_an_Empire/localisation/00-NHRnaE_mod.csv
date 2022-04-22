@@ -1,0 +1,834 @@
+TAG;;;;;;;;;;;;;;x;;;;
+THU;Thuringia;Thuringe;Th¸ringen;;Turingia;;;;;;;;;x;;;;
+SGM;Sigmaringen;Sigmaringen;Sigmaringen;;Sigmaringen;;;;;;;;;x;;;;
+GEN;Genoa;Ganes;Genua;Ganova;;;;;;;;;x;;;;
+HLL;Holland;Hollande;Holland;Holanda;;;;;;;;;x;;;;
+BRB;Brabant;Brabant;Brabant;Brabante;;;;;;;;;x;;;;
+FRI;Friesland;Frise;Friesland;Frisia;;;;;;;;;x;;;;
+BRG;Burgundy;Bourgogne;Burgund;Borgo√±a;;;;;;;;;x;;;;
+BWU;Baden-Wurttemberg;Bade-Wurtemberg;Baden-W¸rttemberg;Baden-Wurttemberg;;;;;;;;;x;;;;
+PAL;Palatinate;Palatinat;Pfalz;Palatinado;;;;;;;;;x;;;;
+WST;Westphalia;Westphalie;Westfalen;Westfalia;;;;;;;;;x;;;;
+HSS;Hesse;Hesse;Hessen;Hesse;;;;;;;;;x;;;;
+BRN;Brandenburg;Brandebourg;Brandenburg;Brandeburgo;;;;;;;;;x;;;;
+HSL;The Hansa;La Hansa;Die Hansa;El Hansa;;;;;;;;;x;;;;
+POM;Pomerania;PomÈranie;Pommern;Pomerania;;;;;;;;;x;;;;
+SIL;Silesia;SilÈsie;Schlesien;Silesia;;;;;;;;;x;;;;
+URH;United Rhine Federation;Fedaration RhÙnane Unie;Vereinigte Rhein Federation;Federacion de Renania Unida;;;;;;;;;x;;;;
+SUL;Sulu;Sulu;Sulu;;Sulu;;;;;;;;;x;;;;
+NOC;North Italian Confederation;Conf√©d√©ration d'Italie du Nord;Norditalienischer Bund;;Confederaci√≥n del Norte de Italia;;;;;;;;;x;;;;
+BRP;Brandenburg-Prussia;Brandebourg-Prusse;Brandenburg-Preuﬂen;;Brandeburgo-Prusia;;;;;;;;;x;;;;
+NHO;Nieuw Holland;Nieuw Holland;Nieuw Holland;;Nueva Holanda;;;;;;;;;x;;;;
+NNL;Batavia;x
+WGF;West German Confederation;Conf√©d√©ration Ouest-Allemande;Westdeutscher Bund;;Confederaci√≥n de Alemania Occidental;;;;;;;;;x;;;;
+EGF;East German Confederation;Conf√©d√©ration Est-allemande;Ostdeutscher Bund;;Confederaci√≥n de Alemania Oriental;;;;;;;;;x;;;;
+NHR;Holy Roman Netherlands;;;;;;;;;;;;;x;;;;
+HRI;Holy Roman Italy;;;;;;;;;;;;;x;;;;
+HRI_ADJ;Holy Italian;;;;;;;;;;;;;x;;;;
+NHR_ADJ;Holy Dutch;;;;;;;;;;;;;x;;;;
+WGF_ADJ;West German;Allemand de l'Ouest;Westdeutsch;;Alem√°n Occidental;;;;;;;;;x;;;;
+EGF_ADJ;East German;Est Allemand;Ostdeutsch;;Alem√°n Oriental;;;;;;;;;x;;;;
+NNL_ADJ;Batavian;x
+BRP_ADJ;Brandenburgian-Prussian;Brandebourgeois-Prussien;Brandenburgisch-Preu√üisch;;Brandeburgo-Prusiano;;;;;;;;;x;;;;
+NHO_ADJ;Nieuw Hollands;Nieuw Hollands;Nieuw Hollands;;Nieuw Hollands;;;;;;;;;x;;;;
+SUL_ADJ;Sulan;Sulan;Sulan;;Sulan;;;;;;;;;x;;;;
+NOC_ADJ;North Italian;Italie du Nord;Norditalienisch;;Italiano del norte;;;;;;;;;x;;;;
+THU_ADJ;Thuringian;Thuringe;Th√ºringer;;Turingia;;;;;;;;;x;;;;
+HLL_ADJ;Hollands;Hollandes;Hollands;;Holandas;;;;;;;;;x;;;;
+SGM_ADJ;Sigmaringian;Sigmaringian;Sigmaringian;;Sigmaringian;;;;;;;;;x;;;;
+GEN_ADJ;Genoese;G√©nois;Genuesisch;;Genoveses;;;;;;;;;x;;;;
+BRB_ADJ;Brabants;Brabants;Brabants;;Brabantes;;;;;;;;;x;;;;
+FRI_ADJ;Fries;Frise;Fries;;Frisia;;;;;;;;;x;;;;
+BRG_ADJ;Burgundian;Bourguignon;Burgunder;;Borgo√±√≥n;;;;;;;;;x;;;;
+BWU_ADJ;W¸rttembergs;Wurtembergs;W¸rttembergs;;W¸rttembergs;;;;;;;;;x;;;;
+PAL_ADJ;Palatinate;Palatinat;Pfalz;;Palatinado;;;;;;;;;x;;;;
+WST_ADJ;Westphalian;Westphalien;Westfalens;;Westfalian;;;;;;;;;x;;;;
+HSS_ADJ;Hessian;Toile de jute;Hessisch;;Arpillera;;;;;;;;;x;;;;
+BRN_ADJ;Brandenburgian;Brandebourgeois;Brandenburgisch;;Brandeburgo;;;;;;;;;x;;;;
+HSL_ADJ;The Hansa;La Hansa;Die Hansa;;El Hansa;;;;;;;;;x;;;;
+POM_ADJ;Pomeranian;Pom√©ranien;Pommern;;Pomeranio;;;;;;;;;x;;;;
+SIL_ADJ;Silesian;Sil√©sie;Schlesien;;Silesia;;;;;;;;;x;;;;
+URH_ADJ;Rhenish;Rh√©nans;Rheinisch;;Renano;;;;;;;;;x;;;;
+governmenttype_and_tag/adj;english;french;german;;spanish;;;;;;;;;x;;;;
+FRA_fascist_dictatorship;Vichy France;Vichy France;Vichy Frankreich;;Vichy Francia;;;;;;;;;x;;;;
+FRA_fascist_dictatorship_ADJ;French;Fran√ßais;Franz√∂sisch;;Franc√©s;;;;;;;;;x;;;;
+FRA_absolute_monarchy;Bourbon France;L'Empire Fran√ßais;Das Franz√∂sische Reich;;El Imperio Franc√©s;;;;;;;;;x;;;;
+FRA_absolute_monarchy_ADJ;Bourbon;Fran√ßais;Franz√∂sisch;;Franc√©s;;;;;;;;;x;;;;
+SPA_fascist_dictatorship;Nationalist Spain;Espagne Nationaliste;Nationalistisches Spanien;;Espa√±a Nacionalista;;;;;;;;;x;;;;
+SPA_fascist_dictatorship_ADJ;Spanish;Espagnol;Spanisch;;Spanish;;;;;;;;;x;;;;
+NET_proletarian_dictatorship;Batavian Republic;R√©publique Batave;Batavische Republik;;Rep√∫blica de Batavia;;;;;;;;;x;;;;
+NET_proletarian_dictatorship_ADJ;Batavian;Batave;Batavian;;B√°tavo;;;;;;;;;x;;;;
+culture;;;;;;;;;;;;;;x;;;;
+rhinish;Rhinish;Rheinisch;Rheinisch;;Rheinisch;;;;;;;;;x;;;;
+burgundian;Burgundian;Bourguignon;Burgunder;;Borgo√±√≥n;;;;;;;;;x;;;;
+french_provencal;Provencal;Provencal;Provenzalisch;;Provenzal;;;;;;;;;x;;;;
+hollander;Hollander;Hollander;Hollander;;Hollander;;;;;;;;;x;;;;
+geuzen;Geuzen;Geuzen;Geuzen;;Geuzen;;;;;;;;;x;;;;
+burgund;Burgund;Burgund;Burgund;;Burgund;;;;;;;;;x;;;;
+d;;;;;;;;;;;;;;x;;;;
+annex_ruthenia_title;Annex Ruthenia;Annexe Ruth√©nie;Anhang Ruthenia;;Anexo Rutenia;;;;;;;;;x;;;;
+annex_ruthenia_desc;We have had a historical claim to Ruthenia and we will reclaim. Our power has risen, Ruthenia is ours.;Nous avons eu une revendication historique sur la Ruth√©nie et nous la r√©clamerons. Notre pouvoir a augment√©, la Ruth√©nie est la n√¥tre.;Wir hatten einen historischen Anspruch auf Ruthenia und werden ihn zur√ºckfordern. Unsere Macht ist gestiegen, Ruthenia geh√∂rt uns.;;Hemos tenido un reclamo hist√≥rico sobre Rutenia y lo recuperaremos. Nuestro poder ha aumentado, Rutenia es nuestra.;;;;;;;;;x;;;;
+the_intergration_of_ruthenia_title;The Integration of Ruthenia;L'int√©gration de la Ruth√©nie;Die Integration von Ruthenien;;La integraci√≥n de la rutenia;;;;;;;;x;;;;
+the_intergration_of_ruthenia_desc;Ruthenia has been an autonomous part of the Russian Empire for a long time, we must integrate them. This will upset the Commonwealth and will make their people ready for war.But, this will also give us the ideal opportunity to end the Commonwealth's independence.;La Ruth√©nie est une partie autonome de l'Empire russe depuis longtemps, nous devons les int√©grer. Cela bouleversera le Commonwealth et pr√©parera son peuple √† la guerre. Cela nous donnera √©galement l'occasion id√©ale de mettre fin √† l'ind√©pendance du Commonwealth.;Ruthenien war lange Zeit ein autonomer Teil des russischen Reiches, wir m√ºssen sie integrieren. Dies wird das Commonwealth ver√§rgern und sein Volk auf den Krieg vorbereiten. Dies gibt uns auch die ideale Gelegenheit, die Unabh√§ngigkeit des Commonwealth zu beenden.;;Rutenia ha sido una parte aut√≥noma del Imperio Ruso durante mucho tiempo, debemos integrarlos. Esto molestar√° a la Commonwealth y preparar√° a su gente para la guerra. Esto tambi√©n nos dar√° la oportunidad ideal para poner fin a la independencia del Commonwealth.;;;;;;;;;x;;;;
+test_title;Testing;;;;;;;;;;;;x;;;;
+test_desc;This is under development;;;;;;;;;;;;x;;;;
+support_rebellion_in_ruthenia_title;Support rebellion in Ruthenia;Soutenez la r√©bellion en Ruth√©nie;Unterst√ºtzen Sie den Aufstand in Ruthenien;;Apoya la rebeli√≥n en Rutenia;;;;;;;;;x;;;;
+support_rebellion_in_ruthenia_desc; By spending money to support revolution in Ruthenia, we can make Ruthenia independent. This will make it possible to invade Ruthenia without Russian intervention.This decision can be taken as long as Ruthenia is a vassal to the Russians and can be taken multiple times.;En d√©pensant de l'argent pour soutenir la r√©volution en Ruth√©nie, nous pouvons rendre la Ruth√©nie ind√©pendante. Cela permettra d'envahir les Ruth√©nie sans intervention de la Russie.Cette d√©cision peut √™tre prise tant que la Ruth√©nie est un vassal des Russes et peut √™tre prise plusieurs fois.;Indem wir Geld ausgeben, um die Revolution in Ruthenien zu unterst√ºtzen, k√∂nnen wir Ruthenien unabh√§ngig machen. Dies wird es erm√∂glichen, ohne russische Intervention in Ruthenien einzudringen.Diese Entscheidung kann getroffen werden, solange Ruthenia ein Vasall der Russen ist und mehrfach getroffen werden kann.;;Al gastar dinero para apoyar la revoluci√≥n en Rutenia, podemos hacer que Rutenia sea independiente. Esto permitir√° invadir Ruthenia sin la intervenci√≥n rusa. Esta decisi√≥n se puede tomar siempre que Rutenia sea vasallo de los rusos y se pueda tomar varias veces.;;;;;;;;;x;;;;
+unification_of_the_lowlands_via_conquest_title;War for Lowland unification;Guerre pour l'unification des basses terres;Krieg um die Vereinigung der Niederungen;;Guerra por la unificaci√≥n de las tierras bajas;;;;;;;;;x;;;;
+unification_of_the_lowlands_via_conquest_desc;The Lowlands have been divided for too long. These lands must be united, even if conquest is necessary.;Les basses terres sont divis√©es depuis trop longtemps. Ces terres doivent √™tre unies, m√™me si la conqu√™te est n√©cessaire.;Das Tiefland wurde zu lange geteilt. Diese L√§nder m√ºssen vereint werden, auch wenn eine Eroberung notwendig ist.;;Las Tierras Bajas se han dividido durante demasiado tiempo. Estas tierras deben estar unidas, incluso si la conquista es necesaria.;;;;;;;;;x;;;;
+unite_the_netherlands_title;Unite the Netherlands!;Unissez les Pays-Bas!;Vereinige die Niederlande!;;¬°Une los Pa√≠ses Bajos!;;;;;;;;;x;;;;
+unite_the_netherlands_desc;We must unite the Lowlands under a Dutch nation. Lang leven Nederland!;Nous devons unir les basses terres sous une nation n√©erlandaise. Lang leven Nederland!;Wir m√ºssen das Tiefland unter einer niederl√§ndischen Nation vereinen. Lang leven Nederland!;;Debemos unir las Tierras Bajas bajo una naci√≥n holandesa. Lang leven Nederland!;;;;;;;;;x;;;;
+claim_bavaria_title;Claim Bavaria;Revendiquer la Bavi√®re;Anspruch Bayern;;Reclamar Baviera;;;;;;;;;x;;;;
+claim_bavaria_desc;Bavaria is rightfully German but it is under Austrian oppression. We must liberate our Bavarian brethren. If we go to war with Austria however, the Holy Roman Empire may fall apart.;La Bavi√®re est l√©gitimement allemande mais elle est sous l'oppression autrichienne. Nous devons lib√©rer nos fr√®res bavarois. Cependant, si nous entrons en guerre avec l'Autriche, le Saint Empire romain pourrait s'effondrer.;Bayern ist zu Recht deutsch, steht aber unter √∂sterreichischer Unterdr√ºckung. Wir m√ºssen unsere bayerischen Br√ºder befreien. Wenn wir jedoch mit √ñsterreich in den Krieg ziehen, kann das Heilige R√∂mische Reich auseinanderfallen.;;Bavaria es leg√≠timamente alemana, pero est√° bajo la opresi√≥n austriaca. Debemos liberar a nuestros hermanos b√°varos. Sin embargo, si vamos a la guerra con Austria, el Sacro Imperio Romano puede desmoronarse.;;;;;;;;;x;;;;
+guarantee_the_small_states_title;Guarantee the Small States;Garantir les petits √âtats;Garantieren Sie die kleinen Staaten;;Garantizar los peque√±os estados;;;;;;;;;x;;;;
+guarantee_the_small_states_desc;We must unify the HRE. The only way we can do this is to have the support of all the states for unification. We shall start with the small states that are under the threat of annexation by their neighbours. This will mean we will get great influence over these small states.;Nous devons unifier l'EDH. La seule fa√ßon d'y parvenir est d'avoir le soutien de tous les √âtats pour l'unification. Nous commencerons par les petits √âtats menac√©s d‚Äôannexion par leurs voisins. Cela signifiera que nous aurons une grande influence sur ces petits √âtats.;Wir m√ºssen die HRE vereinheitlichen. Der einzige Weg, dies zu tun, besteht darin, die Unterst√ºtzung aller Staaten f√ºr die Vereinigung zu haben. Wir werden mit den kleinen Staaten beginnen, die von ihren Nachbarn annektiert werden m√ºssen. Dies bedeutet, dass wir gro√üen Einfluss auf diese kleinen Staaten bekommen werden.;;Debemos unificar la EDH. La √∫nica forma en que podemos hacer esto es contar con el apoyo de todos los estados para la unificaci√≥n. Empezaremos por los peque√±os estados que est√°n bajo la amenaza de anexi√≥n por parte de sus vecinos. Esto significar√° que obtendremos una gran influencia sobre estos peque√±os estados.;;;;;;;;;x;;;;
+annex_danzig_title;Annex Danzig;Annexe Danzig;Anhang Danzig;;Anexo Danzig;;;;;;;;;x;;;;
+annex_the_pomeranian_hansa_title;Annex The Pomeranian Hansa;Annexe La Hansa de Pom√©ranie;Anhang Die pommersche Hansa;;Anexo La Hansa de Pomerania;;;;;;;;;x;;;;
+annex_danzig_desc;Danzig has been under the control of the Hansa for too long. We can end their control if we have enough power to do so. We must be quick in doing this as the Emperor can guarantee the Hansa's independence.;Danzig est sous le contr√¥le de la Hanse depuis trop longtemps. Nous pouvons mettre fin √† leur contr√¥le si nous avons suffisamment de pouvoir pour le faire. Nous devons agir rapidement car l'Empereur peut garantir l'ind√©pendance de la Hanse.;Danzig steht zu lange unter der Kontrolle der Hansa. Wir k√∂nnen ihre Kontrolle beenden, wenn wir genug Macht dazu haben. Wir m√ºssen dies schnell tun, da der Kaiser die Unabh√§ngigkeit der Hansa garantieren kann.;;Danzig ha estado bajo el control de la Hansa durante demasiado tiempo. Podemos poner fin a su control si tenemos suficiente poder para hacerlo. Debemos ser r√°pidos en hacer esto ya que el Emperador puede garantizar la independencia de la Hansa.;;;;;;;;;x;;;;
+annex_the_pomeranian_hansa_desc;Pomerania has been under the control of the Hansa for too long. We can end their control if we have enough power to do so. We must be quick in doing this as the Emperor can guarantee the Hansa's independence.;Pom√©ranie est sous le contr√¥le de la Hanse depuis trop longtemps. Nous pouvons mettre fin √† leur contr√¥le si nous avons suffisamment de pouvoir pour le faire. Nous devons agir rapidement car l'Empereur peut garantir l'ind√©pendance de la Hanse.;Pommern steht zu lange unter der Kontrolle der Hansa. Wir k√∂nnen ihre Kontrolle beenden, wenn wir genug Macht dazu haben. Wir m√ºssen dies schnell tun, da der Kaiser die Unabh√§ngigkeit der Hansa garantieren kann.;;Pomerania ha estado bajo el control de la Hansa durante demasiado tiempo. Podemos poner fin a su control si tenemos suficiente poder para hacerlo. Debemos ser r√°pidos en hacer esto ya que el Emperador puede garantizar la independencia de la Hansa.;;;;;;;;;x;;;;
+annex_the_hanoverian_hansa_desc;Hannover has been under the control of the Hansa for too long. We can end their control if we have enough power to do so. We must be quick in doing this as the Emperor can guarantee the Hansa's independence.;Hann√≥ver est sous le contr√¥le de la Hanse depuis trop longtemps. Nous pouvons mettre fin √† leur contr√¥le si nous avons suffisamment de pouvoir pour le faire. Nous devons agir rapidement car l'Empereur peut garantir l'ind√©pendance de la Hanse.;Hannover steht zu lange unter der Kontrolle der Hansa. Wir k√∂nnen ihre Kontrolle beenden, wenn wir genug Macht dazu haben. Wir m√ºssen dies schnell tun, da der Kaiser die Unabh√§ngigkeit der Hansa garantieren kann.;;Hannover ha estado bajo el control de la Hansa durante demasiado tiempo. Podemos poner fin a su control si tenemos suficiente poder para hacerlo. Debemos ser r√°pidos en hacer esto ya que el Emperador puede garantizar la independencia de la Hansa.;;;;;;;;;x;;;;
+annex_the_hanoverian_hansa_title;Annex the Hannoverian Hansa;Annex the Hannoverian Hansa;Annex the Hannoverian Hansa;;Annex the Hannoverian Hansa;;;;;;;;;x;;;;
+promise_unification_to_the_dutch_title;Promise Unification to the Dutch;;;;;;;;;;;;;x;;;;
+promise_unification_to_the_dutch_desc;We can promise Unification to the Dutch as we need Dutch support for the unification of the Holy Roman Empire. We can use bribes (this will cost 30 prestige and 150.000 pounds) and will make sure they support Dutch Unification. We could also not use bribes but then we shall rely on the good will of the Dutch Dukes.;;;;;;;;;;;;;x;;;;
+finalise_dutch_unification_title;Finalise Dutch Unification;;;;;;;;;;;;;x;;;;
+finalise_dutch_unification_desc;With the acceptance of Dutch Unification, we can now finialise the plans for Dutch Unification. Do we give the role of King of the Dutch to any of the Dutch Dukes or shall we, so to say, "protect the Dutch from their Dukes" with all the consequences that gives? --Friendly Request not to press this twice--;;;;;;;;;;;;;x;;;;
+UNIT_BUILD_TIME_IW;$VAL$ days.;$VAL$ jours.;$VAL$ Tage.;;$VAL$ d√≠as.;;;;;;;;;x;;;;
+carve_up_the_small_states_title;Carve up the Small States;;;;;;;;;;;;;x;;;;
+carve_up_the_small_states_desc;With our new "protection" for the small states, we have the right to "protect them" from all enemies. We all know that our main enemy is a disunited Holy Roman Empire. How about we "sacrifice" the small states to ensure Holy Roman Unification?;;;;;;;;;;;;;x;;;;
+burgundy_and_the_empire_title;Burgundy and the Empire;;;;;;;;;;;;;x;;;;
+burgundy_and_the_empire_desc;It is time we determine Burgundy's status within the Empire.;;;;;;;;;;;;;x;;;;
+force_the_religion_on_the_burgundians_title;Force our religion on the Burgundians;;;;;;;;;;;;;x;;;;
+force_the_religion_on_the_burgundians_desc;Since we chose to integrate Burgundy we need them to have our religion. This can lead to protest by Burgundy and heavy backlash but it is nessicariy for intergration.;;;;;;;;;;;;;x;;;;
+replace_the_burgundian_nobility_title;Replace the Burgundian Upper Class;;;;;;;;;;;;;x;;;;
+replace_the_burgundian_nobility_desc;If we want a loyal and intergrated Burgundy we should replace their Upper Class with loyal so called "Burgund Germans".;;;;;;;;;;;;;x;;;;
+the_venice_wien_rr_title;Build the Venezia-Wien Railroad;;;;;;;;;;;;;x;;;;
+the_venice_wien_rr_desc;By building a railroad between Vienna and the city of Venice we can directly influence Venice into our fold.;;;;;;;;;;;;;x;;;;
+the_venice_wien_rr_2_title;Station Troops along the Venezia-Wien Railroad;;;;;;;;;;;;;x;;;;
+the_venice_wien_rr_2_desc;By building military camps and fortifications among the railroad we can influence Venice to an even greater extenxt. It can also allow us to supply arms to pro-HRE and Austrian militias without too much suspition.;;;;;;;;;;;;;x;;;;
+the_venice_wien_rr_3_title;A Coup In Venice;;;;;;;;;;;;;x;;;;
+the_venice_wien_rr_3_desc;We have influenced Venice and supplied rebel groups to such an extent that a coup is now possible. We shall launch the coup and intergrate Venice. The General Populace will be angry but not for long.;;;;;;;;;;;;;x;;;;
+countr_mod;;;;;;;;;;;;;;x;;;;
+supporter_of_unification_of_the_hre;Supporting Holy Roman Unification;Soutenir l'unification romaine;Unterst√ºtzung der Vereinigung des Heiligen R√∂mischen Reiches;;Apoyando la unificaci√≥n del Sacro Imperio Romano Germ√°nico;;;;;;;;;x;;;;
+guaranteed_independace;Independence Guaranteed;Ind√©pendance garantie;Unabh√§ngigkeit garantiert;;Independencia garantizada;;;;;;;;;x;;;;
+heavy_resistance;Heavy Resistance;;;;;;;;;;;;;x;;;;
+eavents;;;;;;;;;;;;;;x;;;;
+EVENTDESC_AUS_OFFER;The Emperor has come to us with quite a strange offer, Autonomous Unification. A Dutch State will be created when the Holy Roman Empire unifies but, we will  be a autonomous subject of this Holy Roman State. It is not yet descided which duke will lead this Dutch state but that is a secondary issue. The Emperor ask support for unification in return. Do we accept this offer?;;;;;;;;;;;;;x;;;;
+EVENTDESC_FINAL_DUTCH_UNIF;Now that all Dukes agree with our proposed deal, how should we do the unification of the Lowland Dutchies? There is an important choice to make, we could appoint any of the Dutch Dukes to lead the Unified Dutch State or we could govern the lands directly. If we grant the land to any of the dukes, the land which was not part of the duke's dutchy we appoint it to will be mad for a small time. If we govern the land directly there will be heavy resistance for a very long time. The choice is to you, Emperor.;;;;;;;;;;;;;x;;;;
+EVENTDESCBatE;There is a major question with Burgundy, what to do with them? Intergration is hard, no, impossible. They are not even Germanic nor do they follow our religion. So, we have 3 options: Keep them out of the unification of the Holy Roman Empire and keep the Burgundian Status Quo. This will be prefered by the Burgundians. Autonomy within the Empire, as a vassal state. This Will require some consessions, like the Alsace region. Intergration within the Empire, how hard it may be. What shall we choose, Emperor?;;;;;;;;;;;;x;;;;
+EVENTDESCuh_oh;The Situation in Italy. With the increasing demand for centralisation in the Holy Roman Empire, for Italy the must also be choosen a path. We could of course not change anything. While this gives us no benefits, it also has no drawbacks. We could also offer the Italians autonomy, this may make it possible to intergrate them later and they can slowly adjust to our rule. Annexation without innital autonomy is also possible. This will be more violent but will pay off more. What do we choose, Emperor?;;;;;;;;;;;;;x;;;;
+EVENTDESCuh_oh_oh;Now, we shall choose what Autonomy these Italians will get. What we could do is not unify the Italian states and give them limited autonomy, but if we unify the states there will be more support from the populus. Then, there is also the question of Venice, It is not widly considered to be a full part of Italy and can be annexed regardless of the kind of autonomy.;;;;;;;;;;;;;x;;;;
+EVENTDESCitalia_congresa_no_problema_de_alfa_romeo_no_problemo_de_aqua_no_problemo_de_olio;The 6th Italian Congress gathers, a Papal representiative, some Austrian diplomats and the rules of the Italian states are present. For them lies the question of Unification. The Austrians explain: "We propose a Unification of the Northern Italian states, this will be good for the region. The Imperial Diet shall assist you in this mission of Unification. We ask in return that this North Italian state alligned to the Holy Roman Empire." You will have 2 months to veto this proposal. If you do not let anything hear from you, we will assume you support our proposal. Then, in 2 months, this agreement shall be finalised. We will see you then.;;;;;;;;;;;;;x;;;;
+veto_this_shiet_title;Veto!;;;;;;;;;;;;;x;;;;
+veto_this_shiet_desc;We will veto the Austrian proposal!;;;;;;;;;;;;;x;;;;
+EVENTDESC_rlly_nibba;A veto has come in from one of the Italian states, the plan of a unified Italy is gone.;;;;;;;;;;;;;x;;;;
+EVENTDESC_rlly_nibba_aus;A veto has come in from one of the Italian states, the plan of a unified Italy is gone. Or is it?;;;;;;;;;;;;;x;;;;
+fuk_title_90526;Holy Roman Italy.;;;;;;;;;;;;;x;;;;
+fuk_desc_90526;Our plan has not been stopped, Holy Roman Italy will be a fact soon.;;;;;;;;;;;;;x;;;;
+history_event_desc;This world is quite different from the world of 1836 we know. Thus, a 'quick' explaination: When Emperor Ferdinant came to power, he saw the growing division between Protestants and Catholics and decided it was time for action. He gathered priests and theologians and reformed the church of the Empire into Universal Christianity, where the Emperor takes the position of the Pope, mixing Protestant and Catholic charactaristics. This gave the Emperor a boost of legitimacy. The Emperor then bought the loyalty of the Electors by giving them large pieces of internal land which he used to institute the Landsvrede. These things were essential for the survival of the HRE and made sure it didn't collapse. When some French Emperor came to power, in the chaos of the french revolution, a long time after this happend, he was quickly put down and defeated. The Ancien regimes did not fall, they prospered. The Landsvrede has recently become less legitimate by the Austrian inheritance-annexation of Bavaria, and the corruption of the imperial court is also shaking up the foundations of the empire.;;;;;;;;;;;;;x;;;;
+lands_tax_desc;The Lands Zoll, also known as the Land Tax or Prince's Tax is the tax that the members of the Holy Roman Empire pay to their Liege. This included Levies.;;;;;;;;;;;;;x;;;;
+lands_tax;Lands Zoll;;;;;;;;;;;;;x;;;;
+lands_tax_aus_desc;The Lands Zoll, also known as the Land Tax or Prince's Tax is the tax that the members of the Holy Roman Empire pay to their Liege. This included Levies.;;;;;;;;;;;;;x;;;;
+lands_tax_aus;Lands Zoll;;;;;;;;;;;;;x;;;;
+landsvrede;Landsvrede;;;;;;;;;;;;;x;;;;
+landsvrede_desc;The Landsvrede is an 16th century contract which all members of the Holy Roman Empire signed. This forbids any kind of internal or external war. To prevent abuse, the Emperor must also sign the Landsvrede;;;;;;;;;;;;;x;;;;
+hre_industrie_bund;The Holy Roman Industrie Bund;;;;;;;;;;;;;x;;;;
+hre_industrie_bund_desc;The Industrie Bund is an orginisation of Holy Roman Memberstates in Economic and Technological Cooperation with eachother for their own betterment;;;;;;;;;;;;;x;;;;
+establish_austrian_italian_universities_title;Establish Austrian-Italian Univesities;;;;;;;;;;;;;x;;;;
+establish_austrian_italian_universities_desc;The Italian peoples are not that educated and Italy lacks any kind of Universities. By establishing Austrian led Universities we could also promote the idea of closer intergration and make sure the Italian Educated think what we want them to, to a reasonable extent.;;;;;;;;;;;;;x;;;;
+grant_industrial_funding_to_italia_title;Grant Industrial Funding to Italy;;;;;;;;;;;;;x;;;;
+grant_industrial_funding_to_italia_desc;Italy is a poor and unindustrialised place. It has been primarily farming for it's money. By granting between 100.000 and 120.000 Pounds each 2 years to Italy (which is about the same as a daily subsidy of 170 Pounds), we can support their Industry. They will be grateful and since Italy has no Coal or Iron, tied to Austrian and Bohemian mines.;;;;;;;;;;;;;x;;;;
+propose_closer_intergration_title;Propose Vassalisation;;;;;;;;;;;;;x;;;;
+propose_closer_intergration_desc;Our mesures have been succesful. Italy is tied to the empire. It is clear to most that Italy will not oppose vassilisation. We shall offer them vassalisation, and if they decline, we shall invade. Since Italy will be divided on wather to join the empire, we will also have support. The world won't mind.;;;;;;;;;;;;;x;;;;
+propose_closer_intergration_no_ven_title;Propose Vassalisation;;;;;;;;;;;;;x;;;;
+propose_closer_intergration_no_ven_desc;Our mesures have been succesful. Italy is tied to the empire. It is clear to most that Italy will not oppose vassilisation. We shall offer them vassalisation, and if they decline, we shall invade. Since Italy will be divided on wather to join the empire, we will also have support. The world won't mind.;;;;;;;;;;;;;x;;;;
+expand_the_wien_venice_rr_e_title;Expand the Wien-Venice railroad;;;;;;;;;;;;;x;;;;
+expand_the_wien_venice_rr_e_desc;With the Expantion of the Wien-Venice Railroad trough all of Northern Italy our Influence could be greatly increased. It must also have a new name, the Wien-Turin Railroad.;;;;;;;;;;;;;x;;;;
+the_venice_wien_rr_2_e_title;Expand Millitary Encampments;;;;;;;;;;;;;x;;;;
+the_venice_wien_rr_2_e_desc;With our Venetian Encampments comes more Encampments. We shall build more Millitary camps, training centeres and forts all along the Wien-Turin Railroad.;;;;;;;;;;;;;x;;;;
+the_venice_wien_rr_3_e_title;Launch Coups in all of Northern Italy!;;;;;;;;;;;;;x;;;;
+the_venice_wien_rr_3_e_desc;The Coup in Venice was a succes, with our expanded encampments we can launch coups in nothern Italy. We must be quick and swift as to not give the Italian states time to react.;;;;;;;;;;;;;x;;;;
+granted_rinish_culture_rights;Granted Rhinish Culture Rights;;;;;;;;;;;;;x;;;;
+grant_reinish_culture_rights_title;Grant Rhinish Culture Rights;;;;;;;;;;;;;x;;;;
+grant_reinish_culture_rights_desc;By granting Rhinish Culture Rights we can get a large minority of the Holy Roman Empire on board with Unification. Since some of the Rhinish states already have and more will make Rhinish their Primary Culture. By recognizing their culture as independent from North and South German we gain their support.;;;;;;;;;;;;;x;;;;
+freedom_of_religion;Freedom of Religion;;;;;;;;;;;;;x;;;;
+freedom_of_religion_desc;Everyone is free to choose their religion, to worship and to pray without discrimination;;;;;;;;;;;;;x;;;;
+granted_religious_freedom;Granted Religious Freedom;;;;;;;;;;;;;x;;;;
+grant_freedom_of_religion_title;Grant Freedom of Religion;;;;;;;;;;;;;x;;;;
+grant_freedom_of_religion_desc;We must Unite the Empire, one way or the other. If we do it via freedom of religion people will be happy but we will never truely be united in Faith.;;;;;;;;;;;;;x;;;;
+forceful_conversion_of_the_empire_title;Forceful Conversion of the Empire;;;;;;;;;;;;;x;;;;
+forceful_conversion_of_the_empire_desc;We must unite the Empire, one way or the other. If we do it via forceful conversion we will be united in Faith but people will be upset.;;;;;;;;;;;;;x;;;;
+the_holy_roman_inquisition;The Imperial Inquisition;;;;;;;;;;;;;x;;;;
+the_holy_roman_inquisition_desc;The Imperial Inquisition rages trough the Empire, uniting all in Faith but making a few casualities.;;;;;;;;;;;;;x;;;;
+empire_tis_for_thee_title;Empire, 'Tis for Thee;;;;;;;;;;;;;x;;;;
+empire_tis_for_thee_desc;Germans, Unite! The Empire, it is for Thee! We shall unite the Empire via a campaign to unite the people's of the empire. North German, South German, Rhinish or even Askhanazi. Spread the word from Wien to Konigsberg! The Empire must Unite! But be aware, an empire long divided must unite, an empire long united must divided, so it always has been.;;;;;;;;;;;;;x;;;;
+unite_the_empire_title;Renovatio Imperii!;;;;;;;;;;;;;x;;;;
+unite_the_empire_desc;We have been divided for too long, we must Unite. Not under the German flag, not under any of the smaller German conferderations. We must unite under the golden banner of the Emperor, the double headed eagle. Gˆtt erhalte unser Kaiser!;;;;;;;;;;;;;x;;;;
+found_the_vienna_achedamy_title;Found the Vienna Academy;;;;;;;;;;;;;x;;;;
+found_the_vienna_achedamy_desc;We shall found the Vienna academy. This will greatly benefit the Science of our nation.;;;;;;;;;;;;;x;;;;
+vienna_achedamy;The Vienna Academy;;;;;;;;;;;;;x;;;;
+vienna_achedamy_desc;The Vienna Academy is an instiute in Vienna made for the advacnement of Sience of our nation. The effect of the University is said to last 20 years.;;;;;;;;;;;;;x;;;;
+form_east_german_confederation_title;Form the East German Federation;;;;;;;;;;;;;x;;;;
+form_east_german_confederation_desc;Germany must Unite, but instead of a North or South German Federation, an Eastern Federation can be formed too.;;;;;;;;;;;;;x;;;;
+form_west_german_confederation_title;Form the West German Federation;;;;;;;;;;;;;x;;;;
+form_west_german_confederation_desc;Germany must Unite, but instead of a North or South German Federation, a Western Federation can be formed too.;;;;;;;;;;;;;x;;;;
+revoke_burgundy_diet_vote_title;Revoke te Burgundian Diet vote;;;;;;;;;;;;;x;;;;
+revoke_burgundy_diet_vote_desc;If we want to intergrate Burgundy, it is essential that we revoke their vote in the Diet. We don't need their vote anyways;;;;;;;;;;;;;x;;;;
+the_italian_situation_title;The Situation in Italy;;;;;;;;;;;;;x;;;;
+the_italian_situation_desc;We must decide what we want to do with the Italians.;;;;;;;;;;;;;x;;;;
+hey_kids_do_you_like_unification_title;Offer the Italians Unification;;;;;;;;;;;;;x;;;;
+hey_kids_do_you_like_unification_desc;For our Italian plans to progress, we must offer the Italians Unification. They will most likely accept.;;;;;;;;;;;;;x;;;;
+hey_kids_do_you_like_unification_ven_title;Offer the Italians Unification;;;;;;;;;;;;;x;;;;
+hey_kids_do_you_like_unification_ven_desc;For our Italian plans to progress, we must offer the Italians Unification. They will most likely accept.;;;;;;;;;;;;;x;;;;
+industry_money_paid;Industrial Payments Paid;;;;;;;;;;;;;x;;;;
+industry_money_not_paid;Industrial Payments not Paid;;;;;;;;;;;;;x;;;;
+recently_declared_war_on_landsvrede_gp;Recently Declared War;;;;;;;;;;;;;x;;;;
+gimme_your_prestige_title;Activate Algemein Plan I;;;;;;;;;;;;;x;;;;
+gimme_your_prestige_desc;Algemein Plan I for the HRE is a plan to be activated whenever a subject of the Holy Roman Empire gets out of line and is considered a Great Power. This is a rather effective way of dealing with these rebelious princes. --The effect tooltip of this decisions will only be correct when there is a German GP--;;;;;;;;;;;;;x;;;;
+swabian;Swabian;;;;;;;;;;;;;x;;;;
+bavarian;Bavarian;;;;;;;;;;;;;x;;;;
+EVENTdesc_90603;Today, a Bavarian detachment of soldiers in Munich roze up against their Austrian Officers. This uprising was swiftly put down by the Austrian Heavy Police in Munich but the tale of Brave Bavarians rising up against Austrian oppression is spreading like a wildfire among the Bavarian populace. If this is not kept under control, we may need to deal with a Bavarian Revolution soon.;;;;;;;;;;;;;x;;;;
+option_id_90603;Mein Gˆtt;;;;;;;;;;;;;x;;;;
+bavarians_be_nice_title;Mend the Bavarian Ties;;;;;;;;;;;;;x;;;;
+bavarians_be_nice_desc;Ever since the annexation of Bavaria, The Bavarians have been opposed to Austrian Rule. However, this is not Austria anymore. We must convince the Bavarians to rejoin the shared German Identity and fix what was broken many years ago.;;;;;;;;;;;;;x;;;;
+kaiser_deutsch;Kaiser German;;;;;;;;;;;;;;x;;;;
+silesian;Silesian;;;;;;;;;;;;;;x;;;;
+prussian;Prussian;;;;;;;;;;;;;;x;;;;
+berliner;Berliner;;;;;;;;;;;;;;x;;;;
+belter;Belter;;;;;;;;;;;;;;x;;;;
+HRE;Holy Roman Empire;;;;;;;;;;;;;;x;;;;
+HRE_ADJ;Holy Roman;;;;;;;;;;;;;;x;;;;
+BLF;Belt Federation;;;;;;;;;;;;;;x;;;;
+BLF_ADJ;Beltian;;;;;;;;;;;;;;x;;;;
+unification_war_of_the_belt_title;The Unification War of the Belt;;;;;;;;;;;;;;x;;;;
+unification_war_of_the_belt_desc;The people of the belt are divided, we must unite! Uniting via diplomacy is not possible, for the Emperor will prevent it. With sufficient bribes we can make sure that the Austrians will not only end ties with us, but also with the other Beltians. We can quickly seize their territory but be aware, if we take too long the Emperor may  come knocking.;;;;;;;;;;;;;;x;;;;
+form_the_belt_confederation_title;Form the Belt Federation;;;;;;;;;;;;;;x;;;;
+form_the_belt_confederation_desc;No longer must we be divided, when we own Beltian territories we must not waste more time! Long live the Belt Federtion! Unite, People of the Belt.;;;;;;;;;;;;;;x;;;;
+THU_563;Thuringia;;;;;;;;;;;;;;x;;;;
+WST_2560;Frankfurt;;;;;;;;;;;;;;x;;;;
+invade_brandenburg_title;Invade Brandenburg;;;;;;;;;;;;;;x;;;;
+invade_brandenburg_desc;To unite Brandenburg and Prussia we must, sadly, fight. We shall bribe the Austrians to look the other way but that also means they will have bad relations with us.;;;;;;;;;;;;;;x;;;;
+invade_prussia_title;Invade Prussia;;;;;;;;;;;;;;x;;;;
+invade_prussia_desc;To unite Brandenburg and Prussia we must, sadly, fight. We shall bribe the Austrians to look the other way but that also means they will have bad relations with us.;;;;;;;;;;;;;;x;;;;
+form_the_berlin_confederation_desc;Berliners, Unite! If we must fight to Unite, that shall be, for the Berliners must unite.;;;;;;;;;;;;;;x;;;;
+form_the_berlin_confederation_title;Form the Berliner Federation;;;;;;;;;;;;;;x;;;;
+unification_war_of_the_berliners_desc;We must fight to unite. We shall bribe Austria once more but this is likely the last time this will be possible.;;;;;;;;;;;;;;x;;;;
+unification_war_of_the_berliners_title;Unification War of the Berliners;;;;;;;;;;;;;;x;;;;
+annexation_of_silesia_desc;Silesia is the last that stands in our way before we form the East German Federation, we shall offer them annexation for there is a chance they accept. However, Austria may join if Silesia denies.;;;;;;;;;;;;;;x;;;;
+annexation_of_silesia_title;Annexation of Silesia;;;;;;;;;;;;;;x;;;;
+war_for_the_north_desc;To Unite, we must Fight! Germans of the North, Unite! Germans of the North, Fight!;;;;;;;;;;;;;;x;;;;
+war_for_the_north_title;War for the North;;;;;;;;;;;;;;x;;;;
+war_for_the_west_desc;To Unite, we must Fight! Germans of the West, Unite! Germans of the North, Fight!;;;;;;;;;;;;;;x;;;;
+war_for_the_west_title;War for the West;;;;;;;;;;;;;;x;;;;
+forge_east_german_idenity_title;Forge East German Identity;;;;;;;;;;;;;;x;;;;
+forge_east_german_idenity_desc;We are united in our Nation, the nation of the East Germans. We must now be united in culture too.;;;;;;;;;;;;;;x;;;;
+forge_west_german_idenity_title;Forge East German Identity;;;;;;;;;;;;;;x;;;;
+forge_west_german_idenity_desc;We are united in our Nation, the nation of the West Germans. We must now be united in culture too.;;;;;;;;;;;;;;x;;;;
+forge_north_german_idenity_title;Forge East German Identity;;;;;;;;;;;;;;x;;;;
+forge_north_german_idenity_desc;We are united in our Nation, the nation of the North Germans. We must now be united in culture too.;;;;;;;;;;;;;;x;;;;
+NORMAL_WAR_GERCONQUEST_NAME;$ORDER$ Unification of $SECOND$ War;;;;;;;;;;;;;;x;;;;
+AGRESSION_WAR_GERCONQUEST_NAME;$ORDER$War of $FIRST$ Unificiation against $SECOND_COUNTRY$;;;;;;;;;;;;;;x;;;;
+german_conquest;German War;;;;;;;;;;;;;;x;;;;
+german_conquest_short;German War;;;;;;;;;;;;;;x;;;;
+NORMAL_WAR_ANNEX_NAME;$ORDER$ Annexation of $SECOND$ War;;;;;;;;;;;;;;x;;;;
+AGRESSION_WAR_ANNEX_NAME;$ORDER$War of $FIRST$ Annnexation against $SECOND_COUNTRY$;;;;;;;;;;;;;;x;;;;
+annexation;Annexation;;;;;;;;;;;;;;x;;;;
+annexation_short;Annexation;;;;;;;;;;;;;;x;;;;
+LUX_397;Luxemburg;;;;;;;;;;;;;;x;;;;
+claim_goss_deutschland_title;Claim Groﬂdeutschland;;;;;;;;;;;;;;x;;;;
+claim_goss_deutschland_desc;Now that we are German, not Holy or Roman we must establish Groﬂdeutschland. Bohemen und ÷sterreich must be German.;;;;;;;;;;;;;;x;;;;
+ferment_local_revolution_title;Ferment local Revolution;;;;;;;;;;;;;;x;;;;
+ferment_local_revolution_desc;To break free, we must revolt. Open conflict against the Turks won't be won by us so we must use the population. We can both use the Reactonaries and the Liberals as a way of revolution.;;;;;;;;;;;;;;x;;;;
+ferment_ottoman_revolution_title;Ferment Ottoman Revolution;;;;;;;;;;;;;;x;;;;
+ferment_ottoman_revolution_desc;Now we are free, we must liberate out brothers.;;;;;;;;;;;;;;x;;;;
+protector_of_the_eastern_balkans_title;Protector of the Eastern Balkans;;;;;;;;;;;;;;x;;;;
+protector_of_the_eastern_balkans_desc;We must protect our Eastern Balkan Brothers from the Bloody Turks;;;;;;;;;;;;;;x;;;;
+protector_of_the_western_balkans_title;Protector of the Western Balkans;;;;;;;;;;;;;;x;;;;
+protector_of_the_western_balkans_desc;We must protect our Western Balkan Brothers from the Bloody Turks;;;;;;;;;;;;;;x;;;;
+take_egypt_back_title;Reclaim Egypt;;;;;;;;;;;;;;x;;;;
+take_egypt_back_desc;We must take Egypt back!;;;;;;;;;;;;;;x;;;;
+intergrate_greece_title;Intergrate Greece;;;;;;;;;;;;;;x;;;;
+intergrate_greece_desc;We must intergrate Greece;;;;;;;;;;;;;;x;;;;
+intergrate_tunis_title;Intergrate Tunis;;;;;;;;;;;;;;x;;;;
+intergrate_tunis_desc;We must intergrate Tunis;;;;;;;;;;;;;;x;;;;
+intergrate_hungary_title;Intergrate Hungary;;;;;;;;;;;;;;x;;;;
+intergrate_hungary_desc;We must intergrate Hungary;;;;;;;;;;;;;;x;;;;
+intergrate_moldavia_title;Intergrate Moldavia;;;;;;;;;;;;;;x;;;;
+intergrate_moldavia_desc;We must intergrate Moldavia;;;;;;;;;;;;;;x;;;;
+king_of_all_france;King of all France;;;;;;;;;;;;;;x;;;;
+king_of_all_france_desc;We are King of all France!;;;;;;;;;;;;;;x;;;;
+vive_le_roi_fuck_france_and_francophonefra_title;King of all France;;;;;;;;;;;;;;x;;;;
+vive_le_roi_fuck_france_and_francophonefra_desc;We must be King of France and Burgundy, not just France;;;;;;;;;;;;;;x;;;;
+vive_le_roi_fuck_france_and_francophonebrg_title;King of all France;;;;;;;;;;;;;;x;;;;
+vive_le_roi_fuck_france_and_francophonebrg_desc;We must be King of France and Burgundy, not just Burgundy;;;;;;;;;;;;;;x;;;;
+BPC;Berliner-Prussian Federation;;;;;;;;;;;;;;x;;;;
+BPC_ADJ;Berliner;;;;;;;;;;;;;;x;;;;
+east_german;East German;;;;;;;;;;;;;;x;;;;
+west_german;West German;;;;;;;;;;;;;;x;;;;
+master_of_warfare;Master of Warfare;;;;;;;;;;;;;;x;;;;
+bohemian_artilleryman;Bohemian Artilleryman;;;;;;;;;;;;;;x;;;;
+EVENTDESC_970001;A strange Bohemian has showed up at our court. He is currently a lowly artillery officer but claims to have the skill to lead more then an artillery battery. He also claims to have a plan for Unification of the Holy Roman Empire.;;;;;;;;;;;;;;x;;;;
+EVENTDESC_970002;The GfdAvdR.Eins or The General Plan for the Annexation of the Empire One (Generalplan f¸r die Annexion des Reich Eins) has is being proposed to our General Staff by Maxmili·n Korvak. The Plan is to send an ultimatum to all states of the HRE for annexation. They must accept or be conquered. They are very likely to decline this and we only accept 1-3 states to accept. It is more to create a casus belli for this war then a legitimate offer. Under the expert leadership of Maxmili·n Korvak we are very likely to conquer and annex all of the German states of the HRE. The drawback of this is if we fail, we shall lose the HRE. Shall we send the ultimatums, my Emperor?;;;;;;;;;;;;;;x;;;;
+EVENTDESC_970003;Between our late general's Korvak's papers we found the following warplan: The GfdAvdR.Eins or The General Plan for the Annexation of the Empire One (Generalplan f¸r die Annexion des Reich Eins) has is being proposed to our General Staff by Maxmili·n Korvak. The Plan is to send an ultimatum to all states of the HRE for annexation. They must accept or be conquered. They are very likely to decline this and we only accept 1-3 states to accept. It is more to create a casus belli for this war then a legitimate offer. Even without the leadership of Korvak, we can most likely succeed. The drawback of this is if we fail, we shall lose the HRE. Shall we send the ultimatums, my Emperor?;;;;;;;;;;;;;;x;;;;
+improve_court_strandars_title;Improve Court Standards;;;;;;;;;;;;;;x;;;;
+improve_court_strandars_desc;We must improve the standards of our court. Any lowly, smelly peasant can now barge into our court, we must change that.;;;;;;;;;;;;;;x;;;;
+EVENTDESC_970006;Napoleon II, son of the French General Napoleon who couped France during the French revolution and failed to defend France when the Great Coalition dismantled the French Republic in 1801, has offered his services to our militairy. He is said to be a master of Warfare, just like Maxmili·n Korvak. He is said to have recovered from tuberculosis (from which he died in our timeline).;;;;;;;;;;;;;;x;;;;
+unite_the_empire_nap_title;Renovatio Imperii!;;;;;;;;;;;;;x;;;;
+unite_the_empire_nap_desc;We have been divided for too long, we must Unite. Not under the German flag, not under any of the smaller German conferderations. We must unite under the golden banner of the Emperor, the double headed eagle. Gˆtt erhalte unser Kaiser!;;;;;;;;;;;;;x;;;;
+acivate_plan_3_title;Activate Generalplan 3;;;;;;;;;;;;;;x;;;;
+acivate_plan_3_desc;Now that we have conquered all of the Holy Roman Empire's Germanic lands, we must conquer Italy. While we could only conquer Northern Italy, it is just as easy to conquer all of Italy. Let us send the Ultimatums.;;;;;;;;;;;;;;x;;;;
+EVENTDESC_970008;Today, General Korvak has send a letter to the Emperor. "Today, we live in the Holy Roman Empire, not Austria. An Empire stretching from Kiel to Napoli. I fought in your wars and made that possible. In return, I ask you for the semi-independace of Bohemia, my homeland. In return I shall keep serving you, my emperor." What shall we do, my Emperor?;;;;;;;;;;;;;;x;;;;
+on_the_road_to_civil_war;On the Road to Civil War;;;;;;;;;;;;;;x;;;;
+on_the_road_to_civil_war_desc;We are on the road to civil war, may God protect our Empire, for no one else can.;;;;;;;;;;;;;;x;;;;
+EVENTDESC_970010;Neither Holy, Roman nor an Empire. These are the words used to discribe the Holy Roman Empire not only by Voltaire, also our own General, Maxmili·n Korvak. His forces, and most of the non-Germanic HRE, has risen up against the Emperor. What must we do? (A three month truce has been declared between the HRE and RMI. After 3 months, war shall start.);;;;;;;;;;;;;;x;;;;
+revolutionary_republic;Revolutionary Republic;;;;;;;;;;;;;;x;;;;
+RMI;Revolutionary Mittel-Europa;;;;;;;;;;;;;;x;;;;
+RMI_ADJ;Mittel European;;;;;;;;;;;;;;x;;;;
+EVENTDESC_970014;It is the question on everyone's mind what shall happen to Europe now the revolution has taken the Holy Roman Empire. The Liberal Revolutionaries are not  exclusivly liberal however. There is a grand movement to unite all of Europe within Revolutionary Mittel Europa. What shall happen is only to be seen.;;;;;;;;;;;;;;x;;;;
+EVENTDESC_990015;Today, Germany is a battlefield. The Victory of the Ancient Regime in the civil war shall mean only one thing, status quo.;;;;;;;;;;;;;;x;;;;
+spread_the_revolution_title;Spread the Revolution!;;;;;;;;;;;;;;x;;;;
+spread_the_revolution_desc;The Revolution must be spread!;;;;;;;;;;;;;;x;;;;
+FGE;French Government in Exile;;;;;;;;;;;;;;x;;;;
+FGE_ADJ;French;;;;;;;;;;;;;;x;;;;
+SGE;Spanish Government in Exile;;;;;;;;;;;;;;x;;;;
+SGE_ADJ;Spanish;;;;;;;;;;;;;;x;;;;
+PGE;Portugese Government in Exile;;;;;;;;;;;;;;x;;;;
+PGE_ADJ;Portugese;;;;;;;;;;;;;;x;;;;
+exile?_fra_desc;It is clear our homeland has fallen, we must flee to our colonies.;;;;;;;;;;;;;;x;;;;
+exile?_fra_title;Exile?;;;;;;;;;;;;;;x;;;;
+exile?_spa_desc;It is clear our homeland has fallen, we must flee to our colonies.;;;;;;;;;;;;;;x;;;;
+exile?_spa_title;Exile?;;;;;;;;;;;;;;x;;;;
+exile?_por_desc;It is clear our homeland has fallen, we must flee to our colonies.;;;;;;;;;;;;;;x;;;;
+exile?_por_title;Exile?;;;;;;;;;;;;;;x;;;;
+monarchy_in_exile;Monarchy in Exile;;;;;;;;;;;;;;x;;;;
+ROP;The Paresian Republic;;;;;;;;;;;;;;x;;;;
+ROP_ADJ;Paresian;;;;;;;;;;;;;;x;;;;
+OCC;Provance-Occitania;;;;;;;;;;;;;;x;;;;
+OCC_ADJ;Occitanian;;;;;;;;;;;;;;x;;;;
+AGO;Aragon;;;;;;;;;;;;;;x;;;;
+AGO_ADJ;Aragonese;;;;;;;;;;;;;;x;;;;
+CAS;Castillian Republic;;;;;;;;;;;;;;x;;;;
+CAS_ADJ;Castillian;;;;;;;;;;;;;;x;;;;
+BOR;Bordeaux;;;;;;;;;;;;;;x;;;;
+BOR_ADJ;Bordeauxian;;;;;;;;;;;;;;x;;;;
+GGR;Greater Gallician Republic;;;;;;;;;;;;;;x;;;;
+GGR_ADJ;Gallician;;;;;;;;;;;;;;x;;;;
+GRA;Granada;;;;;;;;;;;;;;x;;;;
+GRA_ADJ;Granadan;;;;;;;;;;;;;;x;;;;
+sister_republic;Sister Republic;;;;;;;;;;;;;;x;;;;
+sister_republic_desc;We are a Sister Republic;;;;;;;;;;;;;;x;;;;
+establish_sister_republics_west_title;Establish Sister Republics in the West;;;;;;;;;;;;;;x
+establish_sister_republics_west_desc;Now that we have liberated the French, Spanish and Portugese from Tyranny, we must install puppetstates in Western Europe to spread our free way of life.;;;;;;;;;;;;;;x;;;;
+ENL;Anglia;;;;;;;;;;;;;;x
+ENL_ADJ;Anglian;;;;;;;;;;;;;;x
+EIR;…ire;;;;;;;;;;;;;;x
+EIR_ADJ;Irish;;;;;;;;;;;;;;x
+WLS;Wales;;;;;;;;;;;;;;x
+WLS_ADJ;Welsh;;;;;;;;;;;;;;x
+NRT;Northumbria;;;;;;;;;;;;;;x
+NRT_ADJ;Northumbrian;;;;;;;;;;;;;;x
+ABA;Alba;;;;;;;;;;;;;;x
+ABA_ADJ;Scottish;;;;;;;;;;;;;;x
+BGE;British Government in Exile;;;;;;;;;;;;;;x
+BGE_ADJ;British;;;;;;;;;;;;;;x
+exile?_eng_title;Exile?;;;;;;;;;;;;;;x;;;;
+exile?_eng_desc;It is clear our homeland has fallen, we must flee to our colonies.;;;;;;;;;;;;;;x;;;;
+spread_the_revolution_to_the_west_title;Spread the Revolution to the West!;;;;;;;;;;;;;;x;;;;
+spread_the_revolution_to_the_west_desc;The Revolution must be spread!(IMPORTANT NOTE: The Monarchies of the West will go into exile when you have occupied all their core territory, this is so you can actually annex them without having to go to their colonies. Please be a good lad and only annex them once they have actually gone into exile.);;;;;;;;;;;;;;x;;;;
+spread_the_revolution_to_britain_title;Spread the Revolution to Britain!;;;;;;;;;;;;;;x;;;;
+spread_the_revolution_to_britain_desc;The Revolution must be spread! (IMPORTANT: The British will go into exile when you have occupied all their cores in Ireland and Britain. Once again be a good lad and wait for them to go into exile before you annex them.);;;;;;;;;;;;;;x;;;;
+establish_sister_republics_britain_title;Establish Sister Republics in Britain;;;;;;;;;;;;;;x;;;;
+establish_sister_republics_britain_desc;Now that we have liberated the British from Tyranny, we must install puppetstates in the British Isles to spread our free way of life.;;;;;;;;;;;;;;x;;;;
+invade_the_ottomans_title;Invade the Ottoman Empire;;;;;;;;;;;;;;x;;;;
+invade_the_ottomans_desc;We must invade the Ottoman Empire. (IMPORTANT: The Ottomans will go into exile when you have occupied all the European land of the Turks. They will go to Africa and Anatolia but, you have the choice to still annex the Ottomans after that.);;;;;;;;;;;;;;x;;;;
+vassalise_ottoman_vassals_title;Vassalise or Annex Ottoman Vassals;;;;;;;;;;;;;;x;;;;
+vassalise_ottoman_vassals_Desc;Now that the Ottomans are gone from the balkans, we must vassalise their vassals. Alternativly, we can conquer them.;;;;;;;;;;;;;;x;;;;
+ANA;Anatolian Empire;;;;;;;;;;;;;;x;;;;
+ANA_ADJ;Anatolian;;;;;;;;;;;;;;x;;;;
+SYC;The Isles;;;;;;;;;;;;;;x;;;;
+SYC_ADJ;Isle;;;;;;;;;;;;;;x;;;;
+NEA;Neapolitan Republic;;;;;;;;;;;;;;x;;;;
+NEA_ADJ;Neapolitan;;;;;;;;;;;;;;x;;;;
+RAM;Roman Republic;;;;;;;;;;;;;;x;;;;
+RAM_ADJ;Roman;;;;;;;;;;;;;;x;;;;
+LIN;Lingurian Republic;;;;;;;;;;;;;;x;;;;
+LIN_ADJ;Lingurian;;;;;;;;;;;;;;x;;;;
+establish_sister_republics_italy_title;Establish Sister Republics in Italy;;;;;;;;;;;;;;x;;;;
+establish_sister_republics_italy_desc;We have won the Civil War but, we must not make the imperial mistake of directly administrating Italy once more. We shall release some sister republic in Italy. (Important: It may seem dumb to make puppetstates but believe me, if rebels rise up all across your land you're going to be glad you did this.);;;;;;;;;;;;;;x;;;;
+DON;Donjoslavija;;;;;;;;;;;;;;x;;;;
+DON_ADJ;Donoslavian;;;;;;;;;;;;;;x
+BUW;Bulgaria-Wallacia;;;;;;;;;;;;;;x
+BUW_ADJ;Bulgarina-Wallacian;;;;;;;;;;;;;;x
+carve_up_the_balkans_title;Carve up the Balkans;;;;;;;;;;;;;;x
+carve_up_the_balkans_desc;Now that the Ottoman Empire is out of the Balkans, we must divide the land between the formarly Ottoman Vassals and possibly, also our sister republics;;;;;;;;;;;;;;x
+establish_sister_republics_balkan_title;Establish Sister Republics in the Balkans;;;;;;;;;;;;;;x;;;;
+establish_sister_republics_balkan_desc;The Ottomans have been banished from Europe, we must replace Ottoman rule not with our own rule, that will make us not liberators but conquerors. We must allow the Balkan people to make their own nations with our 'guidance' ofcourse.;;;;;;;;;;;;;;x;;;;
+MAG;Magyar Republic;;;;;;;;;;;;;;x
+MAG_ADJ;Magyar;;;;;;;;;;;;;;x
+establish_sister_republics_asian_n_african_otto_title;Establish Sister Republics in Ottoman Asia and Africa;;;;;;;;;;;;;;x;;;;
+establish_sister_republics_asian_n_african_otto_desc;Now that the Ottoman Empire is completly gone, we must establish republic in those lands, for an Nation with it's capital in Prague cannot rule the Libian desert directly.;;;;;;;;;;;;;;x;;;;
+LEV;Levantine Republic;;;;;;;;;;;;;;x
+LEV_ADJ;Levantine;;;;;;;;;;;;;;x
+MES;Mesopotamian Republic;;;;;;;;;;;;;;x
+MES;Mesopotamian;;;;;;;;;;;;;;x
+CYR;Great Cyrenican Republic;;;;;;;;;;;;;;x
+CYR_ADJ;Cyrenican;;;;;;;;;;;;;;x
+PON;The Pontic Republic;;;;;;;;;;;;;;x
+PON_ADJ;Pontic;;;;;;;;;;;;;;x
+ASM;The Republic of Asia Minor;;;;;;;;;;;;;;x
+ASM_ADJ;Anatolian;;;;;;;;;;;;;;x
+UBR;The United Baltic Republic;;;;;;;;;;;;;;x
+UBR_ADJ;Baltic;;;;;;;;;;;;;;x
+PRA;The Polish-Ruthenian Assembly;;;;;;;;;;;;;;x
+PRA_ADJ;Polish-Ruthenian;;;;;;;;;;;;;;x
+DAD;The Danish Directory;;;;;;;;;;;;;;x
+DAD_ADJ;Danish;;;;;;;;;;;;;;x
+NRC;The Norwegian Consulate;;;;;;;;;;;;;;x
+NRC_ADJ;Norwegian;;;;;;;;;;;;;;x
+ROS;The Republic of Sweden;;;;;;;;;;;;;;x
+ROS_ADJ;Swedish;;;;;;;;;;;;;;x
+SAM;The Sami-Finnish Confederation;;;;;;;;;;;;;;x
+SAM_ADJ;Sami-Finnish;;;;;;;;;;;;;;x
+URA;The Ural Commission;;;;;;;;;;;;;;x
+URA_ADJ;Ural;;;;;;;;;;;;;;x
+exile?_RUS_title;Exile?;;;;;;;;;;;;;;x
+exile?_RUS_desc;Our homeland has fallen, we must go into exile.;;;;;;;;;;;;;;x
+the_eastern_situation_title;The Eastern Situation;;;;;;;;;;;;;;x
+the_eastern_situation_desc;The East is lacking the Revolution and we must change that. (IMPORTANT: The Russian Empire will go into Siberian Exile once you occupy Perm. Make sure to occupy all Russian land which is not east of the Urals/Khazakstan before you occupy perm as you will not get the option to annex Siberia aswell.;;;;;;;;;;;;;;x
+SIB;The Tsardom of Siberia;;;;;;;;;;;;;;x
+SIB_ADJ;Siberian;;;;;;;;;;;;;;x
+DGE;Danish Government in Exile;;;;;;;;;;;;;;x
+DGE_ADJ;Danish;;;;;;;;;;;;;;x
+WGE;Swedish Government in Exile;;;;;;;;;;;;;;x
+WGE_ADJ;Swedish;;;;;;;;;;;;;;x
+estab_east_rep_title;Establish Easter Sister Republics;;;;;;;;;;;;;;x
+estab_east_rep_desc;We cannot rule all of Russia. We are poweful but power means nothing when our troops die to attrition in the Russian Taiga while fighting seperatist. (Imporant Note: In order to release Sami-Finland, you must first conquer Scandinavia.);;;;;;;;;;;;;;x
+MUS;The Muscovite Executive;;;;;;;;;;;;;;x
+NOV;The Novgorod National Assembly;;;;;;;;;;;;;;x
+TCA;The Caucasian Republic;;;;;;;;;;;;;;x
+STE;The Republic of the Steppe;;;;;;;;;;;;;;x
+MUS_ADJ;Muscovite;;;;;;;;;;;;;;x
+NOV_ADJ;Novgorodian;;;;;;;;;;;;;;x
+TCA_ADJ;Caucasian;;;;;;;;;;;;;;x
+STE_ADJ;Steppe;;;;;;;;;;;;;;x
+PROV1743;Al-Hasakah;x
+PROV3249;North Kordofan;x
+PROV1739;Nahr an Nilh;x
+TUR_931;Iraqi Desert;x
+GC_DESC;The Year of Our Lord, 1836. It is said this is the year the Midieval and Feudal Worlds collided. While not (yet) violently colliding, This may happen sooner that than later. The French Revolution and it's Napoleonic Period met their demise at the hands of European Monarchies sooner than even the reactonairies expected. The Year 1836. The Year of the silence, before the great storm of Centuries, before the great storn of Generations. Man against Monarch. Choose your nation, and guide it. May God save this world, for no one else can.;Le calme est revenu ‡ Waterloo o˘ les idÈaux de la RÈvolution franÁaise semblaient avoir pris fin aux mains des anciens rÈgimes d'Europe. AprËs les tribulations des guerres napolÈoniennes, le consensus Ètabli au CongrËs de Vienne permit de rÈtablir un calme relatif sur un continent en proie aux troubles. Bien que les flammes de la rÈvolution aient ÈtÈ, pour un temps, ÈtouffÈes, les idÈaux de libertÈ, de nationalisme et de libÈralisme ne tardËrent pas ‡ se rÈvÈler plus vivants que jamais. En AmÈrique, ces mÍmes idÈaux menacent de plonger la jeune rÈpublique dans les tumultes d'une guerre civile. La princesse Victoria a 16 ans et va bientÙt accÈder au trÙne britannique, le plus grand empire industriel que le monde ait jamais connu. Cette accession, pour un rËgne aussi long que prospËre, marque le dÈbut d'une Ëre qui va durer jusqu'‡ la PremiËre Guerre mondiale. Au cours de cette nouvelle Ëre de progrËs technologiques sans prÈcÈdent, les certitudes de temps immÈmoriaux laisseront places ‡ des doutes.;Der Staub ¸ber den Feldern von Waterloo, wo die Ideale der franzˆsischen Revolution vermeintlich durch die H‰nde der alten europ‰ischen Regimes fielen, hat sich gelegt. Nach den Sorgen der napoleonischen Kriege hat der auf dem Wiener Kongress erreichte Konsens einem aufgew¸hlten Kontinent vor¸bergehend Ruhe verschafft. Obwohl die Flammen der Revolution nun vorerst erloschen sind, werden die Ideen menschliche Freiheit, Nationalismus und Liberalismus sich schon bald lebendiger als je zuvor zeigen. In den Amerikas drohen dieselben Ideen, eine junge Republik in die Verheerungen eines B¸rgerkriegs zu st¸rzen. Prinzessin Victoria ist 16 Jahre alt und wird schon bald den Thron Groﬂbritanniens besteigen, der grˆﬂten Industriemacht, die es jemals gegeben hat. Ihre Thronbesteigung, Auftakt einer langen und erfolgreichen Regentschaft, markiert den Beginn eines Zeitalters, das sich bis zum ersten Weltkrieg erstreckt. In dieser ƒra un¸bertroffener technologischer Fortschritte werden vielen althergebrachte Bestimmtheiten angezweifelt werden und neue Dogmen ihre Pl‰tze einnehmen. Weit entfernt warten die Reicht¸mer Asiens und Afrikas und das Herz der Finsternis darauf, endlich auch im Konzert Europas besungen zu werden. Maestro, w‰hlen Sie Ihr Instrument, und lassen Sie die Musik spielen.;;ParecÌa que los ideales de la RevoluciÛn Francesa habÌan encontrado su fin a manos de los estados del Antiguo RÈgimen de Europa. Las llamas de la revoluciÛn pueden haberse apagado por ahora, pero las ideas del nacionalismo y el liberalismo no morir·n nunca. En esta nueva era de progreso tecnolÛgico sin precedentes, se plantear·n dudas sobre certezas que han permanecido inalterables desde tiempos inmemoriales. Muy lejos, m·s all· del mar, se hallan las riquezas de Asia y ¡frica. Maestro, elija su instrumento y que empiece la m˙sica.;;;;;;;;;x
+TCB;Transcaucasia;x
+ABK;Abkhazia;x
+DAG;Dagestan;x
+CIR;Circassia;x
+DAG_theocracy;The Caucasian Imanmate;x
+TCB_ADJ;Transcaucasian;x
+ABK_ADJ;Abkhazian;x
+DAG_ADJ;Dagestani;x
+CIR_ADJ;Circassian;x
+DAG_theocracy_ADJ;Caucasian;x
+theocracy;Theocracy;x
+the_caucasian_problem_title;The Caucasian Problem;x
+the_caucasian_problem_desc;The Caucasus is just a problem for us, we must 'solve' that problem.;x
+the_caucasian_solution_title;The Caucasian Solution;x
+the_caucasian_solution_desc;We need a real solution for the Caucasus, not just getting rid of them.;x
+open_revolt;Open Revolt;x
+EUR;The Union of European Republics;x
+EUR_ADJ;European;x
+EVTDESC10001_FRA;Even though General Napoleon was defeated in the very early 1800's and only managed to gain power in France and then conquer Burgundy, the people there still remember that little taste of liberalism they got. With the violent suppression of that and the reinstatement of the Antient Regime, the people are fuming. Since about 1810, a few years after the defeat of Napoleon, a a small ,smoldering, fire started in both France and Burgundy. The behavior of the Bourbon Monarchs has been like a pile of dry grass to that fire. Even the highest offices of the government have already been infiltrated by these liberals. What shall our stance be to these liberals?;x
+global_liberal_agitation_fra;Great Liberal Agitation;x
+global_liberal_agitation_fra_desc;It appears as if the ghost of Napoleon has risen from his grave to haunt us;x
+EVTDESC10001_HRE;Even though General Napoleon was defeated in the very early 1800's and only managed to gain power in France and then conquer Burgundy, those dangerous ideas have spread trough our empire. The Printing Press truely is a horrid weapon. This Holy Roman Empire is built on feudalism, absolutism and divine right. Our peasants are not believing in that anymore. We can give them some consessions of course --Mainly the Abolition of Serfdom--, that will calm them down for a while. Will we concede to them, my kaiser?;x
+global_liberal_agitation_heavy;Heavy Liberal Agitation;x
+global_liberal_agitation_heavy_desc;Napoleon is haunting our nation from the grave. When he is not there with a cannon, he corrupts our nation.;x
+global_liberal_agitation_light;Light Liberal Agitation;x
+global_liberal_agitation_light_desc;The French Revolution has hardly any effect on us;x
+EVTDESC10001_stable;Our Monarchy has been very stable for many years however, even the ghost of Napoleon has been haunting our nation. We will not suffer very heavy consequences from this.;x
+ARO;Aro;x
+ARO_ADJ;Aro;x
+ARO_absolute_monarchy;The Kingdom of Aro;x
+SOK_absolute_monarchy;The Sokoto Caliphate;x
+ASH;Ashanti;x
+ASH_ADJ;Ashanti;x
+ASH_absolute_monarchy;The Kingdom of Ashanti;x
+KON;Kongo;x
+KON_ADJ;Kongo;x
+KON_absolute_monarchy;The Kingdom of Kongo;x
+WOL;Wolof;x
+WOL_ADJ;Wolof;x
+WOL_absolute_monarchy;The Wolof Empire;x
+FRA_prussian_constitutionalism;The Kingdom of France;L'Empire Fran√ßais;Das Franz√∂sische Reich;;El Imperio Franc√©s;;;;;;;;;x;;;;
+FRA_hms_government;The Kingdom of France;x
+EVDESC_EXP_AUS;It may be difficult to know what all the paths are to take for your country. This event will explain those Paths. If you want to go in without reading this, just close  this event. As Austria, at this moment in the mod, you've got three paths. Forming the HRE diplomatically, militairy or dissolving the HRE and forming the Austro-Magyar-Slav Confederation. You can form the HRE diplomatically by going down all the decisions. You can form the HRE militarily by NOT improving the court standards and then recruiting General Maxmili·n Korvak. There is a sub-path when recruiting General Korvak which will cause a Civil War (and can lead to the unification of Europe). To dissolve the HRE you take that option when the Serfdom congress fires, and you need to go to war for Zapodoslavia and the Balkans.;x
+EVDESC_EXP_HAN;It may be difficult to know what all the paths are to take for your country. This event will explain those Paths. If you want to go in without reading this, just close  this event. As a Belter nation, you can form the Belter Federation. You do this by taking the "War of the Belt" decision (and fighting for it). After you've done that you can either form the West German Federation (by conquering the Greater Rhine Region) or the North German Federation (By conquering the Berliner and Prussian regions). Once you've done that you'll be in a good position to form Germany. At the moment there are no other paths (but like, you're playing a German nation and you want to do something else then forming Germany?);x
+EVDESC_EXP_BRP;It may be difficult to know what all the paths are to take for your country. This event will explain those Paths. If you want to go in without reading this, just close  this event. As either Brandenburg or Prussia, your first thing to do is to form Brandenburg-Prussia. After that you can form The Berliner Conferderation. Then you've got the choice of forming the East or North German Federation. You can form all of these things by just reading the decisions (and having half a braincell);x
+EVDESC_EXP_URF;It may be difficult to know what all the paths are to take for your country. This event will explain those Paths. If you want to go in without reading this, just close  this event. As either the Palinate or Westphalia, you can form the Rhine Federation. You do this by just following the decision tread. After that you can form the West German Federation, then Germany.;x
+EVDESC_EXP_NET;It may be difficult to know what all the paths are to take for your country. This event will explain those Paths. If you want to go in without reading this, just close  this event. As a Dutch nation, your goal is to form the Netherlands. You can do this by conquering the Netherlands via the descision. You could also do this by following the Emperor and hoping he picks you as the one to lead the HRE vassal the Holy Roman Netherlands but that relies on the AI and isn't guaranteed at all so that's your own risk.;x
+AUS_absolute_monarchy;The Archduchy of Austria;x
+AUS_prussian_constitutionalism;The Archduchy of Austria;x
+AUS_hms_government;The Archduchy of Austria;x
+AUS_democracy;The Republic of Austria;x
+AUS_proletarian_dictatorship;The Socialist Republic of Austria;x
+AUS_fascist_dictatorship;The Austrian Reich;x
+HRE_democracy;Mitteleuropa;x
+HRE_proletarian_dictatorship;The Socialist Republic of Mitteleuropa;x
+HRE_fascist_dictatorship;The Holy Roman Reich;x
+HRE_proletarian_dictatorship_ADJ;Mitteleuropean;x
+HRE_democracy_ADJ;Mitteleuropean;x
+EGY_absolute_monarchy;The Sultanate of Egypt;x
+EGY_prussian_constitutionalism;The Sultanate of Egypt;x
+NORMAL_WAR_RETURN_NAME;$ORDER$ Liberation of $FIRST$ War;;;;;;;;;;;;;;x;;;;
+AGRESSION_WAR_RETURN_NAME;$ORDER$ Liberation of $FIRST$ from $SECOND_COUNTRY$;;;;;;;;;;;;;;x;;;;
+return_to_our_homeland;Return to our Homeland;;;;;;;;;;;;;;x;;;;
+return_to_our_homeland_short;Return to our Homeland;;;;;;;;;;;;;;x;;;;
+return_to_our_homeland_desc;We must retake our Homeland;x
+revolutionary_republic_ruler;Consul;x
+theocracy_ruler;Holyness;x
+monarchy_in_exile_ruler;King;x
+EV_970200_DESC;The Empire is going through a strange time. The Feudal Peasantry is demanding the abolishment of Serfdom and voting rights. How the Empire will be affected by this development, is unclear. What we do know is that though times are ahead.;x
+the_great_serf_revolt;The Great Serf Revolt;x
+the_great_serf_revolt_desc;"Sire, The Serfs Are Revolting!" "Well, they do smell a bit but revolting?";x
+EVENTDESC_700203;Today at 2:03 PM, The Emperor of the Holy Roman Empire and Archduke of Austria has declared the Holy Roman Empire to be at an end. What shall the future hold for the former Holy Roman Empire?;x
+EVENTDESC_700205;The vote has come in, Serfdom shall remain in the empire. Although the revolt of the serfs shall fissle out  on it's own, this is a major defeat for the democratic ccause of the Holy Roman Empire, as ending serfdom is one of the steps towards democracy.;x
+EVENTDESC_700206;The vote has come in, Serfdom shall be abolished. The revolt of the serfs must end, only way to do this is to grant them citizenship. This is a agreat victory for the democratic cause of the Holy Roman Empire, as ending serfdom is one of the only ways to achieve democracy.;x
+EVENTDESC_700207;With the abolishment of Serfdom in the Holy Roman Empire, the democratic cause of the empire gained a lot of ground. Now, the richer folks of the Imperial cities have called for a congress on Democracy. In true democratic fashion, the member states of the HRE must now vote on democracy within the empire.;x
+the_absolutism_debate;The Absolutism Debate;x
+the_absolutism_debate_desc;The Empire is going trough a strange time, rights and the abolishment of serfdom is being demanded by the poor while the feudal monarchy clings to all their power.;x
+the_war_of_the_old_empires_title;The War of the Old Empires
+the_war_of_the_old_empires_desc;After the collapse of the Holy Roman Empire, it is clear the future of Austria lies in the Balkans. Hence, the Old Ottoman and Habsburg Empires are fighting for the Balkans once more. The Austrians have both much to gain and lose. To gain: All of Greater Hungary and Yugoslavia. To Lose: Slovenia and Austrian Hungary. THIS WAR WILL BE ENDED AND STARTED BY A DESICION, DO NOT PEACE OUT!!! Also, you MUST win the war within FIVE YEARS, or this won't work.;x
+austrian_victory_title;Austrian Victory;x
+austrian_victory_desc;We have occupied all the land we want and some important cities in the Balkan side of the Ottoman Empire. We shall enforce a peace.;x
+turkish_victory_title;Turkish Victory;x
+turkish_victory_desc;The Foolish Austrians tried to erase us, so we erase them. We shall enforce a peace which shall see us gain Slovene lands and Austrian Hungary and Slovakia.;x
+the_issue_of_the_minorities_title;The Issue of the Minorities
+the_issue_of_the_minorities_desc;The various minorities of the Balkans are angry at us, for you know, taking their homeland. Not just the Balkans, but every bloody minority in this damned country wants to cut your head off, even the Czechs, Hungarians and Poles. By Liberalising, giving them voting rights and abolising Serfdom, we can appease them and set the first steps in the forming of a Federation in which these cultures will be accepted and thus, usefull to the nation (but mainly, a little less murdery).;x
+mad_balkans;Angry Minorities;x
+serfs_name;Serfs;x
+serfs_desc;Serfs rebels are angry peasants who's only wish is too abolish serfdom and begin basic democracy.;x
+DNB;The Austro-Magyar-Slavic Confederation;x
+DNB_ADJ;Confederational;x
+DNB_prussian_constitutionalism;The Austro-Magyar-Slavic Kingdom;x
+DNB_absolute_monarchy;The Austro-Magyar-Slavic Kingdom;x
+DNB_prussian_constitutionalism_ADJ;Kingdom;x
+DNB_absolute_monarchy_ADJ;Kingdom;x
+DNB_proletarian_dictatorship;The Austro-Magyar-Slavic Commune;x
+DNB_proletarian_dictatorship_ADJ;Communard;x
+DNB_fascist_dictatorship;The Central European Reich;x
+DNB_fascist_dictatorship_ADJ;Reich;x
+forming_the_zamy_title;Form the Austro-Magyar-Slav Confederacy;x
+forming_the_zamy_desc;After the dissolution of the HRE, and a few wars we are now in a position to form a confederation of Austrians, Magyars, Western and Southern Slavs.;x
+taking_zapadoslav_lands_title;Taking Western Slavic Lands;x
+taking_zapadoslav_lands_desc;By taking land in the Western Slavic regions, we can take more steps towards an confederations.
+prussian_constitutionalism;Bourbon Constitutionalism;x
+EV_10001_A;I've got a nice collection of lead for these liberals.. ßB Monarchist Path ß! ;x
+EV_10001_B;Don't tell anyone, but the liberals have a point. ßB Liberal Path ß! ;x
+serfdom_voting;Serfs Voting?;x
+EVD970300A;We shall fully support the reactionairies! ßB Monarchist Path ß! ;x
+EVD970300B;We shall support the Liberals ßB Liberal Path ß! ;x
+EVO970301;Very Well ßB Unlocks the Liberal Path ß! ;x
+EVO970302;Very Well ßB Unlocks the Monarchist Path ß! ;x
+the_dissolution_of_parlement_title;The Dissolution of Parlement;x
+the_dissolution_of_parlement_desc;We must dissolve parlement to return to an absolute monarchy, like before the revolutions.;x
+unify_the_house_of_bourbon_title;Unify the House of Bourbon.;x
+unify_the_house_of_bourbon_desc;We must unify the house of bourbon and bring all the monarchies under one king by establishing a series of personal unions.;x
+one_bourbon_monarchy_title;One Bourbon Monarchy!;x
+one_bourbon_monarchy_desc;Now we have personal unions over all the Bourbon, we must intergrate them and make them one nation. Vive le Roi, Vive les Bourbons!;x
+BOU;The Bourbon Monarchies;x
+BOU_ADJ;Bourbon;x
+BOU_democracy;The Latin Republic;x
+BOU_democracy_ADJ;Latin;x
+BOU_fascist_dictatorship;The Latin Republic;x
+BOU_fascist_dictatorship_ADJ;Latin;x
+BOU_bourgeois_dictatorship;The Latin Commune;x
+BOU_bourgeois_dictatorship_ADJ;Latin;x
+BOU_proletarian_dictatorship;The Latin Commune;x
+BOU_proletarian_dictatorship_ADJ;Latin;x
+serfs_name;Serfs;x
+reactionary_pacification_movement;Reactionary Pacification Movement;x
+reactionary_pacification_movement_desc;The Reactonaries are using French money to pacifify the People.;x
+reactionary_pacification_movement_title;Reactionary Pacification Movement;x
+reactionary_pacification_movement_desc;The Reactonaries are using French money to pacifify the People.;x
+KAA;De Kaap;x
+KAA_ADJ;Boer;x
+PROV2096;Elisabeth Haven;x
+PROV2091;Mossel Baai;x
+PROV2087;Kaap Stad;x
+PROV2089;Slanghoek;x
+PROV2913;Kaap de Goeie Hoop;x
+ENG_2087;Kaap Kolonie;x
+ENG_2092;Noord Kaap;x
+ENG_2096;Oost Kaap;x
+southern_bantu;Southern Bantu;x
+NHO_1;Visseneiland;x
+PROV74;Vissersstad;x
+PROV75;Molenaarsstad;x
+PROV77;Sint Pierre's;x
+USA_232;Nieuw Amsterdam;x
+PROV222;Nieuw Amstel;x
+PROV232;Nieuw Amsterdam;x
+PROV233;T' Lange Eiland;x
+PROV234;Fort Oranje;x
+PROV231;Fort Nassau;x
+PROV241;Fort Goede Hoop;x
+PROV240;Beverwyk;x
+PROV223;Fort Casimir;x
+PROV238;Osquiewhook;x
+PROV236;Grootwijk;x
+PROV227;Fort Zernke;x
+PROV229;Stuyvesant;x
+PROV224;Minquacol;x
+PROV246;Fort Brabant;x
+PROV237;Batavia;x
+PROV239;Adirondack;x
+PROV220;Zuydstad;x
+PROV219;Theehaven;x
+PROV221;Nieuw Dordtrecht;x
+PROV70;Nieuw Texel;x
+PROV73;Nieuw Ameland;x
+PROV225;Fort Friesland;x
+PROV226;Fort Utrecht;x
+PROV228;Norboom;x
+PROV67;Noorderdorp;x
+PROV66;Sint Laurence Stad;x
+PROV235;Genesee;x
+PROV242;Johanstad;x
+PROV243;Nieuw Utrecht;x
+PROV244;De Brekken;x
+PROV245;Den Bosch;x
+PROV247;Waalwijk;x
+PROV248;Drunen;x
+PROV249;Oss;x
+PROV250;Tilburg;x
+PROV68;Haarlem;x
+PROV69;Meercol;x
+PROV71;Den Helder;x
+PROV72;Fort Sint Laurence Kaap;x
+NHO_2;Noorderland;x
+USA_247;Nieuw Brabant;x
+USA_243;Land der Goede Hoop;x
+USA_231;Oranje-Nassau;x
+USA_219;Schlavenland;x
+USA_223;T' Binnenland;x
+NOU;Nouvelle France;x
+NOU_ADJ;Nouvelle;x
+BAM;The Southern Colonies;x
+BAM_ADJ;Southern;x
+NEU;Neu Vendig;x
+NEU_ADJ;Vendiger;x
+vendiger;Vendiger;x
+PYO;Pyotera Zemlya;x
+PYO_ADJ;Pyoteran;x
+pyoterans;Pyoterans;x
+CUM;Columbia;x
+CUM_ADJ;Columbian;x
+ZAP;Zapotec;x
+ZAP_ADJ;Zaptoc;x
+CHA;Chan Santa Cruz;x
+CHA_ADJ;Channan;x
+ICA;Incan League;x
+ICA_ADJ;Incan;x
+GUR;The United GuaranÏ Tribes;x
+GUR_ADJ;GuaranÏ;x
+spanish_american;Spanish American;x
+EV403OPTB;We cannot kill ßR Two Million Natives ß!;x
+EV405OPTB;Damn you, Portugal! ßB (You have gotten cores on Uruguay until you take it.) ß! ;X
+970407DESC;We have managed to beat the Natives in their revolt. Now the question remains, how must we administer the Colonial Empire? The Russian Advisor Iosif speaks: "Trough Violence, we can keep the order in the Americas. Some of them might die of course, but they will be more productive in the end." A second advisor speaks: "We must keep the colonies loyal and, like in the old days, establish govenors in America again. These puppet states can give us money and do the taxing for us. This'll give us a steady stream of money." A third advisor speaks: "We must become one with our Colonies, so that they may become full states and the Spanish Americans accepted in our country. What shall you choose? ßB (Notes: You need -20 points towards revolution for your objective to be achieved, at 20 points towards revolution the colonies will revolt when going for the 'Order' path.  When choosing the Loyalty path, if you get money randomly, it is the treasurefleet arriving.) ß! .;x
+HMMA408;Hand me my Axe! ßB -2 points towards revolt ß!;x
+DNKA408;We can't kill the landowners! ßB 3 points towards revolt ß!;x
+virgin_lands;Virgin Lands;x
+virgin_lands_desc;These lands 
+DNKA409;We can't kill these Clergymen for we'll burn in Hell! ßB 4 points towards revolt ß!;x
+HMMA409;Hand me my Axe! ßB -2 points towards revolt ß!;x
+HMMA410;We have more rope to hang them with, don't worry! ßB -2 points towards revolt ß!;x
+DNKA410;Hanging our economy on expensive ropes? Not today! ßB 1 point towards revolt and economic downturn ß!;x
+HMMA411;Only Spanish shall hold office! ßB -6 points towards revolt ß!;X
+DNKA411;Their services are needed. ßB 3 points towards revolt ß!;x
+locals_pacified;Locals Pacified;x
+locals_pacified_desc;The Locals have been pacified.;x
+HMMA412;Send a letter to the local excecutioner, tell him we have work for him. ßB -0.5 points towards revolt ß!;x
+DNKA412;Come on now! You can't kill every last man and women in our country!;x
+DNKA413;Excuse me but ß HOW MANY NEED TO DIE? ßB 7 points towards revolution ß!;x
+HMMA413;ßR KILL KILL KILL KILL KILL KILL KILL KILL KILL ßB -10 points towards revolution ß!;x
+VNS;The Viceroyality of New Spain;x
+VNS_ADJ;New Spanish;x
+VNG;The Viceroyality of New Granada;x
+VNG_ADJ;New Granadan;x
+VOP;The Viceroyality of Peru;x
+VOP_ADJ;Peruvian;x
+VLP;The Viceroyality of La Plata;x
+VLP_ADJ;La Platan;x
+bribe_the_governors_title;Bribe the Governors.;x
+bribe_the_governors_desc;Bribing our Governors and keeping them loyal to Spain (and her treasury) is one of the best ways to prevent a revolt. Well, if we don't 'give bonuses' to them, we might face revolt, sooner than later.;x
+governors_loyal;Governors Loyal;x
+governors_loyal_desc;Our Governors are loyal;x
+governors_loyal_colonies;Governors Loyal;x
+governors_loyal_colonies_desc;The Leaders of our nation are loyal to Spain;x
+the_two_kingdoms_of_spain_title;The Two Kingdoms;x
+the_two_kingdoms_of_spain_desc;"Hearby, by Royal Charter, I, Monarch of Spain, Ruler and Protector of the Spanish Americans, Declare the Spanish Americans to be equal to the Spanish of the Mainland;x
+new_legititmacy_spa;New Legitimacy from Native Revolt;x
+large_scale_revolts;Large Scale Riots from the Native Revolt;x
+the_abolition_of_slavery_portugal_title;The Abolition of Slavery;x
+the_abolition_of_slavery_portugal_desc;While during the early years of our empire slavery was an incredibly profitable institution, these days, not so much. We must abolish it so that we can set steps towards unifiying Portugal and Brazil.;x
+the_united_kingdom_of_portugal_and_brazil_title;Unite Portugal and Brazil;x
+the_united_kingdom_of_portugal_and_brazil_desc;The current situation isn't really working out for us. Brazil as a colony has been very profitable for a very long time but now, the Brazilian nobles are starting to get fed up with colonial rule. The solution for this must be the unification of Portugal and Brazil.;x
+UPB;Portugal-Brazil;x
+UPB_ADJ;Portugese-Brazilian;x
+UPB_absolute_monarchy;The United Kingdom of Portugal and Brazil;x
+UPB_absolute_monarchy_ADJ;Portugese-Brazilian;x
+UPB_prussian_constitutionalism;The United Kingdom of Portugal and Brazil;x
+UPB_prussian_constitutionalism_ADJ;Portugese-Brazilian;x
+UPB_hms_government;The United Kingdom of Portugal and Brazil;x
+UPB_hms_government_ADJ;Portugese-Brazilian;x
+angola_and_mozambique_title;Angola and Mozambique;x
+angola_and_mozambique_desc;We must colonize Angola and Mozambique;x
+angola_mozambique_railroad_title;The Angola-Mozambique Railroad;x
+angola_mozambique_railroad_desc;A Railroad across Africa from Luanda to Mozambique is in our strategic interests. We will no longer have to travel around the Cape to bring our troops to Mozambique, instead their troopship can dock in Luanda;x
+annex_de_kaap_title;Annex De Kaap;x
+annex_de_kaap_desc;The Boers in South Africa have long been annoying us. We can stage a small borderraid into our colony of Mozambique by the Boers to give us the Casus Belli to end their failed state.;x
+the_africa_line_title;Luanda-Kaapstad Railroad;x
+the_africa_line_desc;Now we own Kaapstad, we must connect it with Angola.;x
+hire_gunter_von_sake_coburg_bamberg_eisenhalt_title;Hire G¸nther von Sakse-Coburg-Bamberg-Eisenhalt;x
+hire_gunter_von_sake_coburg_bamberg_eisenhalt_desc;G¸nther von Sakse-Coburg-Bamberg-Eisenhalt is a German Nobleman-Explorer who is currently looking for land to chart and claim. By hiring him to explore the Amazon and claim land in it we can gain control over the jungle.;x
+greater_vendig_title;Greater Vendig;x
+greater_vendig_desc;We must expand our great republic, for that we must take the Portugese lands.;x
+settle_northern_quebec_title;Settle Northern Quebec;x
+settle_northern_quebec_desc;We must settle the regions that are uninhabited (for the next tier of colonization, buy or take Danish Canada);x
+buy_danish_canada_title;Buy Danish Canada;x
+buy_danish_canada_desc;We shall give the Danish a generous offer to buy their Canadian Colonies. We will also claim the territories of the Danish Fur Company as our own core lands;x
+colonizing_the_central_fridges_title;Colonizing Fridgid Plains;x
+colonizing_the_central_fridges_desc;Now that we have formarly Danish Canadian ports under our control, we can colonize the fridigd plains and forests of Canada.;x
+USA_106;Mistoan Plains;x
+defeated_the_mistoans;Defeated the Mistoans (You do this via a CB you can justify on the Mistoan Federation as long as they are uncivilised);x
+colonize_the_native_plains_title;Colonize the Native Plains;x
+colonize_the_native_plains_desc;The vast plains to our west inhabited by the Mistoan-Basque are too dangerous for us to colonize, unless ofcourse, we destroy their state;x
+claim_noorderland_title;Claim Noorderland;x
+claim_noorderland_desc;If we are able to convince the Noorderland Dutch that they must join our nation, they will respect our rule and become a core part of our nation.;x
+to_the_salt_lake_title;To the Salt Lake;x
+to_the_salt_lake_desc;We must colonize the area around the Salt Lake
+the_northern_plains_title;To the Northern Plains;x
+the_northern_plains_desc;We must now push on to the Northern Plains;x
+XXX;The Unciv Tribes which unciv provinces;x
+the_homestead_act;A New Home in the New World;x
+the_homestead_act_desc;The New World, vast and empty is very attractive for immigrants.;x
+purchase_bata_title;Purchase Bata;x
+purchase_bata_desc;The Hansiatic Colony of Bata is currently having financial problems and costing the hansa more then it's worth. We can offer to buy it and get acces to the African slavetrade directly and to colonization;x
+a_new_home_in_the_new_world_title;A New Home, in the New World;x
+a_new_home_in_the_new_world_desc;The New World, vast and empty is very attractive for immigrants. We must capitalise on this.;x
+AAM;Anglo-America;x
+AAM_ADJ;Anglo;x
+the_royal_charter_for_furs_title;The Royal Charter for the Danish Fur Company;x
+the_royal_charter_for_furs_desc;By investing in the Danish Fur Company and giving them a Royal Charter for all Canada, we can make sure they colonize a significant part of our colonies in the frozen north.;x
+request_imperial_ban_for_dutch_title;Request the Imperial Ban for the Lowlands;x
+request_imperial_ban_for_dutch_desc;We are the one True Dutch nation. We shall convince the Emperor to give us rights to all the Lowlands.;x
+join_the_hre_title;Join the HRE;X
+join_the_hre_desc;For a future in Europe as rightful rulers of all Dutch, we must first join the HRE;x
+mandate_to_all_netherlands_title;Mandate to all Netherlands;x
+mandate_to_all_netherlands_desc;We must rule all Dutch on the earth, as we have a mandate and De Jure claim to all the Dutch;x
+basque;Mistoan;x
+BSQ;Mistoa Confederacy;x
+BSQ_ADJ;Mistoan;x
+migrate_among_the_plains_title;Migrate!;x
+migrate_among_the_plains_desc;We will set off to a different spot in the plains. We do not get a choice upon the exact location. If you find a nice spot to live with your tribe, settle down there. There's a three year cooldown between each migrationperiod. Migrating will turn your currently owned province into tribal land. Owning triballand will give you bonuses. (For one day your previous capital will be owned by the USA, it'll pass);x
+westernise_basque_desc;We must embrace the western style of government and army, we can no longer go on as a band of native roaming the plains. You will be able to do this when you have 75% civilization progress;x
+westernise_basque_title;Westernise!;x
+low_tribal_land;Low Tribal Land;x
+sufficient_tribal_land;Sufficient Tribal Land;x
+more_than_sufficient_tribal_land;More than sufficient Tribal Lands;x
+medium_tribal_land;Medium Tribal lands;x
+high_tribal_land;High Ammount of triballand;x
+veto_migration_path_title;Veto Migration Path;x
+veto_migration_path_desc;Veto the current path of migration and choose a different one instead, can also be veto'd. make sure you don't veto all of your neighbouring provinces since then you can't migrate for 900 days;x
+roll_for_industry_technology_title;Roll for Industrial Technology;x
+roll_for_industry_technology_desc;We will spend one of our techtokens to roll in Industry. You have 20% chance to get any catogory of tech;x
+roll_for_commerce_technology_title;Roll for Commerce Technology;x
+roll_for_commerce_technology_desc;We will spend one of our techtokens to roll in Commerce. You have 50% chance to get any catogory of tech;x
+roll_for_army_technology_title;Roll for Army Technology;x
+roll_for_army_technology_desc;We will spend one of our techtokens to roll in Army. You have 20% chance to get any catogory of tech;x
+technology_raiding_title;Technology raid;x
+technology_raiding_desc;We shall raid for one techtoken from our neighbours;x
+embrace_tribal_society_basque_title;Embrace Tribal Society;x
+embrace_tribal_society_basque_desc;We shall enbrace the tribal parts of our society instead of westernising further. This will unlock the ability to techraid (CB and decision) 40% Civilization Progress required.;x
+tribal_society;Tribal Society;x
+recently_migrated;Recently Migrated;x
+TRB;Tribal Lands;x
+TRB_ADJ;Tribal;x
+angry_bavarians;Angry Bavarians;x
+abolish_the_monarchy_title;Abolish the Monarchy;x
+abolish_the_monarchy_desc;Away with the king! The house of Bourbon has ruled this country for centuries, centuries too many! We shall abolish the monarchy and 'take care of' the king.;x
+invade_algeria_title;Invade Algeria;x
+invade_algeria_desc;We must spread the ideas of the French Revolution by colonizing. The Bourbons already took a piece of Algeria and it is the ideal starting place for our conquests.;x
+liberate_burgundians_title;Liberate Burgundy;x
+liberate_burgundians_desc;The Burgundians are under the opression of their own king and the emperor of the Holy Roman Empire. We must force them to be free.;x	
+970304_A;We must enlighten the Germans ßB German Path ß!;x
+970304_B;We shall liberate the Italians ßB Italian Path ß!;x
+970305_A;We must enlighten the peoples of Africa ßB African Path ß!;x
+970305_B;We shall liberate the peoples of Asia ßB Asian Path ß!;x
+LAS;La Grand Sarre;x
+LAS_ADJ;de Sarre;x
+establish_la_sarre_title;Establish La Sarre;x
+establish_la_sarre_desc;We must establish a French style republic in the German lands west of the Rhine. Once liberated, this republic will be later possible to be puppeted and intergrated;x
+puppet_la_sarre_desc;With their claimed lands owned, we shall end the autonomy of the Saarland;x
+puppet_la_sarre_title;Puppet La Sarre;x
+establish_the_north_italian_conferderation_title;Establish the Confederation of the Po;x
+establish_the_north_italian_conferderation_desc;We must establish a French style republic in the Italian lands around the Po river. Once liberated, this republic will be later possible to be puppeted and intergrated;x
+PRC;Po Federation;x
+PRC_ADJ;Po'er;x
+puppet_the_prc_title;Puppet the PRC;x
+puppet_the_prc_desc;With all their lands owned, we shall end the Federation's autonomy;x
+invest_in_burma_title;Invest in Burma;x
+invest_in_burma_desc;We shall invest in the Burmese farming and mining economy and build hospitals in the Burmese provinces;x
+support_nangklao_saovabhas_claim_title;Support Nangklao Savobha's claim;x
+support_nangklao_saovabhas_claim_desc;Nangklao Savobha is a Siamese Price who has been exiled to France by the Siamese royal family. He still has a semi-legitimate claim to the throne which we could exploit. By invading the country and putting a puppet on the Siamese throne, we can end their autonomy eventually by making sure our Claimant has an accident.;x
+found_the_niger_delta_company_title;Found the NigÈr Delta Company;x
+found_the_niger_delta_company_desc;We shall found a company to take control of the NigÈr delta and manage its assets;x
+invest_in_senegal_title;Invest in Senegal;x
+invest_in_senegal_desc;By building hospitals, opening mines and farming cashcrops in the Senegal Area, we can develop the area to be more productive and profitable.;x
+take_control_of_morroco_title;Take control of Morocco;x
+take_control_of_morroco_desc;We will vassalise the Moroccan Monarchy, they can be intergrated later.;x
+BNG;Bengal;x
+BNG_ADJ;Bengali;x
+british;English;x
+scottish;Scottish;x
+welsh;Welsh;x
+cornish;Cornish;x
+ENG;Great Britain;x
+ENG_absolute_monarchy;Great Britain;x
+ENG_prussian_constitutionalism;Great Britain;x
+western_nigritic;Western Nigritic;x
+WSC;Western Counties;x
+WSC_ADJ;Western;x
+GLR;Greater London Republic;x
+GLR_ADJ;Greater London;x
+CRN;Cornwall;x
+CRN_ADJ;Cornish;x
+WHA;Wales;x
+WHA_ADJ;Welsh;x
+conservative_party;Conservative Party;x
+liberal_party;Liberal Party;x
+trade_company_hub;Trade Company Hub;x
+found_the_royal_liverpool_trade_company_title;Found the Royal Liverpool Trade Company;x
+found_the_royal_liverpool_trade_company_desc;Great Britain does not yet have royal company for colonial trade. This means we are behind the rest of the world, even the Hansa has a colonial trade department. We shall found a trade company in Liverpool, on the Irish sea. This will further develop Liverpool but will also allow us to kickstart colonial development.;x
+conquer_bengal_title;Conquer Bengal;x
+conquer_bengal_desc;Bengal is the richest, most populated area of India. In Bengal live more people than in Great Britain and their vassals combined, so we must prepare properly to fight these savages. If we manage to conquer Bengal however, we will not only be outnumbered by Bengalis in our own country, we will also become incredibly rich.;x
+found_the_anglo_bengali_cotton_company_title;Found the Anglo-Bengali cotton company;x
+found_the_anglo_bengali_cotton_company_desc;We shall found the Anglo-Bengali cotton company to stimulate the production of the cotton cashcrop in Bengal and to build up the cotton industry in the Lowlands.;x
+annex_orrisa_title;Annex Orrisa;x
+annex_orrisa_desc;The King of Orrisa ows a substantial debt to the Royal Liverpool Trade Company and has for many years been unable to repay it. We shall annex Orrisa in order to get payment for the debt.;x
+explore_tanganika_title;Explore Tanganyika;x
+explore_tanganika_desc;We are in a position to explore and colonize the Tanganyika area. We should aim to do so at the soonest possible moment;x
+end_the_omani_sultanate_title;End the Omani Sultanate;x
+end_the_omani_sultanate_desc;The Sultan of Oman has lived in peace for too long. Leading figures at the Liverpool Trade Company would like to see that changed.;x
+DESC_970309;Wales and Cornwall have revolted from Great Britain. Years of opression, unrightous favouring of the Irish celts and domination by first English and now Scottish has led Wales and Cornwall to declare independence from Great Britain. A war will no doubt follow. This will be a true war of survival for the Cornish and Welsh and might inspire other marginalised groups in Great Britain to revolt, for there are Irish Counts and London Mayors who would like to tell the Scottish King where he can shove it.;x
+war_for_survival;War for Survival;x
+empty_lands;Empty Lands;x
+revise_magnus_maximus_dream_title;Revise Magnus Maximus' country;x
+revise_magnus_maximus_dream_desc;When Magnus Maximus left Wales, in the year 303, he left us a whole nation. Now, we must restore his nation.;x
+conquer_the_western_countries_title;Conquer the Western Counties;x
+conquer_the_western_countries_desc;The Irish have had special autonomy for too long, we will end this today.;x
+end_londons_priviledges_title;End Londons privileges;x
+end_londons_priviledges_desc;London has had very autonomous city rights, we will end those immediatly.;x
+send_the_welsh_and_cornish_away_title;Send the revolters away!
+send_the_welsh_and_cornish_away_desc;We shall send the Welsh and Cornish into colonial exile.;x
+increase_parlaiments_power_title;Increase parlement's power;x
+increase_parlaiments_power_desc;We will increase the power of the parlement. Parlement is more respected by the various minority groups and by making parlement, not the King, the most important force in our country we will be able to truely unite the nations into one;x
+the_bill_for_equal_rights_title;The Law of Equal Rights;x
+the_bill_for_equal_rights_desc;Parlement will pass a law which states all men born in the British Isles are equal for the law. This will end the inequalities between the various minority groups in our fair isles. To enforce this law in the racist courts of the Western Counties and the London Republic, we will annex them to our kingdom.;x
+bavarian_anger;Bavarian Anger;x

@@ -1,0 +1,8 @@
+owner = WOL
+controller = WOL
+
+
+trade_goods = cattle
+life_rating = 15
+
+add_core = WOL

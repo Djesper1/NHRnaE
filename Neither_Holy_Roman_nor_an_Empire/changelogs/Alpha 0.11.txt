@@ -1,0 +1,12 @@
+Alpha Number Eleven "The Illiterate Basque Update"
+Added:
+
+- any_province = { (as a region)
+- Added in decicions for Nouvelle France focused on Colonizing Westwards
+- Added in two phases of colonization for Pyotera Zemblaya
+- Added in Anglo-America
+- Made a setting file which sets volume to 50%
+- Danish Fur Company
+- Made (the first) vic 2 migration system
+- Added in the Mistoan Federation (Basque)
+- Added the ability to raid and roll for tech

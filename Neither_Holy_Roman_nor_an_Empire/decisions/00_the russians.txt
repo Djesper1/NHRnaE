@@ -1,0 +1,53 @@
+political_decisions = {
+	the_caucasian_problem = {
+		potential = {
+			NOT = { exists = DAG }
+			NOT = { exists = ABK }
+			NOT = { exists = CIR }
+			tag = RUS
+			NOT  = { has_country_flag = exiled_the_caucasus }
+			NOT  = { has_country_flag = killed_the_caucasus }
+			NOT = { has_country_flag = no_murder }
+		}
+		allow = {
+		war = no
+		army_professionalism = 1
+		}
+		effect = {
+		country_event = 970070
+		}
+		}
+		
+		the_caucasian_solution = {
+		potential = {
+			NOT = { exists = DAG }
+			NOT = { exists = ABK }
+			NOT = { exists = CIR }
+			tag = RUS
+			NOT  = { has_country_flag = exiled_the_caucasus }
+			NOT  = { has_country_flag = killed_the_caucasus }
+			NOT = { has_country_flag = released_TCB }
+		}
+		allow = {
+		war = no
+		private_bank_money_bill_printing = 1
+		}
+		effect = {
+		set_country_flag = released_TCB
+		any_owned = {
+		limit = {
+		OR = {
+		is_core = ABK
+		is_core = DAG
+		is_core = CIR
+		}
+		}
+		add_core = TCB
+		remove_core = CIR
+		remove_core = DAG
+		remove_core = ABK
+		}
+		release_vassal = TCB
+		}
+		}
+		}

@@ -1,0 +1,8 @@
+owner = NNL
+controller = NNL
+
+trade_goods = cattle
+life_rating = 15
+colonial = 2
+add_core = NNL
+colonial = yes

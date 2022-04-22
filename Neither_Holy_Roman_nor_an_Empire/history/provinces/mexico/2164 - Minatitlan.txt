@@ -1,0 +1,9 @@
+owner = ZAP
+controller = ZAP
+
+trade_goods = iron
+life_rating = 35
+
+
+add_core = ZAP
+colonial = yes

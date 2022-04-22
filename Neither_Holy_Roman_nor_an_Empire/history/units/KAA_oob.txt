@@ -1,0 +1,51 @@
+army = {
+	name = "Leger van de Kaap"
+	location = 2087
+	regiment = {
+		name= "1ste Boer Divisie"
+		type = infantry
+		home = 2087
+	}
+	
+	regiment = {
+		name= "1ste Nguni Divisie"
+		type = infantry
+		home = 2108
+	}
+	
+	regiment = {
+		name= "2de Boer Divisie"
+		type = infantry
+		home = 2102
+	}
+	
+	regiment = {
+		name= "2de Nguni Divisie"
+		type = infantry
+		home = 2108
+	}
+	
+	regiment = {
+		name= "Xhosa Infantrie Brigade"
+		type = infantry
+		home = 2098
+	}
+
+	regiment = {
+		name= "Dragonder Divisie"
+		type = dragoon
+		home = 2105
+	}
+
+	regiment = {
+		name= "Boeren Kannoniers"
+		type = artillery
+		home = 2101
+	}
+	
+	regiment = {
+		name= "Sothose Kannoniers"
+		type = artillery
+		home = 2101
+	}
+}

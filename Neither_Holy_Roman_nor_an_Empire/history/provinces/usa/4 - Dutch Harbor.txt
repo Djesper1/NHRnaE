@@ -1,0 +1,9 @@
+owner = PYO
+controller = PYO
+
+
+trade_goods = fish
+life_rating = 20
+colonial = 2
+
+add_core = PYO

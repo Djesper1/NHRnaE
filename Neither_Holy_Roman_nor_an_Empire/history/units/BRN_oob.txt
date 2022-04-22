@@ -1,0 +1,72 @@
+PLC = {
+	value = -100		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = -100
+}
+#Army
+
+army = {
+	name = "I. Korps"
+	location = 549
+	regiment = {
+		name= "I. Linieninfanteriebrigade"
+		type = infantry
+		home = 549
+	}
+	regiment = {
+		name= "II Linieninfanteriebrigade"
+		type = infantry
+		home = 550
+	}
+	
+	regiment = {
+		name= "III Linieninfanteriebrigade"
+		type = infantry
+		home = 551
+	}
+	
+	regiment = {
+		name= "IV Linieninfanteriebrigade"
+		type = infantry
+		home = 552
+	}
+	
+	regiment = {
+		name= "I Artilleriedivision"
+		type = artillery
+		home = 556
+	}
+	
+	regiment = {
+		name= "II Artilleriedivision"
+		type = artillery
+		home = 701
+	}
+	
+	regiment = {
+		name= "I Kavalleriedivision"
+		type = dragoon
+		home = 699
+	}
+}
+
+army = {
+	name = "II. Korps"
+	location = 699
+	regiment = {
+		name= "V. Linieninfanteriebrigade"
+		type = infantry
+		home = 699
+	}
+	regiment = {
+		name= "VI Linieninfanteriebrigade"
+		type = infantry
+		home = 701
+	}
+	
+	regiment = {
+		name= "VII Linieninfanteriebrigade"
+		type = infantry
+		home = 549
+	}
+}

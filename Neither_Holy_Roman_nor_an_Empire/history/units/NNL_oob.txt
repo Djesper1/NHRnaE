@@ -1,0 +1,55 @@
+army = {
+	name = "KNIL"
+	location = 1413
+	regiment = {
+		name= "1ste Infanterie Divisie"
+		type = infantry
+		home = 1413
+	}
+
+	regiment = {
+		name= "2de Infanterie Divisie"
+		type = infantry
+		home = 1413
+	}
+	
+	regiment = {
+		name= "3de Infanterie Divisie"
+		type = infantry
+		home = 1414
+	}
+	
+	regiment = {
+		name= "Dragonder Divisie"
+		type = dragoon
+		home = 1413
+	}
+	
+	regiment = {
+		name= "1ste Artillerie Divisie"
+		type = artillery
+		home = 1415
+	}
+
+	regiment = {
+		name= "2de Artillerie Divisie"
+		type = artillery
+		home = 1403
+	}
+	
+	regiment = {
+		name= "3de Artillerie Divisie"
+		type = artillery
+		home = 1399
+	}
+	
+}
+
+leader = {
+	name = "Peterus Wilhelm Best"
+	date = 1810.1.1
+	type = land
+	personality = skilled
+	background = elderly
+	prestige = 0.2
+}

@@ -1,0 +1,155 @@
+country_event = {
+	id = 970077
+		title = "Path Explaination"
+		desc = "EVDESC_EXP_AUS"
+		picture = ""
+		
+		fire_only_once = yes
+		
+		trigger = { 
+		tag = AUS
+		is_ai = no
+		NOT = { has_country_flag = explanation_event }
+		}
+	
+		mean_time_to_happen = {
+		months = 4
+		}
+		
+		option = {
+		name = "Thank you for the explaination kind sir"
+		set_country_flag = explanation_event
+		}
+		
+		option = {
+		name = "Not thank you"
+		prestige = -1
+		set_country_flag = explanation_event
+		}
+		}
+		
+	country_event = {
+	id = 970078
+		title = "Path Explaination"
+		desc = "EVDESC_EXP_HAN"
+		picture = ""
+		
+		fire_only_once = yes
+		
+		trigger = { 
+		primary_culture = belter
+		is_ai = no
+		NOT = { has_country_flag = explanation_event }
+		}
+	
+		mean_time_to_happen = {
+		months = 4
+		}
+		
+		option = {
+		name = "Thank you for the explaination kind sir"
+		set_country_flag = explanation_event
+		}
+		
+		option = {
+		name = "Not thank you"
+		prestige = -1
+		set_country_flag = explanation_event
+		}
+		}
+		
+		country_event = {
+	id = 970079
+		title = "Path Explaination"
+		desc = "EVDESC_EXP_BRP"
+		picture = ""
+		
+		fire_only_once = yes
+		
+		trigger = { 
+		OR = {
+		tag = PRU
+		tag = BRN
+		}
+		is_ai = no
+		NOT = { has_country_flag = explanation_event }
+		}
+	
+		mean_time_to_happen = {
+		months = 4
+		}
+		
+		option = {
+		name = "Thank you for the explaination kind sir"
+		set_country_flag = explanation_event
+		}
+		
+		option = {
+		name = "Not thank you"
+		prestige = -1
+		set_country_flag = explanation_event
+		}
+		}
+		
+		country_event = {
+	id = 970080
+		title = "Path Explaination"
+		desc = "EVDESC_EXP_URF"
+		picture = ""
+		
+		fire_only_once = yes
+		
+		trigger = { 
+		OR = {
+		tag = PAL
+		tag = WST
+		}
+		is_ai = no
+		NOT = { has_country_flag = explanation_event }
+		}
+	
+		mean_time_to_happen = {
+		months = 4
+		}
+		
+		option = {
+		name = "Thank you for the explaination kind sir"
+		set_country_flag = explanation_event
+		}
+		
+		option = {
+		name = "Not thank you"
+		prestige = -1
+		set_country_flag = explanation_event
+		}
+		}
+		
+		country_event = {
+	id = 970081
+		title = "Path Explaination"
+		desc = "EVDESC_EXP_NET"
+		picture = ""
+		
+		fire_only_once = yes
+		
+		trigger = { 
+		primary_culture = dutch
+		is_ai = no
+		NOT = { has_country_flag = explanation_event }
+		}
+	
+		mean_time_to_happen = {
+		months = 4
+		}
+		
+		option = {
+		name = "Thank you for the explaination kind sir"
+		set_country_flag = explanation_event
+		}
+		
+		option = {
+		name = "Not thank you"
+		prestige = -1
+		set_country_flag = explanation_event
+		}
+		}

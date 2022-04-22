@@ -1,0 +1,98 @@
+	political_decisions = {
+		improve_court_strandars = {
+			potential = {
+				state_n_government = 1
+				tag = AUS
+				NOT = { has_country_flag = improved_court_standards }
+			}
+			allow = { }
+			effect = {
+			prestige = 5
+			militancy = -0.5
+			set_country_flag = improved_court_standards
+			}
+			}
+			
+			form_europa = {
+			potential = {
+			tag = RMI
+			has_country_flag = europa
+			}
+			allow = {
+			EUR = {
+			all_core = {
+			OR = {
+			owner = RMI
+			owner = {
+			vassal_of = RMI
+			}
+			}
+			}
+			}
+			}
+			effect = {
+			change_tag = EUR
+			any_country = {
+			limit = { vassal_of = RMI }
+			inherit = EUR
+			}
+			add_accepted_culture = north_german
+			add_accepted_culture = east_german
+			add_accepted_culture = west_german
+			add_accepted_culture = prussian
+			add_accepted_culture = south_german
+			add_accepted_culture = rhinish
+			add_accepted_culture = burgund
+			add_accepted_culture = swabian
+			add_accepted_culture = bavarian
+			add_accepted_culture = kaiser_deutsch
+			add_accepted_culture = silesian
+			add_accepted_culture = belter
+			add_accepted_culture = berliner
+			add_accepted_culture = dutch
+			add_accepted_culture = flemish
+			add_accepted_culture = wallonian
+			add_accepted_culture = swiss
+			add_accepted_culture = swedish
+			add_accepted_culture = danish
+			add_accepted_culture = norwegian
+			add_accepted_culture = sami
+			add_accepted_culture = finnish
+			add_accepted_culture = icelandic
+			add_accepted_culture = british
+			add_accepted_culture = irish
+			add_accepted_culture = north_italian
+			add_accepted_culture = south_italian
+			add_accepted_culture = maltese
+			add_accepted_culture = spanish
+			add_accepted_culture = basque
+			add_accepted_culture = catalan
+			add_accepted_culture = portuguese
+			add_accepted_culture = french
+			add_accepted_culture = burgundian
+			add_accepted_culture = french_provencal
+			add_accepted_culture = croat
+			add_accepted_culture = serb
+			add_accepted_culture = bulgarian
+			add_accepted_culture = albanian
+			add_accepted_culture = slovene
+			add_accepted_culture = bosniak
+			add_accepted_culture = romanian
+			add_accepted_culture = hungarian
+			add_accepted_culture = polish
+			add_accepted_culture = lithuanian
+			add_accepted_culture = czech
+			add_accepted_culture = russian
+			add_accepted_culture = slovak
+			add_accepted_culture = byelorussian
+			add_accepted_culture = ugrian
+			add_accepted_culture = ukrainian
+			add_accepted_culture = latvian
+			add_accepted_culture = estonian
+			add_accepted_culture = greek
+			add_accepted_culture = georgian
+			add_accepted_culture = armenian
+			}
+			
+			}
+			}

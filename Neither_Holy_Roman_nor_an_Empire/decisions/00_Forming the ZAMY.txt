@@ -1,0 +1,230 @@
+political_decisions = {
+	the_war_of_the_old_empires = {
+		potential = {
+			has_global_flag = hre_dead
+			tag = AUS
+			NOT = { has_country_flag = the_war_of_the_old_empires }
+		}
+		allow = {
+			muzzle_loaded_rifles = 1
+			iron_muzzle_loaded_artillery = 1
+			military_plans = 1
+		}
+		effect = {
+			add_country_modifier = {
+				name = war_of_the_old_empires
+				days = 1825
+			}
+			TUR = { add_country_modifier = {
+				name = war_of_the_old_empires
+				days = 1825
+			} }
+			war = {
+				name = "The War of the Old Empires"
+				target = TUR
+				attacker_goal = { casus_belli = conquest }
+				defender_goal = { casus_belli = conquest }
+				call_ally = no
+			}
+		}
+		}
+		
+	austrian_victory = {
+		potential = {
+			tag = AUS
+			has_country_modifier = war_of_the_old_empires
+			war = yes
+		}
+		allow = {
+			860 = { controller = AUS }
+			834 = { controller = AUS }
+			809 = { controller = AUS }
+			664 = { controller = AUS }
+			AUS_623 = { controller = AUS }
+			AUS_641 = { controller = AUS }
+			AUS_633 = { controller = AUS }
+			AUS_647 = { controller = AUS }
+			AUS_654 = { controller = AUS }
+			AUS_657 = { controller = AUS }
+			AUS_771 = { controller = AUS }
+			AUS_780 = { controller = AUS }
+			AUS_777 = { controller = AUS }
+			TUR_788 = { controller = AUS }
+			MON_2582 = { controller = AUS }
+			TUR_806 = { controller = AUS }
+			TUR_803 = { controller = AUS }
+			SER_794 = { controller = AUS }
+		}
+		effect = {
+			TUR = { country_event = 970212  }
+			remove_country_modifier = war_of_the_old_empires
+			AUS = { end_war = TUR }
+			TUR = { end_war = AUS }
+			AUS_623 = { secede_province = AUS }
+			AUS_641 = { secede_province = AUS }
+			AUS_633 = { secede_province = AUS }
+			AUS_647 = { secede_province = AUS }
+			AUS_654 = { secede_province = AUS }
+			AUS_657 = { secede_province = AUS }
+			AUS_771 = { secede_province = AUS }
+			AUS_780 = { secede_province = AUS }
+			AUS_777 = { secede_province = AUS }
+			TUR_788 = { secede_province = AUS }
+			MON_2582 = { secede_province = AUS }
+			TUR_806 = { secede_province = AUS }
+			TUR_803 = { secede_province = AUS }
+			SER_794 = { secede_province = AUS }
+			set_country_flag = uh_oh_the_minorities
+			country_event = {
+			id = 970213
+			days = 60
+			}
+			set_country_flag = wotoe_won
+		}
+	}
+	
+	turkish_victory = {
+		potential = {
+			tag = TUR
+			has_country_modifier = war_of_the_old_empires
+			war = yes
+		}
+		allow = {
+			767 = { controller = TUR }
+			768 = { controller = TUR }
+			623 = { controller = TUR }
+			639 = { controller = TUR }
+			642 = { controller = TUR }
+			633 = { controller = TUR }
+			634 = { controller = TUR }
+			635 = { controller = TUR }
+			AUS_736 = { controller = TUR }
+		}
+		effect = {
+			AUS = { country_event = 970212  }
+			remove_country_modifier = war_of_the_old_empires
+			AUS = { end_war = TUR }
+			TUR = { end_war = AUS }
+			767 = { secede_province = TUR }
+			768 = { secede_province = TUR }
+			623 = { secede_province = TUR }
+			639 = { secede_province = TUR }
+			642 = { secede_province = TUR }
+			633 = { secede_province = TUR }
+			634 = { secede_province = TUR }
+			635 = { secede_province = TUR }
+			AUS_736 = { secede_province = TUR }
+		}
+	}
+	
+	the_issue_of_the_minorities = {
+		potential = {
+			tag = AUS
+			has_country_flag = uh_oh_the_minorities
+			NOT = { has_country_flag = minorities_dealt_with }
+		}
+		allow = {
+			OR = {
+				vote_franschise = wealth_voting
+				vote_franschise = universal_weighted_voting
+				vote_franschise = universal_voting
+			}
+			OR = {
+				government = prussian_constitutionalism
+				government = hms_government
+			}
+		}
+		effect = {
+			political_reform = bankruptcy
+			political_reform = universal_voting
+			political_reform = all_voting_pops
+			remove_country_modifier = mad_balkans
+			set_country_flag = minorities_dealt_with
+		}
+	}
+	
+	taking_zapadoslav_lands = {
+		potential = {
+			has_country_flag = minorities_dealt_with
+			tag = AUS
+			NOT = { has_country_flag = zapodoslav_lands_taken }
+		}
+		allow = {
+			muzzle_loaded_rifles = 1
+			iron_muzzle_loaded_artillery = 1
+			military_plans = 1
+			strategic_mobility = 1
+		}
+		effect = {
+			war = {
+				target = PLC
+				attacker_goal = { casus_belli = take_state stateid = AUS_702 }
+				defender_goal = { casus_belli = status_quo }
+				call_ally = no
+			}
+			war = {
+				target = SIL
+				attacker_goal = { casus_belli = take_state stateid = AUS_626 }
+				defender_goal = { casus_belli = status_quo }
+				call_ally = no
+			}
+			set_country_flag = zapodoslav_lands_taken
+		}
+	}
+	
+	forming_the_zamy = {
+		potential = {
+			has_country_flag = zapodoslav_lands_taken
+			has_country_flag = minorities_dealt_with
+			has_country_flag = wotoe_won
+		}
+		allow = {
+		AUS_626 = { owner = AUS }
+		AUS_702 = { owner = AUS }
+		AUS_623 = { owner = AUS }
+		AUS_641 = { owner = AUS }
+		AUS_633 = { owner = AUS }
+		AUS_647 = { owner = AUS }
+		AUS_654 = { owner = AUS }
+		AUS_657 = { owner = AUS }
+		AUS_771 = { owner = AUS }
+		AUS_780 = { owner = AUS }
+		AUS_777 = { owner = AUS }
+		TUR_788 = { owner = AUS }
+		MON_2582 = { owner = AUS }
+		TUR_806 = { owner = AUS }
+		TUR_803 = { owner = AUS }
+		SER_794 = { owner = AUS }
+		736 = { owner = AUS }
+		619 = { owner = AUS }
+		625 = { owner = AUS }
+		734 = { owner = AUS }
+		767 = { owner = AUS }
+		war = no
+		}
+		effect = {
+		change_tag = DNB
+		prestige = 10
+		any_owned = {
+		limit = {
+		OR = {
+		is_core = AUS
+		is_core = YUG
+		is_core = HUN
+		is_core = PLC
+		is_core = SIL
+		}
+		}
+		add_core = DNB
+		}
+		add_accepted_culture = croat
+		add_accepted_culture = serb
+		add_accepted_culture = slovene
+		add_accepted_culture = bosniak
+		add_accepted_culture = hungarian
+		add_accepted_culture = polish
+		add_accepted_culture = czech
+		add_accepted_culture = slovak
+		}
+	}
+}

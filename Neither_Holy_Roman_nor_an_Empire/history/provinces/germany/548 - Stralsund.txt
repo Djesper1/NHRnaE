@@ -1,0 +1,7 @@
+owner = HSL
+controller = HSL
+add_core = HSL
+add_core = HRE
+add_core = GER
+trade_goods = fish
+life_rating = 40

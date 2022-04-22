@@ -1,0 +1,6 @@
+owner = NHO
+controller = NHO
+trade_goods = fish
+life_rating = 35
+colonial = 0
+add_core = NHO

@@ -1,0 +1,41 @@
+capital = 2177
+primary_culture = zapotec
+culture = nahua
+culture = tarascan
+culture = native_american_minor
+religion = animist
+government = absolute_monarchy
+plurality = 0
+nationalvalue = nv_order
+literacy = 0.15
+non_state_culture_literacy = 0.09
+civilized = no
+prestige = 5
+
+ruling_party = "Reactionary Party"
+last_election = 1835.1.28
+upper_house = {
+	fascist = 0
+	liberal = 25
+	conservative = 63
+	reactionary = 12
+	anarcho_liberal = 0
+	socialist = 0
+	communist = 0
+}
+
+flintlock_rifles = 1
+military_staff_system = 1
+army_command_principle = 1
+land_reform = yes_land_reform
+finance_reform = yes_finance_reform
+foreign_training = yes_foreign_training
+foreign_weapons = yes_foreign_weapons
+foreign_officers = yes_foreign_officers
+# Inventions
+
+#Starting Consciousness
+consciousness = 2
+nonstate_consciousness = 0
+
+oob = "ZAP_oob.txt"

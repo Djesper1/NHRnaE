@@ -1,0 +1,66 @@
+army = {
+	name = "Hollander Leger"
+	location = 232
+	regiment = {
+		name= "1ste Infanterie Divisie"
+		type = infantry
+		home = 232
+	}
+
+	regiment = {
+		name= "2de Infanterie Divisie"
+		type = infantry
+		home = 223
+	}
+	
+	regiment = {
+		name= "3de Infanterie Divisie"
+		type = infantry
+		home = 226
+	}
+	
+	regiment = {
+		name= "4de Infanterie Divisie"
+		type = infantry
+		home = 243
+	}
+	
+	regiment = {
+		name= "Dragonder Divisie"
+		type = dragoon
+		home = 238
+	}
+	
+	regiment = {
+		name= "1ste Artillerie Divisie"
+		type = artillery
+		home = 241
+	}
+
+	regiment = {
+		name= "2de Artillerie Divisie"
+		type = artillery
+		home = 235
+	}
+	
+	regiment = {
+		name= "3de Artillerie Divisie"
+		type = artillery
+		home = 234
+	}
+	
+	regiment = {
+		name= "4de Artillerie Divisie"
+		type = artillery
+		home = 247
+	}
+}
+
+leader = {
+	name = "Isaac Reijnders"
+	date = 1810.1.1
+	type = land
+	personality = skilled
+	background = elderly
+	prestige = 0.2
+}

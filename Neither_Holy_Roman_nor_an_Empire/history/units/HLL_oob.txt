@@ -1,0 +1,69 @@
+navy = {
+	name = "Koninklijke Marine"
+	location = 375 #Amsterdam
+	ship = {
+		name= "Doggersbank"
+		type = manowar
+	}
+
+	ship = {
+		name= "Amsterdam"
+		type = manowar
+	}
+
+	ship = {
+		name= "Maria Regensbergen"
+		type = frigate
+	}
+
+	ship = {
+		name= "Pallas"
+		type = frigate
+	}
+
+	ship = {
+		name= "Proserpine"
+		type = frigate
+	}
+
+	ship = {
+		name= "Daphne"
+		type = frigate
+	}
+
+	ship = {
+		name= "Espion"
+		type = frigate
+	}
+
+	ship = {
+		name= "Zeepaard"
+		type = frigate
+	}
+
+	ship = {
+		name= "Irene"
+		type = frigate
+	}
+
+	ship = {
+		name= "Orpheus"
+		type = frigate
+	}
+
+
+	ship = {
+		name= "1e Transport Eskader"
+		type = clipper_transport
+	}
+}
+
+army = {
+	name = "Hollands Leger"
+	location = 375
+	regiment = {
+		name= "1.1. Infanterie divisie"
+		type = infantry
+		home = 375
+	}
+}

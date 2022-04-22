@@ -1,0 +1,78 @@
+country_event = {
+	id = 900605
+	title = "Demand for our Annexation"
+	desc = "The Berliner Government has officially demanded the annexation of our country into their's, How must we respond?"
+	picture = "Administration"
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+	name = "Are you insane? Our natiion will not be annexed!"
+	BPC = {
+	country_event = { id = 900606 days = 0 }
+	}
+	ai_chance = {
+		factor = 2
+	}
+	}
+	option = {
+	name = "We must submit" 
+	BPC = { inherit = SIL }
+	}
+	}
+	
+	country_event = {
+	id = 900606
+	title = "Silesia denies!"
+	desc = "Silesia has denied our request for annexation"
+	picture = "Administration"
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+	name = "Then war it is, stupid Silesians"
+	war = {
+	target = SIL
+	attacker_goal = { casus_belli = conquest }
+	defender_goal = { casus_belli = status_quo }
+	call_ally = yes
+	}
+	AUS = {
+	country_event = { id = 900607 days = 10 }
+	}
+	}
+	}
+	
+	country_event = {
+	id = 900608
+	title = "A Decline in Imperial Autority"
+	desc = "The Empire is in Decline. For long have we been united, for now we must fall."
+	picture = "Administration"
+	fire_only_once = yes
+	major = yes
+	
+	trigger = {
+		tag = AUS
+		OR = {
+		 exists = NGF
+		 exists = WGF
+		 exists = EGF
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 3
+		
+		modifier = {
+			factor = 0.1
+			exists = WGF
+			exists = EGF
+		}
+	}
+	
+	option = {
+	name = "Mein Gött"
+	add_country_modifier = {
+		name = "lack_of_imperial_autority"
+		duration = 25550
+	}
+	}
+	}

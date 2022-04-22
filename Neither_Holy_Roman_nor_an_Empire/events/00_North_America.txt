@@ -1,0 +1,701 @@
+	country_event = {
+		id = 970423
+		title = "The Sale of Danish Canada"
+		desc = "The French Canadians have given us an offer to buy our Canadian colonies. They are willing to give 300000 pounds for them."
+		picture = "Expansion"
+		
+		is_triggered_only = yes
+		fire_only_once = yes
+		
+		option = {
+			name = "What a generous deal"
+			money = 300000
+			NOU = { money = -300000 }
+			44 = { secede_province = NOU }
+			45 = { secede_province = NOU }
+			47 = { secede_province = NOU }
+			44 = { add_core = NOU }
+			45 = { add_core = NOU }
+			47 = { add_core = NOU }
+			ai_chance = {
+			factor = 25
+			}
+		}
+		
+		option = {
+			name = "No."
+			44 = { add_core = NOU }
+			45 = { add_core = NOU }
+			47 = { add_core = NOU }
+		}
+	}
+	
+	country_event = {
+		id = 970424
+		title = "The Colony of Bata"
+		desc = "The Southern Colonies are willing to purchase our colony of Bata. They are willing to give 300000 pounds for them."
+		picture = "Expansion"
+		
+		is_triggered_only = yes
+		fire_only_once = yes
+		
+		option = {
+			name = "What a generous deal"
+			money = 300000
+			BAM = { money = -300000 }
+			1973 = { secede_province = NOU }
+			ai_chance = {
+			factor = 25
+			}
+		}
+		
+		option = {
+			name = "No."
+		}
+	}
+	
+	country_event = {
+		id = 970425
+		title = "Joining the Empire"
+		desc = "Should we allow Nieuw Holland into the Empire?"
+		picture = "Expansion"
+		
+		is_triggered_only = yes
+		fire_only_once = yes
+		
+		option = {
+			name = "Yes of course!"
+			NHO = {
+			add_country_modifier = {
+				name = lands_tax
+				duration = 36500
+			}
+			add_country_modifier = {
+				name = landsvrede
+				duration = 36500
+			}
+			add_country_modifier = {
+				name = hre_industrie_bund
+				duration = 36500
+			}
+			}
+			diplomatic_influence = {
+				who = NHO
+				value = 1000
+			}
+			ai_chance = {
+			factor = 25
+			}
+		}
+		
+		option = {
+			name = "No."
+			prestige = -8
+		}
+	}
+	
+	country_event = {
+		id = 970426
+		title = "The One True Dutch Nation"
+		desc = "The Nieuw Holland Republic has requested the de jure right to invade The Lowlands."
+		picture = "Expansion"
+		
+		is_triggered_only = yes
+		fire_only_once = yes
+		
+		option = {
+			name = "Yes of course!"
+			NHO = {
+				any_province = {
+					limit = {
+						OR = {
+							culture = dutch
+							culture = flemish
+							culture = wallonian
+						}
+					}
+					add_core = NHO
+				}
+			}
+			diplomatic_influence = {
+				who = FLA
+				value = -1000
+			}
+			diplomatic_influence = {
+				who = HLL
+				value = -1000
+			}diplomatic_influence = {
+				who = BRB
+				value = -1000
+			}diplomatic_influence = {
+				who = FRI
+				value = -1000
+			}
+			ai_chance = {
+			factor = 25
+			}
+		}
+		
+		option = {
+			name = "No."
+			prestige = -8
+		}
+	}
+	
+	country_event = {
+		id = 970427
+		title = "The Migration of the Basque Populace"
+		desc = "Our old capital will now get turned into tribal lands."
+		picture = "Expansion"
+		
+		is_triggered_only = yes
+		fire_only_once = yes
+		
+		option = {
+		name = "We leave behind our lands of old and march into the future."
+		BSQ = {
+		capital_scope = {
+			secede_province = BSQ 
+		}
+		}
+		USA = {
+		random_country = {
+			limit = { 
+				capital = 106 
+				tag = BSQ
+			}
+		any_province = {
+			any_pop = {
+				limit = { 
+					culture = basque
+				}
+			move_pop = 106
+			}
+		}
+		}
+		random_country = {
+			limit = { 
+				capital = 107
+				tag = BSQ
+			}
+		any_province = {
+			any_pop = {
+				limit = { 
+					culture = basque
+				}
+			move_pop = 107
+			}
+		}
+		}
+		random_country = {
+			limit = { 
+				capital = 108
+				tag = BSQ
+			}
+		any_province = {
+			any_pop = {
+				limit = { 
+					culture = basque
+				}
+			move_pop = 108
+			}
+		}
+		}
+		random_country = {
+			limit = { 
+				capital = 109
+				tag = BSQ
+			}
+		any_province = {
+			any_pop = {
+				limit = { 
+					culture = basque
+				}
+			move_pop = 109
+			}
+		}
+		}
+		random_country = {
+			limit = { 
+				capital = 110
+				tag = BSQ
+			}
+		any_province = {
+			any_pop = {
+				limit = { 
+					culture = basque
+				}
+			move_pop = 110
+			}
+		}}random_country = {
+			limit = { 
+				capital = 112 
+				tag = BSQ
+			}
+		any_province = {
+			any_pop = {
+				limit = { 
+					culture = basque
+				}
+			move_pop = 112
+			}
+		}}
+		random_country = {
+			limit = { 
+				capital = 115 
+				tag = BSQ
+			}
+		any_province = {
+			any_pop = {
+				limit = { 
+					culture = basque
+				}
+			move_pop = 115
+			}
+		}}
+		random_country = {
+			limit = { 
+				capital = 116 
+				tag = BSQ
+			}
+		any_province = {
+			any_pop = {
+				limit = { 
+					culture = basque
+				}
+			move_pop = 116
+			}
+		}}
+		random_country = {
+			limit = { 
+				capital = 117 
+				tag = BSQ
+			}
+		any_province = {
+			any_pop = {
+				limit = { 
+					culture = basque
+				}
+			move_pop = 117
+			}
+		}}random_country = {
+			limit = { 
+				capital = 118 
+				tag = BSQ
+			}
+		any_province = {
+			any_pop = {
+				limit = { 
+					culture = basque
+				}
+			move_pop = 118
+			}
+		}}
+		random_country = {
+			limit = { 
+				capital = 119 
+				tag = BSQ
+			}
+		any_province = {
+			any_pop = {
+				limit = { 
+					culture = basque
+				}
+			move_pop = 119
+			}
+		}}
+		random_country = {
+			limit = { 
+				capital = 120 
+				tag = BSQ
+			}
+		any_province = {
+			any_pop = {
+				limit = { 
+					culture = basque
+				}
+			move_pop = 120
+			}
+		}}
+		random_country = {
+			limit = { 
+				capital = 121 
+				tag = BSQ
+			}
+		any_province = {
+			any_pop = {
+				limit = { 
+					culture = basque
+				}
+			move_pop = 121
+			}}
+		}random_country = {
+			limit = { 
+				capital = 122
+				tag = BSQ
+			}
+		any_province = {
+			any_pop = {
+				limit = { 
+					culture = basque
+				}
+			move_pop = 122
+			}}
+		}random_country = {
+			limit = { 
+				capital = 123 
+			}
+		any_province = {
+			any_pop = {
+				limit = { 
+					culture = basque
+				}
+			move_pop = 123
+			}}
+		}
+		random_country = {
+			limit = { 
+				capital = 124
+				tag = BSQ
+			}
+		any_province = {
+			any_pop = {
+				limit = { 
+					culture = basque
+				}
+			move_pop = 124
+			}
+		}}
+		random_country = {
+			limit = { 
+				capital = 125 
+				tag = BSQ
+			}
+		any_province = {
+			any_pop = {
+				limit = { 
+					culture = basque
+				}
+			move_pop = 125
+			}}
+		}random_country = {
+			limit = { 
+				capital = 126
+				tag = BSQ
+			}
+		any_province = {
+			any_pop = {
+				limit = { 
+					culture = basque
+				}
+			move_pop = 126
+			}}
+		}random_country = {
+			limit = { 
+				capital = 151 
+				tag = BSQ
+			}
+		any_province = {
+			any_pop = {
+				limit = { 
+					culture = basque
+				}
+			move_pop = 151
+			}}
+		}random_country = {
+			limit = { 
+				capital = 152
+tag = BSQ				
+			}
+		any_province = {
+			any_pop = {
+				limit = { 
+					culture = basque
+				}
+			move_pop = 152
+			}}
+		}
+		random_country = {
+			limit = { 
+				capital = 153
+tag = BSQ				
+			}
+		any_province = {
+			any_pop = {
+				limit = { 
+					culture = basque
+				}
+			move_pop = 153
+			}
+		}}
+		random_country = {
+			limit = { 
+				capital = 154
+				tag = BSQ
+			}
+		any_province = {
+			any_pop = {
+				limit = { 
+					culture = basque
+				}
+			move_pop = 154
+			}
+		}}
+		random_country = {
+			limit = { 
+				tag = BSQ
+				capital = 155 
+			}
+		any_province = {
+			any_pop = {
+				limit = { 
+					culture = basque
+				}
+			move_pop = 155
+			}
+		}
+		}
+		random_country = {
+			limit = { 
+				capital = 156
+				tag = BSQ
+			}
+		any_province = {
+			any_pop = {
+				limit = { 
+					culture = basque
+				}
+			move_pop = 156
+			}
+			}
+		}
+		random_country = {
+			limit = { 
+				tag = BSQ
+				capital = 157 
+			}
+		any_province = {
+			any_pop = {
+				limit = { 
+					culture = basque
+				}
+			move_pop = 157
+			}
+		}
+		}
+		random_country = {
+			limit = { 
+				tag = BSQ
+				capital = 158 
+			}
+		any_province = {
+			any_pop = {
+				limit = { 
+					culture = basque
+				}
+			move_pop = 158
+			}
+		}
+		}
+		}
+		}
+		}
+		
+		country_event = {
+		id = 970428
+		title = "Low Tribal Land"
+		desc = "We own little tribal lands"
+		picture = "Expansion"
+		
+		fire_only_once = yes
+		trigger = {
+			tag = BSQ
+				check_variable = {
+					which = tribal_land_var
+					value = 1
+				}
+				NOT = { 
+					check_variable = {
+						which = tribal_land_var
+						value = 3
+					}
+				}
+		}mean_time_to_happen = {
+		months = 1
+		}
+		
+		option = {
+		name = "Very Well!"
+		add_country_modifier = {
+			name = low_tribal_land
+			duration = -1
+		}
+		}
+		}
+		
+		country_event = {
+		id = 970429
+		title = "Sufficient Tribal Land"
+		desc = "We own sufficient tribal lands"
+		picture = "Expansion"
+		
+		fire_only_once = yes
+		trigger = {
+			tag = BSQ
+				check_variable = {
+					which = tribal_land_var
+					value = 3
+				}
+				NOT = { 
+					check_variable = {
+						which = tribal_land_var
+						value = 5
+					}
+				}
+		}mean_time_to_happen = {
+		months = 1
+		}
+		
+		option = {
+		name = "Very Well!"
+		add_country_modifier = {
+			name = sufficient_tribal_land
+			duration = -1
+		}
+		remove_country_modifier = low_tribal_land
+		}
+		}
+		
+		country_event = {
+		id = 970430
+		title = "Medium Tribal Land"
+		desc = "We own medium ammounts tribal lands"
+		picture = "Expansion"
+		
+		fire_only_once = yes
+		trigger = {
+			tag = BSQ
+				check_variable = {
+					which = tribal_land_var
+					value = 5
+				}
+				NOT = { 
+					check_variable = {
+						which = tribal_land_var
+						value = 8
+					}
+				}
+		}mean_time_to_happen = {
+		months = 1
+		}
+		
+		option = {
+		name = "Very Well!"
+		add_country_modifier = {
+			name = medium_tribal_land
+			duration = -1
+		}
+		remove_country_modifier = sufficient_tribal_land
+		}
+		}
+		
+		country_event = {
+		id = 970431
+		title = "Medium Tribal Land"
+		desc = "We own medium ammounts tribal lands"
+		picture = "Expansion"
+		
+		fire_only_once = yes
+		trigger = {
+			tag = BSQ
+				check_variable = {
+					which = tribal_land_var
+					value = 5
+				}
+				NOT = { 
+					check_variable = {
+						which = tribal_land_var
+						value = 8
+					}
+				}
+		}mean_time_to_happen = {
+		months = 1
+		}
+		
+		option = {
+		name = "Very Well!"
+		add_country_modifier = {
+			name = medium_tribal_land
+			duration = -1
+		}
+		remove_country_modifier = sufficient_tribal_land
+		}
+		}
+		
+		country_event = {
+		id = 970432
+		title = "Highly Sufficient Tribal Land"
+		desc = "We own more then sufficient ammounts tribal lands"
+		picture = "Expansion"
+		
+		fire_only_once = yes
+		trigger = {
+			tag = BSQ
+				check_variable = {
+					which = tribal_land_var
+					value = 8
+				}
+				NOT = { 
+					check_variable = {
+						which = tribal_land_var
+						value = 14
+					}
+				}
+		}mean_time_to_happen = {
+		months = 1
+		}
+		
+		option = {
+		name = "Very Well!"
+		add_country_modifier = {
+			name = more_than_sufficient_tribal_land
+			duration = -1
+		}
+		remove_country_modifier = medium_tribal_land
+		}
+		}
+		
+		country_event = {
+		id = 970433
+		title = "High Tribal Land"
+		desc = "We own high ammounts tribal lands"
+		picture = "Expansion"
+		
+		fire_only_once = yes
+		trigger = {
+			tag = BSQ
+				check_variable = {
+					which = tribal_land_var
+					value = 8
+				}
+				NOT = { 
+					check_variable = {
+						which = tribal_land_var
+						value = 14
+					}
+				}
+		}
+		
+		mean_time_to_happen = {
+		months = 1
+		}
+		
+		option = {
+		name = "Very Well!"
+		add_country_modifier = {
+			name = high_tribal_land
+			duration = -1
+		}
+		remove_country_modifier = more_than_sufficient_tribal_land
+		}
+		}

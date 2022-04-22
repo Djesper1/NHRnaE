@@ -1,0 +1,12 @@
+serfdom_voting = {
+trigger = {
+debt_law = serfdom
+exists = yes
+OR = {
+vote_franschise = universal_weighted_voting
+vote_franschise = universal_voting
+}
+}
+poor_vote = -0.5
+icon = 18
+}

@@ -1,0 +1,43 @@
+leader = {
+	name = "Akhmat Aublaa"
+	date = 1801.1.1
+	type = land
+	personality = competent
+	background = powerful_friends
+	prestige = 0.4
+}
+
+army = {
+name = "Army of Abkhazia"
+location = 1090
+	regiment = {
+		name= "1-ya Pekhotnaya Diviziya"
+		type = infantry
+		home = 1090
+	}
+	regiment = {
+		name= "2-ya Pekhotnaya Diviziya"
+		type = infantry
+		home = 1098
+	}
+	regiment = {
+		name= "3-ya Pekhotnaya Diviziya"
+		type = infantry
+		home = 1099
+	}
+	regiment = {
+		name= "4-ya Pekhotnaya Diviziya"
+		type = infantry
+		home = 1091
+	}
+	regiment = {
+		name= "5-ya Pekhotnaya Diviziya"
+		type = infantry
+		home = 1092
+	}
+	regiment = {
+		name= "1-ya Kavalerijskaya Diviziya"
+		type = dragoon
+		home = 1092
+	}
+	}

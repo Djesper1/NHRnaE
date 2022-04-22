@@ -1,0 +1,13 @@
+owner = POM
+controller = POM
+add_core = POM
+add_core = HRE
+add_core = GER
+trade_goods = grain
+state_building = {
+	level = 1
+	building = canned_food_factory
+	upgrade = yes
+}
+life_rating = 40
+1861.1.1 = { railroad = 3 }

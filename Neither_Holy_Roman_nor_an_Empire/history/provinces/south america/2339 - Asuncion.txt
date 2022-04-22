@@ -1,0 +1,10 @@
+owner = GUR
+controller = GUR
+add_core = PRG
+trade_goods = cattle
+life_rating = 30
+
+
+
+add_core = GUR
+colonial = yes

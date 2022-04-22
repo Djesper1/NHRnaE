@@ -1,0 +1,31 @@
+country_event = {
+	id = 900607
+	title = "Intervene in war?"
+	desc = "It has come to our attention that a war for Unification is starting within the country. How shall we react?"
+	picture = "Administration"
+	fire_only_once = yes
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	option = {
+	name = "We must not wait!"
+	any_country = {
+		limit = {
+			has_country_modifier = landsvrede
+			war = yes
+		}
+		add_casus_belli = {
+		target = AUS
+		type = cut_down_to_size
+		months = 12
+		}
+	}
+	}
+	option = {
+	name = "We shall allow this, Landsvrede forbids us from decaring war anyways."
+	prestige = 5
+	ai_chance = {
+		factor = 2
+	}
+	}
+	}
+	
